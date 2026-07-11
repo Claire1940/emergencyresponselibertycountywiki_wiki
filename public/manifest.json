@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Emergency Response Liberty County Wiki - Codes & Vehicles",
+  "short_name": "ERLC Wiki",
+  "description": "Emergency Response Liberty County Wiki with current codes, vehicle prices, team guides, robbery tips, map locations, private server commands and update logs.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#2563eb",
+  "background_color": "#0f172a",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
