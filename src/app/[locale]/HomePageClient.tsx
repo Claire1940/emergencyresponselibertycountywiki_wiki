@@ -161,7 +161,7 @@ export default function HomePageClient({
         name: "Emergency Response: Liberty County - Game Trailer",
         description:
           "Official Emergency Response: Liberty County game trailer by Police Roleplay Community.",
-        uploadDate: "2020-01-01",
+        uploadDate: "2024-11-16",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
         embedUrl: "https://www.youtube.com/embed/tbagi4eht-4",
         url: "https://www.youtube.com/watch?v=tbagi4eht-4",
