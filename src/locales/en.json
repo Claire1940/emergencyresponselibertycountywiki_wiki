@@ -10,14 +10,7 @@
       "twitterDescription": "Emergency Response Liberty County Wiki with current codes, vehicle prices, team guides, robbery tips, map locations, private server commands and update logs."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
