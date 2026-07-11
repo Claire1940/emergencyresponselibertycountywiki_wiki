@@ -1,15 +1,4 @@
 {
-  "seo": {
-    "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
-    }
-  },
   "nav": {
     "guides": "ガイド",
     "crafting": "クラフト",
@@ -21,7 +10,6 @@
   "common": {
     "home": "ホーム",
     "more": "もっと見る",
-    "playNow": "Steamでプレイ",
     "switchLanguage": "言語を切り替える",
     "switchTheme": "テーマを切り替える",
     "lightMode": "ライトモード",
@@ -32,35 +20,6 @@
     "relatedArticles": "関連記事",
     "readMore": "続きを読む",
     "articlesComingSoon": "記事は近日公開予定です"
-  },
-  "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
-    "stats": {
-      "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
-      },
-      "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
-      },
-      "stat3": {
-        "value": "97%",
-        "label": "好評"
-      },
-      "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
-      }
-    }
-  },
-  "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -783,29 +742,6 @@
         "answer": "はい。リリース後にいくつかのコンテンツアップデートを予定していますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
       }
     ]
-  },
-  "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
-  },
-  "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約",
-    "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {
     "guides": {

@@ -1,15 +1,4 @@
 {
-  "seo": {
-    "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
-    }
-  },
   "nav": {
     "guides": "Rehberler",
     "crafting": "Üretim",
@@ -21,7 +10,6 @@
   "common": {
     "home": "Ana Sayfa",
     "more": "Daha Fazla",
-    "playNow": "Demo İndir",
     "switchLanguage": "Dil Değiştir",
     "switchTheme": "Tema Değiştir",
     "lightMode": "Açık Mod",
@@ -32,35 +20,6 @@
     "relatedArticles": "İlgili Makaleler",
     "readMore": "Daha Fazla Oku",
     "articlesComingSoon": "Makaleler yakında"
-  },
-  "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
-    "stats": {
-      "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
-      },
-      "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
-      },
-      "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
-      },
-      "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
-      }
-    }
-  },
-  "gameFeature": {
-    "title": "Lucid Blocks Oynanışı",
-    "description": "Ufak cücelerin kaotik 6 oyunculu işbirliği gizli görevlerinde büyük soygunlar yapmasını izleyin!"
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -817,29 +776,6 @@
         "answer": "Şubat 2026 itibarıyla, Lucid Blocks ortalama 6.000'den fazla eş zamanlı oyuncuya sahip ve 8 Şubat 2026'da 15.272 zirveye ulaştı."
       }
     ]
-  },
-  "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
-  },
-  "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
-    "resources": "Kaynaklar",
-    "community": "Topluluk",
-    "legal": "Yasal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
-    "about": "Hakkında",
-    "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları",
-    "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
   },
   "pages": {
     "guides": {

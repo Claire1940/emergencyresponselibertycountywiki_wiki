@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Emergency Response Liberty County Wiki - Codes & Vehicles",
+      "description": "Emergency Response Liberty County Wiki with current codes, vehicle prices, team guides, robbery tips, map locations, private server commands and update logs.",
+      "keywords": "Emergency Response Liberty County, ERLC, codes, vehicles, map, robberies, private server commands",
+      "ogTitle": "Emergency Response Liberty County Wiki - Codes & Vehicles",
+      "ogDescription": "Emergency Response Liberty County Wiki with current codes, vehicle prices, team guides, robbery tips, map locations, private server commands and update logs.",
+      "twitterTitle": "Emergency Response Liberty County Wiki - Codes & Vehicles",
+      "twitterDescription": "Emergency Response Liberty County Wiki with current codes, vehicle prices, team guides, robbery tips, map locations, private server commands and update logs."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Open-World Emergency Services Roleplay",
+    "title": "Emergency Response Liberty County Wiki",
+    "description": "Patrol Liberty County as police, sheriff, fire, DOT, civilian or criminal. Complete calls, earn cash and XP, unlock vehicles, run robberies and build private-server roleplay.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "1.5B+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "9K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "90.9%",
+        "label": "Player Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "50",
+        "label": "Server Size"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Emergency Response Liberty County Gameplay",
+    "description": "Patrol Liberty County as police, sheriff, fire, DOT, civilian or criminal in this open-world emergency services roleplay game on Roblox."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -785,26 +785,28 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Patrol Liberty County?",
+    "description": "Join the Police Roleplay Community on Discord for codes, vehicle guides, update logs, and roleplay discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Emergency Response Liberty County Wiki",
+    "description": "Your complete resource hub for Emergency Response Liberty County codes, vehicles, departments, robbery guides, private server commands, and update logs.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "website": "Official Website",
+    "roblox": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Emergency Response Liberty County Wiki. Not affiliated with Police Roleplay Community or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

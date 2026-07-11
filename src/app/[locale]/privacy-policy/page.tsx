@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.emergencyresponselibertycountywiki.wiki'
   const path = '/privacy-policy'
 
   return {
-    title: 'Privacy Policy - Lucid Blocks Wiki',
-    description: 'Lucid Blocks Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Steam game resource platform. Your privacy matters to us.',
+    title: 'Privacy Policy - Emergency Response Liberty County Wiki',
+    description: 'Emergency Response Liberty County Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Roblox game resource platform. Your privacy matters to us.',
     robots: {
       index: false,
       follow: true,
@@ -30,23 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'Privacy Policy - Lucid Blocks Wiki',
+      siteName: 'Emergency Response Liberty County Wiki',
+      title: 'Privacy Policy - Emergency Response Liberty County Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: 'Lucid Blocks Wiki',
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1920,
+          height: 1080,
+          alt: 'Emergency Response Liberty County Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Privacy Policy - Lucid Blocks Wiki',
+      title: 'Privacy Policy - Emergency Response Liberty County Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -65,7 +65,7 @@ export default function PrivacyPolicy() {
             How we collect, use, and protect your information
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: July 12, 2026
           </p>
         </div>
       </section>
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Information Collection</h2>
             <p>
-              Lucid Blocks Wiki ("we", "our", or "us") collects minimal information to provide and improve our services.
+              Emergency Response Liberty County Wiki ("we", "our", or "us") collects minimal information to provide and improve our services.
               We collect information in the following ways:
             </p>
             <ul>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
 
             <h2>4. Third-Party Services</h2>
             <p>
-              Our website may contain links to external websites, including Steam, Discord, and social media platforms.
+              Our website may contain links to external websites, including Roblox, Discord, and social media platforms.
               We are not responsible for the privacy practices or content of these third-party sites. We encourage
               you to review their privacy policies before providing any personal information.
             </p>
@@ -212,8 +212,8 @@ export default function PrivacyPolicy() {
 
             <h2>11. Disclaimer</h2>
             <p>
-              Lucid Blocks Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
-              with Valve Corporation (Steam) or the developers of Lucid Blocks. All game content, trademarks, and assets are
+              Emergency Response Liberty County Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
+              with Roblox Corporation or the developers of Emergency Response Liberty County. All game content, trademarks, and assets are
               the property of their respective owners.
             </p>
 
@@ -223,7 +223,7 @@ export default function PrivacyPolicy() {
               please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:privacy@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@lucidblocks.wiki</a>
+              <strong>Email:</strong> <a href="mailto:privacy@emergencyresponselibertycountywiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@emergencyresponselibertycountywiki.wiki</a>
             </p>
             <p>
               We will respond to all legitimate requests within 30 days.

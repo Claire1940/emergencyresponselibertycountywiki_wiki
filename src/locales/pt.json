@@ -1,15 +1,4 @@
 {
-  "seo": {
-    "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
-    }
-  },
   "nav": {
     "guides": "Guias",
     "crafting": "Criação",
@@ -21,7 +10,6 @@
   "common": {
     "home": "Início",
     "more": "Mais",
-    "playNow": "Jogue no Steam",
     "switchLanguage": "Alterar Idioma",
     "switchTheme": "Alterar Tema",
     "lightMode": "Modo Claro",
@@ -32,35 +20,6 @@
     "relatedArticles": "Artigos Relacionados",
     "readMore": "Leia Mais",
     "articlesComingSoon": "Artigos em breve"
-  },
-  "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
-    "stats": {
-      "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
-      },
-      "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
-      },
-      "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
-      },
-      "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
-      }
-    }
-  },
-  "gameFeature": {
-    "title": "Jogabilidade de Lucid Blocks",
-    "description": "Explore biomas surreais, funda itens com Apotheosis e sobreviva a criaturas estranhas neste sandbox de voxel onírico no Steam."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -783,29 +742,6 @@
         "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não há a intenção de mantê-las em um cronograma regular indefinido."
       }
     ]
-  },
-  "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
-    "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
-  },
-  "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidade",
-    "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
-    "steamStore": "Loja Steam",
-    "about": "Sobre",
-    "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
-    "disclaimer": "Site de recursos não oficial feito por fãs."
   },
   "pages": {
     "guides": {

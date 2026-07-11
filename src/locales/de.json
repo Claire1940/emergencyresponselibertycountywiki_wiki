@@ -1,15 +1,4 @@
 {
-  "seo": {
-    "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
-    }
-  },
   "nav": {
     "guides": "Anleitungen",
     "crafting": "Herstellung",
@@ -21,7 +10,6 @@
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
     "lightMode": "Heller Modus",
@@ -32,35 +20,6 @@
     "relatedArticles": "Ähnliche Artikel",
     "readMore": "Mehr lesen",
     "articlesComingSoon": "Artikel folgen bald"
-  },
-  "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
-    "stats": {
-      "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
-      },
-      "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
-      },
-      "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
-      },
-      "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
-      }
-    }
-  },
-  "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -817,29 +776,6 @@
         "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
       }
     ]
-  },
-  "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
-  },
-  "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
-    "resources": "Ressourcen",
-    "community": "Community",
-    "legal": "Rechtliches",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
-    "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
   },
   "pages": {
     "guides": {

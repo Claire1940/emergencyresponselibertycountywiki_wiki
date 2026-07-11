@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.emergencyresponselibertycountywiki.wiki'
   const path = '/about'
 
   return {
-    title: 'About Lucid Blocks Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Lucid Blocks Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Lucid Blocks Steam game.',
+    title: 'About Emergency Response Liberty County Wiki - Your Ultimate Roblox Game Resource',
+    description: 'Learn about Emergency Response Liberty County Wiki, a community-driven resource hub providing comprehensive guides, current codes, vehicle prices, department guides, robbery routes, map locations, and private server commands for the Emergency Response Liberty County Roblox game.',
     robots: {
       index: false,
       follow: true,
@@ -30,23 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'About Lucid Blocks Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources and guides.',
+      siteName: 'Emergency Response Liberty County Wiki',
+      title: 'About Emergency Response Liberty County Wiki',
+      description: 'Learn about our mission to provide the best Emergency Response Liberty County game resources and guides.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: 'Lucid Blocks Wiki',
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1920,
+          height: 1080,
+          alt: 'Emergency Response Liberty County Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'About Lucid Blocks Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      title: 'About Emergency Response Liberty County Wiki',
+      description: 'Learn about our mission to provide the best Emergency Response Liberty County game resources.',
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -59,10 +59,10 @@ export default function About() {
       <section className="relative py-20 px-4 border-b border-border">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About Lucid Blocks Wiki
+            About Emergency Response Liberty County Wiki
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Your community-driven resource center for Lucid Blocks
+            Your community-driven resource center for Emergency Response Liberty County
           </p>
         </div>
       </section>
@@ -71,15 +71,15 @@ export default function About() {
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Welcome to Lucid Blocks Wiki</h2>
+            <h2>Welcome to Emergency Response Liberty County Wiki</h2>
             <p>
-              Lucid Blocks Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Steam game "Lucid Blocks". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              Emergency Response Liberty County Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
+              master the Roblox game "Emergency Response Liberty County". We are a community-driven platform that provides comprehensive guides,
+              current codes, vehicle prices, department guides, robbery routes, map locations, and private server commands to enhance your gaming experience.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
-              Lucid Blocks Wiki is here to support you every step of the way.
+              Whether you're a new player just starting your first shift or a seasoned veteran looking to optimize your strategies,
+              Emergency Response Liberty County Wiki is here to support you every step of the way.
             </p>
           </div>
         </div>
@@ -91,21 +91,21 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Our Mission</h2>
             <p>
-              Our mission is simple: <strong>to empower Lucid Blocks players with accurate, up-to-date information
+              Our mission is simple: <strong>to empower Emergency Response Liberty County players with accurate, up-to-date information
               and powerful tools</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
               <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
+              <li><strong>Build useful tools:</strong> Develop guides, code trackers, and vehicle planners that help players make informed decisions</li>
               <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
 
             <h2>Our Vision</h2>
             <p>
-              We envision Lucid Blocks Wiki as the <strong>go-to destination</strong> for every Lucid Blocks player seeking
+              We envision Emergency Response Liberty County Wiki as the <strong>go-to destination</strong> for every Emergency Response Liberty County player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              code lists, want to compare vehicle prices, or are looking for advanced robbery routes.
             </p>
           </div>
         </div>
@@ -118,51 +118,51 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">🎟️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Codes & Promo Codes</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                Up-to-date active codes for free credits, cash, and exclusive items.
+                Redeem them before they expire!
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">🚗</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Vehicle Database</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Complete vehicle catalog with prices, performance stats, and unlock requirements.
+                Find the right vehicle for your role.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">👮</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Departments & Teams</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Detailed breakdowns of every department, ranks, equipment, and team roles.
+                Master the duties of each role.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">💰</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Robbery Guides</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Routes, payouts, and tactics for every robbery location in the game.
+                Pull off heists with our detailed walkthroughs.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <div className="text-2xl mb-3">🗺️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Map & Locations</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Detailed maps of Liberty County, key locations, landmarks, and navigation tips.
+                Learn the layout and patrol every road with confidence.
               </p>
             </div>
 
@@ -171,8 +171,8 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages including English, German, Spanish,
+                French, Japanese, Portuguese, Russian, and Turkish.
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Community-Driven</h2>
             <p>
-              Lucid Blocks Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
+              Emergency Response Liberty County Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
               feedback, and suggestions from players of all skill levels. Our content is constantly evolving based on:
             </p>
             <ul>
@@ -195,7 +195,7 @@ export default function About() {
               <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've found a new working code, spotted a vehicle price change,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
@@ -208,21 +208,21 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>About the Team</h2>
             <p>
-              Lucid Blocks Wiki is maintained by a dedicated team of passionate gamers and developers who love
-              Lucid Blocks as much as you do. We're players first, constantly testing strategies, exploring game
+              Emergency Response Liberty County Wiki is maintained by a dedicated team of passionate gamers and developers who love
+              Emergency Response Liberty County as much as you do. We're players first, constantly testing strategies, exploring game
               mechanics, and staying updated with the latest discoveries.
             </p>
             <p>
               Our team combines expertise in:
             </p>
             <ul>
-              <li><strong>Game analysis:</strong> Deep understanding of Lucid Blocks mechanics and strategies</li>
+              <li><strong>Game analysis:</strong> Deep understanding of Emergency Response Liberty County mechanics and strategies</li>
               <li><strong>Web development:</strong> Building fast, user-friendly tools and interfaces</li>
               <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
             <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
+              Project Codename: "Patrol" – Serving Liberty County together.
             </p>
           </div>
         </div>
@@ -234,15 +234,15 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
-              <strong>Lucid Blocks Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Lucid Blocks or any official entities.
+              <strong>Emergency Response Liberty County Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
+              endorsed by, or associated with the developers of Emergency Response Liberty County or any official entities.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
               We use game-related content under fair use principles for informational and educational purposes only.
             </p>
             <p>
-              Lucid Blocks Wiki is a non-profit, community resource created by fans, for fans.
+              Emergency Response Liberty County Wiki is a non-profit, community resource created by fans, for fans.
             </p>
           </div>
         </div>
@@ -259,26 +259,26 @@ export default function About() {
             <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">General Inquiries</h3>
-                <a href="mailto:contact@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contact@lucidblocks.wiki
+                <a href="mailto:contact@emergencyresponselibertycountywiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contact@emergencyresponselibertycountywiki.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Bug Reports</h3>
-                <a href="mailto:support@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  support@lucidblocks.wiki
+                <a href="mailto:support@emergencyresponselibertycountywiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  support@emergencyresponselibertycountywiki.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Content Submissions</h3>
-                <a href="mailto:contribute@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contribute@lucidblocks.wiki
+                <a href="mailto:contribute@emergencyresponselibertycountywiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contribute@emergencyresponselibertycountywiki.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Partnerships</h3>
-                <a href="mailto:partnerships@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  partnerships@lucidblocks.wiki
+                <a href="mailto:partnerships@emergencyresponselibertycountywiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  partnerships@emergencyresponselibertycountywiki.wiki
                 </a>
               </div>
             </div>
@@ -294,7 +294,7 @@ export default function About() {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
           <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-            Stay updated with the latest guides, tips, and Lucid Blocks news.
+            Stay updated with the latest guides, tips, and Emergency Response Liberty County news.
             Bookmark this site and check back regularly for new content!
           </p>
           <Link
