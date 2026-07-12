@@ -1,11 +1,1032 @@
 {
+  "seo": {
+    "home": {
+      "title": "Emergency Response Liberty County Wiki - Codes & Fahrzeuge",
+      "description": "Emergency Response Liberty County Wiki mit aktuellen Codes, Fahrzeugpreisen, Team-Guides, Überfall-Tipps, Kartenstandorten, Private-Server-Befehlen und Update-Logs.",
+      "keywords": "Emergency Response Liberty County, ERLC, Codes, Fahrzeuge, Karte, Überfälle, Private-Server-Befehle",
+      "ogTitle": "Emergency Response Liberty County Wiki - Codes & Fahrzeuge",
+      "ogDescription": "Emergency Response Liberty County Wiki mit aktuellen Codes, Fahrzeugpreisen, Team-Guides, Überfall-Tipps, Kartenstandorten, Private-Server-Befehlen und Update-Logs.",
+      "twitterTitle": "Emergency Response Liberty County Wiki - Codes & Fahrzeuge",
+      "twitterDescription": "Emergency Response Liberty County Wiki mit aktuellen Codes, Fahrzeugpreisen, Team-Guides, Überfall-Tipps, Kartenstandorten, Private-Server-Befehlen und Update-Logs."
+    }
+  },
   "nav": {
     "codes": "Codes",
     "guide": "Guide",
-    "money": "Money",
-    "police": "Police",
-    "crime": "Crime",
-    "vehicles": "Vehicles",
+    "money": "Geld",
+    "police": "Polizei",
+    "crime": "Kriminalität",
+    "vehicles": "Fahrzeuge",
     "updates": "Updates"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Roblox spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Open-World-Einsatzkräfte-Roleplay",
+    "title": "Emergency Response Liberty County Wiki",
+    "description": "Patrouilliere in Liberty County als Polizei, Sheriff, Feuerwehr, DOT, Zivilist oder Krimineller. Schließe Einsätze ab, verdiene Cash und XP, schalte Fahrzeuge frei, begehe Überfälle und baue Private-Server-Roleplay auf.",
+    "getFreeCodesCTA": "Kostenlose Codes erhalten",
+    "playOnRobloxCTA": "Auf Roblox spielen",
+    "stats": {
+      "stat1": {
+        "value": "1,5 Mrd.+",
+        "label": "Besuche insgesamt"
+      },
+      "stat2": {
+        "value": "9K+",
+        "label": "Spieler online"
+      },
+      "stat3": {
+        "value": "90,9%",
+        "label": "Spielerbewertung"
+      },
+      "stat4": {
+        "value": "50",
+        "label": "Servergröße"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Emergency Response Liberty County Gameplay",
+    "description": "Patrouilliere in Liberty County als Polizei, Sheriff, Feuerwehr, DOT, Zivilist oder Krimineller in diesem Open-World-Einsatzkräfte-Rollenspiel auf Roblox."
+  },
+  "tools": {
+    "title": "Emergency Response Liberty County",
+    "titleHighlight": "Ressourcen",
+    "subtitle": "Springe direkt zu den Codes, Guides, Fahrzeugen, Abteilungen und Private-Server-Tools, die jeder Liberty-County-Spieler benötigt.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Emergency Response Liberty County Codes",
+        "description": "Aktive und abgelaufene Promo-Codes sowie die Schritte zum Einlösen im Spiel"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Emergency Response Liberty County Einsteiger-Guide",
+        "description": "Wähle ein Team, lerne die Karte kennen und beende deine erste Schicht"
+      },
+      {
+        "icon": "Shield",
+        "title": "Emergency Response Liberty County Polizei- und Sheriff-Guide",
+        "description": "Streifenfahrten, Verkehrskontrollen, Festnahmen, Ränge und Streifenausrüstung"
+      },
+      {
+        "icon": "Flame",
+        "title": "Emergency Response Liberty County Feuerwehr- und DOT-Guide",
+        "description": "Abläufe für Brandbekämpfung, medizinische Versorgung, Rettung, Abschleppen und Straßenreparatur"
+      },
+      {
+        "icon": "Car",
+        "title": "Emergency Response Liberty County Fahrzeug-Guide",
+        "description": "Zivil- und Dienstfahrzeuge nach Rolle, Zugriff und Nutzung"
+      },
+      {
+        "icon": "Coins",
+        "title": "Emergency Response Liberty County Geld- und Aufstiegs-Guide",
+        "description": "Verdiene Geld und Abteilungs-XP, um höhere Ränge freizuschalten"
+      },
+      {
+        "icon": "Server",
+        "title": "Emergency Response Liberty County Private-Server-Guide",
+        "description": "Server-Einrichtung, Admin-Befehle, Liveries und die Server-API"
+      },
+      {
+        "icon": "Clock",
+        "title": "Emergency Response Liberty County Updates",
+        "description": "Offizielles Update-Log mit neuen Fahrzeugen, Events und Änderungen"
+      }
+    ]
+  },
+  "modules": {
+    "erlcCodes": {
+      "title": "Emergency Response Liberty County Codes",
+      "eyebrow": "Kostenlose Belohnungen",
+      "intro": "Löse den neuesten Emergency Response Liberty County-Code für kostenloses Geld ein und sieh dir frühere Codes für XP-Boosts, Uniformen, Abzeichen und Nummernschilder an. Öffne das Einstellungsmenü im Spiel, wähle „Promo Codes“, gib den Code genau wie angezeigt ein und bestätige ihn. Bei Codes kann die Groß- und Kleinschreibung eine Rolle spielen, und jeder Code kann normalerweise nur einmal pro Roblox-Konto eingelöst werden.",
+      "activeLabel": "Aktiv",
+      "expiredLabel": "Abgelaufen",
+      "items": [
+        {
+          "code": "ERLC2026",
+          "reward": "10.000 $ Bargeld",
+          "status": "aktiv",
+          "rewardType": "Bargeld"
+        },
+        {
+          "code": "PW26-XPBOOST",
+          "reward": "24-Stunden-XP-Boost für Polizei und Sheriff",
+          "status": "abgelaufen",
+          "rewardType": "XP-Boost"
+        },
+        {
+          "code": "EggHunt2025",
+          "reward": "$6.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Geld"
+        },
+        {
+          "code": "WELCOME2025",
+          "reward": "$5.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Geld"
+        },
+        {
+          "code": "1BILLION",
+          "reward": "One-Billion-Visits-Kennzeichen",
+          "status": "abgelaufen",
+          "rewardType": "Kennzeichen"
+        },
+        {
+          "code": "BOOST24",
+          "reward": "24-Stunden-XP-Boost",
+          "status": "abgelaufen",
+          "rewardType": "XP-Boost"
+        },
+        {
+          "code": "POLICEWEEK24",
+          "reward": "48-Stunden-Doppel-XP-Boost für Strafverfolgung",
+          "status": "abgelaufen",
+          "rewardType": "XP-Boost"
+        },
+        {
+          "code": "HONOR24",
+          "reward": "Spezialuniform zur Police Week 2024",
+          "status": "abgelaufen",
+          "rewardType": "Uniform"
+        },
+        {
+          "code": "OMB",
+          "reward": "$5.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Geld"
+        },
+        {
+          "code": "RisingWolf",
+          "reward": "$5.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Geld"
+        },
+        {
+          "code": "mcsloth",
+          "reward": "$5.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Geld"
+        },
+        {
+          "code": "OfficerJohn",
+          "reward": "$5.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "AmazePlays",
+          "reward": "$5.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "Ruffles",
+          "reward": "$5.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "WELCOME2024",
+          "reward": "$5.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "Christmas23",
+          "reward": "$5.000 Cash",
+          "status": "abgelaufen",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "ERLC1023",
+          "reward": "1,5x XP-Boost",
+          "status": "abgelaufen",
+          "rewardType": "XP-Boost"
+        },
+        {
+          "code": "PW23-PATROL",
+          "reward": "Police Week 2023 Nummernschild und Event-Badge",
+          "status": "abgelaufen",
+          "rewardType": "Nummernschild"
+        },
+        {
+          "code": "POLICEWEEK23",
+          "reward": "$2.500 Cash und ein Event-Badge",
+          "status": "abgelaufen",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "PW23-HONOR",
+          "reward": "Police Week 2023 Uniform und Event-Badge",
+          "status": "abgelaufen",
+          "rewardType": "Uniform"
+        },
+        {
+          "code": "PW23-SACRIFICE",
+          "reward": "24-Stunden Law Enforcement XP-Boost und Event-Badge",
+          "status": "abgelaufen",
+          "rewardType": "XP-Boost"
+        },
+        {
+          "code": "1MIL",
+          "reward": "$25.000 Cash und One Million Members Nummernschild",
+          "status": "abgelaufen",
+          "rewardType": "Bargeld und Kennzeichen"
+        },
+        {
+          "code": "ONPATROL",
+          "reward": "$25.000 Bargeld",
+          "status": "abgelaufen",
+          "rewardType": "Bargeld"
+        },
+        {
+          "code": "500mil",
+          "reward": "$5.000 Bargeld",
+          "status": "abgelaufen",
+          "rewardType": "Bargeld"
+        },
+        {
+          "code": "MOBILE",
+          "reward": "$5.000 Bargeld",
+          "status": "abgelaufen",
+          "rewardType": "Bargeld"
+        },
+        {
+          "code": "PHONES",
+          "reward": "$5.000 Bargeld",
+          "status": "abgelaufen",
+          "rewardType": "Bargeld"
+        },
+        {
+          "code": "UPDATE",
+          "reward": "$6.000 Bargeld",
+          "status": "abgelaufen",
+          "rewardType": "Bargeld"
+        },
+        {
+          "code": "400mil",
+          "reward": "Meilenstein-Belohnung für 400 Millionen Besuche",
+          "status": "abgelaufen",
+          "rewardType": "Meilenstein-Belohnung"
+        },
+        {
+          "code": "CommunityPhoto",
+          "reward": "$5.000 Bargeld",
+          "status": "abgelaufen",
+          "rewardType": "Bargeld"
+        },
+        {
+          "code": "OnPatrol1",
+          "reward": "$7.500 Bargeld",
+          "status": "abgelaufen",
+          "rewardType": "Bargeld"
+        }
+      ]
+    },
+    "erlcBeginnerGuide": {
+      "title": "Emergency Response Liberty County Anfänger-Guide",
+      "eyebrow": "Erste Schritte",
+      "intro": "Emergency Response Liberty County ist ein Open-World-Einsatzkräfte-Rollenspiel, in dem Spieler als Zivilisten, Kriminelle, Polizisten, Sheriff-Deputies, Feuerwehrleute, Sanitäter oder Mitarbeiter des Department of Transportation arbeiten können. Der Fortschritt wird über Sitzungen hinweg gespeichert, einschließlich eigener Fahrzeuge, Bargeld und Abteilungs-XP.",
+      "steps": [
+        {
+          "title": "Wähle ein Team",
+          "description": "Nutze das Teamauswahlmenü, um den Teams Zivilist, Polizei, Sheriff, Feuerwehr und Rettungsdienst oder DOT beizutreten. Zivilist ist der einfachste Einstiegspunkt, da du so das County erkunden, die Straßen kennenlernen und regelmäßige Gehaltsschecks verdienen kannst, bevor du Notrufe bearbeitest."
+        },
+        {
+          "title": "Lerne die Karte und Benutzeroberfläche kennen",
+          "description": "Öffne die Karte und finde die Police Station, das Sheriff's Office, Feuerwachen, das DOT-Gelände, das Krankenhaus, das Gefängnis, Autohändler, Tankstellen und zivile Arbeitsplätze. Die Departments erhalten Einsätze über ihr MDT, welches die Art des Vorfalls und den Standort anzeigt."
+        },
+        {
+          "title": "Starte einen zivilen Job",
+          "description": "Zivile Jobs bieten eine beständige Möglichkeit, Geld zu verdienen, während man das County kennenlernt. Verfügbare Arbeiten umfassen Rollen wie Landwirtschaft, Krankenhausarbeit und transportbezogene Jobs, wobei die Arbeitsorte auf der Karte markiert sind."
+        },
+        {
+          "title": "Kaufe und verwalte ein Fahrzeug",
+          "description": "Besuche einen Autohändler, um ein ziviles Fahrzeug mit In-Game-Cash zu kaufen. Fahrzeugstatistiken und Preise variieren, daher ist ein zuverlässiges Einstiegsauto für neue Spieler nützlicher, als das gesamte verfügbare Cash für ein Hochleistungsmodell auszugeben."
+        },
+        {
+          "title": "Verstehe Kriminalität und den Wanted-Status",
+          "description": "Illegale Handlungen können einen Spieler auf die Wanted-Liste setzen. Police- und Sheriff-Spieler können gesuchte Verdächtige orten, verfolgen und festnehmen, während festgenommene Spieler ins Gefängnis transportiert und vorübergehend von normalen zivilen Aktivitäten ausgeschlossen werden."
+        },
+        {
+          "title": "Schließe deinen ersten Department-Einsatz ab",
+          "description": "Tritt einem Department bei, öffne das MDT und wähle einen Einsatz in der Nähe aus. Fahre sicher zum Einsatzort, nutze die korrekten Werkzeuge des Departments und schließe jedes erforderliche Ziel ab, bevor du gehst."
+        },
+        {
+          "title": "Verdiene Department-XP",
+          "description": "Department-XP wird durch das Abschließen von Team-Zielen wie Festnahmen, Brandbekämpfung, medizinischer Behandlung, Reparaturen und Abschleppen verdient. Höhere Ränge schalten zusätzliche Fahrzeuge, Ausrüstung, Uniformen und Department-Funktionen frei."
+        },
+        {
+          "title": "Nutze eine einfache Route für die erste Session",
+          "description": "Beginne als Zivilist, nimm einen Job an, erkunde die Hauptstraßen, kaufe oder spawne ein Basisfahrzeug und besuche jedes Department-Gebäude. Nachdem du die Karte kennengelernt hast, tritt einem Einsatzteam bei und schließe einige Einsätze in der Nähe ab, um XP zu verdienen."
+        }
+      ],
+      "quickTips": [
+        "Police und Sheriff konzentrieren sich auf die Strafverfolgung, während Fire and Rescue Brand-, Medizin- und Rettungseinsätze übernimmt.",
+        "Lege eine Route fest, bevor du das Blaulicht einschaltest, und tanke oder lade auf, bevor du eine lange Patrouille beginnst.",
+        "Behalte genug Cash für Treibstoff und ein zuverlässiges Einstiegsfahrzeug, bevor du Performance-Autos kaufst.",
+        "Schließe Einsätze vollständig ab, anstatt sie auf halbem Weg abzubrechen, um die vollen Department-XP zu erhalten."
+      ]
+    },
+    "erlcPoliceSheriffGuide": {
+      "title": "Emergency Response: Liberty County Police- und Sheriff-Guide",
+      "eyebrow": "Strafverfolgung",
+      "intro": "Das River City Police Department und das Liberty County Sheriff's Office teilen das gleiche Hauptziel: das County schützen und auf kriminelle Aktivitäten reagieren. Die Police ist für die Stadtpatrouille ausgelegt, während der Sheriff für die Patrouille in County-, Autobahn- und ländlichen Gebieten konzipiert ist.",
+      "items": [
+        {
+          "heading": "Police vs. Sheriff",
+          "summary": "Wähle das Department, das zu dem Gebiet passt, in dem du patrouillieren möchtest.",
+          "details": [
+            "Die River City Police patrouilliert primär in River City und anderen städtischen Gebieten.",
+            "Der Liberty County Sheriff patrouilliert primär auf County-Straßen, Highways und in ländlichen Gebieten.",
+            "Beide Departments können auf Einsätze reagieren, Kriminelle verfolgen, Bußgelder ausstellen und Festnahmen durchführen.",
+            "Beide Departments nutzen Department-XP, um Ränge und Ausrüstung freizuschalten."
+          ]
+        },
+        {
+          "heading": "Beitritt und Start der Patrouille",
+          "summary": "Wähle Police oder Sheriff, rüste eine Uniform aus und spawne ein verfügbares Patrouillenfahrzeug.",
+          "details": [
+            "Wähle das Department im Team-Auswahlmenü aus.",
+            "Wähle eine verfügbare Uniform und ein Loadout aus.",
+            "Spawne ein Patrouillenfahrzeug, das für deinen aktuellen Rang freigeschaltet ist.",
+            "Öffne das MDT und überprüfe aktive Einsätze, bevor du die Station verlässt.",
+            "Fahre normal, bis ein Notfalleinsatz oder eine Verkehrskontrolle Blaulicht und Sirene erfordern."
+          ]
+        },
+        {
+          "heading": "MDT, Einsätze und Akten",
+          "summary": "Das Mobile Data Terminal ist die Hauptquelle für Dispatch- und Verdächtigeninformationen.",
+          "details": [
+            "Sieh dir aktive Notrufe und deren Standorte an.",
+            "Überprüfe Spieler- und Fahrzeuginformationen während Ermittlungen.",
+            "Überprüfe Kriminal- oder Wanted-Informationen, bevor du eine Festnahme durchführst.",
+            "Nutze verfügbare Unterstützungsfunktionen wie Luftunterstützung, wenn die Situation es erfordert.",
+            "Schließe beendete Einsätze ab, damit andere Einheiten wissen, dass der Vorfall geklärt ist."
+          ]
+        },
+        {
+          "heading": "Ablauf einer Verkehrskontrolle",
+          "summary": "Nutze eine kontrollierte Verkehrskontrolle, um Verstöße zu untersuchen und Verwarnungen oder Strafzettel auszustellen.",
+          "details": [
+            "Bestätige den Verstoß durch eigene Beobachtung oder mit der Radarpistole.",
+            "Aktiviere das Blaulicht und warte, bis der Fahrer rechts ranfährt.",
+            "Parke hinter dem angehaltenen Fahrzeug, ohne den Verkehr unnötig zu behindern.",
+            "Tritt an den Fahrer heran und erkläre den Grund für die Verkehrskontrolle.",
+            "Verwende das MDT und das Strafzettelbuch, um Akten zu prüfen oder einen Strafzettel auszustellen.",
+            "Entlasse den Fahrer, fordere Unterstützung an oder nimm ihn fest, je nach Ergebnis."
+          ]
+        },
+        {
+          "heading": "Festnahmen und Gefängnistransport",
+          "summary": "Gesuchte Verdächtige können festgesetzt, in einem Streifenwagen gesichert und ins Gefängnis transportiert werden.",
+          "details": [
+            "Bestätige, dass der Spieler gesucht wird, bevor du die Festnahme abschließt.",
+            "Verwende Handschellen, nachdem der Verdächtige festgesetzt wurde.",
+            "Setze den Verdächtigen für den Transport in einen Streifenwagen.",
+            "Fahre zum Gefängnis oder zum ausgewiesenen Buchungsort.",
+            "Schließe das Festnahmeziel ab, um Abteilungs-XP zu erhalten.",
+            "Beamte können einen in Handschellen gefesselten Verdächtigen an einen anderen Beamten übergeben, wenn ein koordinierter Transport erforderlich ist."
+          ]
+        },
+        {
+          "heading": "Wesentliche Streifenausrüstung",
+          "summary": "Trage die Werkzeuge bei dir, die für die Verkehrsüberwachung, Ermittlungen und Festnahmen benötigt werden.",
+          "details": [
+            "MDT für Einsätze, Akten und Unterstützungsanforderungen.",
+            "Strafzettelbuch für Verkehrsverstöße.",
+            "Radarpistole für Geschwindigkeitskontrollen von Fahrzeugen.",
+            "Handschellen zum Festsetzen von gesuchten Verdächtigen.",
+            "Taschenlampe für dunkle Einsatzorte und nächtliche Suchen.",
+            "Dienstwaffen und nicht-tödliche Ausrüstung für gefährliche Vorfälle."
+          ]
+        },
+        {
+          "heading": "Detective, Luftunterstützung und SWAT",
+          "summary": "Fortgeschrittene Funktionen unterstützen Ermittlungen und Einsätze mit hohem Risiko.",
+          "details": [
+            "Das Gameplay als Detective konzentriert sich auf Ermittlungen und kriminelle Aktivitäten.",
+            "Die Luftunterstützung kann helfen, Verdächtige während einer Verfolgungsjagd zu lokalisieren oder zu verfolgen.",
+            "SWAT-Ausrüstung und -Fahrzeuge sind für bewaffnete Situationen oder Situationen mit hohem Risiko gedacht.",
+            "Mobile Befehlsfahrzeuge können als mobile Einsatzzentrale an großen Einsatzorten genutzt werden.",
+            "Spezialisierte Ausrüstung sollte den normalen Streifendienst unterstützen, anstatt grundlegende Verkehrs- und Festnahmeverfahren zu ersetzen."
+          ]
+        },
+        {
+          "heading": "Rangaufstieg bei Polizei und Sheriff",
+          "summary": "Schließe Abteilungsziele ab, um höhere Ränge, Fahrzeuge und Ausrüstung freizuschalten.",
+          "details": [
+            "Polizei: Cadet, Officer, Corporal, Sergeant, Lieutenant, Captain, Major, Colonel und Commander.",
+            "Sheriff: Recruit, Deputy, Corporal, Sergeant, Lieutenant, Captain, Major, Colonel und Chief Deputy.",
+            "Abteilungs-XP wird durch Festnahmen, Strafzettel, das Reagieren auf Einsätze und andere Strafverfolgungsziele verdient.",
+            "Ränge können nicht durch den Kauf von Bargeld übersprungen werden."
+          ]
+        }
+      ]
+    },
+    "erlcFireRescueDotGuide": {
+      "title": "Emergency Response Liberty County – Leitfaden für Feuerwehr und DOT",
+      "eyebrow": "Rettungsdienste",
+      "intro": "Die Feuerwehr und der Rettungsdienst schützen Spieler und Eigentum bei Bränden, medizinischen Notfällen und Rettungseinsätzen. Das DOT hält die Straßen offen, indem es die Infrastruktur repariert, den Verkehr an Einsatzorten regelt und fahrunfähige oder verunglückte Fahrzeuge birgt.",
+      "fireRescueHeader": "Feuerwehr und Rettungsdienst",
+      "dotHeader": "Department of Transportation",
+      "categoryHeader": "Kategorie",
+      "rows": [
+        {
+          "category": "Hauptrolle",
+          "fireRescue": "Lösche Brände, behandle verletzte Spieler, führe Rettungsaktionen durch und reagiere auf große Notfallszenen.",
+          "dot": "Repariere die Verkehrsinfrastruktur, schleppe Fahrzeuge ab, entferne Gefahren auf der Fahrbahn und regle den Verkehr an Einsatzorten."
+        },
+        {
+          "category": "Einsatzinformationen",
+          "fireRescue": "Nutze das MDT, um die Einsatzart, den Standort und andere verfügbare Einsatzdetails einzusehen, bevor du ausrückst.",
+          "dot": "Nutze das MDT, um Reparatur-, Abschlepp- und Straßeneinsätze zu finden und dich mit anderen Abteilungen abzustimmen."
+        },
+        {
+          "category": "Häufige Einsätze",
+          "fireRescue": "Gebäudebrände, Fahrzeugbrände, Buschbrände, medizinische Notfälle, Fahrzeugkollisionen und Rettungseinsätze.",
+          "dot": "Liegengebliebene oder verunfallte Fahrzeuge, Ampelausfälle, Probleme mit der Straßenbeleuchtung, Gefahren auf der Fahrbahn, Reparaturen und Abschleppanfragen."
+        },
+        {
+          "category": "Kernwerkzeuge",
+          "fireRescue": "Feuerwehrschlauch, Feuerlöscher, Helm und Atemschutzgerät, medizinische Ausrüstung, Trage, Leiter, Spreizer und Schneidgerät.",
+          "dot": "Verkehrsleitkegel, Straßenschilder, Taschenlampe, Leiter, Reparaturausrüstung sowie Abschlepp- oder Bergungssteuerungen."
+        },
+        {
+          "category": "Fahrzeugtypen",
+          "fireRescue": "Löschfahrzeuge, Drehleiterwagen, Rettungsfahrzeuge, Rettungswagen und Kommandofahrzeuge.",
+          "dot": "Service-Trucks, Nutzfahrzeuge, Abschleppwagen, Pritschenwagen, schwere Abschleppfahrzeuge und der Heavy Rotator."
+        },
+        {
+          "category": "Arbeitsablauf am Brandort",
+          "fireRescue": "Parke so, dass andere Einheiten Zugang haben, lege Schutzausrüstung an, setze einen Schlauch oder Feuerlöscher ein, bekämpfe jeden Brandbereich und suche nach Patienten, bevor du den Einsatz abschließt.",
+          "dot": "Unterstütze am Einsatzort, indem du Fahrspuren sperrst, Kegel aufstellst und beschädigte Fahrzeuge entfernst, nachdem die Feuerwehr- und Rettungsarbeiten abgeschlossen sind."
+        },
+        {
+          "category": "Arbeitsablauf bei medizinischen Notfällen und Unfällen",
+          "fireRescue": "Begutachte den Patienten, verwende die erforderliche medizinische Ausrüstung, bewege den Patienten bei Bedarf und schließe die Behandlungsziele ab, bevor du gehst.",
+          "dot": "Sichere die Fahrbahn, leite den Verkehr um und schleppe bergbare Fahrzeuge ab, nachdem die Rettungskräfte die Unfallstelle gesichert haben."
+        },
+        {
+          "category": "Arbeitsablauf für Reparaturen",
+          "fireRescue": "Leiste Absicherung am Einsatzort oder medizinische Unterstützung, wenn der Reparatureinsatz mit einem Unfall oder einem größeren Notfall verbunden ist.",
+          "dot": "Lokalisiere das beschädigte Objekt, schütze den Arbeitsbereich, nutze die erforderliche Reparatur-Interaktion und entferne die Ausrüstung, nachdem die Reparatur abgeschlossen ist."
+        },
+        {
+          "category": "Große Server-Einsätze",
+          "fireRescue": "Übernimm die Brandbekämpfung, Rettung und Patientenversorgung bei großen mehrstufigen Vorfällen.",
+          "dot": "Berge verunfallte Fahrzeuge und stelle den normalen Verkehrsfluss wieder her, nachdem die aktiven Feuerwehr- und Rettungsziele abgeschlossen wurden."
+        },
+        {
+          "category": "Startrang",
+          "fireRescue": "Freiwilliger",
+          "dot": "Trainee"
+        },
+        {
+          "category": "Rangaufstieg",
+          "fireRescue": "Freiwilliger, Rookie, Firefighter, Paramedic, Engineer, Lieutenant, Captain und Battalion Chief.",
+          "dot": "Trainee, Tow Operator, Senior Operator, Technician und Senior Technician."
+        },
+        {
+          "category": "Wie man XP verdient",
+          "fireRescue": "Schließe Ziele für Brandbekämpfung, medizinische Behandlung, Rettung und große Einsätze ab.",
+          "dot": "Schließe Ziele für Abschleppen, Fahrzeugbergung, Infrastrukturreparatur und Verkehrsmanagement ab."
+        }
+      ]
+    },
+    "erlcVehiclesGuide": {
+      "title": "Fahrzeug-Leitfaden für Emergency Response Liberty County",
+      "eyebrow": "Fahrzeuge",
+      "intro": "Emergency Response Liberty County teilt seine Fahrzeugflotte auf die Teams Zivilisten, Polizei, Sheriff, Feuerwehr und Rettungsdienst sowie Department of Transportation auf. Einzelne Fahrzeuge können Bargeld, Abteilungs-XP, einen höheren Rang oder einen entsprechenden Gamepass erfordern, während Einsatzfahrzeuge auch Abteilungsausrüstung, Warnleuchten und spezielle Funktionen für Einsatzorte bieten können.",
+      "cards": [
+        {
+          "icon": "Auto",
+          "title": "Zivilfahrzeuge",
+          "team": "Zivilist",
+          "access": "Kaufe Zivilfahrzeuge mit In-Game-Bargeld und spawne Fahrzeuge, die du besitzt.",
+          "bestFor": "Zivile Berufe, Pendeln, Roadtrips, Rennen und kriminelles Roleplay.",
+          "features": [
+            "Die größte Auswahl an Alltagsautos, SUVs, Trucks und leistungsstarken Fahrzeugen.",
+            "Nützlich für Fahrten zwischen zivilen Arbeitsplätzen und Geschäften.",
+            "Fahrzeuggeschwindigkeit, Sitzplätze und Preis variieren je nach Modell.",
+            "Eigene Fahrzeuge können über unterstützte Fahrzeugoptionen angepasst werden."
+          ],
+          "recommendation": "Beginne mit einem erschwinglichen Fahrzeug, das leicht zu steuern ist, und spare dir teure leistungsstarke Fahrzeuge auf, bis du eine zuverlässige Einnahmequelle hast."
+        },
+        {
+          "icon": "Sirene",
+          "title": "Polizeifahrzeuge",
+          "team": "Liberty County Police",
+          "access": "Tritt dem Polizeiteam bei; bestimmte Fahrzeuge und Ausrüstung können einen Abteilungsrang, Bargeld oder einen Gamepass erfordern.",
+          "bestFor": "Stadtpatrouillen, Verkehrskontrollen, Verfolgungsjagden, Festnahmen und taktische Einsätze.",
+          "features": [
+            "Blaulicht, Sirenen und Polizeiausrüstung.",
+            "Streifenwagen unterstützen normale Stadteinsätze und die Verkehrsüberwachung.",
+            "Schnellere Einheiten eignen sich besser für Verfolgungsjagden.",
+            "Die meisten Polizeifahrzeuge unterstützen jetzt ein optionales Gitter für die Rückbank."
+          ],
+          "recommendation": "Verwende ein Standard-Streifenfahrzeug, während du die Einsätze der Leitstelle kennenlernst, und wechsle nach dem Freischalten zu spezialisierten oder schnelleren Einheiten."
+        },
+        {
+          "icon": "Stern",
+          "title": "Sheriff-Fahrzeuge",
+          "team": "Liberty County Sheriff",
+          "access": "Tritt dem Sheriff-Team bei; Fahrzeuge höherer Stufen können zusätzliche Abteilungs-XP, Bargeld oder Gamepass-Zugriff erfordern.",
+          "bestFor": "County-Patrouillen, ländliche Einsätze, Verkehrsüberwachung und Verfolgung von Verdächtigen.",
+          "features": [
+            "Sheriff-Blaulicht und Abteilungs-Lackierungen.",
+            "Geeignet für Streifenfahrten außerhalb des Hauptbereichs der Stadt.",
+            "Unterstützt Festnahmen, Ermittlungen und Verfolgungseinsätze.",
+            "Die Fahrzeugauswahl umfasst reguläre Streifenwagen und spezialisierte Optionen."
+          ],
+          "recommendation": "Wähle ein ausgewogenes Streifenfahrzeug, das sowohl längere Strecken im County als auch Verfolgungsjagden in der Stadt bewältigen kann."
+        },
+        {
+          "icon": "Flamme",
+          "title": "Feuerwehr- und Rettungsdienstfahrzeuge",
+          "team": "River City Fire and Rescue",
+          "access": "Tritt dem Feuerwehr- und Rettungsdienst-Team bei; fortschrittliche Einsatzfahrzeuge können einen Abteilungsrang, Bargeld oder einen besonderen Zugang erfordern.",
+          "bestFor": "Brände, medizinische Einsätze, Rettungen und große Einsatzorte.",
+          "features": [
+            "Löschfahrzeuge und Rettungsfahrzeuge führen einsatzspezifische Ausrüstung mit.",
+            "Fahrzeuge im Rettungswagen-Stil unterstützen das medizinische Einsatz-Roleplay.",
+            "Größere Einsatzfahrzeuge sind eher für Einsatzorte als für Verfolgungsjagden ausgelegt.",
+            "Blaulicht und Sirenen helfen, den Verkehr bei Einsatzfahrten freizumachen."
+          ],
+          "recommendation": "Wähle das Einsatzfahrzeug, das zum aktiven Einsatz passt, anstatt für jeden Vorfall das größte Fahrzeug zu nehmen."
+        },
+        {
+          "icon": "Lkw",
+          "title": "DOT-Fahrzeuge",
+          "team": "Department of Transportation",
+          "access": "Tritt dem DOT-Team bei; einzelne Service- und Baufahrzeuge können einen Abteilungsrang oder Cash erfordern.",
+          "bestFor": "Pannenhilfe, Abschleppen, Reparaturen, Verkehrsregelung und Bauarbeiten-Roleplay.",
+          "features": [
+            "Servicefahrzeuge unterstützen bei Einsätzen am Straßenrand und im Zusammenhang mit der Infrastruktur.",
+            "Warnbeleuchtung hilft, aktive Einsatzstellen am Straßenrand zu schützen.",
+            "Ehemalige Fahrzeuge des Bauarbeiter-Jobs wurden im Update vom März 2026 zum DOT-Team verschoben.",
+            "Verschiedene Fahrzeuge sind für Reparatur-, Bergungs- oder Baustellenaufgaben ausgelegt."
+          ],
+          "recommendation": "Nutze ein kompaktes Servicefahrzeug für Routineeinsätze und wechsle nur dann zu Spezialausrüstung, wenn die Aufgabe es erfordert."
+        },
+        {
+          "icon": "BadgeCheck",
+          "title": "Fahrzeuge kaufen und anpassen",
+          "team": "Alle Teams",
+          "access": "Die Anforderungen hängen vom Fahrzeug, der Abteilung, dem Rang und dem entsprechenden Gamepass ab.",
+          "bestFor": "Käufe planen und Fahrzeuge für eine bestimmte Aktivität konfigurieren.",
+          "features": [
+            "Überprüfe vor dem Kauf den angegebenen Preis und die Freischaltanforderung.",
+            "Abteilungsfahrzeuge werden möglicherweise freigeschaltet, wenn Abteilungs-XP und Rang steigen.",
+            "Unterstützte Fahrzeuge bieten Anpassungsmöglichkeiten für Aussehen oder Ausrüstung.",
+            "Private Server mit dem Custom Livery Pack können genehmigte Abteilungs-Liveries nutzen."
+          ],
+          "recommendation": "Priorisiere Funktion vor Aussehen: Kaufe zuerst das Fahrzeug, das du für deine am häufigsten gespielte Rolle benötigst, bevor du kosmetische Alternativen sammelst."
+        }
+      ],
+      "labels": {
+        "team": "Team",
+        "access": "Zugriff",
+        "bestFor": "Am besten für",
+        "keyFeatures": "Hauptmerkmale",
+        "recommendation": "Empfehlung"
+      }
+    },
+    "erlcMoneyRankUpGuide": {
+      "title": "Emergency Response Liberty County Geld- und Rank-Up-Guide",
+      "eyebrow": "Fortschritt",
+      "intro": "Cash wird für Fahrzeuge und andere Käufe verwendet, während Abteilungs-XP höhere Ränge, Ausrüstung und Teamfahrzeuge freischaltet. Zivilisten-Jobs bieten einen leichten Einstieg, und Spieler bei der Police, dem Sheriff, Fire and Rescue sowie dem DOT kommen voran, indem sie Aktionen ausführen, die mit ihrer Abteilung zusammenhängen.",
+      "steps": [
+        {
+          "icon": "Münzen",
+          "title": "Starte mit einem zuverlässigen Zivilisten-Job",
+          "team": "Zivilist",
+          "rewardFocus": "Konstantes Cash",
+          "bestFor": "Neue Spieler, die ihr erstes Fahrzeugbudget aufbauen.",
+          "actions": [
+            "Tritt dem Zivilisten-Team bei und wähle einen verfügbaren Job aus.",
+            "Nutze einfache Jobs wie Farmer oder Krankenhausmitarbeiter, während du die Karte kennenlernst.",
+            "Erledige die normalen Aufgaben des Jobs, anstatt ohne aktives Ziel herumzufahren.",
+            "Wiederhole eine kurze Route, die kein teures Fahrzeug erfordert."
+          ]
+        },
+        {
+          "icon": "Kraftstoff",
+          "title": "Fahrzeugkosten zu Beginn niedrig halten",
+          "team": "Zivilist",
+          "rewardFocus": "Schnelleres Netto-Cash-Wachstum",
+          "bestFor": "Übermäßige Ausgaben zu Spielbeginn vermeiden.",
+          "actions": [
+            "Nutze ein erschwingliches Fahrzeug mit berechenbarem Fahrverhalten.",
+            "Vermeide den Kauf mehrerer ähnlicher Fahrzeuge, bevor ein regelmäßiges Einkommen gesichert ist.",
+            "Halte genügend Cash für das Fahrzeug oder die Ausrüstung bereit, die dein bevorzugtes Team benötigt.",
+            "Führe Upgrades nur durch, wenn der Neukauf deine Arbeits- oder Einsatz-Effizienz verbessert."
+          ]
+        },
+        {
+          "icon": "Sirene",
+          "title": "Polizei- und Sheriff-Aktionen abschließen",
+          "team": "Polizei und Sheriff",
+          "rewardFocus": "XP und Cash für Strafverfolgungsbehörden",
+          "bestFor": "Freischalten von Einsatzfahrzeugen, Ausrüstung und höheren Dienstgraden.",
+          "actions": [
+            "Reagiere auf aktive Dispatch-Einsätze und gemeldete Verbrechen.",
+            "Nutze Verkehrskontrollen und Ermittlungen, um gesuchte Spieler zu identifizieren.",
+            "Führe rechtmäßige Festnahmen durch und transportiere Verdächtige, falls erforderlich.",
+            "Bleibe beteiligt, bis der Einsatz oder die Verfolgung abgeschlossen ist."
+          ]
+        },
+        {
+          "icon": "HeartPulse",
+          "title": "Feuerwehr- und medizinische Einsätze abschließen",
+          "team": "Feuerwehr und Rettungsdienst",
+          "rewardFocus": "XP und Cash für Feuerwehr und Rettungsdienst",
+          "bestFor": "Spieler, die kooperative Notfalleinsätze bevorzugen.",
+          "actions": [
+            "Wähle das Fahrzeug, das zum gemeldeten Notfall passt.",
+            "Fahre zum markierten Einsatzort und nutze die benötigte Ausrüstung vor Ort.",
+            "Schließe Feuerwehr-, Rettungs- oder medizinische Ziele ab, bevor du den Ort verlässt.",
+            "Melde dich wieder einsatzbereit und nimm einen weiteren verfügbaren Einsatz an."
+          ]
+        },
+        {
+          "icon": "Schraubenschlüssel",
+          "title": "DOT-Service-Einsätze bearbeiten",
+          "team": "Department of Transportation",
+          "rewardFocus": "XP und Cash für das DOT-Team",
+          "bestFor": "Stetiger Fortschritt ohne Polizeiverfolgungen.",
+          "actions": [
+            "Reagiere auf Pannen-, Reparatur- und transportbezogene Vorfälle.",
+            "Bringe das für die Aufgabe geeignete Servicefahrzeug oder die Ausrüstung mit.",
+            "Schließe das Reparatur-, Bergungs- oder Verkehrsleitungs-Ziel ab.",
+            "Nutze ehemalige Baustellen-Fahrzeuge über das DOT-Team, sofern verfügbar."
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Konzentration auf einen Abteilungs-Rang",
+          "team": "Alle Abteilungen",
+          "rewardFocus": "Effizienter Abteilungs-Fortschritt",
+          "bestFor": "Erreichen von Freischaltungen höherer Ränge mit weniger ungenutzter Spielzeit.",
+          "actions": [
+            "Wähle das Department, dessen Fahrzeuge und Ausrüstung du zuerst freischalten möchtest.",
+            "Bleibe für mehrere abgeschlossene Einsätze in diesem Team, anstatt häufig die Rollen zu wechseln.",
+            "Priorisiere abgeschlossene Ziele gegenüber dem reinen Zeitverbringen in einem Dienstfahrzeug.",
+            "Überprüfe nach jeder Rangerhöhung neu freigeschaltete Fahrzeuge und Ausrüstung."
+          ]
+        }
+      ],
+      "labels": {
+        "team": "Team",
+        "rewardFocus": "Belohnungsfokus",
+        "bestFor": "Am besten für"
+      }
+    },
+    "erlcPrivateServersCustomLiveries": {
+      "title": "Emergency Response Liberty County Private Server und Custom Liveries",
+      "eyebrow": "Private Server",
+      "intro": "Emergency Response Liberty County Private Server unterstützen Community-Management, Staff-Tools, Custom Department Liveries, Werbung und optionale externe Integrationen. Customization-Packs werden separat erworben, und hochgeladene Inhalte werden gemäß den Regeln von ER:LC und Roblox geprüft, bevor sie im Spiel erscheinen können.",
+      "items": [
+        {
+          "icon": "Server",
+          "title": "Einen Privaten Server erstellen und beitreten",
+          "content": "Private Server bieten eine kontrollierte Version von Liberty County für organisierte Streifenfahrten, Department-Training und Community-Roleplay. Der Serverbesitzer kann verfügbare Einstellungen konfigurieren und die Beitrittsinformationen des Servers an zugelassene Spieler verteilen.",
+          "checklist": [
+            "Erstelle oder greife über das Private-Server-Interface von ER:LC auf den Privaten Server zu.",
+            "Lege den Servernamen und die Roleplay-Konfiguration fest.",
+            "Teile Beitrittsinformationen nur mit der vorgesehenen Community.",
+            "Überprüfe die Servereinstellungen, bevor du eine öffentliche Roleplay-Sitzung eröffnest."
+          ]
+        },
+        {
+          "icon": "Schild",
+          "title": "Staff-Berechtigungen und Server-Befehle",
+          "content": "Besitzer von Privaten Servern können Staff-Rollen organisieren und vertrauenswürdigen Moderatoren Zugriff auf unterstützte Management-Aktionen geben. Berechtigungen sollten auf Staff-Mitglieder beschränkt werden, die diese benötigen, da Befehle Spieler und aktive Roleplay-Szenen direkt beeinflussen können.",
+          "checklist": [
+            "Erstelle eine klare Struktur für Besitzer, Administratoren und Moderatoren.",
+            "Gewähre nur die Berechtigungen, die für die jeweilige Staff-Rolle erforderlich sind.",
+            "Veröffentliche Regeln für Verwarnungen, Ausschlüsse und Moderationsmaßnahmen.",
+            "Teste den Staff-Zugriff, bevor du eine große Sitzung startest."
+          ]
+        },
+        {
+          "icon": "Paket",
+          "title": "Hochladen von Custom Vehicle Liveries",
+          "content": "Custom Liveries sind für Private Server verfügbar, die das Custom Livery Pack besitzen. Communities können Designs für Department-Fahrzeuge hochladen und diese auf fiktiven Behörden oder zulässigen realen Rettungsdiensten basieren lassen.",
+          "checklist": [
+            "Lade das korrekte offizielle Template für das gewählte Fahrzeug herunter.",
+            "Platziere Department-Markierungen, Text und Logos innerhalb des Templates.",
+            "Lade das fertige Bild über Roblox hoch.",
+            "Gib das hochgeladene Asset im ER:LC Livery-Editor ein und reiche es zur Überprüfung ein."
+          ]
+        },
+        {
+          "icon": "Zwischenablage-Prüfung",
+          "title": "Offizielle Regeln für die Livery-Überprüfung",
+          "content": "Jedes Design muss den Roblox-Regeln sowie den Anforderungen von ER:LC an Sichtbarkeit, Kommunikation und Urheberrecht entsprechen. Abgelehnte Einsendungen können korrigiert und erneut eingereicht werden.",
+          "checklist": [
+            "Füge keine Website-Links, QR-Codes, Telefonnummern oder externe Kommunikationsdetails hinzu.",
+            "Anerkannte Notrufnummern wie 911 und 999 sind erlaubt.",
+            "Text und Logos müssen groß, lesbar und deutlich vom Hintergrund abgesetzt sein.",
+            "Verwende kein urheberrechtlich oder markenrechtlich geschütztes Material ohne Erlaubnis.",
+            "Liveries für Staff, Moderatoren oder Admins müssen den Privaten Server identifizieren, überall dort, wo diese Staff-Begriffe erscheinen.",
+            "Designs von realen Notfalldiensten aus Städten, Landkreisen oder Bundesstaaten sind zulässig, sofern die anderen Regeln befolgt werden."
+          ]
+        },
+        {
+          "icon": "Glocke",
+          "title": "Private-Server-Werbung",
+          "content": "Server mit Werbeanpassung können überprüfte Werbetafel- und Bushaltestellen-Designs innerhalb von Liberty County anzeigen. Werbeanzeigen müssen die ER:LC-Community selbst bewerben und müssen den Servernamen oder die Abkürzung enthalten.",
+          "checklist": [
+            "Werbetafel-Anzeigen verwenden ein Seitenverhältnis von 16:9.",
+            "Bushaltestellen-Anzeigen verwenden ein Seitenverhältnis von 2:3.",
+            "Die offizielle Richtlinie empfiehlt ein Maximum von 512 Pixeln auf jeder Achse.",
+            "Füge keine externen Links, QR-Codes oder Social-Media-Handles hinzu.",
+            "Bewerbe keine Giveaways, kostenlose Robux, Team-Positionen oder Server-Vorteile.",
+            "Verwende saubere Grafiken mit ER:LC-Bezug anstelle von Memes oder unpassenden Bildern."
+          ]
+        },
+        {
+          "icon": "Funkgerät",
+          "title": "Private-Server-API und Integrationen",
+          "content": "Server, die das ER:LC-API-Paket erwerben, können genehmigte externe Anwendungen mit Live-Server-Informationen, Fernbefehlen und Event-Webhooks verbinden.",
+          "checklist": [
+            "Erwirb das ER:LC-API-Server-Paket.",
+            "Öffne das Einstellungsmenü des privaten Servers und finde den API-Schlüssel im Bereich ER:LC-API.",
+            "Halte den Server-Schlüssel geheim und füge ihn in authentifizierte API-Anfragen ein.",
+            "Verwende den v2-Server-Endpunkt, um Server-Informationen abzurufen.",
+            "Konfiguriere Event-Webhooks, wenn Echtzeit-Serverereignisse benötigt werden."
+          ]
+        }
+      ]
+    },
+    "erlcUpdates": {
+      "title": "Emergency Response Liberty County Updates",
+      "eyebrow": "Update-Log",
+      "intro": "Police Roleplay Community veröffentlicht größere Änderungen für Emergency Response Liberty County über Beiträge im Roblox-Entwicklerforum, ihren offiziellen YouTube-Kanal und Social-Media-Accounts. Die untenstehenden Veröffentlichungen von 2026 führten ein zurückkehrendes Strafverfolgungs-Event, Verbesserungen an Polizeifahrzeugen, DOT-Änderungen und zusätzliche Private-Server-API-Daten ein.",
+      "entries": [
+        {
+          "icon": "Trophäe",
+          "date": "10. Mai 2026",
+          "title": "Mai-Update und Badge-Event",
+          "summary": "Das Badge-Hunt-Event kehrte für Polizei- und Sheriff-Spieler zurück. Diese Veröffentlichung wurde auch als das letzte reguläre Inhalts-Update angekündigt, bevor sich die Entwicklung auf das Sommer-Update 2026 konzentrierte.",
+          "highlights": [
+            "Polizei- und Sheriff-Spieler konnten Event-Badges durch Verhaftungen und verwandte Strafverfolgungsaktivitäten sammeln.",
+            "Das Update enthielt zusätzliche Inhaltsänderungen und Fehlerbehebungen.",
+            "Der Fokus der Entwicklung verlagerte sich auf das kommende Sommer-Update."
+          ]
+        },
+        {
+          "icon": "Sirene",
+          "date": "18. April 2026",
+          "title": "April-Update für Polizeifahrzeuge und Verfolgungsjagden",
+          "summary": "Die Ausrüstung von Polizeifahrzeugen und die Erkennung von Verfolgungsjagden erhielten spürbare Verbesserungen, bevor sich das Entwicklerteam auf das Sommer-Update konzentrierte.",
+          "highlights": [
+            "Die meisten Polizeifahrzeuge erhielten die Option, ein Trenngitter für die Rückbank auszurüsten.",
+            "Die Verfolgungserkennung wurde für Verdächtige verbessert, die abseits normaler Straßen fahren.",
+            "Das Update wurde als die letzte große Veröffentlichung vor dem Sommer-Update-Zyklus beschrieben."
+          ]
+        },
+        {
+          "icon": "Schraubenschlüssel",
+          "date": "22. März 2026",
+          "title": "März-Update und DOT-Job-Änderungen",
+          "summary": "Das Frühlings-Update aktualisierte Liberty County und reorganisierte das baubezogene Gameplay unter dem Department of Transportation.",
+          "highlights": [
+            "Die saisonale Frühlingskarte kehrte zurück.",
+            "Der separate Bauarbeiter-Job wurde entfernt.",
+            "Baustellenfahrzeuge im Besitz von Spielern wurden automatisch zurückerstattet.",
+            "Betroffene Fahrzeuge wurden über das DOT-Team zum Kauf verfügbar."
+          ]
+        },
+        {
+          "icon": "Server",
+          "date": "22. Februar 2026",
+          "title": "DOT-Überarbeitung und Erweiterung der API für private Server",
+          "summary": "Das Februar-Release begann eine gewünschte DOT-Überarbeitung und erweiterte die für Integrationen privater Server verfügbaren Informationen.",
+          "highlights": [
+            "Das Department of Transportation erhielt ein großes Update.",
+            "API-Antworten für private Server erhielten gewünschte Spielerstandort-Daten.",
+            "Fahrzeugfarbdaten wurden für unterstützte Server-Integrationen hinzugefügt.",
+            "Der offizielle ER:LC-Kanal hat ein eigenes DOT-Update-Video veröffentlicht."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über Emergency Response Liberty County wissen musst",
+    "questions": [
+      {
+        "question": "Was ist Emergency Response Liberty County?",
+        "answer": "Emergency Response Liberty County (ERLC) ist ein Open-World-Einsatzkräfte-Roleplay-Spiel auf Roblox, bei dem Spieler Teams wie Zivilisten, Polizei, Sheriff, Feuerwehr und Rettungsdienst, EMS und DOT beitreten können, um zu patrouillieren, auf Einsätze zu reagieren und Bargeld sowie Abteilungs-XP zu verdienen."
+      },
+      {
+        "question": "Wo kann ich Emergency Response Liberty County spielen?",
+        "answer": "Du kannst Emergency Response Liberty County kostenlos auf Roblox spielen. Bis zu 50 Spieler können einem einzelnen Server beitreten, und das Spiel läuft auf PC, Mac, Mobilgeräten und anderen von Roblox unterstützten Geräten."
+      },
+      {
+        "question": "Wie löse ich Codes in Emergency Response Liberty County ein?",
+        "answer": "Um Codes in Emergency Response Liberty County einzulösen, öffne das Einstellungsmenü im Spiel, wähle „Promo Codes“, gib den Code genau wie gezeigt ein (Codes können zwischen Groß- und Kleinschreibung unterscheiden) und sende ihn ab. Jeder Code kann normalerweise nur einmal pro Roblox-Konto eingelöst werden."
+      },
+      {
+        "question": "Welchen Teams kann ich in Emergency Response Liberty County beitreten?",
+        "answer": "In Emergency Response Liberty County kannst du den Teams Zivilisten, Polizei, Sheriff, Feuerwehr und Rettungsdienst, EMS und Department of Transportation beitreten. Kriminelle Aktivitäten sind ebenfalls aus dem Zivilisten-Team heraus möglich und können dich auf die Fahndungsliste setzen."
+      },
+      {
+        "question": "Wie steige ich in den Abteilungen von Emergency Response Liberty County im Rang auf?",
+        "answer": "Du steigst in den Abteilungen von Emergency Response Liberty County im Rang auf, indem du Abteilungs-XP durch Teamziele wie Verhaftungen, Strafzettel, Brandbekämpfung, medizinische Behandlungen, Reparaturen und Abschleppen verdienst. Höhere Ränge schalten neue Fahrzeuge, Ausrüstung, Uniformen und Funktionen frei, und Ränge können nicht mit Bargeld gekauft werden."
+      },
+      {
+        "question": "Kann ich einen privaten Server für Emergency Response Liberty County betreiben?",
+        "answer": "Ja. Private Server für Emergency Response Liberty County ermöglichen es Besitzern, Roleplay-Einstellungen zu konfigurieren, Mitarbeiterrollen zuzuweisen, Serverbefehle zu verwenden, benutzerdefinierte Abteilungs-Lackierungen hochzuladen und externe Apps über das optionale ER:LC API-Paket zu verbinden."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, in Liberty County auf Streife zu gehen?",
+    "description": "Tritt der Police Roleplay Community auf Discord bei, um Codes, Fahrzeug-Guides, Update-Protokolle und Roleplay-Diskussionen zu erhalten!",
+    "joinCommunity": "Discord beitreten",
+    "joinGame": "Auf Roblox spielen"
+  },
+  "footer": {
+    "title": "Emergency Response Liberty County Wiki",
+    "description": "Deine komplette Ressourcen-Zentrale für Emergency Response Liberty County-Codes, Fahrzeuge, Abteilungen, Raubüberfall-Anleitungen, Befehle für private Server und Update-Protokolle.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "website": "Offizielle Website",
+    "roblox": "Auf Roblox spielen",
+    "about": "Über",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Emergency Response Liberty County Wiki. Nicht mit der Police Roleplay Community oder der Roblox Corporation verbunden.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
+  },
+  "pages": {
+    "codes": {
+      "title": "Emergency Response Liberty County Codes",
+      "description": "Löse die neuesten funktionierenden Emergency Response Liberty County Codes für kostenloses In-Game-Cash und Belohnungen ein, regelmäßig aktualisiert mit verifizierten Codes.",
+      "metaTitle": "Emergency Response Liberty County Codes – Kostenloses Cash & Belohnungen",
+      "metaDescription": "Erhalte kostenloses In-Game-Cash und Belohnungen mit aktiven Emergency Response Liberty County Codes. Regelmäßig aktualisiert mit verifizierten, funktionierenden Codes.",
+      "categoryLabel": "CODES EINLÖSEN",
+      "whatIs": "Was sind Codes?",
+      "whatIsDescription": "Codes sind einlösbare Zeichenfolgen, die von den Emergency Response Liberty County-Entwicklern veröffentlicht werden und kostenloses In-Game-Cash sowie zeitlich begrenzte Belohnungen gewähren. Neue Codes erscheinen normalerweise zusammen mit großen Updates und saisonalen Events.",
+      "why": "Warum Codes einlösen?",
+      "whySteps": {
+        "step1Title": "Kostenloses In-Game-Cash",
+        "step1Description": "Löse Codes ein, um kostenloses Cash zu erhalten und den anfänglichen Grind für Fahrzeuge und Ausrüstung zu überspringen.",
+        "step2Title": "Zeitlich begrenzte Belohnungen",
+        "step2Description": "Sichere dir Event-Codes für exklusive Gegenstände und Boni, bevor sie ablaufen.",
+        "step3Title": "Bleibe auf dem Laufenden",
+        "step3Description": "Speichere diese Seite als Lesezeichen für neu veröffentlichte Codes, die nach jedem Update verifiziert werden."
+      },
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Codes"
+    },
+    "guide": {
+      "title": "Emergency Response Liberty County Guides",
+      "description": "Vollständige Emergency Response Liberty County Gameplay-Guides, von den Grundlagen für Anfänger und der Steuerung bis hin zu Karten, Geschäften und Team-Tutorials.",
+      "metaTitle": "Emergency Response Liberty County Guides – Anfänger bis Fortgeschrittene",
+      "metaDescription": "Vollständige Emergency Response Liberty County Guides über Anfänger-Tipps, Steuerung, die Karte, Standorte von Geschäften und den Team-Fortschritt für das Liberty County Roleplay.",
+      "categoryLabel": "SPIEL-GUIDES",
+      "whatIs": "Was sind Guides?",
+      "whatIsDescription": "Umfassende Guides zu den Gameplay-Mechaniken, der Steuerung, der Karte und den Standorten von Geschäften in Emergency Response Liberty County. Lerne alles von deiner ersten Schicht bis hin zu fortgeschrittenen Roleplay-Taktiken.",
+      "why": "Warum Guides lesen?",
+      "whySteps": {
+        "step1Title": "Lerne die Kernmechaniken",
+        "step1Description": "Meistere Steuerung, Teams und die Karte, um typische Anfängerfehler zu vermeiden.",
+        "step2Title": "Finde wichtige Orte",
+        "step2Description": "Finde Geschäfte, Spawns und Arbeitsplätze schnell mithilfe der Karte und der Standort-Guides.",
+        "step3Title": "Schneller vorankommen",
+        "step3Description": "Folge bewährten Routen, um Cash zu verdienen, Ausrüstung freizuschalten und schnell im Rang aufzusteigen."
+      },
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Guides"
+    },
+    "money": {
+      "title": "Emergency Response Liberty County Geld-Guides",
+      "description": "Lerne die besten Möglichkeiten kennen, in Emergency Response Liberty County Geld zu verdienen, einschließlich der bestbezahlten Jobs, zivilen Cash-Routen und Job-Punkten.",
+      "metaTitle": "Emergency Response Liberty County Geld-Guide - Die besten Wege, um Geld zu verdienen",
+      "metaDescription": "Maximiere dein Einkommen in Emergency Response Liberty County mit den besten Jobs, zivilen Geldrouten und Jobpunkt-Strategien für schnelles Geld.",
+      "categoryLabel": "GELD & JOBS",
+      "whatIs": "Was sind Geld-Guides?",
+      "whatIsDescription": "Geld-Guides decken die schnellsten Wege ab, um in Emergency Response Liberty County Geld zu verdienen, einschließlich der bestbezahlten Jobs, zivilen Einkommensrouten und wie Jobpunkte deinen Gehaltsscheck beeinflussen.",
+      "why": "Warum Geld-Guides lesen?",
+      "whySteps": {
+        "step1Title": "Wähle den besten Job",
+        "step1Description": "Vergleiche zivile und Behörden-Jobs, um die bestbezahlte Rolle für dich zu finden",
+        "step2Title": "Schneller Geld verdienen",
+        "step2Description": "Nutze bewährte Routen und Jobpunkt-Strategien, um jede Schicht zu maximieren",
+        "step3Title": "Klug reinvestieren",
+        "step3Description": "Verwandle Geld in Fahrzeuge und Ausrüstung, die dein langfristiges Einkommen steigern"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Geld-Guides"
+    },
+    "police": {
+      "title": "Emergency Response Liberty County Polizei-Guides",
+      "description": "Meistere das Polizei-Team in Emergency Response Liberty County mit Guides zu Streifenwagen, der Verfolgung von Kriminellen, Tasern, Waffen und Polizei-XP.",
+      "metaTitle": "Emergency Response Liberty County Polizei-Guide - Streife, Verfolgung & Rang aufsteigen",
+      "metaDescription": "Vollständige Emergency Response Liberty County Polizei-Guides über Streifenwagen, Verfolgungsjagden, Taser, Waffen und den Polizei-XP-Fortschritt.",
+      "categoryLabel": "POLIZEI & SHERIFF",
+      "whatIs": "Was sind Polizei-Guides?",
+      "whatIsDescription": "Polizei-Guides decken die Polizei- und Sheriff-Teams in Emergency Response Liberty County ab, einschließlich Streifenfahrzeugen, dem Verfolgen und Festnehmen von Kriminellen, Tasern, den besten Waffen und dem Verdienen von Polizei-XP.",
+      "why": "Warum Polizei-Guides lesen?",
+      "whySteps": {
+        "step1Title": "Wähle deine Ausrüstung",
+        "step1Description": "Finde den richtigen Streifenwagen, die passende Waffe und Ausrüstung für Verkehrskontrollen und Verfolgungsjagden",
+        "step2Title": "Meistere Verfolgungsjagden",
+        "step2Description": "Lerne Verfolgungstaktiken, um Kriminelle zuverlässig zu fassen, ohne sie zu verlieren",
+        "step3Title": "Schnell im Rang aufsteigen",
+        "step3Description": "Verdiene effizient Polizei-XP, um neue Fahrzeuge, Waffen und Ränge freizuschalten"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Polizei-Guides"
+    },
+    "crime": {
+      "title": "Emergency Response Liberty County Kriminalitäts-Guides",
+      "description": "Begehe Raubüberfälle und verursache Chaos in Emergency Response Liberty County mit Guides zu Banküberfällen, Juwelierüberfällen, Geldautomaten-Raubüberfällen und dem Gefängnisausbruch.",
+      "metaTitle": "Emergency Response Liberty County Kriminalitäts-Guide - Raubüberfälle & Heists",
+      "metaDescription": "Vollständige Emergency Response Liberty County Kriminalitäts-Guides über Banküberfälle, Juwelierüberfälle, Geldautomaten-Raubüberfälle, wie man Krimineller wird und den Gefängnisausbruch.",
+      "categoryLabel": "KRIMINALITÄT & RAUBÜBERFÄLLE",
+      "whatIs": "Was sind Kriminalitäts-Guides?",
+      "whatIsDescription": "Kriminalitäts-Guides decken die kriminelle Seite von Emergency Response Liberty County ab, einschließlich der Frage, wie man Krimineller wird, die Bank und das Juweliergeschäft ausraubt, Geldautomaten-Raubüberfälle durchführt, der Mafia beitritt und aus dem Gefängnis ausbricht.",
+      "why": "Warum Kriminalitäts-Guides lesen?",
+      "whySteps": {
+        "step1Title": "Plane den Raubüberfall",
+        "step1Description": "Lerne die Schritte, Anforderungen und die beste Herangehensweise für jeden Raubüberfall, bevor du beginnst",
+        "step2Title": "Entkomme der Verfolgung",
+        "step2Description": "Nutze bewährte Fluchtrouten, um die Polizei abzuschütteln und deine Auszahlung zu behalten",
+        "step3Title": "Auszahlung maximieren",
+        "step3Description": "Wähle die profitabelsten Überfälle und vermeide häufige Fehler"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Crime-Guides"
+    },
+    "vehicles": {
+      "title": "Emergency Response Liberty County Fahrzeuge",
+      "description": "Vergleiche Emergency Response Liberty County Fahrzeuge nach Rolle, Preis, Geschwindigkeit und Freischaltung, einschließlich Zivilfahrzeugen, Polizeieinheiten und den schnellsten Autos.",
+      "metaTitle": "Emergency Response Liberty County Fahrzeuge – Autos, Preise & Geschwindigkeit",
+      "metaDescription": "Vollständige Emergency Response Liberty County Fahrzeug-Datenbank, die Zivilfahrzeuge, Polizeieinheiten, eigene Lackierungen, Preise, Geschwindigkeit und die schnellsten Autos abdeckt.",
+      "categoryLabel": "FAHRZEUGE & FAHREN",
+      "whatIs": "Was sind Fahrzeuge?",
+      "whatIsDescription": "Fahrzeug-Guides für Emergency Response Liberty County, die Preise, Geschwindigkeit, Sitze, Freischaltbedingungen, Spawnen, eigene Lackierungen und die Auswahl des richtigen Fahrzeugs für jede Aktivität abdecken.",
+      "why": "Warum Fahrzeug-Guides lesen?",
+      "whySteps": {
+        "step1Title": "Fahrzeuge vergleichen",
+        "step1Description": "Finde das richtige Fahrzeug nach Rolle, Preis, Geschwindigkeit und Freischaltbedingung",
+        "step2Title": "Käufe optimieren",
+        "step2Description": "Gib dein Geld klug für Fahrzeuge aus, die zu deinem Hauptteam und Spielstil passen",
+        "step3Title": "Anpassen & Verkaufen",
+        "step3Description": "Wende eigene Lackierungen an und lerne, wie du Autos beim Upgraden verkaufst"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Fahrzeuge"
+    },
+    "updates": {
+      "title": "Emergency Response Liberty County Updates",
+      "description": "Offizielle Emergency Response Liberty County Update-Logs, die neue Fahrzeuge, Abteilungsänderungen, Karten-Updates, Events und Fehlerbehebungen abdecken.",
+      "metaTitle": "Emergency Response Liberty County Updates & Patch-Notes",
+      "metaDescription": "Verfolge jedes Emergency Response Liberty County Update: neue Fahrzeuge, DOT-Änderungen, Verbesserungen bei der Polizei, saisonale Events und Patch-Notes.",
+      "categoryLabel": "UPDATES & PATCH-NOTES",
+      "whatIs": "Was sind Updates?",
+      "whatIsDescription": "Update-Guides fassen offizielle Emergency Response Liberty County Versionshinweise, neue Fahrzeuge, Abteilungsänderungen, Kartenverbesserungen, saisonale Events und Fehlerbehebungen zusammen.",
+      "why": "Warum Updates verfolgen?",
+      "whySteps": {
+        "step1Title": "Auf dem Laufenden bleiben",
+        "step1Description": "Sieh neue Fahrzeuge, Events und Features, sobald sie veröffentlicht werden",
+        "step2Title": "Plane vorausschauend bei Änderungen",
+        "step2Description": "Passe deine Team- und Fahrzeugstrategie an neue Inhalte und Anpassungen der Spielbalance an",
+        "step3Title": "Verfolge die Roadmap",
+        "step3Description": "Folge der offiziellen Entwicklungsrichtung und saisonalen Events"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Update-Logs"
+    }
   }
 }
