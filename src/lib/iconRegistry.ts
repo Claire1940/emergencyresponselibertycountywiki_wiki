@@ -28,6 +28,26 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Emergency Response Liberty County 模块图标
+  Ticket: LucideIcons.Ticket,
+  Flame: LucideIcons.Flame,
+  Car: LucideIcons.Car,
+  Coins: LucideIcons.Coins,
+  Server: LucideIcons.Server,
+  Siren: LucideIcons.Siren,
+  MapPin: LucideIcons.MapPin,
+  Wrench: LucideIcons.Wrench,
+  HeartPulse: LucideIcons.HeartPulse,
+  Truck: LucideIcons.Truck,
+  BadgeCheck: LucideIcons.BadgeCheck,
+  Gift: LucideIcons.Gift,
+  Bell: LucideIcons.Bell,
+  Trophy: LucideIcons.Trophy,
+  Fuel: LucideIcons.Fuel,
+  Radio: LucideIcons.Radio,
+  Scales: LucideIcons.Scales,
+  Lightbulb: LucideIcons.Lightbulb,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,

@@ -56,692 +56,549 @@
     "description": "Patrol Liberty County as police, sheriff, fire, DOT, civilian or criminal in this open-world emergency services roleplay game on Roblox."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Emergency Response Liberty County",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Jump straight to the codes, guides, vehicles, departments and private server tools every Liberty County player needs.",
     "cards": [
       {
+        "icon": "Ticket",
+        "title": "Emergency Response Liberty County Codes",
+        "description": "Active and expired promo codes plus the in-game redemption steps"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Emergency Response Liberty County Beginner Guide",
+        "description": "Pick a team, learn the map and finish your first shift"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Emergency Response Liberty County Police and Sheriff Guide",
+        "description": "Patrol, traffic stops, arrests, ranks and patrol equipment"
+      },
+      {
+        "icon": "Flame",
+        "title": "Emergency Response Liberty County Fire Rescue and DOT Guide",
+        "description": "Fire, medical, rescue, towing and road repair workflows"
+      },
+      {
+        "icon": "Car",
+        "title": "Emergency Response Liberty County Vehicles Guide",
+        "description": "Civilian and department vehicles by role, access and use"
+      },
+      {
+        "icon": "Coins",
+        "title": "Emergency Response Liberty County Money and Rank Up Guide",
+        "description": "Earn cash and department XP to unlock higher ranks"
+      },
+      {
+        "icon": "Server",
+        "title": "Emergency Response Liberty County Private Servers Guide",
+        "description": "Server setup, staff commands, liveries and the server API"
+      },
+      {
+        "icon": "Clock",
+        "title": "Emergency Response Liberty County Updates",
+        "description": "Official update log with new vehicles, events and changes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "erlcCodes": {
+      "title": "Emergency Response Liberty County Codes",
+      "eyebrow": "Free Rewards",
+      "intro": "Redeem the latest Emergency Response Liberty County code for free cash, and review previous codes for XP boosts, uniforms, badges and license plates. Open the in-game Settings menu, select Promo Codes, enter the code exactly as displayed and submit it. Codes can be case-sensitive and each code can normally be redeemed only once per Roblox account.",
+      "activeLabel": "Active",
+      "expiredLabel": "Expired",
+      "items": [
+        { "code": "ERLC2026", "reward": "$10,000 cash", "status": "active", "rewardType": "Cash" },
+        { "code": "PW26-XPBOOST", "reward": "24-hour Police and Sheriff XP boost", "status": "expired", "rewardType": "XP Boost" },
+        { "code": "EggHunt2025", "reward": "$6,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "WELCOME2025", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "1BILLION", "reward": "One Billion Visits license plate", "status": "expired", "rewardType": "License Plate" },
+        { "code": "BOOST24", "reward": "24-hour XP boost", "status": "expired", "rewardType": "XP Boost" },
+        { "code": "POLICEWEEK24", "reward": "48-hour double Law Enforcement XP boost", "status": "expired", "rewardType": "XP Boost" },
+        { "code": "HONOR24", "reward": "Police Week 2024 special uniform", "status": "expired", "rewardType": "Uniform" },
+        { "code": "OMB", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "RisingWolf", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "mcsloth", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "OfficerJohn", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "AmazePlays", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "Ruffles", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "WELCOME2024", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "Christmas23", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "ERLC1023", "reward": "1.5x XP boost", "status": "expired", "rewardType": "XP Boost" },
+        { "code": "PW23-PATROL", "reward": "Police Week 2023 license plate and event badge", "status": "expired", "rewardType": "License Plate" },
+        { "code": "POLICEWEEK23", "reward": "$2,500 cash and an event badge", "status": "expired", "rewardType": "Cash" },
+        { "code": "PW23-HONOR", "reward": "Police Week 2023 uniform and event badge", "status": "expired", "rewardType": "Uniform" },
+        { "code": "PW23-SACRIFICE", "reward": "24-hour Law Enforcement XP boost and event badge", "status": "expired", "rewardType": "XP Boost" },
+        { "code": "1MIL", "reward": "$25,000 cash and One Million Members license plate", "status": "expired", "rewardType": "Cash and License Plate" },
+        { "code": "ONPATROL", "reward": "$25,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "500mil", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "MOBILE", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "PHONES", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "UPDATE", "reward": "$6,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "400mil", "reward": "400 million visits milestone reward", "status": "expired", "rewardType": "Milestone Reward" },
+        { "code": "CommunityPhoto", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
+        { "code": "OnPatrol1", "reward": "$7,500 cash", "status": "expired", "rewardType": "Cash" }
+      ]
+    },
+    "erlcBeginnerGuide": {
+      "title": "Emergency Response Liberty County Beginner Guide",
+      "eyebrow": "Getting Started",
+      "intro": "Emergency Response Liberty County is an open-world emergency services roleplay game where players can work as civilians, criminals, police officers, sheriff deputies, firefighters, paramedics or Department of Transportation workers. Progress is saved across sessions, including owned vehicles, cash and department XP.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Choose a Team",
+          "description": "Use the team selection menu to join Civilian, Police, Sheriff, Fire and Rescue or DOT. Civilian is the easiest starting point because it lets you explore the county, learn the roads and earn regular paychecks before handling emergency calls."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Learn the Map and Interface",
+          "description": "Open the map and identify the police station, sheriff's office, fire stations, DOT facility, hospital, jail, dealerships, fuel stations and civilian workplaces. Emergency departments receive calls through their MDT, which displays the incident type and location."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Start a Civilian Job",
+          "description": "Civilian jobs provide a steady way to earn money while learning the county. Available work includes roles such as farming, hospital work and transportation-related jobs, with job locations marked around the map."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Buy and Manage a Vehicle",
+          "description": "Visit a dealership to purchase a civilian vehicle with in-game cash. Vehicle statistics and prices vary, so a reliable entry-level car is more useful for a new player than spending all available cash on a high-performance model."
+        },
+        {
+          "title": "Understand Crime and Wanted Status",
+          "description": "Illegal actions can place a player on the wanted list. Police and Sheriff players can locate, pursue and arrest wanted suspects, while arrested players are transported to jail and temporarily removed from normal civilian activity."
+        },
+        {
+          "title": "Complete Your First Department Call",
+          "description": "Join an emergency department, open the MDT and select a nearby call. Drive safely to the scene, use the department's correct tools and finish every required objective before leaving."
+        },
+        {
+          "title": "Earn Department XP",
+          "description": "Department XP is earned by completing team objectives such as arrests, fire suppression, medical treatment, repairs and towing. Higher ranks unlock additional vehicles, equipment, uniforms and department features."
+        },
+        {
+          "title": "Use a Simple First-Session Route",
+          "description": "Begin as a civilian, take a job, explore the main roads, purchase or spawn a basic vehicle and visit each department building. After learning the map, join one emergency team and complete several nearby calls to begin earning XP."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Police and Sheriff focus on law enforcement, while Fire and Rescue handles fire, medical and rescue calls.",
+        "Set a route before activating emergency lights and refuel or recharge before a long patrol.",
+        "Keep enough cash for fuel and a dependable entry-level vehicle before buying performance cars.",
+        "Finish calls completely instead of abandoning them halfway to earn full department XP."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "erlcPoliceSheriffGuide": {
+      "title": "Emergency Response Liberty County Police and Sheriff Guide",
+      "eyebrow": "Law Enforcement",
+      "intro": "The River City Police Department and Liberty County Sheriff's Office share the same main objective: protect the county and respond to criminal activity. Police is designed around city patrol, while Sheriff is designed around county, highway and rural patrol.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "heading": "Police vs Sheriff",
+          "summary": "Choose the department that matches the area you want to patrol.",
+          "details": [
+            "River City Police primarily patrols River City and other urban areas.",
+            "Liberty County Sheriff primarily patrols county roads, highways and rural areas.",
+            "Both departments can respond to calls, pursue criminals, issue citations and make arrests.",
+            "Both departments use department XP to unlock ranks and equipment."
+          ]
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "heading": "Joining and Starting Patrol",
+          "summary": "Select Police or Sheriff, equip a uniform and spawn an available patrol vehicle.",
+          "details": [
+            "Choose the department from the team selection menu.",
+            "Select an available uniform and loadout.",
+            "Spawn a patrol vehicle unlocked for your current rank.",
+            "Open the MDT and review active calls before leaving the station.",
+            "Use normal driving until an emergency response or traffic stop requires lights and sirens."
+          ]
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "heading": "MDT, Calls and Records",
+          "summary": "The Mobile Data Terminal is the main source of dispatch and suspect information.",
+          "details": [
+            "View active emergency calls and their locations.",
+            "Check player and vehicle information during investigations.",
+            "Review criminal or wanted information before making an arrest.",
+            "Use available support features such as air support when the situation requires it.",
+            "Clear completed calls so other units know the incident is resolved."
+          ]
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "heading": "Traffic Stop Workflow",
+          "summary": "Use a controlled stop to investigate violations and issue warnings or citations.",
+          "details": [
+            "Confirm the violation with observation or the radar gun.",
+            "Activate emergency lights and wait for the driver to pull over.",
+            "Park behind the stopped vehicle without blocking unnecessary traffic.",
+            "Approach the driver and explain the reason for the stop.",
+            "Use the MDT and Citation Book when checking records or issuing a citation.",
+            "Release the driver, request backup or make an arrest depending on the result."
+          ]
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "heading": "Arrests and Jail Transport",
+          "summary": "Wanted suspects can be detained, secured in a patrol vehicle and transported to jail.",
+          "details": [
+            "Confirm that the player is wanted before completing the arrest.",
+            "Use handcuffs after the suspect is detained.",
+            "Place the suspect in a patrol vehicle for transport.",
+            "Drive to the jail or designated booking location.",
+            "Complete the arrest objective to receive department XP.",
+            "Officers can hand a handcuffed suspect to another officer when coordinated transport is needed."
+          ]
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "heading": "Essential Patrol Equipment",
+          "summary": "Carry the tools needed for traffic enforcement, investigations and arrests.",
+          "details": [
+            "MDT for calls, records and support requests.",
+            "Citation Book for traffic citations.",
+            "Radar Gun for vehicle speed checks.",
+            "Handcuffs for detaining wanted suspects.",
+            "Flashlight for dark scenes and nighttime searches.",
+            "Department firearms and less-lethal equipment for dangerous incidents."
+          ]
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "heading": "Detective, Air Support and SWAT",
+          "summary": "Advanced features support investigations and high-risk incidents.",
+          "details": [
+            "Detective gameplay focuses on investigations and criminal activity.",
+            "Air support can help locate or follow suspects during pursuits.",
+            "SWAT equipment and vehicles are intended for armed or high-risk situations.",
+            "Mobile command vehicles can be used as a central post at large scenes.",
+            "Specialized equipment should support normal patrol rather than replace basic traffic and arrest procedures."
+          ]
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "heading": "Police and Sheriff Rank Progression",
+          "summary": "Complete department objectives to unlock higher ranks, vehicles and equipment.",
+          "details": [
+            "Police: Cadet, Officer, Corporal, Sergeant, Lieutenant, Captain, Major, Colonel and Commander.",
+            "Sheriff: Recruit, Deputy, Corporal, Sergeant, Lieutenant, Captain, Major, Colonel and Chief Deputy.",
+            "Department XP is earned through arrests, citations, call response and other law-enforcement objectives.",
+            "Ranks cannot be skipped by purchasing cash."
+          ]
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+    "erlcFireRescueDotGuide": {
+      "title": "Emergency Response Liberty County Fire Rescue and DOT Guide",
+      "eyebrow": "Emergency Services",
+      "intro": "Fire and Rescue protects players and property during fires, medical emergencies and rescue incidents. DOT keeps roads open by repairing infrastructure, managing traffic scenes and recovering disabled or wrecked vehicles.",
+      "fireRescueHeader": "Fire and Rescue",
+      "dotHeader": "Department of Transportation",
+      "categoryHeader": "Category",
+      "rows": [
+        { "category": "Primary Role", "fireRescue": "Extinguish fires, treat injured players, perform rescues and respond to major emergency scenes.", "dot": "Repair transportation infrastructure, tow vehicles, remove roadway hazards and control traffic around incidents." },
+        { "category": "Call Information", "fireRescue": "Use the MDT to view the incident type, location and other available call details before responding.", "dot": "Use the MDT to locate repair, towing and roadway calls and to coordinate with other service departments." },
+        { "category": "Common Calls", "fireRescue": "Structure fires, vehicle fires, brush fires, medical emergencies, vehicle collisions and rescue incidents.", "dot": "Disabled or wrecked vehicles, traffic-light outages, streetlight problems, roadway hazards, repairs and towing requests." },
+        { "category": "Core Tools", "fireRescue": "Fire hose, extinguisher, helmet and SCBA, medical equipment, stretcher, ladder, spreader and cutters.", "dot": "Traffic cones, road signs, flashlight, ladder, repair equipment and towing or recovery controls." },
+        { "category": "Vehicle Types", "fireRescue": "Fire engines, ladder trucks, rescue vehicles, ambulances and command vehicles.", "dot": "Service trucks, utility vehicles, tow trucks, flatbeds, heavy wreckers and the Heavy Rotator." },
+        { "category": "Fire Scene Workflow", "fireRescue": "Park with access for other units, equip protective gear, deploy a hose or extinguisher, suppress every fire area and check for patients before clearing the call.", "dot": "Support the scene by closing lanes, positioning cones and removing damaged vehicles after fire and rescue work is complete." },
+        { "category": "Medical and Crash Workflow", "fireRescue": "Assess the patient, use the required medical equipment, move the patient when necessary and complete treatment objectives before leaving.", "dot": "Secure the roadway, redirect traffic and tow recoverable vehicles after emergency crews have made the scene safe." },
+        { "category": "Repair Workflow", "fireRescue": "Provide scene protection or medical support when the repair call is connected to an accident or major emergency.", "dot": "Locate the damaged object, protect the work area, use the required repair interaction and remove equipment after the repair is complete." },
+        { "category": "Major Server Calls", "fireRescue": "Handle fire suppression, rescue and patient care during large multi-stage incidents.", "dot": "Recover wrecked vehicles and restore normal traffic flow after active fire and rescue objectives have been completed." },
+        { "category": "Starting Rank", "fireRescue": "Volunteer", "dot": "Trainee" },
+        { "category": "Rank Progression", "fireRescue": "Volunteer, Rookie, Firefighter, Paramedic, Engineer, Lieutenant, Captain and Battalion Chief.", "dot": "Trainee, Tow Operator, Senior Operator, Technician and Senior Technician." },
+        { "category": "How to Earn XP", "fireRescue": "Complete fire suppression, medical treatment, rescue and major-call objectives.", "dot": "Complete towing, vehicle recovery, infrastructure repair and traffic-management objectives." }
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+    "erlcVehiclesGuide": {
+      "title": "Emergency Response Liberty County Vehicles Guide",
+      "eyebrow": "Vehicles",
+      "intro": "Emergency Response Liberty County divides its vehicle fleet across the Civilian, Police, Sheriff, Fire and Rescue, and Department of Transportation teams. Individual vehicles may require cash, department XP, a higher rank or a related gamepass, while emergency vehicles can also provide department equipment, warning lights and specialized scene functions.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "title": "Civilian Vehicles",
+          "team": "Civilian",
+          "access": "Purchase civilian vehicles with in-game cash and spawn vehicles that you own.",
+          "bestFor": "Civilian jobs, commuting, road trips, racing and criminal roleplay.",
+          "features": [
+            "The widest selection of everyday cars, SUVs, trucks and performance vehicles.",
+            "Useful for traveling between civilian job locations and businesses.",
+            "Vehicle speed, passenger space and price vary by model.",
+            "Owned vehicles can be customized through supported vehicle options."
+          ],
+          "recommendation": "Start with an affordable vehicle that is easy to control and save expensive performance vehicles until you have a reliable source of cash."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "title": "Police Vehicles",
+          "team": "Liberty County Police",
+          "access": "Join the Police team; specific vehicles and equipment can require department rank, cash or a gamepass.",
+          "bestFor": "City patrols, traffic stops, pursuits, arrests and tactical response.",
+          "features": [
+            "Emergency lighting, sirens and police equipment.",
+            "Patrol vehicles support regular city calls and traffic enforcement.",
+            "Faster units are better suited to vehicle pursuits.",
+            "Most police vehicles now support an optional rear-seat cage."
+          ],
+          "recommendation": "Use a standard patrol vehicle while learning dispatch calls, then switch to specialized or faster units after unlocking them."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "title": "Sheriff Vehicles",
+          "team": "Liberty County Sheriff",
+          "access": "Join the Sheriff team; higher-level vehicles can require additional department XP, cash or gamepass access.",
+          "bestFor": "County patrols, rural calls, traffic enforcement and suspect pursuits.",
+          "features": [
+            "Sheriff emergency lighting and department liveries.",
+            "Suitable for patrol work outside the main city area.",
+            "Supports arrests, investigations and pursuit response.",
+            "Vehicle selection includes regular patrol and specialized options."
+          ],
+          "recommendation": "Choose a balanced patrol vehicle that can handle both longer county routes and city pursuits."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "title": "Fire and EMS Vehicles",
+          "team": "River City Fire and Rescue",
+          "access": "Join the Fire and Rescue team; advanced apparatus can require department rank, cash or special access.",
+          "bestFor": "Fires, medical calls, rescues and large emergency scenes.",
+          "features": [
+            "Fire engines and rescue apparatus carry scene-specific equipment.",
+            "Ambulance-style vehicles support medical response roleplay.",
+            "Larger apparatus is designed for emergency scenes rather than pursuits.",
+            "Emergency lights and sirens help clear traffic during responses."
+          ],
+          "recommendation": "Select the apparatus that matches the active call instead of taking the largest vehicle to every incident."
+        },
+        {
+          "title": "DOT Vehicles",
+          "team": "Department of Transportation",
+          "access": "Join the DOT team; individual service and construction vehicles can require department rank or cash.",
+          "bestFor": "Roadside assistance, towing, repairs, traffic control and construction roleplay.",
+          "features": [
+            "Service vehicles support roadside and infrastructure-related calls.",
+            "Warning lighting helps protect active roadside scenes.",
+            "Former Construction Job vehicles were moved to the DOT team in the March 2026 update.",
+            "Different vehicles are designed for repair, recovery or work-site tasks."
+          ],
+          "recommendation": "Use a compact service vehicle for routine calls and switch to specialized equipment only when the task requires it."
+        },
+        {
+          "title": "Buying and Customizing Vehicles",
+          "team": "All Teams",
+          "access": "Requirements depend on the vehicle, department, rank and applicable gamepass.",
+          "bestFor": "Planning purchases and configuring vehicles for a specific activity.",
+          "features": [
+            "Check the listed price and unlock requirement before purchasing.",
+            "Department vehicles may unlock as department XP and rank increase.",
+            "Supported vehicles offer appearance or equipment customization.",
+            "Private servers with the Custom Livery Pack can use approved department liveries."
+          ],
+          "recommendation": "Prioritize function over appearance: buy the vehicle needed for your most frequently played role before collecting cosmetic alternatives."
         }
       ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
+      "labels": {
+        "team": "Team",
+        "access": "Access",
+        "bestFor": "Best For",
+        "keyFeatures": "Key Features",
+        "recommendation": "Recommendation"
+      }
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "erlcMoneyRankUpGuide": {
+      "title": "Emergency Response Liberty County Money and Rank Up Guide",
+      "eyebrow": "Progression",
+      "intro": "Cash is used for vehicles and other purchases, while department XP unlocks higher ranks, equipment and team vehicles. Civilian jobs provide an accessible starting route, and Police, Sheriff, Fire and Rescue, and DOT players progress by completing actions connected to their department.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Start with a Reliable Civilian Job",
+          "team": "Civilian",
+          "rewardFocus": "Consistent cash",
+          "bestFor": "New players building their first vehicle budget.",
+          "actions": [
+            "Join the Civilian team and select an available job.",
+            "Use straightforward jobs such as farmer or hospital worker while learning the map.",
+            "Complete the job's normal tasks instead of driving around without an active objective.",
+            "Repeat a short route that does not require an expensive vehicle."
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Keep Early Vehicle Costs Low",
+          "team": "Civilian",
+          "rewardFocus": "Faster net cash growth",
+          "bestFor": "Preventing early-game overspending.",
+          "actions": [
+            "Use an affordable vehicle with predictable handling.",
+            "Avoid buying several similar vehicles before establishing regular income.",
+            "Keep enough cash available for the vehicle or equipment needed by your preferred team.",
+            "Upgrade only when the new purchase improves your job or response efficiency."
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Complete Police and Sheriff Actions",
+          "team": "Police and Sheriff",
+          "rewardFocus": "Law-enforcement department XP and cash",
+          "bestFor": "Unlocking patrol vehicles, equipment and higher department ranks.",
+          "actions": [
+            "Respond to active dispatch calls and reported crimes.",
+            "Use traffic stops and investigations to identify wanted players.",
+            "Complete valid arrests and transport suspects when required.",
+            "Stay involved until the call or pursuit is resolved."
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Finish Fire and Medical Calls",
+          "team": "Fire and Rescue",
+          "rewardFocus": "Fire and Rescue department XP and cash",
+          "bestFor": "Players who prefer cooperative emergency response.",
+          "actions": [
+            "Select apparatus that matches the reported emergency.",
+            "Travel to the marked incident and use the required scene equipment.",
+            "Complete fire, rescue or medical objectives before leaving.",
+            "Return to service and accept another available call."
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Handle DOT Service Calls",
+          "team": "Department of Transportation",
+          "rewardFocus": "DOT department XP and cash",
+          "bestFor": "Steady progression without police pursuits.",
+          "actions": [
+            "Respond to roadside, repair and transportation-related incidents.",
+            "Bring the service vehicle or equipment suited to the task.",
+            "Complete the repair, recovery or traffic-control objective.",
+            "Use former Construction Job vehicles through the DOT team where available."
+          ]
+        },
+        {
+          "title": "Focus on One Department Rank",
+          "team": "All Departments",
+          "rewardFocus": "Efficient department progression",
+          "bestFor": "Reaching higher-rank unlocks with less wasted playtime.",
+          "actions": [
+            "Choose the department whose vehicles and equipment you want to unlock first.",
+            "Remain on that team for several completed calls instead of frequently changing roles.",
+            "Prioritize completed objectives over simply spending time in a department vehicle.",
+            "Review newly unlocked vehicles and equipment after each rank increase."
+          ]
+        }
+      ],
+      "labels": {
+        "team": "Team",
+        "rewardFocus": "Reward Focus",
+        "bestFor": "Best For"
+      }
+    },
+    "erlcPrivateServersCustomLiveries": {
+      "title": "Emergency Response Liberty County Private Servers and Custom Liveries",
+      "eyebrow": "Private Servers",
+      "intro": "Emergency Response Liberty County private servers support community management, staff tools, custom department liveries, advertisements and optional external integrations. Customization packs are purchased separately, and uploaded content is reviewed against ER:LC and Roblox rules before it can appear in the game.",
+      "items": [
+        {
+          "title": "Creating and Joining a Private Server",
+          "content": "Private servers provide a controlled version of Liberty County for organized patrols, department training and community roleplay. The server owner can configure available settings and distribute the server's joining information to approved players.",
+          "checklist": [
+            "Create or access the private server through ER:LC's private-server interface.",
+            "Set the server name and roleplay configuration.",
+            "Share joining information only with the intended community.",
+            "Review server settings before opening a public roleplay session."
+          ]
+        },
+        {
+          "title": "Staff Permissions and Server Commands",
+          "content": "Private-server owners can organize staff roles and give trusted moderators access to supported management actions. Permissions should be limited to staff members who need them, because commands can directly affect players and active roleplay scenes.",
+          "checklist": [
+            "Create a clear owner, administrator and moderator structure.",
+            "Grant only the permissions required by each staff role.",
+            "Publish rules for warnings, removals and moderation actions.",
+            "Test staff access before running a large session."
+          ]
+        },
+        {
+          "title": "Uploading Custom Vehicle Liveries",
+          "content": "Custom liveries are available to private servers that own the Custom Livery Pack. Communities can upload designs for department vehicles and base them on fictional agencies or permitted real-world emergency services.",
+          "checklist": [
+            "Download the correct official template for the chosen vehicle.",
+            "Place department markings, text and logos inside the template.",
+            "Upload the completed image through Roblox.",
+            "Enter the uploaded asset in the ER:LC livery editor and submit it for review."
+          ]
+        },
+        {
+          "title": "Official Livery Review Rules",
+          "content": "Every design must follow Roblox rules and ER:LC's visibility, communication and copyright requirements. Rejected submissions can be corrected and submitted again.",
+          "checklist": [
+            "Do not include website links, QR codes, phone numbers or external communication details.",
+            "Recognized emergency numbers such as 911 and 999 are allowed.",
+            "Text and logos must be large, readable and clearly contrasted against the background.",
+            "Do not use copyrighted or trademarked material without permission.",
+            "Staff, Moderator or Admin liveries must identify the private server wherever those staff terms appear.",
+            "Real-world city, county and state emergency-service designs are permitted when the other rules are followed."
+          ]
+        },
+        {
+          "title": "Private Server Advertisements",
+          "content": "Servers with advertisement customization can display reviewed billboard and bus-stop designs inside Liberty County. Ads must promote the ER:LC community itself and must include the server name or abbreviation.",
+          "checklist": [
+            "Billboard advertisements use a 16:9 aspect ratio.",
+            "Bus-stop advertisements use a 2:3 aspect ratio.",
+            "The official guideline recommends a maximum of 512 pixels on either axis.",
+            "Do not include external links, QR codes or social-media handles.",
+            "Do not advertise giveaways, free Robux, staff positions or server perks.",
+            "Use clean ER:LC-related artwork rather than memes or unrelated images."
+          ]
+        },
+        {
+          "title": "Private Server API and Integrations",
+          "content": "Servers that purchase the ER:LC API Pack can connect approved external applications to live server information, remote commands and event webhooks.",
+          "checklist": [
+            "Purchase the ER:LC API server pack.",
+            "Open the private server's Settings menu and locate the API key under the ER:LC API section.",
+            "Keep the server key private and include it in authenticated API requests.",
+            "Use the v2 server endpoint to retrieve server information.",
+            "Configure event webhooks when real-time server events are needed."
+          ]
+        }
+      ]
+    },
+    "erlcUpdates": {
+      "title": "Emergency Response Liberty County Updates",
+      "eyebrow": "Update Log",
+      "intro": "Police Roleplay Community publishes major Emergency Response Liberty County changes through Roblox Developer Forum posts, its official YouTube channel and social accounts. The 2026 releases below introduced a returning law-enforcement event, police vehicle improvements, DOT changes and additional private-server API data.",
+      "entries": [
+        {
+          "date": "May 10, 2026",
+          "title": "May Update and Badge Event",
+          "summary": "The Badge Hunt event returned for Police and Sheriff players. This release was also announced as the final regular content update before development shifted toward the 2026 Summer Update.",
+          "highlights": [
+            "Police and Sheriff players could collect event badges through arrests and related law-enforcement activity.",
+            "The update included additional content changes and fixes.",
+            "Development focus moved toward the upcoming Summer Update."
+          ]
+        },
+        {
+          "date": "April 18, 2026",
+          "title": "April Police Vehicle and Pursuit Update",
+          "summary": "Police vehicle equipment and pursuit detection received notable improvements before the development team's Summer Update focus.",
+          "highlights": [
+            "Most police vehicles gained an option to equip a rear-seat cage.",
+            "Pursuit detection was improved for suspects driving away from normal roads.",
+            "The update was described as the final major release before the Summer Update cycle."
+          ]
+        },
+        {
+          "date": "March 22, 2026",
+          "title": "March Update and DOT Job Changes",
+          "summary": "The spring release refreshed Liberty County and reorganized construction-related gameplay under the Department of Transportation.",
+          "highlights": [
+            "The seasonal spring map returned.",
+            "The separate Construction Job was removed.",
+            "Construction vehicles owned by players were automatically refunded.",
+            "Affected vehicles became available for purchase through the DOT team."
+          ]
+        },
+        {
+          "date": "February 22, 2026",
+          "title": "DOT Overhaul and Private Server API Expansion",
+          "summary": "The February release began a requested DOT overhaul and expanded the information available to private-server integrations.",
+          "highlights": [
+            "The Department of Transportation received a major update.",
+            "Private Server API responses gained requested player-location data.",
+            "Vehicle color data was added for supported server integrations.",
+            "The official ER:LC channel published a dedicated DOT Update video."
+          ]
         }
       ]
     }
@@ -749,31 +606,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Emergency Response Liberty County",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Emergency Response Liberty County?",
+        "answer": "Emergency Response Liberty County (ERLC) is an open-world emergency services roleplay game on Roblox where players join teams such as Civilian, Police, Sheriff, Fire and Rescue, EMS and DOT to patrol, respond to calls and earn cash and department XP."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I play Emergency Response Liberty County?",
+        "answer": "You can play Emergency Response Liberty County for free on Roblox. Up to 50 players can join a single server, and the game runs on PC, Mac, mobile and other Roblox-supported devices."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I redeem codes in Emergency Response Liberty County?",
+        "answer": "To redeem Emergency Response Liberty County codes, open the in-game Settings menu, select Promo Codes, type the code exactly as shown (codes can be case-sensitive) and submit it. Each code can normally be redeemed only once per Roblox account."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Which teams can I join in Emergency Response Liberty County?",
+        "answer": "In Emergency Response Liberty County you can join Civilian, Police, Sheriff, Fire and Rescue, EMS and Department of Transportation teams. Criminal activity is also possible from the Civilian team and can place you on the wanted list."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How do I rank up in Emergency Response Liberty County departments?",
+        "answer": "You rank up in Emergency Response Liberty County departments by earning department XP through team objectives such as arrests, citations, fire suppression, medical treatment, repairs and towing. Higher ranks unlock new vehicles, equipment, uniforms and features, and ranks cannot be bought with cash."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Can I run a private Emergency Response Liberty County server?",
+        "answer": "Yes. Emergency Response Liberty County private servers let owners configure roleplay settings, assign staff roles, use server commands, upload custom department liveries and connect external apps through the optional ER:LC API Pack."
       }
     ]
   },
@@ -804,124 +661,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Emergency Response Liberty County Guides",
+      "description": "Complete Emergency Response Liberty County gameplay guides from beginner basics to advanced team and money strategies.",
+      "metaTitle": "Emergency Response Liberty County Guides - Beginner to Advanced",
+      "metaDescription": "Complete Emergency Response Liberty County guides covering beginner tips, team setup, money and rank progression, and expert tactics for Liberty County roleplay.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Emergency Response Liberty County gameplay mechanics, team roles, and progression systems. Learn everything from first steps to advanced tactics.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand teams, calls and the wanted system to avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven routes to earn cash and department XP quickly",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for patrol, response and roleplay"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "departments": {
+      "title": "Emergency Response Liberty County Departments",
+      "description": "Guides for the Police, Sheriff, Fire and Rescue, EMS and Department of Transportation teams, including ranks, equipment and calls.",
+      "metaTitle": "Emergency Response Liberty County Departments - Police, Sheriff, Fire, DOT",
+      "metaDescription": "Learn every Emergency Response Liberty County department: Police and Sheriff ranks, Fire and Rescue calls, EMS, and DOT towing and repair workflows.",
+      "categoryLabel": "DEPARTMENTS & TEAMS",
+      "whatIs": "What are Departments?",
+      "whatIsDescription": "Department guides cover the Police, Sheriff, Fire and Rescue, EMS and DOT teams, including how to join, ranks, patrol equipment and the calls each team responds to.",
+      "why": "Why pick a department?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Choose Your Role",
+        "step1Description": "Find the team whose patrol style and calls match how you want to play",
+        "step2Title": "Unlock Ranks and Gear",
+        "step2Description": "Earn department XP to unlock vehicles, equipment and uniforms",
+        "step3Title": "Master Your Calls",
+        "step3Description": "Learn the workflow for traffic stops, fires, medical calls and towing"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Department Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "vehicles": {
+      "title": "Emergency Response Liberty County Vehicles",
+      "description": "Compare civilian, police, sheriff, fire, EMS and DOT vehicles by role, unlock requirement and practical use across Liberty County.",
+      "metaTitle": "Emergency Response Liberty County Vehicles - Cars, Trucks & Apparatus",
+      "metaDescription": "Complete Emergency Response Liberty County vehicle database covering civilian cars, police and sheriff patrol units, fire apparatus and DOT service vehicles.",
+      "categoryLabel": "VEHICLES & DRIVING",
+      "whatIs": "What are Vehicles?",
+      "whatIsDescription": "Vehicle guides for every team, covering prices, speed, seats, unlock conditions, spawning, customization and how to choose the right vehicle for each activity.",
+      "why": "Why check vehicle guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Compare Vehicles",
+        "step1Description": "Find the right vehicle by role, price and unlock requirement",
+        "step2Title": "Optimize Purchases",
+        "step2Description": "Spend cash wisely on vehicles that match your main team",
+        "step3Title": "Unlock Department Units",
+        "step3Description": "Progress ranks to access patrol, fire and DOT vehicles"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Vehicles"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "map": {
+      "title": "Emergency Response Liberty County Map",
+      "description": "Explore Liberty County locations, roads, buildings, spawn points and routes for patrols, calls and robberies.",
+      "metaTitle": "Emergency Response Liberty County Map - Locations & Routes",
+      "metaDescription": "Explore the Emergency Response Liberty County map including River City, Springfield, stations, hospitals, dealerships and robbery points.",
+      "categoryLabel": "MAP & LOCATIONS",
+      "whatIs": "What is the Map?",
+      "whatIsDescription": "Map guides cover locations, roads, buildings, spawn points and routes, plus where to find stations, hospitals, dealerships and job sites.",
+      "why": "Why learn the map?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Find Locations",
+        "step1Description": "Locate stations, hospitals, dealerships and robbery points fast",
+        "step2Title": "Plan Routes",
+        "step2Description": "Set efficient patrol and response routes across the county",
+        "step3Title": "Avoid Getting Lost",
+        "step3Description": "Learn major roads before tackling smaller streets"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Map Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "private-servers": {
+      "title": "Emergency Response Liberty County Private Servers",
+      "description": "Set up and manage a private Emergency Response Liberty County server with staff commands, custom liveries and the server API.",
+      "metaTitle": "Emergency Response Liberty County Private Servers & Commands",
+      "metaDescription": "Master Emergency Response Liberty County private servers: setup, staff permissions, server commands, custom liveries, advertisements and the API Pack.",
+      "categoryLabel": "PRIVATE SERVERS",
+      "whatIs": "What are Private Servers?",
+      "whatIsDescription": "Private server guides cover creating and joining servers, staff permissions, server commands, custom vehicle liveries, advertisement rules and the optional ER:LC API Pack.",
+      "why": "Why run a private server?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Control Your Community",
+        "step1Description": "Configure roleplay settings and assign trusted staff",
+        "step2Title": "Customize Liveries",
+        "step2Description": "Upload reviewed department liveries and advertisements",
+        "step3Title": "Connect Integrations",
+        "step3Description": "Use the API Pack for live server data and webhooks"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Private Server Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "updates": {
+      "title": "Emergency Response Liberty County Updates",
+      "description": "Official Emergency Response Liberty County update logs covering new vehicles, department changes, map updates, events and fixes.",
+      "metaTitle": "Emergency Response Liberty County Updates & Patch Notes",
+      "metaDescription": "Track every Emergency Response Liberty County update: new vehicles, DOT changes, police improvements, seasonal events and private server API additions.",
+      "categoryLabel": "UPDATES & PATCH NOTES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Update guides summarize official Emergency Response Liberty County release notes, new vehicles, department changes, map improvements, seasonal events and bug fixes.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Stay Current",
+        "step1Description": "See new vehicles, events and features as soon as they launch",
+        "step2Title": "Plan Around Changes",
+        "step2Description": "Adjust your team and vehicle strategy to new content",
+        "step3Title": "Track the Roadmap",
+        "step3Description": "Follow official development direction and seasonal events"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Update Logs"
     }
   }
 }
