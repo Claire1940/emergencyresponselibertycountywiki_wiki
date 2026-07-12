@@ -62,3 +62,8 @@ test-cards.html
 
 # 站点清单（含全部域名，禁止提交到 public repo）
 site.json
+
+# 静态导出 / Workers 构建产物
+out/
+.open-next/
+.wrangler/
