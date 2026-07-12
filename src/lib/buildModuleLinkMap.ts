@@ -31,7 +31,7 @@ const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
   erlcBeginnerGuide: ['beginner', 'starter', 'getting started', 'team', 'tutorial', 'first shift'],
   erlcPoliceSheriffGuide: ['police', 'sheriff', 'patrol', 'traffic stop', 'arrest', 'rank', 'citation'],
   erlcFireRescueDotGuide: ['fire', 'rescue', 'ems', 'dot', 'tow', 'repair', 'medical', 'transportation'],
-  erlcVehiclesGuide: ['vehicle', 'car', 'truck', 'apparatus', 'patrol car', 'spawn', 'dealership'],
+  erlcVehiclesGuide: ['vehicle', 'car', 'buying', 'spawn', 'dealership', 'all cars'],
   erlcMoneyRankUpGuide: ['money', 'cash', 'rank', 'xp', 'progression', 'earn', 'department'],
   erlcPrivateServersCustomLiveries: ['private server', 'livery', 'server command', 'api', 'staff', 'moderator'],
   erlcUpdates: ['update', 'patch', 'release', 'event', 'devforum', 'changelog'],
