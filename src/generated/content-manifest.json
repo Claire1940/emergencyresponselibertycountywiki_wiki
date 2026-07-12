@@ -6,28 +6,6 @@
         "file": "Emergency-Response-Liberty-County-codes"
       }
     ],
-    "community": [
-      {
-        "slug": "Emergency-Response-Liberty-County-ban-appeal",
-        "file": "Emergency-Response-Liberty-County-ban-appeal"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-discord",
-        "file": "Emergency-Response-Liberty-County-discord"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-private-server",
-        "file": "Emergency-Response-Liberty-County-private-server"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-reddit",
-        "file": "Emergency-Response-Liberty-County-reddit"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-roleplay-servers",
-        "file": "Emergency-Response-Liberty-County-roleplay-servers"
-      }
-    ],
     "crime": [
       {
         "slug": "Emergency-Response-Liberty-County-atm-robbery",
@@ -182,28 +160,6 @@
       {
         "slug": "Emergency-Response-Liberty-County-codes",
         "file": "Emergency-Response-Liberty-County-codes"
-      }
-    ],
-    "community": [
-      {
-        "slug": "Emergency-Response-Liberty-County-ban-appeal",
-        "file": "Emergency-Response-Liberty-County-ban-appeal"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-discord",
-        "file": "Emergency-Response-Liberty-County-discord"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-private-server",
-        "file": "Emergency-Response-Liberty-County-private-server"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-reddit",
-        "file": "Emergency-Response-Liberty-County-reddit"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-roleplay-servers",
-        "file": "Emergency-Response-Liberty-County-roleplay-servers"
       }
     ],
     "crime": [
@@ -362,28 +318,6 @@
         "file": "Emergency-Response-Liberty-County-codes"
       }
     ],
-    "community": [
-      {
-        "slug": "Emergency-Response-Liberty-County-ban-appeal",
-        "file": "Emergency-Response-Liberty-County-ban-appeal"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-discord",
-        "file": "Emergency-Response-Liberty-County-discord"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-private-server",
-        "file": "Emergency-Response-Liberty-County-private-server"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-reddit",
-        "file": "Emergency-Response-Liberty-County-reddit"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-roleplay-servers",
-        "file": "Emergency-Response-Liberty-County-roleplay-servers"
-      }
-    ],
     "crime": [
       {
         "slug": "Emergency-Response-Liberty-County-atm-robbery",
@@ -538,28 +472,6 @@
       {
         "slug": "Emergency-Response-Liberty-County-codes",
         "file": "Emergency-Response-Liberty-County-codes"
-      }
-    ],
-    "community": [
-      {
-        "slug": "Emergency-Response-Liberty-County-ban-appeal",
-        "file": "Emergency-Response-Liberty-County-ban-appeal"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-discord",
-        "file": "Emergency-Response-Liberty-County-discord"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-private-server",
-        "file": "Emergency-Response-Liberty-County-private-server"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-reddit",
-        "file": "Emergency-Response-Liberty-County-reddit"
-      },
-      {
-        "slug": "Emergency-Response-Liberty-County-roleplay-servers",
-        "file": "Emergency-Response-Liberty-County-roleplay-servers"
       }
     ],
     "crime": [
