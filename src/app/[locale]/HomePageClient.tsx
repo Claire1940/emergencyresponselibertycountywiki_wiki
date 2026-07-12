@@ -6,7 +6,6 @@ import {
   BookOpen,
   Check,
   ChevronDown,
-  Clock,
   Copy,
   Sparkles,
 } from "lucide-react";
@@ -128,6 +127,7 @@ function AccordionList({
     subtitle?: string;
     body?: string;
     bullets?: string[];
+    icon?: string;
   }>;
   icon?: React.ReactNode;
 }) {
@@ -147,7 +147,13 @@ function AccordionList({
               className="flex w-full items-center justify-between gap-3 p-5 text-left hover:bg-white/5 transition-colors"
             >
               <span className="flex items-center gap-3">
-                {icon}
+                {item.icon ? (
+                  <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                    <DynamicIcon name={item.icon} className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                  </span>
+                ) : (
+                  icon
+                )}
                 <span className="font-semibold">{item.title}</span>
               </span>
               <ChevronDown
@@ -701,11 +707,13 @@ export default function HomePageClient({
                 key={index}
                 className="flex flex-col gap-3 p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
-                <div className="flex items-center gap-2">
-                  <DynamicIcon
-                    name={card.team === "Department of Transportation" ? "Truck" : "Car"}
-                    className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
-                  />
+                <div className="flex items-center gap-3">
+                  <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                    <DynamicIcon
+                      name={card.icon}
+                      className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
                   <h3 className="font-bold">{card.title}</h3>
                 </div>
                 <span className="inline-flex w-fit items-center rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] px-2 py-0.5 text-xs">
@@ -784,8 +792,9 @@ export default function HomePageClient({
                 className="flex flex-col gap-3 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors md:flex-row md:gap-5"
               >
                 <div className="flex items-center gap-3 md:flex-shrink-0 md:w-48 md:flex-col md:items-start">
-                  <div className="flex h-10 w-10 md:h-12 md:w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
-                    <span className="text-base md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
+                  <div className="relative flex h-10 w-10 md:h-12 md:w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
+                    <DynamicIcon name={step.icon} className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+                    <span className="absolute -top-1.5 -right-1.5 flex h-5 w-5 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] text-[10px] font-bold text-white border-2 border-background">
                       {index + 1}
                     </span>
                   </div>
@@ -845,6 +854,7 @@ export default function HomePageClient({
                 title: it.title,
                 body: it.content,
                 bullets: it.checklist,
+                icon: it.icon,
               }))}
             />
           </div>
@@ -884,7 +894,9 @@ export default function HomePageClient({
                 <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
                 <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                   <div className="flex items-center gap-2 mb-2">
-                    <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[hsl(var(--nav-theme)/0.1)]">
+                      <DynamicIcon name={entry.icon} className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
                     <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                       {entry.date}
                     </span>

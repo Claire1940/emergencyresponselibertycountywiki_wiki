@@ -311,6 +311,7 @@
       "intro": "Emergency Response Liberty County divides its vehicle fleet across the Civilian, Police, Sheriff, Fire and Rescue, and Department of Transportation teams. Individual vehicles may require cash, department XP, a higher rank or a related gamepass, while emergency vehicles can also provide department equipment, warning lights and specialized scene functions.",
       "cards": [
         {
+          "icon": "Car",
           "title": "Civilian Vehicles",
           "team": "Civilian",
           "access": "Purchase civilian vehicles with in-game cash and spawn vehicles that you own.",
@@ -324,6 +325,7 @@
           "recommendation": "Start with an affordable vehicle that is easy to control and save expensive performance vehicles until you have a reliable source of cash."
         },
         {
+          "icon": "Siren",
           "title": "Police Vehicles",
           "team": "Liberty County Police",
           "access": "Join the Police team; specific vehicles and equipment can require department rank, cash or a gamepass.",
@@ -337,6 +339,7 @@
           "recommendation": "Use a standard patrol vehicle while learning dispatch calls, then switch to specialized or faster units after unlocking them."
         },
         {
+          "icon": "Star",
           "title": "Sheriff Vehicles",
           "team": "Liberty County Sheriff",
           "access": "Join the Sheriff team; higher-level vehicles can require additional department XP, cash or gamepass access.",
@@ -350,6 +353,7 @@
           "recommendation": "Choose a balanced patrol vehicle that can handle both longer county routes and city pursuits."
         },
         {
+          "icon": "Flame",
           "title": "Fire and EMS Vehicles",
           "team": "River City Fire and Rescue",
           "access": "Join the Fire and Rescue team; advanced apparatus can require department rank, cash or special access.",
@@ -363,6 +367,7 @@
           "recommendation": "Select the apparatus that matches the active call instead of taking the largest vehicle to every incident."
         },
         {
+          "icon": "Truck",
           "title": "DOT Vehicles",
           "team": "Department of Transportation",
           "access": "Join the DOT team; individual service and construction vehicles can require department rank or cash.",
@@ -376,6 +381,7 @@
           "recommendation": "Use a compact service vehicle for routine calls and switch to specialized equipment only when the task requires it."
         },
         {
+          "icon": "BadgeCheck",
           "title": "Buying and Customizing Vehicles",
           "team": "All Teams",
           "access": "Requirements depend on the vehicle, department, rank and applicable gamepass.",
@@ -403,6 +409,7 @@
       "intro": "Cash is used for vehicles and other purchases, while department XP unlocks higher ranks, equipment and team vehicles. Civilian jobs provide an accessible starting route, and Police, Sheriff, Fire and Rescue, and DOT players progress by completing actions connected to their department.",
       "steps": [
         {
+          "icon": "Coins",
           "title": "Start with a Reliable Civilian Job",
           "team": "Civilian",
           "rewardFocus": "Consistent cash",
@@ -415,6 +422,7 @@
           ]
         },
         {
+          "icon": "Fuel",
           "title": "Keep Early Vehicle Costs Low",
           "team": "Civilian",
           "rewardFocus": "Faster net cash growth",
@@ -427,6 +435,7 @@
           ]
         },
         {
+          "icon": "Siren",
           "title": "Complete Police and Sheriff Actions",
           "team": "Police and Sheriff",
           "rewardFocus": "Law-enforcement department XP and cash",
@@ -439,6 +448,7 @@
           ]
         },
         {
+          "icon": "HeartPulse",
           "title": "Finish Fire and Medical Calls",
           "team": "Fire and Rescue",
           "rewardFocus": "Fire and Rescue department XP and cash",
@@ -451,6 +461,7 @@
           ]
         },
         {
+          "icon": "Wrench",
           "title": "Handle DOT Service Calls",
           "team": "Department of Transportation",
           "rewardFocus": "DOT department XP and cash",
@@ -463,6 +474,7 @@
           ]
         },
         {
+          "icon": "TrendingUp",
           "title": "Focus on One Department Rank",
           "team": "All Departments",
           "rewardFocus": "Efficient department progression",
@@ -487,6 +499,7 @@
       "intro": "Emergency Response Liberty County private servers support community management, staff tools, custom department liveries, advertisements and optional external integrations. Customization packs are purchased separately, and uploaded content is reviewed against ER:LC and Roblox rules before it can appear in the game.",
       "items": [
         {
+          "icon": "Server",
           "title": "Creating and Joining a Private Server",
           "content": "Private servers provide a controlled version of Liberty County for organized patrols, department training and community roleplay. The server owner can configure available settings and distribute the server's joining information to approved players.",
           "checklist": [
@@ -497,6 +510,7 @@
           ]
         },
         {
+          "icon": "Shield",
           "title": "Staff Permissions and Server Commands",
           "content": "Private-server owners can organize staff roles and give trusted moderators access to supported management actions. Permissions should be limited to staff members who need them, because commands can directly affect players and active roleplay scenes.",
           "checklist": [
@@ -507,6 +521,7 @@
           ]
         },
         {
+          "icon": "Package",
           "title": "Uploading Custom Vehicle Liveries",
           "content": "Custom liveries are available to private servers that own the Custom Livery Pack. Communities can upload designs for department vehicles and base them on fictional agencies or permitted real-world emergency services.",
           "checklist": [
@@ -517,6 +532,7 @@
           ]
         },
         {
+          "icon": "ClipboardCheck",
           "title": "Official Livery Review Rules",
           "content": "Every design must follow Roblox rules and ER:LC's visibility, communication and copyright requirements. Rejected submissions can be corrected and submitted again.",
           "checklist": [
@@ -529,6 +545,7 @@
           ]
         },
         {
+          "icon": "Bell",
           "title": "Private Server Advertisements",
           "content": "Servers with advertisement customization can display reviewed billboard and bus-stop designs inside Liberty County. Ads must promote the ER:LC community itself and must include the server name or abbreviation.",
           "checklist": [
@@ -541,6 +558,7 @@
           ]
         },
         {
+          "icon": "Radio",
           "title": "Private Server API and Integrations",
           "content": "Servers that purchase the ER:LC API Pack can connect approved external applications to live server information, remote commands and event webhooks.",
           "checklist": [
@@ -559,6 +577,7 @@
       "intro": "Police Roleplay Community publishes major Emergency Response Liberty County changes through Roblox Developer Forum posts, its official YouTube channel and social accounts. The 2026 releases below introduced a returning law-enforcement event, police vehicle improvements, DOT changes and additional private-server API data.",
       "entries": [
         {
+          "icon": "Trophy",
           "date": "May 10, 2026",
           "title": "May Update and Badge Event",
           "summary": "The Badge Hunt event returned for Police and Sheriff players. This release was also announced as the final regular content update before development shifted toward the 2026 Summer Update.",
@@ -569,6 +588,7 @@
           ]
         },
         {
+          "icon": "Siren",
           "date": "April 18, 2026",
           "title": "April Police Vehicle and Pursuit Update",
           "summary": "Police vehicle equipment and pursuit detection received notable improvements before the development team's Summer Update focus.",
@@ -579,6 +599,7 @@
           ]
         },
         {
+          "icon": "Wrench",
           "date": "March 22, 2026",
           "title": "March Update and DOT Job Changes",
           "summary": "The spring release refreshed Liberty County and reorganized construction-related gameplay under the Department of Transportation.",
@@ -590,6 +611,7 @@
           ]
         },
         {
+          "icon": "Server",
           "date": "February 22, 2026",
           "title": "DOT Overhaul and Private Server API Expansion",
           "summary": "The February release began a requested DOT overhaul and expanded the information available to private-server integrations.",
