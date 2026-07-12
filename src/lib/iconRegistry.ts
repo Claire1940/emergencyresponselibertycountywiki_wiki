@@ -45,7 +45,7 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Trophy: LucideIcons.Trophy,
   Fuel: LucideIcons.Fuel,
   Radio: LucideIcons.Radio,
-  Scales: LucideIcons.Scales,
+  Scales: LucideIcons.Scale,
   Lightbulb: LucideIcons.Lightbulb,
 
   // UI 交互图标
