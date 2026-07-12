@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FileText, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Eigene Lackierungen in Emergency Response Liberty County: Schritt-für-Schritt-Anleitung",
+  description: "Meistern Sie 2026 eigene Lackierungen in Emergency Response Liberty County. Lernen Sie, Vorlagen herunterzuladen, Designs zu bearbeiten und Decals auf Ihren privaten Server hochzuladen.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Liveries+Guide",
+  date: "2026-07-12",
+  author: "Emergency Response Liberty County Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kernvoraussetzung**: Sie müssen Besitzer eines privaten Servers in **Emergency Response Liberty County** sein oder über entsprechende Berechtigungen verfügen sowie den „Livery Pack“-Gamepass besitzen.
+- **Vorlagenquelle**: Offizielle Fahrzeugvorlagen finden Sie über das **PRC Discord** Bulletin Board oder den Link für benutzerdefinierte Lackierungspakete.
+- **Design-Tools**: Professionelle Software wie **Photoshop** oder kostenlose Alternativen wie **Photopea** werden für die Bearbeitung von PNG-Vorlagen empfohlen.
+- **Roblox Decals**: Alle eigenen Designs müssen als **Decals** im Roblox Creator Dashboard hochgeladen werden, um eine eindeutige Asset-ID zu generieren.
+- **Genehmigungsprozess**: Jedes Design wird manuell von den Spielentwicklern überprüft, was zwischen einigen Stunden und mehreren Tagen dauern kann.
+</Callout>
+
+<Section icon={Map} title="Einführung in eigene Lackierungen für Emergency Response Liberty County">
+
+Das Erstellen von **eigenen Lackierungen für Emergency Response Liberty County** ist der ultimative Weg, um Ihr Erlebnis auf einem privaten Server zu personalisieren. Egal, ob Sie eine reale Polizeibehörde nachbilden oder eine futuristische Sicherheitstruppe entwerfen möchten, das Spiel bietet ein robustes System zum Importieren externer Texturen. Dieser Prozess schlägt die Brücke zwischen kreativem Grafikdesign und der Implementierung im Spiel, sodass Serverbesitzer ihre einzigartige visuelle Identität definieren können.
+
+**Video-Highlights:**
+- Zugriff auf das offizielle **PRC-Vorlagen-Repository** für alle Fahrzeugmodelle.
+- Verwendung von **Photopea** als kostenlose, hochwertige Alternative zu Photoshop für die Bearbeitung.
+- Die korrekte Methode zum Exportieren und Hochladen von Assets in das **Roblox Creator Dashboard**.
+- So wenden Sie die **Asset-ID** auf bestimmte Fahrzeugteile (Vorne, Hinten, Seiten, Oben) im Spiel an.
+
+<YouTubeEmbed videoId="ppO0tGVQ1tE" title="So ERSTELLEN UND LADEN SIE LACKIERUNGEN in ERLC 2024 HOCH!" />
+
+<Callout type="tip" title="Profi-Tipp">
+Halten Sie Ihre Ebenen beim Entwerfen immer organisiert. Trennen Sie Text, Logos und Basisfarben, damit Sie leicht Anpassungen vornehmen können, falls ein Design während des Überprüfungsprozesses zunächst abgelehnt wird.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Design-Tools und Vorbereitung der Vorlagen">
+
+Bevor Sie das Logo Ihrer Behörde auf einem Streifenwagen sehen können, benötigen Sie die richtigen Werkzeuge. Die Community verlässt sich im Allgemeinen auf zwei Hauptsoftwareoptionen für den Umgang mit den komplexen UV-Maps, die von den Entwicklern bereitgestellt werden. Diese Vorlagen sind unerlässlich, da sie sicherstellen, dass Ihre Grafiken perfekt auf das 3D-Modell des Fahrzeugs abgestimmt sind.
+
+| Tool-Name | Typ | Preis | Am besten geeignet für |
+| :--- | :--- | :--- | :--- |
+| **Adobe Photoshop** | Desktop-App | Abonnement | Professionelle Bearbeitung und fortgeschrittene Ebeneneffekte |
+| **Photopea** | Webbasiert | Kostenlos | Nutzer ohne Photoshop, die ähnliche Funktionen benötigen |
+| **GIMP** | Open Source | Kostenlos | Linux-Nutzer oder Liebhaber von Open-Source-Software |
+| **Pixlr** | Webbasiert | Frei/Kostenpflichtig | Schnelle, einfache Bearbeitungen ohne komplexe Ebenenanforderungen |
+
+<CardGrid cols={2}>
+  <Card title="Fahrzeugvorlagen">
+    Vorlagen sind in spezifische Abschnitte unterteilt: **Vorne, Hinten, Links, Rechts und Oben**. Sie müssen jeden Abschnitt einzeln bearbeiten, um das gesamte Fahrzeug abzudecken.
+  </Card>
+  <Card title="Dateiformate">
+    Exportieren Sie Ihre fertigen Designs immer als **PNG**-Dateien. Dies bewahrt die Transparenz und gewährleistet die höchste Qualität bei der Komprimierung durch Roblox.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Wichtiger Hinweis">
+Die von PRC bereitgestellten Vorlagen enthalten oft Wireframes (Drahtgittermodelle). Diese Linien zeigen Ihnen genau, wo sich Türen, Motorhaube und Kofferraum befinden. Löschen Sie diese erst, wenn Sie bereit für den Export sind, da sie Ihre primäre Orientierungshilfe für die Platzierung sind.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Erstellung und Upload-Prozess">
+
+Die Beherrschung des Arbeitsablaufs für **eigene Lackierungen in Emergency Response Liberty County** erfordert Präzision. Ein kleiner Fehler bei der Asset-ID oder der Upload-Kategorie kann dazu führen, dass Ihre Lackierung in der Spielumgebung nicht korrekt erscheint.
+
+<Steps>
+  <Step num="1" title="Offizielle Vorlagen herunterladen">
+    Navigieren Sie zum PRC Discord-Server und suchen Sie das **Bulletin Board**. Klicken Sie auf den Link für die benutzerdefinierten Lackierungspakete, um auf den Google Drive- oder MEGA-Ordner mit den neuesten Fahrzeugvorlagen zuzugreifen.
+  </Step>
+  <Step num="2" title="Grafiken entwerfen">
+    Öffnen Sie die gewählte Vorlage (z. B. die rechte Seite des Bullhorn Prer Pursuit) in Ihrem Editor. Fügen Sie den Namen Ihrer Behörde, Einheitennummern und Abzeichen hinzu. Ändern Sie die Basisfarbe des Fahrzeugs **nicht** im Editor, wenn Sie später die Farbauswahl im Spiel verwenden möchten.
+  </Step>
+  <Step num="3" title="Im Roblox Creator Dashboard hochladen">
+    Gehen Sie auf die Roblox-Website, klicken Sie auf **Erstellen** und navigieren Sie dann zu **Entwicklungselemente** > **Decals**. Laden Sie hier Ihre PNG-Datei hoch. Klicken Sie nach dem Hochladen auf das Element, um dessen Seite zu öffnen, und kopieren Sie die numerische **Asset-ID** aus der URL.
+  </Step>
+  <Step num="4" title="In den ERLC-Servereinstellungen konfigurieren">
+    Treten Sie Ihrem privaten Server bei, öffnen Sie die **Servereinstellungen** und navigieren Sie zum Abschnitt **Livery Pack**. Suchen Sie das Fahrzeugmodell, für das Sie das Design erstellt haben, klicken Sie auf **Neu hinzufügen** und fügen Sie die Asset-ID in den entsprechenden Slot ein (z. B. Rechte Seite).
+  </Step>
+</Steps>
+
+| Upload-Schritt | Erforderliche Aktion | Häufiger Fehler |
+| :--- | :--- | :--- |
+| **Asset-Typ** | Wählen Sie **Decal** im Creator Dashboard | Auswahl von „Image“ oder „Shirt“ aus Versehen |
+| **Benennung** | Verwenden Sie einen klaren Namen | Verwendung gesperrter Wörter, die Roblox-Filter auslösen |
+| **ID-Extraktion** | Kopieren Sie nur die Ziffern aus der URL | Einschließen von Schrägstrichen oder Zusatzzeichen |
+| **Platzierung** | ID dem korrekten Fahrzeugteil zuordnen | Einfügen der „Links“-ID in den „Rechts“-Slot |
+
+<Callout type="warning" title="Asset-ID-Verarbeitung">
+Nach dem Hochladen auf Roblox kann das Bild für einige Minuten als „beschädigtes“ Symbol erscheinen. Das ist normal; Roblox scannt das Bild auf Sicherheit. Sie können die ID trotzdem kopieren, aber sie wird in ERLC möglicherweise erst angezeigt, wenn der Scan abgeschlossen ist.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Farbanpassung und Transparenztechniken">
+
+Ein häufiges Problem bei **eigenen Lackierungen für Emergency Response Liberty County** ist die farbliche Abweichung zwischen dem benutzerdefinierten Decal und dem Basislack des Fahrzeugs. Um einen nahtlosen Look zu erzielen, müssen Sie verstehen, wie das Spiel mit Hex-Codes umgeht.
+
+Wenn die Fahrzeugfarbe und die Lackierungsfarbe identisch sein sollen, folgen Sie diesen Schritten:
+1. Wählen Sie Ihre gewünschte Fahrzeugfarbe im ERLC-Lackierungsmenü aus.
+2. Kopieren Sie den **Hex-Code** (z. B. #FFFFFF für Weiß).
+3. Fügen Sie denselben Hex-Code in das Feld **Lackierungsfarbe** direkt unter den Asset-ID-Slots ein.
+
+Alternativ können Sie **transparente Lackierungen** erstellen. Indem Sie die Hintergrundebene in Ihrer Designsoftware löschen und nur Text und Logos exportieren, scheint der Basislack des Fahrzeugs durch Ihr Design hindurch. Dies ist die flexibelste Methode für Serverbesitzer, die mehrere Farboptionen für dieselbe Behörde anbieten möchten.
+
+<Checklist
+  id="livery-quality-check"
+  title="Checkliste für den letzten Schliff:"
+  items={[
+    "Überprüfen Sie, ob der gesamte Text lesbar und nicht verzerrt ist",
+    "Stellen Sie sicher, dass Logos nicht mit Türgriffen oder Tankdeckeln überlappen",
+    "Prüfen Sie, ob die Hex-Codes für ein einheitliches Erscheinungsbild übereinstimmen",
+    "Bestätigen Sie, dass das Design den Roblox-Nutzungsbedingungen entspricht",
+    "Testen Sie die Lackierung zu verschiedenen Tageszeiten (im Spiel), um die Sichtbarkeit zu prüfen"
+  ]}
+/>
+
+<Callout type="success" title="Fortgeschrittener Tipp">
+Die Verwendung eines leichten Off-White oder Hellgrau für Ihren Text kann in der Licht-Engine des Spiels oft realistischer wirken als ein reines #FFFFFF Weiß, das bei hellem Sonnenlicht manchmal „überstrahlt“ erscheinen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Einreichung, Genehmigung und Richtlinien">
+
+Sobald Ihre Lackierung in den Servereinstellungen konfiguriert ist, muss sie dem Moderationsteam von **Emergency Response Liberty County** zur Genehmigung vorgelegt werden. Dies ist eine manuelle Prüfung, um sicherzustellen, dass der Inhalt für die Community angemessen ist.
+
+| Statussymbol | Bedeutung | Erwartete Aktion |
+| :--- | :--- | :--- |
+| **Weißer Timer** | In Prüfung | Warten Sie 24–72 Stunden auf die Überprüfung durch einen Moderator |
+| **Grüner Haken** | Genehmigt | Die Lackierung ist nun für alle Spieler auf Ihrem Server sichtbar |
+| **Fehlt/Entfernt** | Abgelehnt | Prüfen Sie die Richtlinien und laden Sie eine korrigierte Version hoch |
+
+**Häufige Ablehnungsgründe:**
+- **Urheberrechtlich geschützte Logos**: Die Verwendung realer Markenlogos (wie Ford, Chevy oder spezifische echte Polizeiabzeichen) kann zur Ablehnung führen. Es ist sicherer, generische Logos oder Logos im „County/State“-Stil zu verwenden.
+- **Externe Links**: Fügen Sie keine Discord-Einladungen, Social-Media-Handles oder Website-URLs auf der Lackierung ein.
+- **Unangemessene Inhalte**: Jegliche beleidigende Sprache oder Symbole führen zu einer sofortigen Ablehnung und potenziellen Server-Warnungen.
+
+<Callout type="info" title="Genehmigungszeiten">
+Die Genehmigungszeiten sind unterschiedlich. Während einige Lackierungen innerhalb von 2 Stunden akzeptiert werden, können andere je nach Aufkommen bis zu 3 Tage dauern. Wenn Ihre Lackierung nach 4 Tagen immer noch „In Prüfung“ ist, ziehen Sie eine erneute Einreichung in Betracht.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Benötige ich einen speziellen Gamepass, um eigene Lackierungen in Emergency Response Liberty County zu verwenden?",
+    answer: "Ja, der Serverbesitzer muss den „Livery Pack“-Gamepass besitzen, um benutzerdefinierte Texturen auf seinem privaten Server hochzuladen und zu verwenden."
+  },
+  {
+    question: "Kann ich dieselbe Lackierungs-ID für verschiedene Fahrzeuge verwenden?",
+    answer: "Im Allgemeinen nein. Jedes Fahrzeug hat eine einzigartige UV-Map (Vorlage). Eine Lackierung, die für einen Tahoe entworfen wurde, sieht verzerrt aus, wenn sie auf einen Crown Victoria angewendet wird."
+  },
+  {
+    question: "Warum sieht meine Lackierung im Spiel verschwommen aus?",
+    answer: "Dies liegt meist an der Auflösung beim Hochladen. Stellen Sie sicher, dass Ihre Vorlagen mindestens 1024x1024 Pixel oder höher sind, und exportieren Sie immer als PNG, um Kompressionsartefakte zu vermeiden."
+  },
+  {
+    question: "Können andere Spieler meine eigenen Lackierungen sehen?",
+    answer: "Ja, sobald eine Lackierung von den Entwicklern genehmigt wurde, kann jeder Spieler, der Ihrem privaten Server beitritt, die benutzerdefinierten Designs auf den Fahrzeugen sehen."
+  }
+]} />
+
+<Callout type="tip" title="Letzter Rat">
+Behalten Sie immer ein Backup Ihrer originalen .PSD- oder .PHOTOPEA-Dateien. Wenn ein Moderator Sie bittet, ein bestimmtes kleines Detail zu entfernen, erspart Ihnen der Zugriff auf die ursprünglichen Ebenen stundenlange Arbeit im Vergleich zum Neuanfang mit einer flachen PNG-Datei.
+</Callout>
+
+</Section>

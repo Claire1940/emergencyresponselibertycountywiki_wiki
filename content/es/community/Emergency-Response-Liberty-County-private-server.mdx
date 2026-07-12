@@ -1,0 +1,157 @@
+import { Map, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Servidor Privado de Emergency Response Liberty County: Guía de Configuración",
+  description: "Aprende a configurar tu servidor privado de Emergency Response Liberty County, gestionar comandos del personal, subir diseños personalizados y usar la API.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Setup+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Emergency Response Liberty County"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Servidor privado de Emergency Response Liberty County**: Crea entornos de rol personalizados con total autoridad de administración.
+- **Control del Servidor**: Utiliza comandos de desarrollador en tiempo real para gestionar el clima, el tráfico y los permisos de los jugadores.
+- **Diseños Personalizados (Liveries)**: Diseña y sube aspectos únicos para los vehículos de los departamentos de emergencia utilizando plantillas oficiales.
+- **Integraciones de API**: Conecta aplicaciones externas a través del Paquete de API para recuperar datos del servidor en tiempo real.
+- **Cumplimiento de Reglas**: Mantén un estricto cumplimiento de las directrices de Roblox y de publicidad oficial de los desarrolladores.
+</Callout>
+
+<Section icon={Shield} title="Introducción a la Configuración del Servidor Privado de Emergency Response Liberty County">
+
+Un **servidor privado de Emergency Response Liberty County** ofrece a las comunidades un entorno de sandbox dedicado para organizar patrullas personalizadas, entrenamientos de departamentos y eventos de rol estructurados. A diferencia de los servidores públicos, los propietarios de servidores privados tienen total autoridad sobre las configuraciones del juego, los permisos del personal y los elementos personalizados. 
+
+Para maximizar el potencial de tu comunidad personalizada, debes comprender cómo interactúa la propiedad del servidor con los paquetes premium, como el Paquete de Diseños Personalizados (Custom Livery Pack) y el Paquete de API (API Pack). Gestionar estas funciones correctamente garantiza un entorno estable, atractivo y profesional para tus jugadores.
+
+| Paquete de Funciones | Función Principal | Requisito |
+|---|---|---|
+| **Servidor Privado Base** | Alojar sesiones privadas, gestionar configuraciones básicas, expulsar/banear jugadores | Compra con Robux |
+| **Paquete de Diseños Personalizados** | Subir aspectos de vehículos personalizados y uniformes de departamento | Gamepass por separado |
+| **Paquete de Servidor API** | Conectar bots de Discord externos y recuperar datos del servidor en tiempo real | Gamepass por separado |
+
+<Callout type="tip" title="Consejo Profesional">
+Establece siempre las reglas principales del servidor y configura la jerarquía del personal antes de invitar a grandes grupos de jugadores a unirse a tus patrullas personalizadas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Gestión de la Configuración del Servidor y Permisos del Personal">
+
+La administración exitosa de un servidor depende de una jerarquía estructurada. Como propietario de un servidor privado de Emergency Response Liberty County, puedes delegar tareas administrativas a moderadores y administradores de confianza mediante la configuración del juego.
+
+| Rol del Personal | Acciones Permitidas | Nivel de Responsabilidad |
+|---|---|---|
+| **Moderador** | Expulsar jugadores, advertir usuarios, silenciar chat, generar barreras de escena básicas | Moderado |
+| **Administrador** | Banear jugadores, gestionar clima/hora, configurar restricciones de vehículos | Alto |
+| **Propietario del Servidor** | Asignar roles del personal, editar claves API, comprar expansiones del servidor | Control Total |
+
+<Callout type="warning" title="Advertencia de Seguridad">
+Solo otorga permisos de Administrador a jugadores en los que confíes plenamente. Los comandos administrativos pueden interrumpir significativamente las escenas de rol activas si se abusan.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Configuración de Rol">
+    Establece temas específicos para el servidor, como reglas de conducción realistas, actividades delictivas restringidas o patrullas exclusivas del departamento.
+  </Card>
+  <Card title="Delegación del Personal">
+    Distribuye la carga de trabajo de moderación asignando roles y límites claros para el equipo de personal de tu servidor.
+  </Card>
+  <Card title="Reglas Personalizadas">
+    Publica un conjunto claro de directrices comunitarias sobre persecuciones de vehículos, respuestas de emergencia y conducta civil.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Subir Diseños Personalizados">
+
+Los diseños personalizados (liveries) permiten que tu comunidad use diseños de vehículos únicos basados en agencias del mundo real o departamentos ficticios. Para usar esta función, tu servidor debe tener activo el Paquete de Diseños Personalizados y todos los diseños deben pasar el proceso de revisión oficial.
+
+<Steps>
+  <Step num="1" title="Descargar Plantillas Oficiales">
+    Visita los recursos oficiales de los desarrolladores para descargar la plantilla de imagen precisa para el vehículo específico que deseas personalizar.
+  </Step>
+  <Step num="2" title="Aplicar Gráficos Personalizados">
+    Usa un software de edición de imágenes para colocar las marcas, logotipos y capas de texto de alto contraste de tu departamento directamente en la plantilla.
+  </Step>
+  <Step num="3" title="Subir a Roblox">
+    Sube tu plantilla completada como un elemento Decal a través del Panel del Creador de Roblox y guarda el ID de Elemento (Asset ID) único.
+  </Step>
+  <Step num="4" title="Enviar para Revisión en el Juego">
+    Abre el editor de diseños dentro de tu servidor privado de Emergency Response Liberty County, ingresa el ID de Elemento y envíalo para su revisión oficial.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo para la Aprobación de Diseños">
+Asegúrate de que todo el texto de tu diseño sea claramente legible y tenga un alto contraste con el color de fondo para evitar el rechazo durante el proceso de revisión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reglas de Cumplimiento de Diseños y Publicidad">
+
+Todo el contenido personalizado subido a tu servidor debe cumplir con los Términos de Servicio de Roblox y las directrices específicas establecidas por el equipo de desarrollo de Police Roleplay Community.
+
+| Tipo de Contenido | Elementos Permitidos | Elementos Prohibidos |
+|---|---|---|
+| **Diseños de Vehículos** | Diseños ficticios, réplicas de agencias del mundo real, números de emergencia estándar (911/999) | Códigos QR, enlaces a redes sociales, nombres personales, infracciones de derechos de autor |
+| **Anuncios en Carteles (16:9)** | Logotipos del servidor, nombres de la comunidad, capturas de pantalla del juego de alta calidad | Enlaces de Discord, sorteos de Robux, anuncios de reclutamiento de personal |
+| **Anuncios en Paradas de Autobús (2:3)** | Abreviaturas del servidor, ilustraciones de rol limpias, horarios de eventos | Enlaces de comunicación externa, memes de baja calidad |
+
+<Callout type="info" title="Optimización de Publicidad">
+Mantén limpios los diseños de los carteles y de las paradas de autobús. Las directrices oficiales recomiendan una resolución máxima de 512 píxeles en cualquier eje para mantener un rendimiento óptimo.
+</Callout>
+
+<Checklist
+  id="livery-checklist"
+  title="Requisitos de Envío de Diseños:"
+  items={[
+    "Verificar que la imagen coincida con las dimensiones de la plantilla oficial del vehículo",
+    "Confirmar que no haya enlaces a sitios web externos ni etiquetas de redes sociales",
+    "Asegurar que todo el texto sea grande, legible y no ofensivo",
+    "Identificar claramente el nombre del servidor privado en los diseños específicos del personal"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Integración de API y Comandos Avanzados de Servidor">
+
+Para comunidades avanzadas, el Paquete de Servidor API te permite conectar aplicaciones externas a tu servidor privado de Emergency Response Liberty County. Esto permite la moderación automatizada, el seguimiento de jugadores en tiempo real y las integraciones personalizadas de bots de Discord.
+
+| Punto de Acceso API (Endpoint) | Datos Recuperados | Caso de Uso Práctico |
+|---|---|---|
+| **Información del Servidor v2** | Recuento de jugadores activos, tiempo de actividad del servidor, temporada actual del mapa | Pantallas de bots de estado de Discord |
+| **Ubicaciones de Jugadores** | Datos de coordenadas en tiempo real para todos los jugadores activos | Seguimiento de mapas de despacho en vivo |
+| **Datos de Vehículos** | Tipos de vehículos activos, colores y propietarios registrados | Auditorías de inventario de vehículos de patrulla |
+
+<Callout type="warning" title="Seguridad de Credenciales">
+Mantén la clave API de tu servidor estrictamente privada. Cualquier persona con acceso a tu clave API puede ejecutar comandos remotos y acceder a datos confidenciales de los jugadores.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo una clave API para mi servidor privado de Emergency Response Liberty County?",
+    answer: "Debes comprar el Paquete de Servidor API. Una vez activo, abre el menú de Configuración de tu servidor privado dentro del juego, navega a la sección de API y genera tu clave API única."
+  },
+  {
+    question: "¿Por qué fue rechazado mi diseño de vehículo personalizado?",
+    answer: "Los diseños suelen ser rechazados si contienen enlaces externos, códigos QR, logotipos con derechos de autor sin permiso, o si el texto es demasiado pequeño e ilegible."
+  },
+  {
+    question: "¿Puedo ejecutar un servidor privado en dispositivos móviles?",
+    answer: "Sí, las configuraciones del servidor privado y los comandos administrativos básicos son totalmente compatibles en plataformas de PC, móviles y consolas."
+  },
+  {
+    question: "¿Los jugadores ganan dinero y XP normales en un servidor privado?",
+    answer: "Las tasas de ganancia de dinero y XP del departamento se ajustan en los servidores privados para evitar el farmeo y mantener el equilibrio de la progresión."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,15 @@
       "twitterDescription": "Emergency Response Liberty County Wiki with current codes, vehicle prices, team guides, robbery tips, map locations, private server commands and update logs."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "money": "Money",
+    "police": "Police",
+    "crime": "Crime",
+    "vehicles": "Vehicles",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -110,36 +118,186 @@
       "activeLabel": "Active",
       "expiredLabel": "Expired",
       "items": [
-        { "code": "ERLC2026", "reward": "$10,000 cash", "status": "active", "rewardType": "Cash" },
-        { "code": "PW26-XPBOOST", "reward": "24-hour Police and Sheriff XP boost", "status": "expired", "rewardType": "XP Boost" },
-        { "code": "EggHunt2025", "reward": "$6,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "WELCOME2025", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "1BILLION", "reward": "One Billion Visits license plate", "status": "expired", "rewardType": "License Plate" },
-        { "code": "BOOST24", "reward": "24-hour XP boost", "status": "expired", "rewardType": "XP Boost" },
-        { "code": "POLICEWEEK24", "reward": "48-hour double Law Enforcement XP boost", "status": "expired", "rewardType": "XP Boost" },
-        { "code": "HONOR24", "reward": "Police Week 2024 special uniform", "status": "expired", "rewardType": "Uniform" },
-        { "code": "OMB", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "RisingWolf", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "mcsloth", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "OfficerJohn", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "AmazePlays", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "Ruffles", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "WELCOME2024", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "Christmas23", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "ERLC1023", "reward": "1.5x XP boost", "status": "expired", "rewardType": "XP Boost" },
-        { "code": "PW23-PATROL", "reward": "Police Week 2023 license plate and event badge", "status": "expired", "rewardType": "License Plate" },
-        { "code": "POLICEWEEK23", "reward": "$2,500 cash and an event badge", "status": "expired", "rewardType": "Cash" },
-        { "code": "PW23-HONOR", "reward": "Police Week 2023 uniform and event badge", "status": "expired", "rewardType": "Uniform" },
-        { "code": "PW23-SACRIFICE", "reward": "24-hour Law Enforcement XP boost and event badge", "status": "expired", "rewardType": "XP Boost" },
-        { "code": "1MIL", "reward": "$25,000 cash and One Million Members license plate", "status": "expired", "rewardType": "Cash and License Plate" },
-        { "code": "ONPATROL", "reward": "$25,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "500mil", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "MOBILE", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "PHONES", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "UPDATE", "reward": "$6,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "400mil", "reward": "400 million visits milestone reward", "status": "expired", "rewardType": "Milestone Reward" },
-        { "code": "CommunityPhoto", "reward": "$5,000 cash", "status": "expired", "rewardType": "Cash" },
-        { "code": "OnPatrol1", "reward": "$7,500 cash", "status": "expired", "rewardType": "Cash" }
+        {
+          "code": "ERLC2026",
+          "reward": "$10,000 cash",
+          "status": "active",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "PW26-XPBOOST",
+          "reward": "24-hour Police and Sheriff XP boost",
+          "status": "expired",
+          "rewardType": "XP Boost"
+        },
+        {
+          "code": "EggHunt2025",
+          "reward": "$6,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "WELCOME2025",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "1BILLION",
+          "reward": "One Billion Visits license plate",
+          "status": "expired",
+          "rewardType": "License Plate"
+        },
+        {
+          "code": "BOOST24",
+          "reward": "24-hour XP boost",
+          "status": "expired",
+          "rewardType": "XP Boost"
+        },
+        {
+          "code": "POLICEWEEK24",
+          "reward": "48-hour double Law Enforcement XP boost",
+          "status": "expired",
+          "rewardType": "XP Boost"
+        },
+        {
+          "code": "HONOR24",
+          "reward": "Police Week 2024 special uniform",
+          "status": "expired",
+          "rewardType": "Uniform"
+        },
+        {
+          "code": "OMB",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "RisingWolf",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "mcsloth",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "OfficerJohn",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "AmazePlays",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "Ruffles",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "WELCOME2024",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "Christmas23",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "ERLC1023",
+          "reward": "1.5x XP boost",
+          "status": "expired",
+          "rewardType": "XP Boost"
+        },
+        {
+          "code": "PW23-PATROL",
+          "reward": "Police Week 2023 license plate and event badge",
+          "status": "expired",
+          "rewardType": "License Plate"
+        },
+        {
+          "code": "POLICEWEEK23",
+          "reward": "$2,500 cash and an event badge",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "PW23-HONOR",
+          "reward": "Police Week 2023 uniform and event badge",
+          "status": "expired",
+          "rewardType": "Uniform"
+        },
+        {
+          "code": "PW23-SACRIFICE",
+          "reward": "24-hour Law Enforcement XP boost and event badge",
+          "status": "expired",
+          "rewardType": "XP Boost"
+        },
+        {
+          "code": "1MIL",
+          "reward": "$25,000 cash and One Million Members license plate",
+          "status": "expired",
+          "rewardType": "Cash and License Plate"
+        },
+        {
+          "code": "ONPATROL",
+          "reward": "$25,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "500mil",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "MOBILE",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "PHONES",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "UPDATE",
+          "reward": "$6,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "400mil",
+          "reward": "400 million visits milestone reward",
+          "status": "expired",
+          "rewardType": "Milestone Reward"
+        },
+        {
+          "code": "CommunityPhoto",
+          "reward": "$5,000 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        },
+        {
+          "code": "OnPatrol1",
+          "reward": "$7,500 cash",
+          "status": "expired",
+          "rewardType": "Cash"
+        }
       ]
     },
     "erlcBeginnerGuide": {
@@ -291,18 +449,66 @@
       "dotHeader": "Department of Transportation",
       "categoryHeader": "Category",
       "rows": [
-        { "category": "Primary Role", "fireRescue": "Extinguish fires, treat injured players, perform rescues and respond to major emergency scenes.", "dot": "Repair transportation infrastructure, tow vehicles, remove roadway hazards and control traffic around incidents." },
-        { "category": "Call Information", "fireRescue": "Use the MDT to view the incident type, location and other available call details before responding.", "dot": "Use the MDT to locate repair, towing and roadway calls and to coordinate with other service departments." },
-        { "category": "Common Calls", "fireRescue": "Structure fires, vehicle fires, brush fires, medical emergencies, vehicle collisions and rescue incidents.", "dot": "Disabled or wrecked vehicles, traffic-light outages, streetlight problems, roadway hazards, repairs and towing requests." },
-        { "category": "Core Tools", "fireRescue": "Fire hose, extinguisher, helmet and SCBA, medical equipment, stretcher, ladder, spreader and cutters.", "dot": "Traffic cones, road signs, flashlight, ladder, repair equipment and towing or recovery controls." },
-        { "category": "Vehicle Types", "fireRescue": "Fire engines, ladder trucks, rescue vehicles, ambulances and command vehicles.", "dot": "Service trucks, utility vehicles, tow trucks, flatbeds, heavy wreckers and the Heavy Rotator." },
-        { "category": "Fire Scene Workflow", "fireRescue": "Park with access for other units, equip protective gear, deploy a hose or extinguisher, suppress every fire area and check for patients before clearing the call.", "dot": "Support the scene by closing lanes, positioning cones and removing damaged vehicles after fire and rescue work is complete." },
-        { "category": "Medical and Crash Workflow", "fireRescue": "Assess the patient, use the required medical equipment, move the patient when necessary and complete treatment objectives before leaving.", "dot": "Secure the roadway, redirect traffic and tow recoverable vehicles after emergency crews have made the scene safe." },
-        { "category": "Repair Workflow", "fireRescue": "Provide scene protection or medical support when the repair call is connected to an accident or major emergency.", "dot": "Locate the damaged object, protect the work area, use the required repair interaction and remove equipment after the repair is complete." },
-        { "category": "Major Server Calls", "fireRescue": "Handle fire suppression, rescue and patient care during large multi-stage incidents.", "dot": "Recover wrecked vehicles and restore normal traffic flow after active fire and rescue objectives have been completed." },
-        { "category": "Starting Rank", "fireRescue": "Volunteer", "dot": "Trainee" },
-        { "category": "Rank Progression", "fireRescue": "Volunteer, Rookie, Firefighter, Paramedic, Engineer, Lieutenant, Captain and Battalion Chief.", "dot": "Trainee, Tow Operator, Senior Operator, Technician and Senior Technician." },
-        { "category": "How to Earn XP", "fireRescue": "Complete fire suppression, medical treatment, rescue and major-call objectives.", "dot": "Complete towing, vehicle recovery, infrastructure repair and traffic-management objectives." }
+        {
+          "category": "Primary Role",
+          "fireRescue": "Extinguish fires, treat injured players, perform rescues and respond to major emergency scenes.",
+          "dot": "Repair transportation infrastructure, tow vehicles, remove roadway hazards and control traffic around incidents."
+        },
+        {
+          "category": "Call Information",
+          "fireRescue": "Use the MDT to view the incident type, location and other available call details before responding.",
+          "dot": "Use the MDT to locate repair, towing and roadway calls and to coordinate with other service departments."
+        },
+        {
+          "category": "Common Calls",
+          "fireRescue": "Structure fires, vehicle fires, brush fires, medical emergencies, vehicle collisions and rescue incidents.",
+          "dot": "Disabled or wrecked vehicles, traffic-light outages, streetlight problems, roadway hazards, repairs and towing requests."
+        },
+        {
+          "category": "Core Tools",
+          "fireRescue": "Fire hose, extinguisher, helmet and SCBA, medical equipment, stretcher, ladder, spreader and cutters.",
+          "dot": "Traffic cones, road signs, flashlight, ladder, repair equipment and towing or recovery controls."
+        },
+        {
+          "category": "Vehicle Types",
+          "fireRescue": "Fire engines, ladder trucks, rescue vehicles, ambulances and command vehicles.",
+          "dot": "Service trucks, utility vehicles, tow trucks, flatbeds, heavy wreckers and the Heavy Rotator."
+        },
+        {
+          "category": "Fire Scene Workflow",
+          "fireRescue": "Park with access for other units, equip protective gear, deploy a hose or extinguisher, suppress every fire area and check for patients before clearing the call.",
+          "dot": "Support the scene by closing lanes, positioning cones and removing damaged vehicles after fire and rescue work is complete."
+        },
+        {
+          "category": "Medical and Crash Workflow",
+          "fireRescue": "Assess the patient, use the required medical equipment, move the patient when necessary and complete treatment objectives before leaving.",
+          "dot": "Secure the roadway, redirect traffic and tow recoverable vehicles after emergency crews have made the scene safe."
+        },
+        {
+          "category": "Repair Workflow",
+          "fireRescue": "Provide scene protection or medical support when the repair call is connected to an accident or major emergency.",
+          "dot": "Locate the damaged object, protect the work area, use the required repair interaction and remove equipment after the repair is complete."
+        },
+        {
+          "category": "Major Server Calls",
+          "fireRescue": "Handle fire suppression, rescue and patient care during large multi-stage incidents.",
+          "dot": "Recover wrecked vehicles and restore normal traffic flow after active fire and rescue objectives have been completed."
+        },
+        {
+          "category": "Starting Rank",
+          "fireRescue": "Volunteer",
+          "dot": "Trainee"
+        },
+        {
+          "category": "Rank Progression",
+          "fireRescue": "Volunteer, Rookie, Firefighter, Paramedic, Engineer, Lieutenant, Captain and Battalion Chief.",
+          "dot": "Trainee, Tow Operator, Senior Operator, Technician and Senior Technician."
+        },
+        {
+          "category": "How to Earn XP",
+          "fireRescue": "Complete fire suppression, medical treatment, rescue and major-call objectives.",
+          "dot": "Complete towing, vehicle recovery, infrastructure repair and traffic-management objectives."
+        }
       ]
     },
     "erlcVehiclesGuide": {
@@ -682,111 +888,131 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "codes": {
+      "title": "Emergency Response Liberty County Codes",
+      "description": "Redeem the latest working Emergency Response Liberty County codes for free in-game cash and rewards, updated regularly with verified codes.",
+      "metaTitle": "Emergency Response Liberty County Codes - Free Cash & Rewards",
+      "metaDescription": "Get free in-game cash and rewards with active Emergency Response Liberty County codes. Updated regularly with verified working codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Codes are redeemable strings released by the Emergency Response Liberty County developers that grant free in-game cash and limited-time rewards. New codes usually drop alongside major updates and seasonal events.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free In-Game Cash",
+        "step1Description": "Redeem codes to claim free cash and skip the early grind for vehicles and gear",
+        "step2Title": "Limited-Time Rewards",
+        "step2Description": "Catch event codes for exclusive items and bonuses before they expire",
+        "step3Title": "Stay Up to Date",
+        "step3Description": "Bookmark this page for newly released codes verified after each update"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
       "title": "Emergency Response Liberty County Guides",
-      "description": "Complete Emergency Response Liberty County gameplay guides from beginner basics to advanced team and money strategies.",
+      "description": "Complete Emergency Response Liberty County gameplay guides from beginner basics and controls to maps, stores and team tutorials.",
       "metaTitle": "Emergency Response Liberty County Guides - Beginner to Advanced",
-      "metaDescription": "Complete Emergency Response Liberty County guides covering beginner tips, team setup, money and rank progression, and expert tactics for Liberty County roleplay.",
+      "metaDescription": "Complete Emergency Response Liberty County guides covering beginner tips, controls, the map, store locations and team progression for Liberty County roleplay.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Emergency Response Liberty County gameplay mechanics, team roles, and progression systems. Learn everything from first steps to advanced tactics.",
+      "whatIsDescription": "Comprehensive guides covering Emergency Response Liberty County gameplay mechanics, controls, the map and store locations. Learn everything from your first shift to advanced roleplay tactics.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand teams, calls and the wanted system to avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven routes to earn cash and department XP quickly",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for patrol, response and roleplay"
+        "step1Description": "Master controls, teams and the map to avoid common beginner mistakes",
+        "step2Title": "Find Key Locations",
+        "step2Description": "Locate stores, spawns and job sites fast using the map and location guides",
+        "step3Title": "Progress Faster",
+        "step3Description": "Follow proven routes to earn cash, unlock gear and rank up quickly"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "departments": {
-      "title": "Emergency Response Liberty County Departments",
-      "description": "Guides for the Police, Sheriff, Fire and Rescue, EMS and Department of Transportation teams, including ranks, equipment and calls.",
-      "metaTitle": "Emergency Response Liberty County Departments - Police, Sheriff, Fire, DOT",
-      "metaDescription": "Learn every Emergency Response Liberty County department: Police and Sheriff ranks, Fire and Rescue calls, EMS, and DOT towing and repair workflows.",
-      "categoryLabel": "DEPARTMENTS & TEAMS",
-      "whatIs": "What are Departments?",
-      "whatIsDescription": "Department guides cover the Police, Sheriff, Fire and Rescue, EMS and DOT teams, including how to join, ranks, patrol equipment and the calls each team responds to.",
-      "why": "Why pick a department?",
+    "money": {
+      "title": "Emergency Response Liberty County Money Guides",
+      "description": "Learn the best ways to make money in Emergency Response Liberty County, covering top-paying jobs, civilian cash routes and job points.",
+      "metaTitle": "Emergency Response Liberty County Money Guide - Best Ways to Earn Cash",
+      "metaDescription": "Maximize your income in Emergency Response Liberty County with the best jobs, civilian money routes and job point strategies for fast cash.",
+      "categoryLabel": "MONEY & JOBS",
+      "whatIs": "What are Money Guides?",
+      "whatIsDescription": "Money guides cover the fastest ways to earn cash in Emergency Response Liberty County, including the highest-paying jobs, civilian income routes and how job points drive your paycheck.",
+      "why": "Why read money guides?",
       "whySteps": {
-        "step1Title": "Choose Your Role",
-        "step1Description": "Find the team whose patrol style and calls match how you want to play",
-        "step2Title": "Unlock Ranks and Gear",
-        "step2Description": "Earn department XP to unlock vehicles, equipment and uniforms",
-        "step3Title": "Master Your Calls",
-        "step3Description": "Learn the workflow for traffic stops, fires, medical calls and towing"
+        "step1Title": "Pick the Best Job",
+        "step1Description": "Compare civilian and department jobs to find the highest-paying role for you",
+        "step2Title": "Earn Cash Faster",
+        "step2Description": "Use proven routes and job point strategies to maximize every shift",
+        "step3Title": "Reinvest Wisely",
+        "step3Description": "Turn cash into vehicles and gear that boost your long-term income"
       },
       "featured": "Featured & Essential",
-      "all": "All Department Guides"
+      "all": "All Money Guides"
+    },
+    "police": {
+      "title": "Emergency Response Liberty County Police Guides",
+      "description": "Master the Police team in Emergency Response Liberty County with guides on patrol cars, chasing criminals, tasers, weapons and police XP.",
+      "metaTitle": "Emergency Response Liberty County Police Guide - Patrol, Chase & Rank Up",
+      "metaDescription": "Complete Emergency Response Liberty County police guides covering patrol cars, criminal pursuits, tasers, weapons and police XP progression.",
+      "categoryLabel": "POLICE & SHERIFF",
+      "whatIs": "What are Police Guides?",
+      "whatIsDescription": "Police guides cover the Police and Sheriff teams in Emergency Response Liberty County, including patrol vehicles, chasing and arresting criminals, tasers, the best weapons and earning police XP.",
+      "why": "Why read police guides?",
+      "whySteps": {
+        "step1Title": "Choose Your Loadout",
+        "step1Description": "Find the right patrol car, weapon and gear for traffic stops and pursuits",
+        "step2Title": "Master Pursuits",
+        "step2Description": "Learn chase tactics to catch criminals reliably without losing them",
+        "step3Title": "Rank Up Fast",
+        "step3Description": "Earn police XP efficiently to unlock new vehicles, weapons and ranks"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Police Guides"
+    },
+    "crime": {
+      "title": "Emergency Response Liberty County Crime Guides",
+      "description": "Run robberies and cause chaos in Emergency Response Liberty County with guides on bank heists, jewelry store raids, ATM robberies and escaping jail.",
+      "metaTitle": "Emergency Response Liberty County Crime Guide - Robberies & Heists",
+      "metaDescription": "Complete Emergency Response Liberty County crime guides covering bank robberies, jewelry store heists, ATM robberies, becoming a criminal and escaping jail.",
+      "categoryLabel": "CRIME & ROBBERIES",
+      "whatIs": "What are Crime Guides?",
+      "whatIsDescription": "Crime guides cover the criminal side of Emergency Response Liberty County, including how to become a criminal, rob the bank and jewelry store, pull ATM robberies, join the mafia and escape jail.",
+      "why": "Why read crime guides?",
+      "whySteps": {
+        "step1Title": "Plan the Heist",
+        "step1Description": "Learn each robbery's steps, requirements and best approach before you start",
+        "step2Title": "Escape the Heat",
+        "step2Description": "Use proven escape routes to lose the police and keep your payout",
+        "step3Title": "Maximize Payout",
+        "step3Description": "Pick the most profitable robberies and avoid common mistakes"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Crime Guides"
     },
     "vehicles": {
       "title": "Emergency Response Liberty County Vehicles",
-      "description": "Compare civilian, police, sheriff, fire, EMS and DOT vehicles by role, unlock requirement and practical use across Liberty County.",
-      "metaTitle": "Emergency Response Liberty County Vehicles - Cars, Trucks & Apparatus",
-      "metaDescription": "Complete Emergency Response Liberty County vehicle database covering civilian cars, police and sheriff patrol units, fire apparatus and DOT service vehicles.",
+      "description": "Compare Emergency Response Liberty County vehicles by role, price, speed and unlock, covering civilian cars, police units and the fastest cars.",
+      "metaTitle": "Emergency Response Liberty County Vehicles - Cars, Prices & Speed",
+      "metaDescription": "Complete Emergency Response Liberty County vehicle database covering civilian cars, police units, custom liveries, prices, speed and the fastest cars.",
       "categoryLabel": "VEHICLES & DRIVING",
       "whatIs": "What are Vehicles?",
-      "whatIsDescription": "Vehicle guides for every team, covering prices, speed, seats, unlock conditions, spawning, customization and how to choose the right vehicle for each activity.",
+      "whatIsDescription": "Vehicle guides for Emergency Response Liberty County, covering prices, speed, seats, unlock conditions, spawning, custom liveries and how to choose the right vehicle for each activity.",
       "why": "Why check vehicle guides?",
       "whySteps": {
         "step1Title": "Compare Vehicles",
-        "step1Description": "Find the right vehicle by role, price and unlock requirement",
+        "step1Description": "Find the right vehicle by role, price, speed and unlock requirement",
         "step2Title": "Optimize Purchases",
-        "step2Description": "Spend cash wisely on vehicles that match your main team",
-        "step3Title": "Unlock Department Units",
-        "step3Description": "Progress ranks to access patrol, fire and DOT vehicles"
+        "step2Description": "Spend cash wisely on vehicles that match your main team and playstyle",
+        "step3Title": "Customize & Sell",
+        "step3Description": "Apply custom liveries and learn how to sell cars when upgrading"
       },
       "featured": "Featured & Essential",
       "all": "All Vehicles"
-    },
-    "map": {
-      "title": "Emergency Response Liberty County Map",
-      "description": "Explore Liberty County locations, roads, buildings, spawn points and routes for patrols, calls and robberies.",
-      "metaTitle": "Emergency Response Liberty County Map - Locations & Routes",
-      "metaDescription": "Explore the Emergency Response Liberty County map including River City, Springfield, stations, hospitals, dealerships and robbery points.",
-      "categoryLabel": "MAP & LOCATIONS",
-      "whatIs": "What is the Map?",
-      "whatIsDescription": "Map guides cover locations, roads, buildings, spawn points and routes, plus where to find stations, hospitals, dealerships and job sites.",
-      "why": "Why learn the map?",
-      "whySteps": {
-        "step1Title": "Find Locations",
-        "step1Description": "Locate stations, hospitals, dealerships and robbery points fast",
-        "step2Title": "Plan Routes",
-        "step2Description": "Set efficient patrol and response routes across the county",
-        "step3Title": "Avoid Getting Lost",
-        "step3Description": "Learn major roads before tackling smaller streets"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Map Guides"
-    },
-    "private-servers": {
-      "title": "Emergency Response Liberty County Private Servers",
-      "description": "Set up and manage a private Emergency Response Liberty County server with staff commands, custom liveries and the server API.",
-      "metaTitle": "Emergency Response Liberty County Private Servers & Commands",
-      "metaDescription": "Master Emergency Response Liberty County private servers: setup, staff permissions, server commands, custom liveries, advertisements and the API Pack.",
-      "categoryLabel": "PRIVATE SERVERS",
-      "whatIs": "What are Private Servers?",
-      "whatIsDescription": "Private server guides cover creating and joining servers, staff permissions, server commands, custom vehicle liveries, advertisement rules and the optional ER:LC API Pack.",
-      "why": "Why run a private server?",
-      "whySteps": {
-        "step1Title": "Control Your Community",
-        "step1Description": "Configure roleplay settings and assign trusted staff",
-        "step2Title": "Customize Liveries",
-        "step2Description": "Upload reviewed department liveries and advertisements",
-        "step3Title": "Connect Integrations",
-        "step3Description": "Use the API Pack for live server data and webhooks"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Private Server Guides"
     },
     "updates": {
       "title": "Emergency Response Liberty County Updates",
       "description": "Official Emergency Response Liberty County update logs covering new vehicles, department changes, map updates, events and fixes.",
       "metaTitle": "Emergency Response Liberty County Updates & Patch Notes",
-      "metaDescription": "Track every Emergency Response Liberty County update: new vehicles, DOT changes, police improvements, seasonal events and private server API additions.",
+      "metaDescription": "Track every Emergency Response Liberty County update: new vehicles, DOT changes, police improvements, seasonal events and patch notes.",
       "categoryLabel": "UPDATES & PATCH NOTES",
       "whatIs": "What are Updates?",
       "whatIsDescription": "Update guides summarize official Emergency Response Liberty County release notes, new vehicles, department changes, map improvements, seasonal events and bug fixes.",
@@ -795,7 +1021,7 @@
         "step1Title": "Stay Current",
         "step1Description": "See new vehicles, events and features as soon as they launch",
         "step2Title": "Plan Around Changes",
-        "step2Description": "Adjust your team and vehicle strategy to new content",
+        "step2Description": "Adjust your team and vehicle strategy to new content and rebalances",
         "step3Title": "Track the Roadmap",
         "step3Description": "Follow official development direction and seasonal events"
       },

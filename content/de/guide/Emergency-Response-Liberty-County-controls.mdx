@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Car, Radio, Settings, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Steuerung: Fahrzeug- & Werkzeug-Guide",
+  description: "Meistere die komplette Steuerung für Emergency Response Liberty County, einschließlich Fahrzeugbedienung, Driften und Job-Werkzeugen für 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=ERLC+Controls+Mastery",
+  date: "2026-07-12",
+  author: "Emergency Response Liberty County Wiki-Team",
+  keywords: "steuerung, fahrzeuge, driften, tastenbelegung, roblox erlc"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Grundbewegung**: Nutze **WASD** für die Charakterbewegung und **Umschalttaste Links** (Shift) zum Sprinten.
+- **Fahrzeugzündung**: Drücke **E**, um den Motor zu starten oder zu stoppen; behalte bei langen Verfolgungsjagden die Tankanzeige im Auge.
+- **Drift-Mechanik**: Schalte **ABS (Y)** und **TCS (T)** aus, um manuelles Rutschen und Driften in engen Kurven zu ermöglichen.
+- **Notfall-Werkzeuge**: Nutze **Z** für den Funkverkehr und **F** für primäre Interaktionen wie Handschellen oder Verbandskästen.
+- **Sirenensteuerung**: Drücke **J**, um durch die Sirenentöne zu schalten, und **K**, um die sekundäre Warnbeleuchtung zu aktivieren.
+</Callout>
+
+<Section icon={Map} title="Emergency Response Liberty County Steuerung: Grundbewegung">
+
+Das Meistern der **Emergency Response Liberty County Steuerung** ist der erste Schritt, um ein Elite-Spieler zu werden – egal, ob du als Polizist auf Streife gehst oder zu einem Großbrand ausrückst. Die Charakterbewegung in ERLC folgt den Standard-Roblox-Konventionen, bietet jedoch zusätzliche Interaktionsebenen speziell für Rollenspiel-Szenarien. Präzision bei der Bewegung ermöglicht es dir, bei Raubüberfällen durch enge Korridore zu navigieren oder dich bei medizinischen Notfällen perfekt zu positionieren.
+
+**Video-Highlights:**
+- **ABS-Konfiguration**: Erfahre, warum das Deaktivieren von ABS mit der Taste Y für fortgeschrittene Fahrmanöver unerlässlich ist.
+- **TCS-Management**: Verstehe die Auswirkungen der Traktionskontrolle (T) auf die Stabilität deines Fahrzeugs.
+- **Handbremse nutzen**: Verwende die Umschalttaste (Shift), um Drifts um enge Stadtkurven einzuleiten.
+- **Geschwindigkeitsbereiche**: Halte eine Geschwindigkeit zwischen 40 und 70 MPH für die kontrolliertesten Drifts.
+
+<YouTubeEmbed videoId="oQV2phyM8NM" title="Roblox Emergency Response Liberty County Tutorial (Drifting)" />
+
+| Taste | Aktion / Beschreibung | Kontext |
+| :--- | :--- | :--- |
+| **W / A / S / D** | Standard-Charakterbewegung | Allgemeine Navigation |
+| **Leertaste** | Springen / Über niedrige Hindernisse klettern | Allgemeine Navigation |
+| **Umschalt Links** | Sprinten (Verbraucht Ausdauer) | Allgemeine Navigation |
+| **E** | Interaktion mit Türen, NPCs und Geldautomaten | Interaktion |
+| **F** | Ausgerüstetes Werkzeug oder primären Gegenstand nutzen | Werkzeugnutzung |
+| **Strg** | Ducken / Niedrige Haltung | Taktik / Schleichen |
+
+<Callout type="tip" title="Interaktions-Tipp">
+Wenn du mit komplexen UI-Elementen wie dem MDT (Mobile Data Terminal) interagierst, stelle sicher, dass du deinen Mauszeiger freigibst, indem du je nach UI-Einstellung **`** (Gravis/Backtick) oder **Tab** drückst.
+</Callout>
+
+</Section>
+
+<Section icon={Car} title="Fahrzeugbedienung und fortgeschrittenes Driften">
+
+Fahrzeuge sind das Lebenselixier von Liberty County. Von normalen zivilen Limousinen bis hin zu leistungsstarken Abfangjägern ist die Kenntnis der spezifischen **Emergency Response Liberty County Steuerung** für das Fahren überlebenswichtig. Neben der einfachen Beschleunigung müssen die Spieler Lichtanlagen, Sirenen und spezielle Fahrhilfen steuern. Das Driften hat sich zu einer beliebten Fähigkeit für Spieler entwickelt, die Festnahmen entkommen oder einfach ihr fahrerisches Können im Falcon Stallion oder anderen Sportwagen demonstrieren wollen.
+
+<CardGrid cols={3}>
+  <Card title="Streifenfahrt">
+    - **Fokus auf Stabilität**
+    - ABS/TCS aktiviert lassen
+    - Sanfte Bremsmanöver
+  </Card>
+  <Card title="Verfolgungsjagd">
+    - **Sirenen einschalten (J)**
+    - Manuellen Blinker nutzen
+    - Hohe Drehzahlen halten
+  </Card>
+  <Card title="Drift-Modus">
+    - **ABS deaktivieren (Y)**
+    - TCS deaktivieren (T)
+    - Shift für Handbremse nutzen
+  </Card>
+</CardGrid>
+
+| Taste | Fahrzeugfunktion | Sirenen-/Lichttyp |
+| :--- | :--- | :--- |
+| **E** | Motor starten / stoppen | Alle Fahrzeuge |
+| **L** | Scheinwerfer ein-/ausschalten | Alle Fahrzeuge |
+| **Q / E** | Blinker Links / Rechts | Alle Fahrzeuge |
+| **J** | Sirenentöne durchschalten | Nur Einsatzfahrzeuge |
+| **K** | Sekundäre Warnleuchten | Nur Einsatzfahrzeuge |
+| **H** | Hupe / Martinshorn | Alle Fahrzeuge |
+| **V** | Kameraperspektive wechseln | Alle Fahrzeuge |
+| **Y** | ABS ein-/ausschalten | Sportwagen |
+| **T** | TCS (Traktionskontrolle) ein-/ausschalten | Sportwagen |
+
+<Callout type="warning" title="Motormanagement">
+Wenn du den Motor im geparkten Zustand laufen lässt, verbrauchst du Kraftstoff. Drücke bei längeren Einsätzen immer **E**, um den Motor abzustellen, damit dir nicht das Benzin ausgeht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="So meisterst du das Driften in ERLC">
+
+Driften ist eine fortgeschrittene Fahrtechnik, die eine bestimmte Abfolge der **Emergency Response Liberty County Steuerung** erfordert. Laut erfahrenen Fahrern ist der Falcon Stallion 350 aufgrund seines Heckantriebs und seines hohen Drehmoments eines der besten Fahrzeuge, um diese Manöver zu üben.
+
+<Steps>
+  <Step num="1" title="Sicherheitssysteme deaktivieren">
+    Bevor du einen Drift versuchst, musst du die elektronischen Fahrhilfen des Fahrzeugs deaktivieren. Drücke **Y**, um das ABS auszuschalten, und **T**, um die Traktionskontrolle (TCS) zu deaktivieren. Dadurch können die Räder frei durchdrehen und rutschen.
+  </Step>
+  <Step num="2" title="Anfahrt und Geschwindigkeit">
+    Beschleunige auf eine Geschwindigkeit zwischen **40 und 70 Meilen pro Stunde**. Wenn du eine Kurve zu schnell anfährst, bricht das Fahrzeug unkontrolliert aus, während du bei zu geringer Geschwindigkeit nicht genug Schwung hast, um die Bodenhaftung zu verlieren.
+  </Step>
+  <Step num="3" title="Drift einleiten">
+    Sobald du den Scheitelpunkt der Kurve erreichst, lenke scharf mit **A** oder **D** ein und halte gleichzeitig kurz die **linke Umschaltseite** (Handbremse) für eine Sekunde gedrückt, um das Heck ausbrechen zu lassen.
+  </Step>
+  <Step num="4" title="Gegenlenken und Gas geben">
+    Sobald das Auto zu rutschen beginnt, lenke in die entgegengesetzte Richtung der Kurve (Gegenlenken), um das Fahrzeug stabil zu halten. Spiele feinfühlig mit der **W-Taste**, um den Drift zu halten, ohne dich um 360 Grad zu drehen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Drift-Meisterschaft">
+Erfolgreiches Driften basiert auf dem Zusammenspiel zwischen Handbremse (Shift) und Gas (W). Übe am besten im Industriegebiet, da es dort weniger Verkehr und breitere Kurven gibt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Job-spezifische Tastenkürzel und Werkzeuge">
+
+Jede Rolle in Liberty County – Polizei, Feuerwehr, Rettungsdienst und Abschleppdienst (DOT) – verfügt über einzigartige Werkzeuge. Um diese schnell zu nutzen, benötigst du die Zifferntasten und spezifische Interaktionsbelegungen. Ein Polizist muss beispielsweise in der Lage sein, während einer Verfolgung zu Fuß in Sekundenbruchteilen von seiner Dienstwaffe auf Handschellen (F) zu wechseln.
+
+| Abteilung | Taste | Aktion / Werkzeug |
+| :--- | :--- | :--- |
+| **Polizei** | **1 - 9** | Zwischen Werkzeugen wechseln (Handschellen, Glock, Taser) |
+| **Polizei** | **F** | Interagieren / Festnehmen / Handschellen anlegen |
+| **Polizei** | **B** | Kofferraum öffnen / schließen |
+| **Feuerwehr** | **F** | Schlauch anschließen / Hydranten öffnen |
+| **Feuerwehr** | **G** | Atemschutzgerät (SCBA) ein-/ausschalten |
+| **Rettungsdienst** | **F** | Sanitätstasche benutzen / Trage aufladen |
+| **DOT** | **F** | Abschlepphaken befestigen / Pylonen aufstellen |
+
+<Callout type="info" title="Taktischer Vorteil">
+Als Polizeibeamter kannst du mit der Taste **P** (falls zugewiesen) oder über das Interaktionsmenü dein Fahrzeug schnell absperren, um zu verhindern, dass Verdächtige deinen Streifenwagen während eines aktiven Einsatzes stehlen.
+</Callout>
+
+</Section>
+
+<Section icon={Radio} title="Kommunikation und Funksteuerung">
+
+Effektive Kommunikation ist das Rückgrat jeder erfolgreichen Rollenspielsitzung. Die **Emergency Response Liberty County Steuerung** für das Funksystem ermöglicht es dir, mit der Leitstelle und anderen Einheiten in Kontakt zu bleiben, ohne dein Fahrzeug verlassen oder deine aktuelle Tätigkeit unterbrechen zu müssen.
+
+| Befehl / Taste | Funktion | Einsatzszenario |
+| :--- | :--- | :--- |
+| **/** | Chatfenster öffnen | Allgemeine Kommunikation |
+| **Z** | Funk Push-to-Talk | Team-interner Sprach-/Textfunk |
+| **X** | Funkkanal wechseln | Abteilung wechseln |
+| **Tab** | Spielerliste / Punkte anzeigen | Aktive Teammitglieder prüfen |
+| **M** | Hauptmenü / Karte öffnen | Navigation & Einstellungen |
+
+<Checklist
+  id="patrol-readiness"
+  title="Checkliste für die Streifenbereitschaft:"
+  items={[
+    "Überprüfe den Kraftstoffstand und den Zustand des Motors in der Werkstatt",
+    "Stelle sicher, dass ABS und TCS auf deinen bevorzugten Fahrstil eingestellt sind",
+    "Überprüfe, ob alle Stufen der Notfallbeleuchtung funktionieren (K)",
+    "Stelle dein Funkgerät auf die richtige Abteilungsfrequenz ein (X)",
+    "Rüste die wichtigsten Werkzeuge auf den ersten drei Schnellzugriffs-Slots aus"
+  ]}
+/>
+
+<Callout type="tip" title="Pro-Funk-Tipp">
+Nutze das Funkgerät (Z), um regelmäßig deinen Standort ("10-20") durchzugeben. Dies stellt sicher, dass Verstärkung dich auch dann findet, wenn du in eine Hochgeschwindigkeitsverfolgung auf den kurvigen Straßen des Countys verwickelt bist.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Optimierung und FAQ">
+
+Für das beste Spielerlebnis musst du eventuell deine Tastenbelegung oder die Grafikeinstellungen anpassen. ERLC ist ein sehr detailreiches Spiel, und die Performance kann beeinflussen, wie direkt sich deine **Emergency Response Liberty County Steuerung** anfühlt. Wenn du Eingabeverzögerungen (Input Lag) bemerkst, solltest du die Roblox-Grafikqualität verringern oder unnötige UI-Overlays in den Spieleinstellungen deaktivieren.
+
+<FAQ items={[
+  {
+    question: "Warum bewegt sich mein Fahrzeug nicht, obwohl der Motor an ist?",
+    answer: "Stelle sicher, dass die Handbremse (Shift) nicht angezogen ist und prüfe, ob du die Gangstufe 'P' (Parken) eingelegt hast, falls du die erweiterte Schaltung nutzt. Überprüfe auch, ob du noch Benzin hast."
+  },
+  {
+    question: "Wie stoppt man ein Auto während einer Verfolgung am besten?",
+    answer: "Nutze das 'PIT-Manöver' (Präzisions-Unfall-Technik), indem du das hintere Seitenteil des flüchtenden Fahrzeugs leicht rammst. Stelle sicher, dass deine Sirene (J) aktiv ist, um andere Spieler zu warnen."
+  },
+  {
+    question: "Kann ich die Standardtasten für die Sirenen ändern?",
+    answer: "Derzeit sind die meisten ERLC-Steuerungen an das Standard-Roblox-Layout gebunden. Du kannst jedoch einige UI-bezogene Tastenbelegungen im Reiter 'Einstellungen' des 'M'-Menüs anpassen."
+  },
+  {
+    question: "Warum bricht mein Auto in jeder Kurve aus?",
+    answer: "Wahrscheinlich hast du die Traktionskontrolle (TCS) deaktiviert. Drücke 'T', um sie wieder zu aktivieren, um ein stabileres, computergestütztes Fahrverhalten zu erhalten."
+  }
+]} />
+
+<Callout type="success" title="Letzter Profi-Ratschlag">
+Der Unterschied zwischen einem Anfänger und einem Veteranen in Liberty County ist das Muskelgedächtnis. Verbringe etwas Zeit auf einem privaten Server oder einem Server mit wenigen Spielern, um deine **Emergency Response Liberty County Steuerung** zu üben, bis sie dir in Fleisch und Blut übergeht.
+</Callout>
+
+</Section>

@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FileText, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Adesivos personalizados no Emergency Response Liberty County: Guia Passo a Passo",
+  description: "Domine a criação de adesivos personalizados (custom liveries) no Emergency Response Liberty County em 2026. Aprenda a baixar templates, editar designs e enviar decalques para seu servidor privado.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Liveries+Guide",
+  date: "2026-07-12",
+  author: "Equipe do Wiki de Emergency Response Liberty County",
+  keywords: "emergency response liberty county, adesivos personalizados, custom liveries, roblox, tutorial"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Requisito Principal**: Você deve possuir ou ter permissões em um servidor privado do **Emergency Response Liberty County** com a gamepass Livery Pack.
+- **Origem dos Templates**: Os templates oficiais dos veículos são encontrados no painel de anúncios do **Discord da PRC** ou no link de pacotes de adesivos personalizados.
+- **Ferramentas de Design**: Softwares profissionais como o **Photoshop** ou alternativas gratuitas como o **Photopea** são recomendados para editar os templates em PNG.
+- **Decalques do Roblox**: Todos os designs personalizados devem ser enviados como **Decalques (Decals)** no Painel do Criador do Roblox para gerar um ID de Ativo (Asset ID) exclusivo.
+- **Processo de Aprovação**: Cada design passa por uma revisão manual dos desenvolvedores do jogo, o que pode levar de algumas horas a vários dias.
+</Callout>
+
+<Section icon={Map} title="Introdução aos adesivos personalizados no Emergency Response Liberty County">
+
+Criar **adesivos personalizados (custom liveries) no Emergency Response Liberty County** é a melhor maneira de personalizar a experiência no seu servidor privado. Se você deseja replicar um departamento de polícia local da vida real ou projetar uma força de segurança futurista, o jogo oferece um sistema robusto para importar texturas externas. Esse processo une o design gráfico criativo à implementação no jogo, permitindo que os proprietários de servidores definam sua identidade visual exclusiva.
+
+**Destaques do Vídeo:**
+- Como acessar o **repositório oficial de templates da PRC** para todos os modelos de veículos.
+- Como usar o **Photopea** como uma alternativa gratuita e de alta qualidade ao Photoshop para edição.
+- O método correto para exportar e enviar os ativos para o **Painel do Criador do Roblox**.
+- Como aplicar o **ID de Ativo (Asset ID)** em partes específicas do veículo (Frente, Traseira, Laterais, Teto) dentro do jogo.
+
+<YouTubeEmbed videoId="ppO0tGVQ1tE" title="How to CREATE AND UPLOAD LIVERIES in ERLC 2024!" />
+
+<Callout type="tip" title="Dica de Profissional">
+Ao projetar, sempre mantenha suas camadas (layers) organizadas. Separe seus textos, logotipos e cores de base para que possa fazer ajustes facilmente caso um design seja inicialmente recusado durante o processo de revisão.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ferramentas de Design e Preparação de Templates">
+
+Antes de ver o logotipo do seu departamento em uma viatura, você precisa das ferramentas certas. A comunidade geralmente depende de duas opções principais de software para lidar com os complexos mapas UV fornecidos pelos desenvolvedores. Esses templates são essenciais porque garantem que seus gráficos fiquem perfeitamente alinhados com o modelo 3D do veículo.
+
+| Nome da Ferramenta | Tipo | Preço | Ideal Para |
+| :--- | :--- | :--- | :--- |
+| **Adobe Photoshop** | Aplicativo Desktop | Assinatura | Edição de nível profissional e efeitos de camada avançados |
+| **Photopea** | Baseado na Web | Gratuito | Usuários sem Photoshop que precisam de funcionalidades semelhantes |
+| **GIMP** | Código Aberto | Gratuito | Usuários de Linux ou que preferem softwares de código aberto |
+| **Pixlr** | Baseado na Web | Gratuito/Pago | Edições rápidas e simples sem a necessidade de camadas complexas |
+
+<CardGrid cols={2}>
+  <Card title="Templates de Veículos">
+    Os templates são divididos em seções específicas: **Frente, Traseira, Esquerda, Direita e Teto**. Você deve editar cada um individualmente para cobrir todo o veículo.
+  </Card>
+  <Card title="Formatos de Arquivo">
+    Sempre exporte seus designs finais como arquivos **PNG**. Isso preserva a transparência e garante a mais alta qualidade ao ser compactado pelo Roblox.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Nota Importante">
+Os templates fornecidos pela PRC geralmente incluem linhas de contorno (wireframes). Essas linhas mostram exatamente onde ficam as portas, o capô e o porta-malas. Não as delete até que esteja pronto para exportar, pois elas são o seu guia principal para o posicionamento dos elementos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo de Criação e Envio">
+
+Dominar o fluxo de trabalho para os **adesivos personalizados no Emergency Response Liberty County** exige precisão. Um pequeno erro no ID de Ativo ou na categoria de envio pode fazer com que seu adesivo não apareça corretamente no ambiente do jogo.
+
+<Steps>
+  <Step num="1" title="Baixe os Templates Oficiais">
+    Acesse o servidor do Discord da PRC e localize o canal **Bulletin Board** (Painel de Anúncios). Clique no link dos pacotes de adesivos personalizados para acessar a pasta do Google Drive ou MEGA que contém os templates de veículos mais recentes.
+  </Step>
+  <Step num="2" title="Desenhe seus Gráficos">
+    Abra o template escolhido (por exemplo, a lateral direita do Bullhorn Prer Pursuit) no seu editor de imagem. Adicione o nome do seu departamento, números de unidade e distintivos. **Não** altere a cor de base do veículo no editor se quiser usar o seletor de cores do jogo mais tarde.
+  </Step>
+  <Step num="3" title="Envie para o Painel do Criador do Roblox">
+    Acesse o site do Roblox, clique em **Criar**, depois navegue até **Itens de Desenvolvimento** > **Decalques**. Envie seu arquivo PNG aqui. Após o envio, clique no item para abrir a página dele e copie o **ID de Ativo (Asset ID)** numérico da URL.
+  </Step>
+  <Step num="4" title="Configure nas Opções do Servidor no ERLC">
+    Entre no seu servidor privado, abra as **Configurações do Servidor** e navegue até a seção **Livery Pack**. Encontre o modelo de veículo para o qual você desenhou, clique em **Adicionar Novo** e cole o ID de Ativo no campo correspondente (ex: Lateral Direita).
+  </Step>
+</Steps>
+
+| Passo de Envio | Ação Necessária | Erro Comum |
+| :--- | :--- | :--- |
+| **Tipo de Ativo** | Selecionar **Decalque (Decal)** no Painel do Criador | Selecionar \"Imagem\" ou \"Camisa\" por engano |
+| **Nomeação** | Usar um nome claro e descritivo | Usar palavras banidas que ativam os filtros do Roblox |
+| **Extração de ID** | Copiar apenas os números da URL | Incluir barras ou caracteres adicionais |
+| **Posicionamento** | Associar o ID ao lado correto do veículo | Colar o ID do lado \"Esquerdo\" no campo do lado \"Direito\" |
+
+<Callout type="warning" title="Processamento do ID de Ativo">
+Após o envio para o Roblox, a imagem pode aparecer com um ícone de \"quebrada\" por alguns minutos. Isso é normal; o Roblox está analisando a imagem por questões de segurança. Você ainda pode copiar o ID, mas ele pode não aparecer no ERLC até que a verificação seja concluída.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Técnicas de Combinação de Cores e Transparência">
+
+Um problema comum com os **adesivos personalizados no Emergency Response Liberty County** é a diferença de cor entre o decalque personalizado e a pintura de base do veículo. Para obter um visual perfeito, você precisa entender como o jogo lida com códigos Hex.
+
+Se você deseja que a cor do veículo e a cor do adesivo sejam idênticas, siga estes passos:
+1. Selecione a cor desejada para o veículo no menu de Adesivos do ERLC.
+2. Copie o **Código Hex** (ex: #FFFFFF para branco).
+3. Cole esse mesmo Código Hex no campo **Livery Color** localizado logo abaixo dos campos de ID de Ativo.
+
+Alternativamente, você pode criar **Adesivos Transparentes**. Ao deletar a camada de fundo no seu software de design e exportar apenas o texto e os logotipos, a pintura de base do veículo aparecerá por trás do seu design. Este é o método mais flexível para proprietários de servidores que desejam oferecer várias opções de cores para o mesmo departamento.
+
+<Checklist
+  id="livery-quality-check"
+  title="Lista de Verificação de Acabamento Final:"
+  items={[
+    "Verifique se todo o texto está legível e não está esticado",
+    "Certifique-se de que os logotipos não fiquem sobrepostos a maçanetas de portas ou tampas de combustível",
+    "Confirme se os códigos Hex coincidem para uma aparência uniforme",
+    "Garanta que o design esteja em conformidade com os Termos de Serviço do Roblox",
+    "Teste o adesivo em diferentes momentos do dia (no jogo) para verificar a visibilidade"
+  ]}
+/>
+
+<Callout type="success" title="Dica Avançada">
+Usar um tom levemente acinzentado ou off-white para o seu texto muitas vezes pode parecer mais realista sob o motor de iluminação do jogo do que um branco puro #FFFFFF, que às vezes pode parecer muito estourado sob a luz solar direta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Envio, Aprovação e Diretrizes">
+
+Depois que o seu adesivo estiver configurado nas opções do servidor, ele deve ser enviado para aprovação pela equipe de moderação do **Emergency Response Liberty County**. Esta é uma verificação manual para garantir que o conteúdo seja apropriado para a comunidade do jogo.
+
+| Ícone de Status | Significado | Ação Esperada |
+| :--- | :--- | :--- |
+| **Cronômetro Branco** | Em Revisão | Aguarde de 24 a 72 horas para que um moderador verifique o arquivo |
+| **Check Verde** | Aprovado | O adesivo agora está visível para todos os jogadores no seu servidor |
+| **Ausente/Removido** | Recusado | Verifique as diretrizes e envie novamente uma versão corrigida |
+
+**Motivos Comuns de Rejeição:**
+- **Logotipos Protegidos por Direitos Autorais**: O uso de logotipos de marcas do mundo real (como Ford, Chevrolet ou distintivos de polícias reais específicas) pode levar à rejeição. É mais seguro usar logotipos genéricos ou no estilo \"Condado/Estado\".
+- **Links Externos**: Não inclua convites do Discord, redes sociais ou URLs de sites no adesivo.
+- **Conteúdo Inadequado**: Qualquer linguagem ou símbolo ofensivo resultará em uma rejeição imediata e possíveis advertências ao servidor.
+
+<Callout type="info" title="Prazos de Aprovação">
+Os tempos de aprovação variam. Enquanto alguns adesivos são aceitos em até 2 horas, outros podem levar até 3 dias, dependendo do volume de envios. Se o seu adesivo ainda estiver \"Em Revisão\" após 4 dias, considere enviá-lo novamente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Preciso de uma gamepass especial para usar adesivos personalizados no Emergency Response Liberty County?",
+    answer: "Sim, o proprietário do servidor deve possuir a gamepass 'Livery Pack' para enviar e usar texturas personalizadas dentro de seu servidor privado."
+  },
+  {
+    question: "Posso usar o mesmo ID de adesivo para veículos diferentes?",
+    answer: "Geralmente não. Cada veículo possui um mapa UV (template) exclusivo. Um adesivo projetado para um Tahoe parecerá distorcido se aplicado a um Crown Victoria."
+  },
+  {
+    question: "Por que meu adesivo parece embaçado no jogo?",
+    answer: "Isso geralmente ocorre devido à resolução do envio. Certifique-se de que seus templates tenham pelo menos 1024x1024 pixels ou mais, e sempre exporte em PNG para evitar artefatos de compactação."
+  },
+  {
+    question: "Outros jogadores conseguem ver meus adesivos personalizados?",
+    answer: "Sim, assim que o adesivo for aprovado pelos desenvolvedores, todos os jogadores que entrarem no seu servidor privado poderão ver os designs personalizados nos veículos."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Sempre guarde um backup dos seus arquivos originais em formato .PSD ou .PHOTOPEA. Se um moderador solicitar a remoção de um pequeno detalhe específico, ter as camadas originais poupará horas de trabalho em comparação a refazer tudo do zero a partir de um PNG plano.
+</Callout>
+
+</Section>

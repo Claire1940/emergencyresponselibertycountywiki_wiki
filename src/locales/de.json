@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "money": "Money",
+    "police": "Police",
+    "crime": "Crime",
+    "vehicles": "Vehicles",
+    "updates": "Updates"
+  }
+}

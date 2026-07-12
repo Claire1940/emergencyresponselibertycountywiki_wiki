@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FileText, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Emergency Response Liberty County custom liveries: Step-by-Step Setup Guide",
+  description: "Master Emergency Response Liberty County custom liveries in 2026. Learn to download templates, edit designs, and upload decals to your private server.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Liveries+Guide",
+  date: "2026-07-12",
+  author: "Emergency Response Liberty County Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Requirement**: You must own or have permissions in an **Emergency Response Liberty County** private server with the Livery Pack gamepass.
+- **Template Source**: Official vehicle templates are found via the **PRC Discord** bulletin board or the custom livery packs link.
+- **Design Tools**: Professional software like **Photoshop** or free alternatives like **Photopea** are recommended for editing PNG templates.
+- **Roblox Decals**: All custom designs must be uploaded as **Decals** to the Roblox Creator Dashboard to generate a unique Asset ID.
+- **Approval Process**: Every design undergoes a manual review by the game developers, which can take anywhere from a few hours to several days.
+</Callout>
+
+<Section icon={Map} title="Introduction to Emergency Response Liberty County custom liveries">
+
+Creating **Emergency Response Liberty County custom liveries** is the ultimate way to personalize your private server experience. Whether you want to replicate a local real-world police department or design a futuristic security force, the game provides a robust system for importing external textures. This process bridges the gap between creative graphic design and in-game implementation, allowing server owners to define their unique visual identity.
+
+**Video Highlights:**
+- Accessing the official **PRC template repository** for all vehicle models.
+- Using **Photopea** as a free, high-quality alternative to Photoshop for editing.
+- The correct method for exporting and uploading assets to the **Roblox Creator Dashboard**.
+- How to apply the **Asset ID** to specific vehicle parts (Front, Back, Sides, Top) in-game.
+
+<YouTubeEmbed videoId="ppO0tGVQ1tE" title="How to CREATE AND UPLOAD LIVERIES in ERLC 2024!" />
+
+<Callout type="tip" title="Pro Tip">
+When designing, always keep your layers organized. Separate your text, logos, and base colors so you can easily make adjustments if a design is initially declined during the review process.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Design Tools and Template Preparation">
+
+Before you can see your department's logo on a cruiser, you need the right tools. The community generally relies on two main software options for handling the complex UV maps provided by the developers. These templates are essential because they ensure your graphics align perfectly with the vehicle's 3D model.
+
+| Tool Name | Type | Price | Best For |
+| :--- | :--- | :--- | :--- |
+| **Adobe Photoshop** | Desktop App | Subscription | Professional-grade editing and advanced layer effects |
+| **Photopea** | Web-Based | Free | Users without Photoshop who need similar functionality |
+| **GIMP** | Open Source | Free | Linux users or those preferring open-source software |
+| **Pixlr** | Web-Based | Free/Paid | Quick, simple edits without complex layer requirements |
+
+<CardGrid cols={2}>
+  <Card title="Vehicle Templates">
+    Templates are divided into specific sections: **Front, Back, Left, Right, and Top**. You must edit each one individually to cover the entire vehicle.
+  </Card>
+  <Card title="File Formats">
+    Always export your final designs as **PNG** files. This preserves transparency and ensures the highest quality when compressed by Roblox.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Important Note">
+The templates provided by PRC often include wireframes. These lines show you exactly where the doors, hood, and trunk are located. Do not delete these until you are ready to export, as they are your primary guide for placement.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Creation and Upload Process">
+
+Mastering the workflow for **Emergency Response Liberty County custom liveries** requires precision. One small mistake in the Asset ID or the upload category can result in your livery not appearing correctly in the game environment.
+
+<Steps>
+  <Step num="1" title="Download Official Templates">
+    Navigate to the PRC Discord server and locate the **Bulletin Board**. Click the link for the custom livery packs to access the Google Drive or MEGA folder containing the latest vehicle templates.
+  </Step>
+  <Step num="2" title="Design Your Graphics">
+    Open your chosen template (e.g., the Right Side of the Bullhorn Prer Pursuit) in your editor. Add your department name, unit numbers, and badges. **Do not** change the base vehicle color in the editor if you want to use the in-game color picker later.
+  </Step>
+  <Step num="3" title="Upload to Roblox Creator Dashboard">
+    Go to the Roblox website, click **Create**, then navigate to **Development Items** > **Decals**. Upload your PNG file here. Once uploaded, click on the item to open its page and copy the numerical **Asset ID** from the URL.
+  </Step>
+  <Step num="4" title="Configure in ERLC Server Settings">
+    Join your private server, open the **Server Settings**, and navigate to the **Livery Pack** section. Find the vehicle model you designed for, click **Add New**, and paste the Asset ID into the corresponding slot (e.g., Right Side).
+  </Step>
+</Steps>
+
+| Upload Step | Action Required | Common Error |
+| :--- | :--- | :--- |
+| **Asset Type** | Select **Decal** in Creator Dashboard | Selecting "Image" or "Shirt" by mistake |
+| **Naming** | Use a clear, descriptive name | Using banned words that trigger Roblox filters |
+| **ID Extraction** | Copy only the digits from the URL | Including slashes or extra characters |
+| **Placement** | Match the ID to the correct vehicle side | Pasting the "Left" ID into the "Right" slot |
+
+<Callout type="warning" title="Asset ID Processing">
+After uploading to Roblox, the image may appear as a "broken" icon for a few minutes. This is normal; Roblox is scanning the image for safety. You can still copy the ID, but it might not show up in ERLC until the scan is complete.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Color Matching and Transparency Techniques">
+
+A common issue with **Emergency Response Liberty County custom liveries** is color mismatching between the custom decal and the vehicle's base paint. To achieve a seamless look, you must understand how the game handles Hex codes.
+
+If you want the vehicle color and the livery color to be identical, follow these steps:
+1. Select your desired vehicle color in the ERLC Livery menu.
+2. Copy the **Hex Code** (e.g., #FFFFFF for white).
+3. Paste that same Hex Code into the **Livery Color** field located directly below the Asset ID slots.
+
+Alternatively, you can create **Transparent Liveries**. By deleting the background layer in your design software and only exporting the text and logos, the vehicle's base paint will show through your design. This is the most flexible method for server owners who want to offer multiple color options for the same department.
+
+<Checklist
+  id="livery-quality-check"
+  title="Final Polish Checklist:"
+  items={[
+    "Verify that all text is legible and not stretched",
+    "Ensure logos do not overlap with door handles or fuel caps",
+    "Check that the Hex codes match for a uniform appearance",
+    "Confirm that the design complies with Roblox Terms of Service",
+    "Test the livery at different times of day (in-game) to check visibility"
+  ]}
+/>
+
+<Callout type="success" title="Advanced Tip">
+Using a slightly off-white or light gray for your text can often look more realistic in the game's lighting engine than a pure #FFFFFF white, which can sometimes appear "blown out" under bright sunlight.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Submission, Approval, and Guidelines">
+
+Once your livery is configured in the server settings, it must be submitted for approval by the **Emergency Response Liberty County** moderation team. This is a manual check to ensure the content is appropriate for the game's community.
+
+| Status Icon | Meaning | Expected Action |
+| :--- | :--- | :--- |
+| **White Timer** | Under Review | Wait 24-72 hours for a moderator to check the file |
+| **Green Check** | Approved | The livery is now visible to all players in your server |
+| **Missing/Removed** | Declined | Check the guidelines and re-upload a corrected version |
+
+**Common Rejection Reasons:**
+- **Copyrighted Logos**: Using real-world brand logos (like Ford, Chevy, or specific real-life police badges) can lead to a decline. It is safer to use generic or "County/State" style logos.
+- **External Links**: Do not include Discord invites, social media handles, or website URLs on the livery.
+- **Inappropriate Content**: Any offensive language or symbols will result in an immediate decline and potential server warnings.
+
+<Callout type="info" title="Approval Times">
+Approval times are inconsistent. While some liveries are accepted within 2 hours, others may take up to 3 days depending on the volume of submissions. If your livery is still "Under Review" after 4 days, consider re-submitting.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do I need a special gamepass to use Emergency Response Liberty County custom liveries?",
+    answer: "Yes, the server owner must possess the 'Livery Pack' gamepass to upload and use custom textures within their private server."
+  },
+  {
+    question: "Can I use the same livery ID for different vehicles?",
+    answer: "Generally, no. Each vehicle has a unique UV map (template). A livery designed for a Tahoe will look distorted if applied to a Crown Victoria."
+  },
+  {
+    question: "Why does my livery look blurry in the game?",
+    answer: "This is usually due to the resolution of the upload. Ensure your templates are at least 1024x1024 or higher, and always export as a PNG to avoid compression artifacts."
+  },
+  {
+    question: "Can other players see my custom liveries?",
+    answer: "Yes, once a livery is approved by the developers, every player who joins your private server will be able to see the custom designs on the vehicles."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Always keep a backup of your original .PSD or .PHOTOPEA files. If a moderator asks you to remove a specific small detail, having the original layers will save you hours of work compared to starting over from a flat PNG.
+</Callout>
+
+</Section>

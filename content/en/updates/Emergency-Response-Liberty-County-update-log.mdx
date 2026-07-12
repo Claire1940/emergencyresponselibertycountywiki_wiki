@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Update Log: 2026 Patches & Features",
+  description: "Track the official Emergency Response Liberty County update log. Compare the latest 2026 patches, DOT job overhauls, vehicle changes, and server commands.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Update+Log+Guide",
+  date: "2026-07-12",
+  author: "Emergency Response Liberty County Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Emergency Response Liberty County update log**: This central tracker monitors all major game updates, feature overhauls, and seasonal event details.
+- **Department of Transportation (DOT) Overhaul**: The March 2026 patch completely integrated construction mechanics directly into the DOT team.
+- **Police Vehicle Upgrades**: April 2026 introduced rear-seat cages for transport and improved off-road pursuit detection mechanics.
+- **Private Server API Expansion**: Server owners now have access to live player-location coordinates and vehicle color data via the v2 API endpoint.
+- **Badge Hunt Event**: The popular law enforcement event returned in May 2026, marking the transition to the summer update cycle.
+</Callout>
+
+<Section icon={Trophy} title="Emergency Response Liberty County Update Log Overview">
+
+The official **Emergency Response Liberty County update log** documents the evolution of Liberty County's open-world emergency services roleplay. Developed by the Police Roleplay Community (PRC), the game receives consistent updates that balance civilian jobs, criminal activities, law enforcement tools, and specialized rescue operations. 
+
+The first half of 2026 brought massive changes to the Department of Transportation (DOT), introduced critical quality-of-life upgrades for police pursuits, and expanded API access for private server communities. Staying up-to-date with these patches ensures you maximize your earnings, master new vehicle mechanics, and utilize the latest server management features.
+
+| Update Date | Patch Title | Primary Focus | Key Feature |
+|-|-|-|-|
+| **2026-05-10** | May Update & Badge Event | Law Enforcement Event | Return of the Badge Hunt |
+| **2026-04-18** | April Police & Pursuit Patch | Vehicle Upgrades | Rear-seat cages & off-road tracking |
+| **2026-03-22** | March Spring & DOT Update | Job Reorganization | Construction merged into DOT team |
+| **2026-02-22** | February DOT Overhaul | Infrastructure & API | Heavy Rotator & live coordinate API |
+
+<Callout type="tip" title="Pro Tip">
+Always read the patch notes before starting a patrol. Vehicle handling, pursuit rules, and job payouts frequently adjust with seasonal balance updates.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="2026 Update History and Detailed Patch Notes">
+
+The 2026 development cycle focused on streamlining team roles and providing private server owners with robust administrative tools. Below is the chronological breakdown of the official **Emergency Response Liberty County update log** entries for the year.
+
+### May 10, 2026 — May Update and Badge Event
+This patch marked the return of the fan-favorite law enforcement event and prepared the game's infrastructure for the upcoming major Summer Update.
+
+- **Badge Hunt Return**: Police and Sheriff players can earn exclusive event badges by completing successful arrests and related law enforcement calls.
+- **Development Shift**: PRC officially announced this as the final regular content patch before focusing resources entirely on the massive Summer Update cycle.
+- **General Fixes**: Resolved minor UI glitches on the Mobile Data Terminal (MDT) and optimized server-side physics performance.
+
+### April 18, 2026 — April Police Vehicle and Pursuit Update
+This update targeted balance issues between fleeing criminals and pursuing officers, giving law enforcement improved utility.
+
+- **Rear-Seat Cages**: Most standard police and sheriff patrol units can now equip physical rear-seat cages, improving suspect transport roleplay.
+- **Pursuit Detection**: Upgraded the automated system to maintain active pursuit status even when suspects flee off-road or traverse rough terrain.
+- **Summer Prep**: Minor back-end optimization to ensure vehicle stability ahead of larger seasonal changes.
+
+### March 22, 2026 — March Update and DOT Job Changes
+A major reorganization of civilian and utility gameplay occurred in this patch, consolidating separate roles into a unified department.
+
+- **Construction Job Removal**: The standalone Construction Job was officially retired.
+- **Refund System**: All player-owned construction vehicles were automatically refunded at full purchase value.
+- **DOT Team Integration**: Construction-style vehicles and repair tasks were moved directly under the Department of Transportation team, making it a multi-faceted utility role.
+- **Spring Map**: The seasonal winter snow melted, and the vibrant spring map returned to Liberty County.
+
+### February 22, 2026 — DOT Overhaul and Private Server API Expansion
+This massive technical update completely refreshed roadside service gameplay and introduced requested features for external community developers.
+
+- **DOT Overhaul**: Introduced new service vehicles, towing apparatus, and the heavy-duty Heavy Rotator.
+- **API v2 Coordinates**: Private server API responses now include real-time player location coordinates.
+- **Vehicle Color Data**: Added vehicle color hex values to the API payload, allowing community dashboards to track active patrol liveries.
+
+<Callout type="info" title="System Note">
+If you owned construction vehicles prior to March 22, 2026, check your in-game bank balance. Refunds were processed automatically upon your first login after the update.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Department Comparison: Law Enforcement vs. Utility Teams">
+
+With the recent additions in the **Emergency Response Liberty County update log**, choosing the right department depends entirely on your preferred playstyle. The table below compares the core mechanics of the revamped teams.
+
+| Department | Primary Role | Core Tools | Rank Progression | How to Earn XP |
+|-|-|-|-|-|
+| **Police / Sheriff** | Law Enforcement | MDT, Handcuffs, Radar Gun, Citation Book | Cadet/Recruit to Commander/Chief Deputy | Complete traffic stops, issue citations, arrest wanted suspects |
+| **Fire & Rescue** | Emergency Medical & Fire | Hose, Extinguisher, SCBA, Stretcher, Spreader | Volunteer to Battalion Chief | Extinguish structure/vehicle fires, treat patients, clear major scenes |
+| **DOT (Utility)** | Roadside & Infrastructure | Traffic Cones, Signs, Tow Truck, Heavy Rotator | Trainee to Senior Technician | Tow disabled vehicles, repair streetlights, manage traffic hazards |
+
+<CardGrid cols={3}>
+  <Card title="Law Enforcement">
+    - **High-speed pursuits**
+    - Active criminal tracking
+    - Dynamic tactical operations
+  </Card>
+  <Card title="Fire & Rescue">
+    - **Cooperative team play**
+    - Multi-stage fire emergencies
+    - Life-saving medical response
+  </Card>
+  <Card title="DOT Service">
+    - **Relaxed progression**
+    - Map-wide repair objectives
+    - Heavy vehicle recovery
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warning">
+Switching teams mid-session is allowed, but your active department XP does not transfer. Focus on one department per session to unlock high-tier vehicles faster.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: Getting Started in Liberty County">
+
+If you are a new player adjusting to the latest 2026 features, follow this standardized progression route to establish a steady income and unlock your first department vehicle.
+
+<Steps>
+  <Step num="1" title="Begin as a Civilian">
+    Join the Civilian team first. Avoid committing crimes immediately; instead, use this phase to explore River City, Springfield, and the rural highways to familiarize yourself with the map layout.
+  </Step>
+  <Step num="2" title="Acquire Basic Transportation">
+    Visit the local vehicle dealership and purchase an affordable, easy-to-control civilian car. Do not spend all your starting cash on cosmetics—save funds for fuel, charging, and equipment.
+  </Step>
+  <Step num="3" title="Complete Civilian Jobs">
+    Take on farming, hospital, or transportation jobs. These roles provide reliable, low-risk cash flow to build up your bank account before you transition to specialized emergency roles.
+  </Step>
+  <Step num="4" title="Transition to a Department">
+    Once you have a reliable vehicle, join an emergency department (Police, Sheriff, Fire, or DOT). Open your Mobile Data Terminal (MDT) to view active dispatch calls.
+  </Step>
+  <Step num="5" title="Earn Department XP">
+    Respond to nearby calls and successfully complete the objectives. Consistent activity on a single team unlocks higher ranks, superior patrol gear, and specialized department vehicles.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success">
+Completing a call fully yields significantly more XP and cash than abandoning it halfway. Always clear your active scene before requesting a new dispatch.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Private Server Management & Custom Liveries">
+
+Private servers are highly popular for organized roleplay communities. Recent updates in the **Emergency Response Liberty County update log** have significantly expanded what server owners can customize.
+
+### Custom Livery and Advertisement Guidelines
+If your server has the Custom Livery Pack, you can upload custom vehicle designs. However, all submissions must pass a strict review process:
+
+- **Template Accuracy**: You must download and use the official template for the specific vehicle model.
+- **No External Links**: QR codes, social media handles, website links, or phone numbers are strictly prohibited.
+- **Readability**: Text and logos must be large, high-contrast, and clearly legible.
+- **Real-World Agencies**: Designs based on real-world city, county, or state emergency services are permitted as long as they do not violate copyright or contain prohibited text.
+- **Server Branding**: Staff, Moderator, or Admin liveries must clearly display the name or abbreviation of your specific private server.
+
+### Private Server API Features (v2)
+For communities running external CAD/MDT systems, the February 2026 API expansion provides crucial data points:
+
+- **Live Coordinates**: Track the exact X, Y, Z positions of active players for live-mapping.
+- **Vehicle Customization Tracking**: Pull vehicle color data directly into your community dispatch panels.
+- **Secure Integration**: Access your unique API key securely through the in-game Private Server Settings menu.
+
+<Checklist
+  id="server-setup-checklist"
+  title="Private Server Launch Checklist:"
+  items={[
+    "Configure basic server rules and administrator permissions",
+    "Upload approved custom vehicle liveries using official templates",
+    "Verify that billboard advertisements conform to the 16:9 aspect ratio",
+    "Generate and secure your API key for external CAD integration",
+    "Test staff commands in a private session before opening to the public"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where can I find the official Emergency Response Liberty County update log?",
+    answer: "The official update log is published by the Police Roleplay Community developers on the Roblox Developer Forum, their official Discord server, and via update videos on their YouTube channel."
+  },
+  {
+    question: "What happened to the Construction Job in the 2026 updates?",
+    answer: "The Construction Job was removed in the March 22, 2026 update. All player-owned construction vehicles were fully refunded, and construction/repair tasks were merged directly into the Department of Transportation (DOT) team."
+  },
+  {
+    question: "How do I unlock higher-ranking vehicles in the Police or Sheriff departments?",
+    answer: "You must earn department-specific XP by successfully completing law enforcement actions such as arrests, traffic stops, and responding to MDT calls. Ranks and their corresponding vehicles cannot be unlocked using purchased cash."
+  },
+  {
+    question: "Can I use real-world emergency service designs for custom server liveries?",
+    answer: "Yes, real-world city, county, and state designs are allowed. However, they must not include copyrighted logos, external communication links, or violate standard Roblox community guidelines."
+  }
+]} />
+
+</Section>

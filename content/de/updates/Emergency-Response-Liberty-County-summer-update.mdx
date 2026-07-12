@@ -1,0 +1,200 @@
+import { Map, Shield, Car, Flame, Hammer, Zap, Trophy, Target, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Sommer-Update: 2026 Features",
+  description: "Entdecken Sie das Emergency Response Liberty County Sommer-Update mit unserem Leitfaden für 2026 zu neuen Fahrzeugen, Kartenänderungen und Abteilungsüberarbeitungen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Summer+Update+Guide",
+  date: "2026-07-12",
+  author: "Emergency Response Liberty County Wiki-Team",
+  keywords: "Emergency Response Liberty County, Sommer-Update, ERLC 2026, Fahrzeuge, Straßendienst, Feuerwehr, Polizei"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Emergency Response Liberty County Sommer-Update**: Der Zyklus 2026 führt umfassende Kartenerweiterungen und Fahrzeugüberarbeitungen ein.
+- **Neue Abteilungen**: Der Straßendienst (DOT) und die Feuerwehr (Fire Rescue) haben bedeutende Werkzeug-Updates erhalten, um die Effizienz im Rollenspiel zu steigern.
+- **Fortschrittsstrategie**: Konzentrieren Sie sich auf das Absolvieren von Einsätzen mit hohen EP im Polizei- oder Sheriff-Team, um saisonale Belohnungen freizuschalten.
+- **Aktiver Code**: Nutzen Sie den Code **ERLC2026** für einen Geldbonus von $10.000, um erfolgreich in die Sommersaison zu starten.
+- **Fahrzeug-Meta**: Leistungsstarke zivile Fahrzeuge sind jetzt unerlässlich, um dem verbesserten Verfolgungsjagd-Erkennungssystem zu entkommen.
+</Callout>
+
+<Section icon={Map} title="Sommer 2026 Roadmap und Übersicht">
+
+Das **Emergency Response Liberty County Sommer-Update** stellt die größte inhaltliche Veränderung für die Saison 2026 dar. Nach der Übergangsphase im Mai, in der sich die Entwickler auf Abzeichen-Events für Strafverfolgungsbehörden konzentrierten, bringt der Sommerzyklus eine frisch gestaltete Umgebung für River City und den umliegenden Landkreis. Dieses Update wurde entwickelt, um den Realismus der Rettungsdienstsimulation zu verbessern und gleichzeitig Kriminellen und Zivilisten interaktivere Weltelemente zu bieten.
+
+Spieler können sich auf eine komplette visuelle Überarbeitung der Gebiete Springfield und River City freuen, mit saisonaler Vegetation und verbesserten Lichteffekten, die die hochsommerliche Atmosphäre widerspiegeln. Das Update geht zudem auf langjährige Wünsche der Community bezüglich der Fahrzeuganpassung und abteilungsspezifischer Ausrüstung ein.
+
+| Update-Phase | Fokusbereich | Wichtige Neuerungen |
+| :--- | :--- | :--- |
+| **Phase 1** | Kartenerweiterung | Neue ländliche Routen, Streifenzonen am Strand und aktualisierte Vegetation |
+| **Phase 2** | Fahrzeugüberarbeitung | Rücksitzgitter für die Polizei, schwere Abschleppfahrzeuge für den Straßendienst |
+| **Phase 3** | Rollenspiel-Werkzeuge | Verbesserte MDT-Benutzeroberfläche und fortschrittliche medizinische Ausrüstung |
+| **Phase 4** | Wirtschaftsbalance | Überarbeitete EP-Raten für Langstreckeneinsätze und Transporte |
+
+<Callout type="tip" title="Profi-Tipp">
+Prüfen Sie immer den offiziellen PRC Discord- oder X-Kanal (ehemals Twitter) auf Hotfixes zur Mitte der Saison, die oft kurz nach der ersten Veröffentlichung des Sommer-Updates erscheinen.
+</Callout>
+
+</Section>
+
+<Section icon={Car} title="Fahrzeugkategorien und Leistungs-Tier-Liste">
+
+Fahrzeuge bilden das Herzstück des **Emergency Response Liberty County Sommer-Updates**. Egal, ob Sie als Sheriff-Deputy auf den Highways patrouillieren oder auf einen Gebäudebrand reagieren – Ihre Wahl des Transportmittels entscheidet über Ihren Erfolg. Die Sommer-Meta 2026 bevorzugt Fahrzeuge mit hoher Haltbarkeit und Geländetauglichkeit aufgrund des erweiterten County-Terrains.
+
+<CardGrid cols={3}>
+  <Card title="Polizei-Abfangjäger">
+    - **Höchstgeschwindigkeit**: Exzellent
+    - **Handling**: Hohe Präzision
+    - **Besonderheit**: Unterstützung für Rücksitzgitter
+  </Card>
+  <Card title="Schwere DOT-Abschlepper">
+    - **Höchstgeschwindigkeit**: Mäßig
+    - **Haltbarkeit**: Maximal
+    - **Besonderheit**: Fortschrittliche Abschleppphysik
+  </Card>
+  <Card title="Zivile Sportwagen">
+    - **Höchstgeschwindigkeit**: Spitzenklasse
+    - **Anpassung**: Volle Unterstützung
+    - **Besonderheit**: Bestens geeignet für Fluchten
+  </Card>
+</CardGrid>
+
+Die folgende Tabelle vergleicht die beliebtesten Fahrzeuge, die in der aktuellen Sommer-Meta genutzt werden. Beachten Sie, dass Preise und EP-Anforderungen je nach Ihrem aktuellen Abteilungsrang variieren können.
+
+| Fahrzeugtyp | Team | Preis (Bargeld) | Freischalt-Bed. | Beste Verwendung |
+| :--- | :--- | :--- | :--- | :--- |
+| **Falcon Advance** | Polizei | $45.000 | Officer | Stadtverfolgung |
+| **Bullhorn SUV** | Sheriff | $38.000 | Deputy | Ländliche Streife |
+| **Heavy Rotator** | DOT | $65.000 | Techniker | Highway-Bergung |
+| **Drehleiterwagen** | Feuerwehr | $0 (Rangbasiert) | Maschinist | Gebäudebrände |
+| **Velocity Sport** | Zivilist | $120.000 | Keine | Hochgeschwindigkeitsrennen |
+
+<Callout type="warning" title="Fahrzeugwartung">
+Das Sommer-Update erhöht den Kraftstoffverbrauch bei Hochgeschwindigkeits-Verfolgungsjagden. Stellen Sie sicher, dass Sie an den Tankstellen in Springfield oder River City tanken, bevor Sie eine lange Streifenschicht beginnen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Strafverfolgung und Abteilungsfortschritt">
+
+Das **Emergency Response Liberty County Sommer-Update** verbessert den Arbeitsablauf für die Polizei- und Sheriff-Abteilungen erheblich. Mit der Rückkehr der Spielmechaniken des Abzeichen-Jagd-Events werden Beamte ermutigt, länger im Dienst zu bleiben, um exklusive saisonale Belohnungen zu verdienen. Das Verfolgungsjagd-Erkennungssystem wurde verfeinert, um Verdächtige besser aufzuspüren, die versuchen, sich in der neuen ländlichen Vegetation der Kartenerweiterung 2026 zu verstecken.
+
+<Steps>
+  <Step num="1" title="Wählen Sie Ihre Zuständigkeit">
+    Entscheiden Sie sich zwischen dem River City Police Department für städtische Streifen oder dem Liberty County Sheriff's Office für Einsätze auf Highways und im ländlichen Raum.
+  </Step>
+  <Step num="2" title="Sommerausrüstung anlegen">
+    Nutzen Sie das aktualisierte Ausrüstungsmenü, um die neuen taktischen Westen und verbesserten Radarpistolen auszurüsten, die für die Sommerhitze entwickelt wurden.
+  </Step>
+  <Step num="3" title="Auf MDT-Einsätze reagieren">
+    Überwachen Sie das Mobile Daten-Terminal auf aktive 911-Notrufe. Priorität wird Raubüberfällen mit hohem Risiko und Massenkarambolagen eingeräumt.
+  </Step>
+  <Step num="4" title="Verhaftungen abwickeln">
+    Transportieren Sie Verdächtige in das Bezirksgefängnis. Das Update 2026 gewährt Bonus-EP für erfolgreiche Transporte ohne Zwischenfälle.
+  </Step>
+</Steps>
+
+| Rangstufe | Polizeititel | Sherifftitel | Benötigte EP | Freischaltungen |
+| :--- | :--- | :--- | :--- | :--- |
+| **Einstieg** | Kadett | Rekrut | 0 | Einfacher Streifenwagen |
+| **Mittlerer Rang** | Sergeant | Sergeant | 5.000 | Taktischer SUV |
+| **Hoher Rang** | Captain | Captain | 15.000 | Führungsfahrzeug |
+| **Elite** | Commander | Chief Deputy | 30.000 | Elite-Abfangjäger |
+
+<Callout type="success" title="EP-Bonus">
+Das Absolvieren einer vollen 20-minütigen Streifenschicht ohne Teamwechsel gewährt während des Sommer-Events 2026 einen EP-Multiplikator von 15%.
+</Callout>
+
+</Section>
+
+<Section icon={Flame} title="Feuerwehr und Straßendienst-Operationen">
+
+Für Spieler, die kooperatives Gameplay bevorzugen, bringt das **Emergency Response Liberty County Sommer-Update** eine umfassende Überarbeitung für den Straßendienst (DOT) und die Feuerwehr (Fire & Rescue). Das DOT-Team übernimmt nun alle Infrastrukturreparaturen, die zuvor dem Bauarbeiter-Job zugeordnet waren, was es zu einer hervorragenden Quelle für regelmäßiges Einkommen macht.
+
+**Verbesserungen bei der Feuerwehr:**
+- **Dynamische Buschbrände**: Häufigeres Auftreten von Bränden in den ländlichen Gebieten des Landkreises während der Sommersaison.
+- **Medizinische Triage**: Neue Interaktionen für Sanitäter bei der Behandlung mehrerer Patienten an Unfallorten.
+- **Fahrzeugvielfalt**: Auswahl an spezialisierten Rettungsfahrzeugen für Einsätze an Klippen und auf dem Wasser.
+
+**Änderungen beim Straßendienst (DOT):**
+- **Schwere Bergung**: Die Einführung des Heavy Rotators ermöglicht ein einfacheres Abschleppen von Großfahrzeugen und Nutzfahrzeugen.
+- **Infrastrukturreparatur**: Ampeln und Straßenlaternen müssen nun manuell mit speziellen DOT-Werkzeugen repariert werden.
+- **Sicherheit am Einsatzort**: Verbesserte Physik für Leitkegel und Absperrungen, um Arbeiter vor schnellem Verkehr zu schützen.
+
+| Dienstrolle | Hauptwerkzeug | Häufiger Vorfall | Belohnungsart |
+| :--- | :--- | :--- | :--- |
+| **Feuerwehrmann** | Löschschlauch | Gebäudebrand | Team-EP / Bargeld |
+| **Sanitäter** | Trage | Medizinischer Notfall | Team-EP / Bargeld |
+| **Abschleppfahrer** | Abschlepphaken | Abgestelltes Fahrzeug | DOT-EP / Bargeld |
+| **Techniker** | Reparatursatz | Ampelausfall | DOT-EP / Bargeld |
+
+<Callout type="info" title="Abteilungssynergie">
+Feuerwehr und Straßendienst arbeiten bei schweren Unfällen oft Hand in Hand. Die Feuerwehr beseitigt medizinische Gefahren, während der Straßendienst die Fahrbahn sichert und die Wrackteile entfernt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sommer 2026 Wirtschaft und Farmen">
+
+Das Verdienen von Bargeld im **Emergency Response Liberty County Sommer-Update** erfordert ein ausgewogenes Verhältnis zwischen legalen Berufen und risikoreichen kriminellen Aktivitäten. Zivilisten haben Zugriff auf aktualisierte Jobrouten, die die neuen Orte auf der Karte nutzen, während Kriminelle die dichtere Vegetation für bessere Fluchtwege nach Bank- oder Juwelierüberfällen ausnutzen können.
+
+<Checklist
+  id="summer-goals"
+  title="Fortschrittsziele für Sommer 2026:"
+  items={[
+    "Erreichen Sie Rang 5 in der DOT-Abteilung für den Heavy Rotator",
+    "Schließen Sie 50 erfolgreiche Verhaftungen für das Sommer-Abzeichen ab",
+    "Kaufen Sie ein leistungsstarkes ziviles Fahrzeug für Rennen",
+    "Meistern Sie als Krimineller die neuen Verfolgungsjagd-Erkennungsmechaniken",
+    "Schalten Sie das Rücksitzgitter für alle Polizeistreifenwagen frei"
+  ]}
+/>
+
+| Aktivität | Risikostufe | Zeitaufwand | Potenzielle Auszahlung |
+| :--- | :--- | :--- | :--- |
+| **Ziviles Farmen** | Niedrig | 10-15 Min. | $2.500 - $4.000 |
+| **Polizeistreife** | Mittel | 15-20 Min. | $3.000 + EP |
+| **Bankraub** | Hoch | 5-10 Min. | $8.000 - $12.000 |
+| **DOT-Reparaturen** | Niedrig | 5-10 Min. | $2.000 + EP |
+| **Juwelierdiebstahl** | Hoch | 3-5 Min. | $5.000 - $7.000 |
+
+<Callout type="tip" title="Geldstrategie">
+Neue Spieler sollten mit den Jobs als Farmer oder Krankenhausmitarbeiter beginnen, um ein Startkapital von $20.000 aufzubauen, bevor sie in spezialisierte Abteilungsfahrzeuge investieren.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Sommer-Update FAQ">
+
+Die Community hat oft Fragen zu den spezifischen Mechaniken des **Emergency Response Liberty County Sommer-Updates**. Nachfolgend finden Sie die am häufigsten gestellten Fragen, die von unserem Wiki-Team analysiert wurden.
+
+<FAQ items={[
+  {
+    question: "Wie greife ich auf die neuen Features des Sommer-Updates 2026 zu?",
+    answer: "Die meisten Features sind auf öffentlichen Servern automatisch verfügbar. Bestimmte Befehle für private Server und API-Erweiterungen erfordern jedoch, dass der Serverbesitzer seine Einstellungen aktualisiert und die entsprechenden Pakete erwirbt."
+  },
+  {
+    question: "Was ist der schnellste Weg, um im Sommer-Update EP zu verdienen?",
+    answer: "Das Reagieren auf hochpriorisierte Einsätze bei der Polizei oder Feuerwehr bietet die beständigsten EP. Wenn Sie mindestens 20 Minuten in einem Team bleiben, wird zudem ein Sitzungsbonus aktiviert."
+  },
+  {
+    question: "Kann ich während des Sommer-Updates noch Codes aus dem Jahr 2025 verwenden?",
+    answer: "Die meisten Codes aus dem Jahr 2025 sind abgelaufen. Der derzeit zuverlässigste aktive Code für die Saison 2026 ist ERLC2026, der eine Geldbelohnung gewährt."
+  },
+  {
+    question: "Sind die Änderungen am Straßendienst (DOT) dauerhaft?",
+    answer: "Ja, die Umstrukturierung der Bauarbeiten in das Department of Transportation ist eine dauerhafte Änderung, die darauf abzielt, das dienstbasierte Rollenspiel zu optimieren."
+  }
+]} />
+
+<Callout type="success" title="Schlusswort">
+Die Sommersaison 2026 ist der perfekte Zeitpunkt, um die erweiterte Karte von Liberty County zu erkunden. Egal, ob Sie das Gesetz durchsetzen oder der Gemeinschaft dienen, es gibt eine passende Rolle für jeden Spielstil.
+</Callout>
+
+</Section>

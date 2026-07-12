@@ -1,0 +1,190 @@
+import { Map, Target, Shield, Trophy, Sparkles, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa do Emergency Response Liberty County: Guia de Locais Essenciais",
+  description: "Domine o mapa do Emergency Response Liberty County com nosso guia de 2026 para River City, Springfield e instalações críticas dos departamentos para um roleplay eficiente.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Liberty+County+Map+Guide",
+  date: "2026-07-12",
+  author: "Equipe da Wiki do Emergency Response Liberty County"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mapa do Emergency Response Liberty County**: Apresenta dois centros urbanos principais, River City e Springfield, conectados por uma vasta rede de rodovias e estradas rurais.
+- **Instalações Críticas**: Delegacias de polícia, quartéis de bombeiros e instalações do DOT estão estrategicamente posicionados para garantir tempos de resposta rápidos em todo o condado.
+- **Pontos de Criminalidade**: Alvos de alto valor, como o Banco e a Joalheria, estão localizados em áreas urbanas centrais, exigindo um planejamento estratégico de fuga.
+- **Estratégia de Navegação**: Utilize o MDT (Terminal de Dados Móveis) do jogo para definir pontos de referência e rastrear chamadas de emergência ativas em tempo real.
+- **Atualizações de 2026**: As recentes reformulações do mapa incluem a atualização sazonal de primavera e a reorganização dos centros de serviço do Departamento de Transporte.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Mapa do Emergency Response Liberty County">
+
+O **mapa do Emergency Response Liberty County** serve como a base para todas as atividades de roleplay dentro do jogo. Abrangendo uma paisagem diversificada que inclui ambientes urbanos densos, bairros suburbanos tranquilos e arredores rurais acidentados, o mapa foi projetado para facilitar perseguições em alta velocidade, resgates complexos de incêndio e simulação detalhada da vida civil. Compreender a geografia é o primeiro passo para se tornar um oficial de elite ou um empreendedor de sucesso.
+
+Em 2026, o mapa passou por vários refinamentos para melhorar o fluxo de tráfego e a acessibilidade dos departamentos. O layout é dividido em zonas distintas, cada uma oferecendo desafios e oportunidades únicas para diferentes equipes.
+
+| Recurso | Descrição | Equipe Principal |
+| :--- | :--- | :--- |
+| **River City** | Centro urbano de alta densidade com arranha-céus e varejo. | Polícia / Bombeiros |
+| **Springfield** | Área residencial e suburbana com lojas locais. | Sheriff / EMS |
+| **Áreas Rurais** | Campos abertos, fazendas e estradas florestais sinuosas. | Sheriff / DOT |
+| **Zona Industrial** | Fábricas, armazéns e centros de serviço do DOT. | DOT / Civil |
+| **Sistema Rodoviário** | Artérias de alta velocidade que conectam todos os distritos principais. | Todas as Equipes |
+
+<Callout type="tip" title="Recomendação de Patrulha">
+Novos jogadores devem passar sua primeira hora no **mapa do Emergency Response Liberty County** como civis. Isso permite que você aprenda os principais cruzamentos e rotas de atalho sem a pressão de responder a chamadas de emergência de alta prioridade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Instalações dos Departamentos e Centros Estratégicos">
+
+Cada departamento de serviço de emergência em Liberty County opera a partir de instalações especializadas. Esses edifícios servem como pontos de spawn, armários de equipamentos e garagens de veículos. Saber a localização exata desses centros no **mapa do Emergency Response Liberty County** é vital para se reequipar durante um turno movimentado.
+
+<CardGrid cols={3}>
+  <Card title="Delegacia de Polícia">
+    - **Localização**: Centro de River City
+    - **Função**: Centro principal para oficiais do RCPD
+    - **Recursos**: Celas de prisão, arsenal e acesso ao MDT
+  </Card>
+  <Card title="Escritório do Sheriff">
+    - **Localização**: Springfield / Limite do Condado
+    - **Função**: Base principal para deputados do LCSO
+    - **Recursos**: Spawn de veículos de patrulha e despacho rural
+  </Card>
+  <Card title="Bombeiros e Resgate">
+    - **Localização**: Múltiplas estações (Cidade/Condado)
+    - **Função**: Centro de resposta para Bombeiros e EMS
+    - **Recursos**: Caminhões de escada e alas médicas
+  </Card>
+</CardGrid>
+
+A distribuição dessas instalações garante que nenhuma parte do mapa esteja a mais de alguns minutos de assistência de emergência. Em 2026, o Departamento de Transporte (DOT) recebeu uma reformulação significativa em suas instalações, consolidando os serviços de construção e reparo em um centro de logística centralizado.
+
+| Nome da Instalação | Localização | Interação Principal |
+| :--- | :--- | :--- |
+| **QG da Polícia de River City** | Centro de River City | Registro de suspeitos e transporte para a prisão |
+| **Escritório Principal do LCSO** | Arredores de Springfield | Desdobramento de patrulha do condado |
+| **Estação 1 (Bombeiros)** | Centro de River City | Combate a incêndios e resposta médica |
+| **Operações do DOT** | Perto do Distrito Industrial | Reparo de infraestrutura e reboque |
+| **Hospital de Liberty County** | Norte de River City | Entrega de pacientes e roleplay médico |
+
+<Callout type="warning" title="Acesso Restrito">
+Civis não autorizados que entrarem em áreas exclusivas de departamentos (como a prisão ou garagens de bombeiros) podem ser multados por invasão. Permaneça sempre em saguões públicos, a menos que esteja acompanhado por um membro do departamento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Locais Criminosos e Pontos de Roubo">
+
+Para aqueles que escolhem uma vida de crime, o **mapa do Emergency Response Liberty County** está repleto de oportunidades de alto risco e alta recompensa. Os roubos são a principal fonte de renda ilegal, mas também acionam alarmes automáticos que notificam todos os oficiais da lei ativos.
+
+<Steps>
+  <Step num="1" title="Localize o Alvo">
+    Identifique locais de alto valor como o Banco, a Joalheria ou postos de gasolina locais. Estes são marcados com ícones específicos para criminosos na interface do mapa.
+  </Step>
+  <Step num="2" title="Planeje a Abordagem">
+    Verifique a proximidade da delegacia de Polícia ou do Sheriff mais próxima. Alvos urbanos em River City costumam ter tempos de resposta mais rápidos do que postos de gasolina rurais.
+  </Step>
+  <Step num="3" title="Execute e Fuja">
+    Assim que o roubo começa, o alarme soa. Use as estradas secundárias sinuosas do mapa de Liberty County para despistar as unidades de perseguição antes de seguir para um esconderijo.
+  </Step>
+</Steps>
+
+| Tipo de Roubo | Dificuldade | Recompensa Típica | Localização |
+| :--- | :--- | :--- | :--- |
+| **Cofre do Banco** | Alta | $5.000 - $10.000 | Centro de River City |
+| **Joalheria** | Média | $3.000 - $6.000 | Shopping Plaza de River City |
+| **Posto de Gasolina** | Baixa | $500 - $1.500 | Vários (Rodovia/Rural) |
+| **Roubo de ATM** | Muito Baixa | $200 - $500 | Espalhados por todo o condado |
+
+<Callout type="success" title="Dica para Criminosos Pro">
+As estradas rurais perto de Springfield oferecem melhor ocultação para fugas. Evite as rodovias principais durante uma perseguição de alto nível, pois os veículos policiais costumam ser mais rápidos em linha reta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Empregos Civis e Navegação Econômica">
+
+A navegação não serve apenas para emergências; o **mapa do Emergency Response Liberty County** abriga vários locais de trabalho civil onde os jogadores podem ganhar dinheiro legalmente. Esses empregos são essenciais para novos jogadores que desejam comprar seu primeiro veículo de alto desempenho ou equipamento especializado.
+
+<Checklist
+  id="civilian-milestones"
+  title="Principais Locais de Emprego Civil:"
+  items={[
+    "Visite a Fazenda para trabalho agrícola constante",
+    "Vá ao Hospital para oportunidades de roleplay médico",
+    "Verifique a Zona Industrial para tarefas relacionadas ao transporte",
+    "Localize as várias Concessionárias para navegar por atualizações de veículos",
+    "Passe pelos Postos de Combustível para manter a mobilidade do seu veículo"
+  ]}
+/>
+
+Os empregos civis são estrategicamente posicionados para incentivar a exploração de todo o mapa. Ao trabalhar em diferentes empregos, você se familiariza com os atalhos e ruas laterais que eventualmente o ajudarão durante perseguições em alta velocidade ou respostas de emergência.
+
+| Título do Emprego | Localização Principal | Potencial de Renda |
+| :--- | :--- | :--- |
+| **Fazendeiro** | Springfield Rural | Estável / Confiável |
+| **Carteiro** | Centro de River City | Moderado / Móvel |
+| **Equipe do Hospital** | Hospital de River City | Alto (Dependente de Roleplay) |
+| **Transporte** | DOT / Industrial | Alto (Exige veículo especializado) |
+
+<Callout type="info" title="Mudanças nos Empregos de 2026">
+A atualização de março de 2026 removeu o emprego autônomo de Construção e integrou essas tarefas à equipe do Departamento de Transporte (DOT). Veículos de construção agora são acessíveis através do menu do DOT.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Dominando a Navegação no Mapa em 2026">
+
+A navegação eficaz no **mapa do Emergency Response Liberty County** exige mais do que apenas olhar para o minimapa. Jogadores profissionais usam uma combinação de pontos de referência, nomes de ruas e o sistema MDT para ficar à frente da competição.
+
+**Principais Técnicas de Navegação:**
+- **Pontos de Referência do MDT**: Use o Terminal de Dados Móveis para definir marcadores de GPS para chamadas ativas. Esta é a maneira mais rápida de encontrar um incidente.
+- **Reconhecimento de Pontos de Referência**: Memorize os edifícios mais altos de River City e os silos exclusivos de Springfield para se orientar sem abrir o mapa completo.
+- **Padrões de Tráfego**: Durante as horas de pico do servidor, os principais cruzamentos em River City podem ficar congestionados. Use os becos laterais e passagens por estacionamentos para evitar o tráfego.
+- **Gerenciamento de Combustível**: Monitore sempre o seu medidor de combustível. O mapa possui vários postos de gasolina; ficar sem combustível durante uma perseguição é uma maneira garantida de ser preso ou perder um suspeito.
+
+<CardGrid cols={2}>
+  <Card title="Navegação Urbana">
+    Foque em curvas fechadas, atalhos por becos e estruturas de estacionamento de vários níveis. Veículos de alta manobrabilidade se destacam aqui.
+  </Card>
+  <Card title="Navegação Rural">
+    Foque na velocidade de longa distância, capacidades off-road e gerenciamento de visibilidade em estradas florestais escuras.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Atalho do MDT">
+Você pode abrir rapidamente seu mapa e MDT usando teclas de atalho no PC. Dominar esses controles permite que você verifique sua localização e status enquanto mantém altas velocidades no veículo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor lugar para começar no mapa do Emergency Response Liberty County?",
+    answer: "Para novos jogadores, River City é o melhor ponto de partida devido à alta densidade de empregos, lojas e à delegacia de polícia principal. Ela oferece a maior atividade e oportunidades para aprender as mecânicas do jogo rapidamente."
+  },
+  {
+    question: "Existem locais secretos no mapa do ERLC?",
+    answer: "Embora não existam edifícios 'escondidos', há várias trilhas off-road e áreas florestais isoladas nas partes rurais do mapa que são excelentes para roleplay ou para se esconder durante uma perseguição."
+  },
+  {
+    question: "Como encontro roubos ativos no mapa?",
+    answer: "Se você estiver na equipe da Polícia ou do Sheriff, os roubos ativos aparecerão como pontos vermelhos no seu mapa e MDT. Civis e criminosos não veem esses marcadores, a menos que estejam no local."
+  },
+  {
+    question: "O mapa mudou nas atualizações de 2026?",
+    answer: "Sim, as atualizações de 2026 introduziram a atualização sazonal de primavera do mapa, melhoraram a detecção de perseguição para áreas off-road e reorganizaram os locais de serviço do DOT para melhorar a eficiência da equipe."
+  }
+]} />
+
+</Section>

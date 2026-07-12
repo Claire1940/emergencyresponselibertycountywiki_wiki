@@ -1,0 +1,190 @@
+import { Map, Target, Shield, Trophy, Sparkles, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Map: Essential Locations Guide",
+  description: "Master the Emergency Response Liberty County map with our 2026 guide to River City, Springfield, and critical department facilities for efficient roleplay.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Liberty+County+Map+Guide",
+  date: "2026-07-12",
+  author: "Emergency Response Liberty County Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Emergency Response Liberty County map**: Features two primary urban centers, River City and Springfield, connected by a vast network of highways and rural roads.
+- **Critical Facilities**: Police stations, fire houses, and DOT facilities are strategically placed to ensure rapid response times across the county.
+- **Criminal Hotspots**: High-value targets like the Bank and Jewelry Store are located in central urban areas, requiring strategic escape planning.
+- **Navigation Strategy**: Utilize the in-game MDT (Mobile Data Terminal) to set waypoints and track active emergency calls in real-time.
+- **2026 Updates**: Recent map overhauls include the Spring seasonal refresh and reorganized Department of Transportation service hubs.
+</Callout>
+
+<Section icon={Map} title="Emergency Response Liberty County Map Overview">
+
+The **Emergency Response Liberty County map** serves as the foundation for all roleplay activities within the game. Spanning a diverse landscape that includes dense urban environments, quiet suburban neighborhoods, and rugged rural outskirts, the map is designed to facilitate high-speed pursuits, complex fire rescues, and detailed civilian life simulation. Understanding the geography is the first step toward becoming a top-tier officer or a successful entrepreneur.
+
+In 2026, the map has seen several refinements to improve traffic flow and department accessibility. The layout is divided into distinct zones, each offering unique challenges and opportunities for different teams.
+
+| Feature | Description | Primary Team |
+| :--- | :--- | :--- |
+| **River City** | High-density urban center with skyscrapers and retail. | Police / Fire |
+| **Springfield** | Residential and suburban area with local shops. | Sheriff / EMS |
+| **Rural Outskirts** | Open fields, farms, and winding forest roads. | Sheriff / DOT |
+| **Industrial Zone** | Factories, warehouses, and DOT service hubs. | DOT / Civilian |
+| **Highway System** | High-speed arteries connecting all major districts. | All Teams |
+
+<Callout type="tip" title="Patrol Recommendation">
+New players should spend their first hour in the **Emergency Response Liberty County map** as a civilian. This allows you to learn the major intersections and shortcut routes without the pressure of responding to high-priority emergency calls.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Department Facilities and Strategic Hubs">
+
+Each emergency service department in Liberty County operates out of specialized facilities. These buildings serve as spawn points, equipment lockers, and vehicle bays. Knowing the exact location of these hubs on the **Emergency Response Liberty County map** is vital for re-gearing during a busy shift.
+
+<CardGrid cols={3}>
+  <Card title="Police Station">
+    - **Location**: Central River City
+    - **Function**: Primary hub for RCPD officers
+    - **Features**: Jail cells, armory, and MDT access
+  </Card>
+  <Card title="Sheriff's Office">
+    - **Location**: Springfield / County Line
+    - **Function**: Main base for LCSO deputies
+    - **Features**: Patrol vehicle spawns and rural dispatch
+  </Card>
+  <Card title="Fire & Rescue">
+    - **Location**: Multiple stations (City/County)
+    - **Function**: Response center for Fire and EMS
+    - **Features**: Ladder trucks and medical bays
+  </Card>
+</CardGrid>
+
+The distribution of these facilities ensures that no part of the map is more than a few minutes away from emergency assistance. In 2026, the Department of Transportation (DOT) received a significant facility overhaul, consolidating construction and repair services into a centralized logistics center.
+
+| Facility Name | Location | Key Interaction |
+| :--- | :--- | :--- |
+| **River City Police HQ** | Downtown River City | Suspect booking and jail transport |
+| **LCSO Main Office** | Springfield Outskirts | County patrol deployment |
+| **Station 1 (Fire)** | Central River City | Fire suppression and medical response |
+| **DOT Operations** | Near Industrial District | Infrastructure repair and towing |
+| **Liberty County Hospital** | North River City | Patient delivery and medical roleplay |
+
+<Callout type="warning" title="Restricted Access">
+Unauthorized civilians entering department-only areas (like the jail or fire bays) can be cited for trespassing. Always remain in public lobbies unless escorted by a department member.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Criminal Locations and Robbery Points">
+
+For those choosing a life of crime, the **Emergency Response Liberty County map** is filled with high-risk, high-reward opportunities. Robberies are the primary source of illegal income, but they also trigger automatic alarms that notify all active law enforcement officers.
+
+<Steps>
+  <Step num="1" title="Locate the Target">
+    Identify high-value locations like the Bank, Jewelry Store, or local gas stations. These are marked with specific icons for criminals on the map interface.
+  </Step>
+  <Step num="2" title="Plan the Approach">
+    Check the proximity of the nearest Police or Sheriff station. Urban targets in River City often have faster response times than rural gas stations.
+  </Step>
+  <Step num="3" title="Execute and Escape">
+    Once the robbery starts, the alarm sounds. Use the winding backroads of the Liberty County map to lose pursuing units before heading to a safe house.
+  </Step>
+</Steps>
+
+| Robbery Type | Difficulty | Typical Reward | Location |
+| :--- | :--- | :--- | :--- |
+| **Bank Vault** | High | $5,000 - $10,000 | Downtown River City |
+| **Jewelry Store** | Medium | $3,000 - $6,000 | River City Shopping Plaza |
+| **Gas Station** | Low | $500 - $1,500 | Various (Highway/Rural) |
+| **ATM Robbery** | Very Low | $200 - $500 | Scattered county-wide |
+
+<Callout type="success" title="Pro Criminal Tip">
+The rural roads near Springfield offer better concealment for escapes. Avoid the main highways during a high-level pursuit, as police vehicles are often faster in a straight line.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Civilian Jobs and Economic Navigation">
+
+Navigation isn't just for emergencies; the **Emergency Response Liberty County map** hosts various civilian job sites where players can earn legal cash. These jobs are essential for new players looking to buy their first high-performance vehicle or specialized equipment.
+
+<Checklist
+  id="civilian-milestones"
+  title="Top Civilian Job Locations:"
+  items={[
+    "Visit the Farm for steady agricultural work",
+    "Head to the Hospital for medical roleplay opportunities",
+    "Check the Industrial Zone for transportation-related tasks",
+    "Locate the various Dealerships to browse vehicle upgrades",
+    "Stop by the Fuel Stations to maintain your vehicle's mobility"
+  ]}
+/>
+
+Civilian jobs are strategically placed to encourage exploration of the entire map. By working different jobs, you become familiar with the shortcuts and side-streets that will eventually help you during high-speed chases or emergency responses.
+
+| Job Title | Primary Location | Income Potential |
+| :--- | :--- | :--- |
+| **Farmer** | Rural Springfield | Steady / Reliable |
+| **Postal Worker** | River City Hub | Moderate / Mobile |
+| **Hospital Staff** | River City Hospital | High (Roleplay dependent) |
+| **Transportation** | DOT / Industrial | High (Requires specialized vehicle) |
+
+<Callout type="info" title="2026 Job Changes">
+The March 2026 update removed the standalone Construction Job and integrated those tasks into the Department of Transportation (DOT) team. Construction vehicles are now accessible through the DOT menu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mastering Map Navigation in 2026">
+
+Effective navigation on the **Emergency Response Liberty County map** requires more than just looking at the mini-map. Professional players use a combination of landmarks, street names, and the MDT system to stay ahead of the competition.
+
+**Key Navigation Techniques:**
+- **MDT Waypoints**: Use the Mobile Data Terminal to set GPS markers for active calls. This is the fastest way to find an incident.
+- **Landmark Recognition**: Memorize the tallest buildings in River City and the unique silos in Springfield to orient yourself without opening the full map.
+- **Traffic Patterns**: During peak server hours, main intersections in River City can become congested. Use the side alleys and parking lot pass-throughs to bypass traffic.
+- **Fuel Management**: Always monitor your fuel gauge. The map features several gas stations; running out of fuel during a pursuit is a guaranteed way to get arrested or lose a suspect.
+
+<CardGrid cols={2}>
+  <Card title="Urban Navigation">
+    Focus on tight turns, alleyway shortcuts, and multi-level parking structures. High-maneuverability vehicles excel here.
+  </Card>
+  <Card title="Rural Navigation">
+    Focus on long-distance speed, off-road capabilities, and managing visibility on dark forest roads.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="MDT Shortcut">
+You can quickly open your map and MDT using hotkeys on PC. Mastering these controls allows you to check your location and status while maintaining high vehicle speeds.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where is the best place to start on the Emergency Response Liberty County map?",
+    answer: "For new players, River City is the best starting point due to the high density of jobs, shops, and the main police station. It provides the most activity and opportunities to learn the game mechanics quickly."
+  },
+  {
+    question: "Are there any secret locations on the ERLC map?",
+    answer: "While there are no 'hidden' buildings, there are several off-road trails and secluded forest areas in the rural parts of the map that are excellent for roleplaying or hiding during a pursuit."
+  },
+  {
+    question: "How do I find active robberies on the map?",
+    answer: "If you are on the Police or Sheriff team, active robberies will appear as red blips on your map and MDT. Civilians and criminals do not see these markers unless they are at the location."
+  },
+  {
+    question: "Has the map changed in the 2026 updates?",
+    answer: "Yes, the 2026 updates introduced the seasonal Spring map refresh, improved pursuit detection for off-road areas, and reorganized the DOT service locations to improve team efficiency."
+  }
+]} />
+
+</Section>

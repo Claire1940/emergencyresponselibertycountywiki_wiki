@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Truck, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Atualização do DOT no Emergency Response Liberty County: Guia de Reformulação de 2026",
+  description: "Explore a atualização completa do DOT no Emergency Response Liberty County, apresentando a reformulação do Departamento de Trânsito de 2026, novos veículos, progressão de patentes e mecânicas de reparo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=DOT+Update+Guide",
+  date: "2026-07-12",
+  author: "Equipe da Wiki de Emergency Response: Liberty County"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Atualização do DOT no Emergency Response Liberty County**: As atualizações de 2026 reformularam completamente o Departamento de Trânsito (DOT), fundindo as funções de construção em um único departamento de serviço.
+- **Nova Frota de Veículos**: Os jogadores agora têm acesso a veículos de resgate especializados, incluindo o Guincho Rotativo Pesado (Heavy Rotator) e caminhões de reboque plataforma (flatbed).
+- **Progressão de XP**: A obtenção de XP do departamento agora está vinculada a reparos de infraestrutura, remoção de veículos e gerenciamento de perigos na pista.
+- **Fusão da Construção**: A partir de março de 2026, o trabalho separado de Construção foi removido, com todos os veículos e tarefas transferidos para a equipe do DOT.
+- **Dica de Eficiência**: Foque em chamados de reparo de alta frequência em River City para maximizar a velocidade de progressão da sua patente.
+</Callout>
+
+<Section icon={Sparkles} title="A Reformulação do DOT de 2026 e Histórico de Atualizações">
+
+A **atualização do DOT no Emergency Response Liberty County** representa uma mudança significativa na forma como os serviços de emergência secundários funcionam no jogo. Ao longo do início de 2026, a equipe de desenvolvimento da Police Roleplay Community (PRC) transformou o Departamento de Trânsito de uma função utilitária básica em um departamento totalmente estruturado, com seu próprio sistema de progressão e equipamentos especializados. Essa reformulação atendeu aos antigos pedidos dos jogadores por funções não-combativas mais interativas, oferecendo uma alternativa estável às perseguições policiais de alta intensidade encontradas em outras partes de Liberty County.
+
+**Destaques do Vídeo:**
+- Demonstração detalhada da nova sede do DOT e das garagens de veículos.
+- Demonstração das mecânicas aprimoradas de reboque e pontos de fixação dos veículos.
+- Visão geral dos minijogos de reparo de infraestrutura introduzidos no ciclo de 2026.
+- Comparação dos novos padrões de iluminação dos veículos de serviço e opções de sirene.
+
+<YouTubeEmbed videoId="idm0scESIBQ" title="Emergency Response: Liberty County - DOT Update" />
+
+O ciclo de atualização foi dividido em duas fases principais. A primeira fase, lançada em fevereiro de 2026, introduziu a reformulação principal do DOT, enquanto a segunda fase, em março de 2026, finalizou a fusão dos ativos de construção ao departamento.
+
+| Data de Lançamento | Título da Atualização | Principais Mudanças |
+| :--- | :--- | :--- |
+| 2026-02-22 | Reformulação do DOT | Nova sede, API expandida, dados de localização dos jogadores e atualizações nas cores dos veículos. |
+| 2026-03-22 | Fusão da Construção | Trabalho de Construção removido/reembolsado, veículos movidos para o DOT e retorno do mapa de primavera. |
+| 2026-04-18 | Melhorias nos Veículos | Adicionadas grades de proteção no banco traseiro das unidades policiais, detecção de perseguição refinada. |
+| 2026-05-10 | Evento de Caça aos Distintivos | Retorno do evento de Forças de Segurança e transição para o desenvolvimento da Atualização de Verão. |
+
+<Callout type="success" title="Grande Marco">
+A atualização de março de 2026 consolidou com sucesso todas as tarefas de manutenção de vias sob uma única bandeira, tornando o DOT uma das equipes mais versáteis para jogadores que gostam de roleplay técnico.
+</Callout>
+
+</Section>
+
+<Section icon={Truck} title="Frota de Veículos do DOT e Requisitos de Acesso">
+
+Com a **atualização do DOT no Emergency Response Liberty County**, a seleção de veículos para o Departamento de Trânsito foi expandida para incluir unidades de resgate pesado e serviço especializado. Esses veículos são categorizados por sua utilidade, variando de caminhonetes de serviço ágeis para reparos rápidos a guinchos massivos projetados para acidentes com múltiplos veículos. O acesso a esses veículos depende da sua patente atual no departamento e do dinheiro disponível no jogo.
+
+<CardGrid cols={3}>
+  <Card title="Caminhões de Serviço">
+    - **Objetivo**: Resposta rápida para reparos
+    - **Recursos**: Tamanho compacto, alta velocidade
+    - **Ideal para**: Chamados de postes de luz e semáforos
+  </Card>
+  <Card title="Veículos de Reboque">
+    - **Objetivo**: Recuperar carros quebrados/abandonados
+    - **Recursos**: Elevadores hidráulicos, plataformas
+    - **Ideal para**: Desobstruir perigos nas vias
+  </Card>
+  <Card title="Guinchos Pesados">
+    - **Objetivo**: Resgate em larga escala
+    - **Recursos**: Braço rotativo pesado, alto torque
+    - **Ideal para**: Acidentes com caminhões e ônibus
+  </Card>
+</CardGrid>
+
+A tabela a seguir apresenta a linha atual de veículos de 2026 e os requisitos para cada unidade. Note que os preços podem variar com base em descontos ativos do servidor ou eventos sazonais.
+
+| Nome do Veículo | Preço Base | Patente Necessária | Função Principal |
+| :--- | :--- | :--- | :--- |
+| Caminhão de Serviço Básico | $0 (Inicial) | Trainee | Assistência rodoviária e reparo de semáforos |
+| Caminhão de Reboque Padrão | $12.500 | Operador de Reboque | Recuperação e transporte básico de veículos |
+| Plataforma de Alta Capacidade | $28.000 | Operador Sênior | Transporte de veículos múltiplos ou danificados |
+| Van de Reparo Utilitário | $15.000 | Técnico | Manutenção de infraestrutura e armazenamento de ferramentas |
+| Guincho Rotativo Pesado | $55.000 | Técnico Sênior | Resgate de carga pesada e liberação de grandes vias |
+
+<Callout type="warning" title="Gerenciamento de Orçamento">
+Priorize a compra de um Caminhão de Reboque Padrão no início de sua carreira. Ele oferece o melhor equilíbrio entre custo e potencial de ganho de XP através de chamados de remoção de veículos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Progredir: Sistema de Patentes do DOT">
+
+Progredir pelas patentes do DOT é o objetivo central da **atualização do DOT no Emergency Response Liberty County**. Ao contrário da equipe de civis, onde o progresso é puramente financeiro, o DOT exige o acúmulo de XP do Departamento. Esse XP é obtido respondendo a chamados por meio do Terminal de Dados Móvel (MDT) e concluindo os objetivos com sucesso. A atualização de 2026 refinou a distribuição de XP para garantir que tarefas mais complexas, como liberar grandes acidentes, ofereçam recompensas maiores do que simples reparos de semáforos.
+
+<Steps>
+  <Step num="1" title="Junte-se à Equipe">
+    Selecione o Departamento de Trânsito (DOT) no menu de seleção de equipes e equipe o uniforme de Trainee na instalação do DOT.
+  </Step>
+  <Step num="2" title="Equipe Ferramentas Essenciais">
+    Visite o armário de equipamentos para pegar cones de trânsito, placas de sinalização e o kit de reparo. Eles são necessários para a maioria dos chamados.
+  </Step>
+  <Step num="3" title="Monitore o MDT">
+    Abra seu MDT e procure por chamados ativos. Dê prioridade a \"Queda de Semáforo\" ou \"Remoção de Veículo\" para obter ganhos constantes de XP.
+  </Step>
+  <Step num="4" title="Isole a Área">
+    Ao chegar, posicione cones e placas para se proteger do tráfego. A atualização de 2026 melhorou a resposta da IA dos motoristas às luzes de alerta do DOT.
+  </Step>
+  <Step num="5" title="Conclua o Objetivo">
+    Interaja com o objeto ou veículo danificado. Assim que a tarefa for concluída, encerre o chamado no MDT para receber seu XP e dinheiro.
+  </Step>
+</Steps>
+
+| Nome da Patente | Requisito de XP | Novos Desbloqueios |
+| :--- | :--- | :--- |
+| Trainee | 0 XP | Caminhão de Serviço Básico, Cones |
+| Operador de Reboque | 500 XP | Caminhão de Reboque Padrão, Placas de Alerta |
+| Operador Sênior | 1.500 XP | Caminhão Plataforma, Iluminação Avançada |
+| Técnico | 3.500 XP | Van Utilitária, Ferramentas de Reparo Pesado |
+| Técnico Sênior | 7.000 XP | Guincho Rotativo Pesado, Acesso de Comando |
+
+<Callout type="tip" title="Dica Profissional de Eficiência">
+Trabalhar em áreas de alto tráfego, como o cruzamento principal de River City, costuma resultar em chamados de reparo consecutivos, reduzindo significativamente o tempo de viagem entre os objetivos.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Mecânicas Avançadas e Gerenciamento de Cenas">
+
+A **atualização do DOT no Emergency Response Liberty County** introduziu mecânicas sofisticadas de gerenciamento de cenas. Os jogadores do DOT não são mais apenas \"robôs de reparo\"; eles são essenciais para o fluxo do tráfego. Quando ocorre um grande acidente, as unidades do DOT trabalham ao lado da Polícia e dos Bombeiros para gerenciar o ambiente. A reformulação de 2026 adicionou bônus de \"Proteção de Cena\", onde os jogadores do DOT ganham XP passivo por manter um perímetro seguro ao redor de cenas de emergência ativas.
+
+**Tipos Comuns de Chamados do DOT:**
+- **Reparo de Infraestrutura**: Consertar postes de luz, semáforos e hidrantes.
+- **Remoção de Veículos**: Rebocar veículos abandonados ou batidos para o pátio de apreensão.
+- **Perigos na Pista**: Remover detritos ou árvores caídas da rodovia.
+- **Apoio em Grandes Acidentes**: Coordenar com a SWAT ou unidades de Bombeiros para liberar cenas de grande escala.
+
+| Tipo de Chamado | Dificuldade | Recompensa de XP | Veículo Recomendado |
+| :--- | :--- | :--- | :--- |
+| Reparo de Semáforo | Baixa | 25 XP | Caminhão de Serviço |
+| Veículo Abandonado | Baixa | 40 XP | Caminhão de Reboque Padrão |
+| Detritos na Rodovia | Média | 60 XP | Van Utilitária |
+| Engavetamento de Carros | Alta | 150+ XP | Guincho Rotativo Pesado |
+
+<Checklist
+  id="dot-gear-list"
+  title="Equipamento Padrão de Patrulha:"
+  items={[
+    "Terminal de Dados Móvel (MDT) para rastreamento de chamados",
+    "Cones de trânsito de alta visibilidade (pelo menos 5)",
+    "Placas de trânsito direcionais (seta Esquerda/Direita)",
+    "Kit de reparo padrão e chave inglesa",
+    "Lanterna de alta intensidade para turnos noturnos"
+  ]}
+/>
+
+<Callout type="info" title="Recursos do Servidor Privado">
+Se você estiver jogando em um servidor privado com o Pacote de API ativado, a atualização de 2026 permite que os proprietários do servidor rastreiem os tempos de resposta do DOT e os locais dos veículos em tempo real.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O que aconteceu com meus veículos de construção após a atualização de 2026?",
+    answer: "Na atualização de março de 2026, o trabalho de Construção foi removido. Todos os jogadores que possuíam veículos de construção receberam um reembolso total em dinheiro, e esses veículos foram movidos para a equipe do DOT para compra."
+  },
+  {
+    question: "Posso ganhar XP do DOT enquanto jogo como Civil?",
+    answer: "Não, o XP do Departamento é exclusivo da equipe em que você está atualmente. Para ganhar XP do DOT, você deve ser um membro ativo da equipe do Departamento de Trânsito."
+  },
+  {
+    question: "Como utilizo o Guincho Rotativo Pesado introduzido na atualização?",
+    answer: "O Guincho Rotativo Pesado (Heavy Rotator) é desbloqueado na patente de Técnico Sênior. Ele possui um braço de guindaste especializado que pode ser controlado através da interface do veículo para erguer e mover veículos pesados, como ônibus e caminhões."
+  },
+  {
+    question: "A atualização do DOT está disponível para dispositivos móveis?",
+    answer: "Sim, todos os recursos da atualização do DOT no Emergency Response Liberty County, incluindo a nova interface do MDT e os controles dos veículos, estão totalmente otimizados para PC, dispositivos móveis e consoles."
+  }
+]} />
+
+</Section>

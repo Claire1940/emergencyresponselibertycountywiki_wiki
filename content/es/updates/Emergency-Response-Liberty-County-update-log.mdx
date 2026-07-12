@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Registro de Actualizaciones de Emergency Response Liberty County: Parches y Funciones de 2026",
+  description: "Sigue el registro oficial de actualizaciones de Emergency Response Liberty County. Compara los últimos parches de 2026, la reforma del trabajo de DOT, cambios en vehículos y comandos de servidor.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Update+Log+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Emergency Response Liberty County",
+  keywords: "emergency response liberty county, registro de actualizaciones, parches, DOT, policía, servidores privados"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Registro de actualizaciones de Emergency Response Liberty County**: Este rastreador central supervisa todas las actualizaciones importantes del juego, reformas de funciones y detalles de eventos estacionales.
+- **Reforma del Departamento de Transporte (DOT)**: El parche de marzo de 2026 integró por completo las mecánicas de construcción directamente en el equipo de DOT.
+- **Mejoras en Vehículos Policiales**: En abril de 2026 se introdujeron jaulas en los asientos traseros para el transporte y se mejoraron las mecánicas de detección de persecuciones todoterreno.
+- **Expansión de la API para Servidores Privados**: Los propietarios de servidores ahora tienen acceso a las coordenadas de ubicación de los jugadores en vivo y a los datos de color de los vehículos a través del endpoint de la API v2.
+- **Evento de Caza de Insignias**: El popular evento de las fuerzas del orden regresó en mayo de 2026, marcando la transición al ciclo de actualizaciones de verano.
+</Callout>
+
+<Section icon={Trophy} title="Resumen del Registro de Actualizaciones de Emergency Response Liberty County">
+
+El registro oficial de actualizaciones de **Emergency Response Liberty County** documenta la evolución del juego de rol de servicios de emergencia de mundo abierto en Liberty County. Desarrollado por Police Roleplay Community (PRC), el juego recibe actualizaciones constantes que equilibran los trabajos civiles, las actividades delictivas, las herramientas de las fuerzas del orden y las operaciones de rescate especializadas.
+
+La primera mitad de 2026 trajo cambios masivos al Departamento de Transporte (DOT), introdujo mejoras críticas de calidad de vida para las persecuciones policiales y expandió el acceso a la API para las comunidades de servidores privados. Mantenerse al día con estos parches te garantiza maximizar tus ganancias, dominar las nuevas mecánicas de los vehículos y utilizar las últimas funciones de gestión de servidores.
+
+| Fecha de Actualización | Título del Parche | Enfoque Principal | Función Clave |
+|-|-|-|-|
+| **2026-05-10** | Actualización de Mayo y Evento de Insignias | Evento de Fuerzas del Orden | Regreso de la Caza de Insignias |
+| **2026-04-18** | Parche de Policía y Persecuciones de Abril | Mejoras de Vehículos | Jaulas en asientos traseros y rastreo todoterreno |
+| **2026-03-22** | Actualización de Primavera y DOT de Marzo | Reorganización de Trabajos | Construcción fusionada con el equipo de DOT |
+| **2026-02-22** | Reforma de DOT de Febrero | Infraestructura y API | Grúa Heavy Rotator y API de coordenadas en vivo |
+
+<Callout type="tip" title="Consejo de Profesional">
+Lee siempre las notas del parche antes de comenzar una patrulla. El manejo de los vehículos, las reglas de persecución y los pagos de los trabajos se ajustan con frecuencia con las actualizaciones de equilibrio estacionales.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Historial de Actualizaciones de 2026 y Notas de Parche Detalladas">
+
+El ciclo de desarrollo de 2026 se centró en simplificar los roles de los equipos y proporcionar a los propietarios de servidores privados herramientas administrativas sólidas. A continuación se presenta el desglose cronológico de las entradas oficiales del **registro de actualizaciones de Emergency Response Liberty County** para este año.
+
+### 10 de mayo de 2026 — Actualización de Mayo y Evento de Insignias
+Este parche marcó el regreso del evento de las fuerzas del orden favorito de los fanáticos y preparó la infraestructura del juego para la próxima gran Actualización de Verano.
+
+- **Regreso de la Caza de Insignias**: Los jugadores de la Policía y del Sheriff pueden ganar insignias de evento exclusivas al realizar arrestos exitosos y responder a llamadas de servicio policiales relacionadas.
+- **Cambio en el Desarrollo**: PRC anunció oficialmente que este sería el último parche de contenido regular antes de enfocar los recursos por completo en el enorme ciclo de la Actualización de Verano.
+- **Correcciones Generales**: Se resolvieron errores menores de la interfaz de usuario en la Terminal de Datos Móviles (MDT) y se optimizó el rendimiento de la física en el lado del servidor.
+
+### 18 de abril de 2026 — Actualización de Vehículos Policiales y Persecuciones de Abril
+Esta actualización abordó los problemas de equilibrio entre los criminales en fuga y los oficiales que los persiguen, otorgando mayor utilidad a las fuerzas del orden.
+
+- **Jaulas en los Asientos Traseros**: La mayoría de las unidades de patrulla estándar de la policía y del sheriff ahora pueden equipar jaulas físicas en los asientos traseros, mejorando el juego de rol de transporte de sospechosos.
+- **Detección de Persecuciones**: Se actualizó el sistema automatizado para mantener el estado de persecución activa incluso cuando los sospechosos huyen campo a través o atraviesan terrenos difíciles.
+- **Preparación para el Verano**: Optimización menor del sistema interno para garantizar la estabilidad de los vehículos antes de los cambios estacionales más grandes.
+
+### 22 de marzo de 2026 — Actualización de Marzo y Cambios en el Trabajo de DOT
+En este parche se produjo una importante reorganización de la jugabilidad civil y de servicios públicos, consolidando roles separados en un departamento unificado.
+
+- **Eliminación del Trabajo de Construcción**: El trabajo de construcción independiente fue retirado oficialmente.
+- **Sistema de Reembolso**: Todos los vehículos de construcción propiedad de los jugadores fueron reembolsados automáticamente por su valor total de compra.
+- **Integración en el Equipo de DOT**: Los vehículos de estilo construcción y las tareas de reparación se trasladaron directamente al equipo del Departamento de Transporte, convirtiéndolo en un rol de servicios públicos multifacético.
+- **Mapa de Primavera**: La nieve invernal estacional se derritió y el vibrante mapa de primavera regresó a Liberty County.
+
+### 22 de febrero de 2026 — Reforma de DOT y Expansión de la API para Servidores Privados
+Esta enorme actualización técnica renovó por completo la jugabilidad del servicio en carretera e introdujo funciones solicitadas para los desarrolladores de comunidades externas.
+
+- **Reforma de DOT**: Se introdujeron nuevos vehículos de servicio, aparatos de remolque y la grúa de servicio pesado Heavy Rotator.
+- **Coordenadas de la API v2**: Las respuestas de la API de los servidores privados ahora incluyen coordenadas de ubicación de los jugadores en tiempo real.
+- **Datos de Color de Vehículos**: Se agregaron los valores hexadecimales de color de los vehículos al payload de la API, lo que permite a los paneles de la comunidad rastrear los diseños de patrulla activos.
+
+<Callout type="info" title="Nota del Sistema">
+Si poseías vehículos de construcción antes del 22 de marzo de 2026, verifica el saldo de tu banco en el juego. Los reembolsos se procesaron automáticamente al iniciar sesión por primera vez después de la actualización.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparación de Departamentos: Fuerzas del Orden vs. Equipos de Servicios Públicos">
+
+Con las recientes adiciones en el **registro de actualizaciones de Emergency Response Liberty County**, elegir el departamento adecuado depende completamente de tu estilo de juego preferido. La siguiente tabla compara las mecánicas principales de los equipos renovados.
+
+| Departamento | Rol Principal | Herramientas Principales | Progresión de Rango | Cómo ganar XP |
+|-|-|-|-|-|
+| **Policía / Sheriff** | Aplicación de la Ley | MDT, Esposas, Pistola de Radar, Libro de Citaciones | De Cadete/Recluta a Comandante/Subjefe | Realizar paradas de tráfico, emitir citaciones, arrestar sospechosos buscados |
+| **Bomberos y Rescate** | Emergencias Médicas y de Incendios | Manguera, Extintor, ERA, Camilla, Separador | De Voluntario a Jefe de Batallón | Extinguir incendios de estructuras/vehículos, tratar pacientes, despejar escenas principales |
+| **DOT (Servicios)** | Carreteras e Infraestructura | Conos de Tráfico, Señales, Camión de Remolque, Heavy Rotator | De Aprendiz a Técnico Senior | Remolcar vehículos averiados, reparar farolas, gestionar peligros de tráfico |
+
+<CardGrid cols={3}>
+  <Card title="Fuerzas del Orden">
+    - **Persecuciones a alta velocidad**
+    - Rastreo activo de criminales
+    - Operaciones tácticas dinámicas
+  </Card>
+  <Card title="Bomberos y Rescate">
+    - **Juego cooperativo en equipo**
+    - Emergencias de incendios de múltiples etapas
+    - Respuesta médica para salvar vidas
+  </Card>
+  <Card title="Servicio de DOT">
+    - **Progresión relajada**
+    - Objetivos de reparación en todo el mapa
+    - Recuperación de vehículos pesados
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia">
+Se permite cambiar de equipo a mitad de la sesión, pero el XP de tu departamento activo no se transfiere. Concéntrate en un departamento por sesión para desbloquear vehículos de nivel superior más rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Primeros Pasos en Liberty County">
+
+Si eres un jugador nuevo que se está adaptando a las últimas características de 2026, sigue esta ruta de progresión estandarizada para establecer un ingreso estable y desbloquear tu primer vehículo de departamento.
+
+<Steps>
+  <Step num="1" title="Comienza como Civil">
+    Únete primero al equipo de Civiles. Evita cometer delitos de inmediato; en su lugar, utiliza esta fase para explorar River City, Springfield y las autopistas rurales para familiarizarte con el diseño del mapa.
+  </Step>
+  <Step num="2" title="Adquiere Transporte Básico">
+    Visita el concesionario de vehículos local y compra un automóvil civil asequible y fácil de controlar. No gastes todo tu dinero inicial en cosméticos; ahorra fondos para combustible, recarga y equipo.
+  </Step>
+  <Step num="3" title="Completa Trabajos Civiles">
+    Realiza trabajos agrícolas, de hospital o de transporte. Estos roles proporcionan un flujo de caja confiable y de bajo riesgo para acumular fondos en tu cuenta bancaria antes de pasar a los roles de emergencia especializados.
+  </Step>
+  <Step num="4" title="Transición a un Departamento">
+    Una vez que tengas un vehículo confiable, únete a un departamento de emergencias (Policía, Sheriff, Bomberos o DOT). Abre tu Terminal de Datos Móviles (MDT) para ver las llamadas de despacho activas.
+  </Step>
+  <Step num="5" title="Gana XP de Departamento">
+    Responde a las llamadas cercanas y completa con éxito los objetivos. La actividad constante en un solo equipo desbloquea rangos más altos, mejor equipo de patrulla y vehículos de departamento especializados.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Éxito">
+Completar una llamada por completo rinde significativamente más XP y dinero que abandonarla a la mitad. Despeja siempre tu escena activa antes de solicitar un nuevo despacho.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gestión de Servidores Privados y Diseños Personalizados">
+
+Los servidores privados son muy populares para las comunidades de juego de rol organizadas. Las actualizaciones recientes en el **registro de actualizaciones de Emergency Response Liberty County** han ampliado significativamente lo que los propietarios de servidores pueden personalizar.
+
+### Directrices para Diseños Personalizados y Anuncios
+Si tu servidor cuenta con el Paquete de Diseños Personalizados, puedes subir diseños de vehículos personalizados. Sin embargo, todos los envíos deben pasar por un estricto proceso de revisión:
+
+- **Precisión de la Plantilla**: Debes descargar y utilizar la plantilla oficial para el modelo de vehículo específico.
+- **Sin Enlaces Externos**: Los códigos QR, nombres de usuario de redes sociales, enlaces a sitios web o números de teléfono están estrictamente prohibidos.
+- **Legibilidad**: El texto y los logotipos deben ser grandes, de alto contraste y claramente legibles.
+- **Agencias del Mundo Real**: Se permiten diseños basados en servicios de emergencia de ciudades, condados o estados del mundo real, siempre que no infrinjan los derechos de autor ni contengan texto prohibido.
+- **Identidad de Marca del Servidor**: Los diseños para el Personal, Moderadores o Administradores deben mostrar claramente el nombre o la abreviatura de tu servidor privado específico.
+
+### Funciones de la API de Servidores Privados (v2)
+Para las comunidades que ejecutan sistemas externos de CAD/MDT, la expansión de la API de febrero de 2026 proporciona puntos de datos cruciales:
+
+- **Coordenadas en Vivo**: Rastrea las posiciones exactas X, Y, Z de los jugadores activos para un mapeo en tiempo real.
+- **Rastreo de Personalización de Vehículos**: Extrae los datos de color de los vehículos directamente en los paneles de despacho de tu comunidad.
+- **Integración Segura**: Accede a tu clave API única de forma segura a través del menú de Configuración de Servidor Privado dentro del juego.
+
+<Checklist
+  id="server-setup-checklist"
+  title="Lista de Verificación para el Lanzamiento del Servidor Privado:"
+  items={[
+    "Configurar las reglas básicas del servidor y los permisos de administrador",
+    "Subir diseños de vehículos personalizados aprobados utilizando las plantillas oficiales",
+    "Verificar que los anuncios en vallas publicitarias se ajusten a la relación de aspecto 16:9",
+    "Generar y asegurar tu clave API para la integración externa de CAD",
+    "Probar los comandos del personal en una sesión privada antes de abrir al público"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar el registro oficial de actualizaciones de Emergency Response Liberty County?",
+    answer: "El registro oficial de actualizaciones es publicado por los desarrolladores de Police Roleplay Community en el Foro de Desarrolladores de Roblox, su servidor oficial de Discord y a través de videos de actualización en su canal de YouTube."
+  },
+  {
+    question: "¿Qué pasó con el Trabajo de Construcción en las actualizaciones de 2026?",
+    answer: "El Trabajo de Construcción se eliminó en la actualización del 22 de marzo de 2026. Todos los vehículos de construcción propiedad de los jugadores fueron reembolsados por completo, y las tareas de construcción/reparación se fusionaron directamente en el equipo del Departamento de Transporte (DOT)."
+  },
+  {
+    question: "¿Cómo desbloqueo vehículos de mayor rango en los departamentos de Policía o Sheriff?",
+    answer: "Debes ganar XP específica del departamento completando con éxito acciones de aplicación de la ley, como arrestos, paradas de tráfico y respondiendo a llamadas del MDT. Los rangos y sus vehículos correspondientes no se pueden desbloquear utilizando dinero comprado."
+  },
+  {
+    question: "¿Puedo usar diseños de servicios de emergencia del mundo real para diseños de servidores personalizados?",
+    answer: "Sí, se permiten diseños de ciudades, condados y estados del mundo real. Sin embargo, no deben incluir logotipos con derechos de autor, enlaces de comunicación externos ni violar las pautas estándar de la comunidad de Roblox."
+  }
+]} />
+
+</Section>

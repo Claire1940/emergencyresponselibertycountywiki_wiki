@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FileText, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Diseños personalizados en Emergency Response Liberty County: Guía de configuración paso a paso",
+  description: "Domina los diseños personalizados (liveries) en Emergency Response Liberty County en 2026. Aprende a descargar plantillas, editar diseños y subir calcomanías a tu servidor privado.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Liveries+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Emergency Response Liberty County",
+  keywords: "ERLC, diseños personalizados, liveries, tutorial, Roblox, servidor privado"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Requisito Principal**: Debes ser propietario o tener permisos en un servidor privado de **Emergency Response: Liberty County** con el gamepass Livery Pack.
+- **Fuente de Plantillas**: Las plantillas oficiales de los vehículos se encuentran en el tablero de anuncios del **Discord de PRC** o en el enlace de packs de diseños personalizados.
+- **Herramientas de Diseño**: Se recomienda software profesional como **Photoshop** o alternativas gratuitas como **Photopea** para editar las plantillas PNG.
+- **Calcomanías de Roblox**: Todos los diseños personalizados deben subirse como **Decals** al Roblox Creator Dashboard para generar un Asset ID único.
+- **Proceso de Aprobación**: Cada diseño se somete a una revisión manual por parte de los desarrolladores del juego, lo que puede tardar desde unas horas hasta varios días.
+</Callout>
+
+<Section icon={Map} title="Introducción a los diseños personalizados de Emergency Response Liberty County">
+
+Crear **diseños personalizados en Emergency Response: Liberty County** es la forma definitiva de personalizar la experiencia en tu servidor privado. Ya sea que quieras replicar un departamento de policía local del mundo real o diseñar una fuerza de seguridad futurista, el juego ofrece un sistema robusto para importar texturas externas. Este proceso une el diseño gráfico creativo con la implementación en el juego, permitiendo a los propietarios de servidores definir su identidad visual única.
+
+**Puntos destacados del video:**
+- Acceso al **repositorio oficial de plantillas de PRC** para todos los modelos de vehículos.
+- Uso de **Photopea** como una alternativa gratuita y de alta calidad a Photoshop para la edición.
+- El método correcto para exportar y subir recursos al **Roblox Creator Dashboard**.
+- Cómo aplicar el **Asset ID** a partes específicas del vehículo (Frontal, Trasera, Laterales, Techo) dentro del juego.
+
+<YouTubeEmbed videoId="ppO0tGVQ1tE" title="¡Cómo CREAR Y SUBIR DISEÑOS en ERLC 2024!" />
+
+<Callout type="tip" title="Consejo Profesional">
+Al diseñar, mantén siempre tus capas organizadas. Separa el texto, los logotipos y los colores base para que puedas realizar ajustes fácilmente si un diseño es rechazado inicialmente durante el proceso de revisión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Herramientas de diseño y preparación de plantillas">
+
+Antes de poder ver el logotipo de tu departamento en una patrulla, necesitas las herramientas adecuadas. La comunidad generalmente confía en dos opciones principales de software para manejar los complejos mapas UV proporcionados por los desarrolladores. Estas plantillas son esenciales porque aseguran que tus gráficos se alineen perfectamente con el modelo 3D del vehículo.
+
+| Nombre de la Herramienta | Tipo | Precio | Ideal para |
+| :--- | :--- | :--- | :--- |
+| **Adobe Photoshop** | Aplicación de escritorio | Suscripción | Edición de nivel profesional y efectos de capa avanzados |
+| **Photopea** | Basado en web | Gratis | Usuarios sin Photoshop que necesitan una funcionalidad similar |
+| **GIMP** | Código abierto | Gratis | Usuarios de Linux o quienes prefieren software de código abierto |
+| **Pixlr** | Basado en web | Gratis/Pago | Ediciones rápidas y sencillas sin requisitos de capas complejos |
+
+<CardGrid cols={2}>
+  <Card title="Plantillas de Vehículos">
+    Las plantillas se dividen en secciones específicas: **Frontal, Trasera, Izquierda, Derecha y Techo**. Debes editar cada una individualmente para cubrir todo el vehículo.
+  </Card>
+  <Card title="Formatos de Archivo">
+    Exporta siempre tus diseños finales como archivos **PNG**. Esto preserva la transparencia y garantiza la mayor calidad cuando Roblox los comprime.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Nota Importante">
+Las plantillas proporcionadas por PRC a menudo incluyen mallas de alambre (wireframes). Estas líneas te muestran exactamente dónde se encuentran las puertas, el capó y el maletero. No las elimines hasta que estés listo para exportar, ya que son tu guía principal para la colocación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Proceso de creación y carga paso a paso">
+
+Dominar el flujo de trabajo para los **diseños personalizados de Emergency Response: Liberty County** requiere precisión. Un pequeño error en el Asset ID o en la categoría de carga puede hacer que tu diseño no aparezca correctamente en el entorno del juego.
+
+<Steps>
+  <Step num="1" title="Descargar Plantillas Oficiales">
+    Dirígete al servidor de Discord de PRC y localiza el **Bulletin Board** (Tablero de anuncios). Haz clic en el enlace de los packs de diseños personalizados para acceder a la carpeta de Google Drive o MEGA que contiene las plantillas de vehículos más recientes.
+  </Step>
+  <Step num="2" title="Diseñar tus Gráficos">
+    Abre la plantilla elegida (por ejemplo, el lado derecho del Bullhorn Prer Pursuit) en tu editor. Añade el nombre de tu departamento, números de unidad e insignias. **No** cambies el color base del vehículo en el editor si deseas usar el selector de color del juego más tarde.
+  </Step>
+  <Step num="3" title="Subir al Roblox Creator Dashboard">
+    Ve al sitio web de Roblox, haz clic en **Create** (Crear), luego navega a **Development Items** > **Decals**. Sube tu archivo PNG aquí. Una vez subido, haz clic en el elemento para abrir su página y copia el **Asset ID** numérico de la URL.
+  </Step>
+  <Step num="4" title="Configurar en los Ajustes del Servidor de ERLC">
+    Únete a tu servidor privado, abre los **Server Settings** (Ajustes del servidor) y navega a la sección **Livery Pack**. Busca el modelo de vehículo para el que diseñaste, haz clic en **Add New** (Añadir nuevo) y pega el Asset ID en la ranura correspondiente (por ejemplo, Right Side).
+  </Step>
+</Steps>
+
+| Paso de Carga | Acción Requerida | Error Común |
+| :--- | :--- | :--- |
+| **Tipo de Recurso** | Selecciona **Decal** en el Creator Dashboard | Seleccionar "Image" o "Shirt" por error |
+| **Nombramiento** | Usa un nombre claro y descriptivo | Usar palabras prohibidas que activen los filtros de Roblox |
+| **Extracción de ID** | Copia solo los dígitos de la URL | Incluir barras o caracteres adicionales |
+| **Colocación** | Haz coincidir el ID con el lado correcto del vehículo | Pegar el ID de la "Izquierda" en la ranura de la "Derecha" |
+
+<Callout type="warning" title="Procesamiento del Asset ID">
+Después de subirlo a Roblox, la imagen puede aparecer como un icono "roto" durante unos minutos. Esto es normal; Roblox está escaneando la imagen por seguridad. Aún puedes copiar el ID, pero es posible que no aparezca en ERLC hasta que se complete el escaneo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Técnicas de coincidencia de colores y transparencia">
+
+Un problema común con los **diseños personalizados de Emergency Response: Liberty County** es la falta de coincidencia de color entre la calcomanía personalizada y la pintura base del vehículo. Para lograr un aspecto uniforme, debes entender cómo maneja el juego los códigos Hex.
+
+Si deseas que el color del vehículo y el color del diseño sean idénticos, sigue estos pasos:
+1. Selecciona el color de vehículo deseado en el menú Livery de ERLC.
+2. Copia el **Código Hex** (por ejemplo, #FFFFFF para blanco).
+3. Pega ese mismo código Hex en el campo **Livery Color** situado directamente debajo de las ranuras del Asset ID.
+
+Alternativamente, puedes crear **diseños transparentes**. Al eliminar la capa de fondo en tu software de diseño y exportar solo el texto y los logotipos, la pintura base del vehículo se verá a través de tu diseño. Este es el método más flexible para los propietarios de servidores que desean ofrecer múltiples opciones de color para el mismo departamento.
+
+<Checklist
+  id="livery-quality-check"
+  title="Lista de Verificación del Acabado Final:"
+  items={[
+    "Verifica que todo el texto sea legible y no esté estirado",
+    "Asegúrate de que los logotipos no se superpongan con las manijas de las puertas o las tapas de combustible",
+    "Comprueba que los códigos Hex coincidan para una apariencia uniforme",
+    "Confirma que el diseño cumple con los Términos de Servicio de Roblox",
+    "Prueba el diseño en diferentes momentos del día (dentro del juego) para verificar la visibilidad"
+  ]}
+/>
+
+<Callout type="success" title="Consejo Avanzado">
+Usar un blanco roto o un gris claro para el texto a menudo puede parecer más realista en el motor de iluminación del juego que un blanco puro #FFFFFF, que a veces puede parecer "quemado" bajo la luz solar intensa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Envío, aprobación y directrices">
+
+Una vez que tu diseño esté configurado en los ajustes del servidor, debe enviarse para su aprobación por parte del equipo de moderación de **Emergency Response: Liberty County**. Esta es una comprobación manual para asegurar que el contenido sea apropiado para la comunidad del juego.
+
+| Icono de Estado | Significado | Acción Esperada |
+| :--- | :--- | :--- |
+| **Temporizador Blanco** | En revisión | Espera de 24 a 72 horas para que un moderador revise el archivo |
+| **Check Verde** | Aprobado | El diseño ahora es visible para todos los jugadores en tu servidor |
+| **Faltante/Eliminado** | Rechazado | Revisa las directrices y vuelve a subir una versión corregida |
+
+**Razones comunes de rechazo:**
+- **Logotipos con derechos de autor**: El uso de logotipos de marcas del mundo real (como Ford, Chevy o insignias de policía reales específicas) puede provocar un rechazo. Es más seguro usar logotipos genéricos o de estilo "Condado/Estado".
+- **Enlaces externos**: No incluyas invitaciones de Discord, nombres de usuario de redes sociales o URLs de sitios web en el diseño.
+- **Contenido inapropiado**: Cualquier lenguaje o símbolo ofensivo resultará en un rechazo inmediato y posibles advertencias para el servidor.
+
+<Callout type="info" title="Tiempos de Aprobación">
+Los tiempos de aprobación son inconsistentes. Mientras que algunos diseños se aceptan en 2 horas, otros pueden tardar hasta 3 días dependiendo del volumen de envíos. Si tu diseño sigue "En revisión" después de 4 días, considera volver a enviarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Necesito un gamepass especial para usar diseños personalizados en Emergency Response: Liberty County?",
+    answer: "Sí, el propietario del servidor debe poseer el gamepass 'Livery Pack' para subir y usar texturas personalizadas dentro de su servidor privado."
+  },
+  {
+    question: "¿Puedo usar el mismo ID de diseño para diferentes vehículos?",
+    answer: "Generalmente no. Cada vehículo tiene un mapa UV (plantilla) único. Un diseño creado para un Tahoe se verá distorsionado si se aplica a un Crown Victoria."
+  },
+  {
+    question: "¿Por qué mi diseño se ve borroso en el juego?",
+    answer: "Esto se debe generalmente a la resolución de la carga. Asegúrate de que tus plantillas tengan al menos 1024x1024 o más, y expórtalas siempre como PNG para evitar artefactos de compresión."
+  },
+  {
+    question: "¿Pueden otros jugadores ver mis diseños personalizados?",
+    answer: "Sí, una vez que el diseño es aprobado por los desarrolladores, cada jugador que se una a tu servidor privado podrá ver los diseños personalizados en los vehículos."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Mantén siempre una copia de seguridad de tus archivos originales .PSD o .PHOTOPEA. Si un moderador te pide que elimines un pequeño detalle específico, tener las capas originales te ahorrará horas de trabajo en comparación con empezar de cero desde un PNG plano.
+</Callout>
+
+</Section>
