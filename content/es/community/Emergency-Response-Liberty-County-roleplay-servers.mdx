@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Server, Settings, FileText, Layout, Activity, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Servidores de Roleplay de Emergency Response Liberty County: Guía de Configuración 2026",
+  description: "Domina los servidores de roleplay de Emergency Response Liberty County con nuestra guía 2026 sobre comandos de servidor, diseños personalizados, gestión de personal y configuración de API.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Roleplay+Server+Setup",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Emergency Response Liberty County",
+  keywords: "ERLC, roleplay, servidores, guía, comandos, liveries, API"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Servidores de Roleplay**: Las instancias privadas de los **servidores de roleplay de Emergency Response Liberty County** permiten reglas personalizadas, departamentos especializados y eventos comunitarios organizados.
+- **Comandos de Servidor**: Los propietarios y el personal utilizan comandos específicos para gestionar el clima, la hora, el estado de los jugadores y la aparición de vehículos.
+- **Personalización**: El Pack de Diseños Personalizados (Custom Livery Pack) y el Pack de API son esenciales para las comunidades que desean diseños de vehículos únicos e integraciones externas.
+- **Actualizaciones de 2026**: Los parches recientes han integrado el Departamento de Transporte (DOT) y ampliado los datos de la API para un mejor monitoreo del servidor.
+- **Gestión de Personal**: El éxito depende de una jerarquía clara de Moderadores y Administradores para mantener la calidad del roleplay.
+</Callout>
+
+<Section icon={Server} title="Comprendiendo los Servidores de Roleplay de Emergency Response Liberty County">
+
+El ecosistema de los **servidores de roleplay de Emergency Response Liberty County** representa la cima de la comunidad de juegos de rol en Roblox. Mientras que los servidores públicos ofrecen una experiencia caótica de mundo abierto, los servidores privados de roleplay proporcionan un entorno estructurado donde los jugadores pueden sumergirse en simulaciones realistas de servicios de emergencia. Estos servidores son gestionados por líderes comunitarios que definen "Reglas de Enfrentamiento" y "Procedimientos Operativos Estándar" específicos para cada departamento, desde el Departamento de Policía de River City hasta la Oficina del Sheriff del Condado de Liberty.
+
+En 2026, la complejidad de estos servidores ha aumentado con la introducción de funciones avanzadas de API y la reorganización de la infraestructura civil. Gestionar un servidor exitoso requiere más que una simple suscripción; requiere comprender cómo equilibrar la libertad del jugador con una disciplina de roleplay estricta.
+
+| Tipo de Servidor | Ideal Para | Características Clave |
+| :--- | :--- | :--- |
+| **Servidor Público** | Juego casual, sesiones rápidas | Sin requisitos de entrada, llamadas automatizadas, nivel de habilidad variado. |
+| **Roleplay Privado** | Inmersión seria, eventos organizados | Reglas personalizadas, moderación de personal, opciones de lista blanca, diseños personalizados. |
+| **Servidor de Entrenamiento** | Simulacros de departamento, reclutas | Entorno controlado para practicar paradas de tráfico o tácticas de bomberos. |
+
+<Callout type="tip" title="Consejo Profesional">
+Al comenzar una nueva comunidad, enfócate primero en un enfoque de "Lite RP" para construir una base de jugadores antes de pasar al "Serious RP", que requiere una moderación y listas blancas mucho más estrictas.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Configuración del Servidor Paso a Paso">
+
+Configurar tu primera instancia entre los muchos **servidores de roleplay de Emergency Response Liberty County** implica varios pasos técnicos. Primero debes comprar un servidor privado a través de la página del juego en Roblox y luego configurar los ajustes internos mediante el menú de ERLC.
+
+<Steps>
+  <Step num="1" title="Compra Inicial y Nombre">
+    Navega a la página del juego ERLC en Roblox y compra un Servidor Privado. Una vez activo, entra al juego y abre el menú de Ajustes del Servidor. Dale a tu servidor un nombre único que refleje tu comunidad (ej. "Liberty County Realistic RP").
+  </Step>
+  <Step num="2" title="Configuración de Departamentos">
+    Decide qué departamentos estarán activos. Puedes activar el acceso para Policía, Sheriff, Bomberos/Rescate y DOT. En 2026, se recomienda encarecidamente mantener activo el DOT, ya que ahora se encargan de todas las reparaciones de infraestructura y remolque, lo que añade un realismo significativo a las escenas de accidentes de tráfico.
+  </Step>
+  <Step num="3" title="Configuración de Permisos y Personal">
+    Asigna roles a los miembros de confianza de tu comunidad. Usa la pestaña "Permisos de Personal" para otorgar niveles de acceso específicos. Sé cauteloso con los permisos de nivel "Propietario del Servidor"; solo otórgalos a personas en las que confíes para la longevidad del servidor.
+  </Step>
+  <Step num="4" title="Aplicación de Packs Personalizados">
+    Si tu comunidad tiene el presupuesto, equipa el Pack de Diseños Personalizados y el Pack de API. Estos te permiten subir calcomanías únicas para los departamentos y conectar tu servidor a bots de Discord para registros en tiempo real y seguimiento de jugadores.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de Éxito">
+Realiza siempre un "Lanzamiento Suave" con 5-10 jugadores para probar tus permisos de personal y diseños personalizados antes de anunciar un evento comunitario importante.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Jerarquía y Gestión de Personal">
+
+Un servidor es tan bueno como su personal. Para los **servidores de roleplay de Emergency Response Liberty County**, una jerarquía clara evita el abuso administrativo y asegura que las escenas de roleplay se manejen profesionalmente. La mayoría de los servidores de alto nivel utilizan un sistema de personal de tres niveles para gestionar eficazmente la capacidad de 50 jugadores del servidor.
+
+<CardGrid cols={3}>
+  <Card title="Moderadores">
+    - **Tarea Principal**: Gestión de escenas y cumplimiento de reglas.
+    - **Herramientas**: Comandos básicos de expulsión (kick), desaparición de vehículos.
+    - **Rol**: Primeros en responder a quejas de "FailRP" o "RDM".
+  </Card>
+  <Card title="Administradores">
+    - **Tarea Principal**: Resolución de disputas y supervisión del personal.
+    - **Herramientas**: Comandos de baneo, anuncios globales del servidor.
+    - **Rol**: Gestionar el equipo de Moderadores y aprobar diseños.
+  </Card>
+  <Card title="Líderes de Departamento">
+    - **Tarea Principal**: Entrenamiento y desarrollo de SOP.
+    - **Herramientas**: Gestión de rangos dentro de su equipo específico.
+    - **Rol**: Asegurar que los equipos de Policía o Bomberos actúen de forma realista.
+  </Card>
+</CardGrid>
+
+| Categoría de Comando | Comandos Comunes | Caso de Uso |
+| :--- | :--- | :--- |
+| **Entorno** | /time [hr], /weather [tipo] | Preparar la escena para patrullas nocturnas o rescates en tormentas. |
+| **Gestión de Jugadores** | /kick [user], /kill [user], /tp [user] | Eliminar infractores o arreglar jugadores con errores (glitch). |
+| **Control de Vehículos** | /fix, /despawn, /spawn [id] | Gestionar el flujo de tráfico y limpiar coches abandonados. |
+| **Anuncios** | /m [mensaje], /h [mensaje] | Difundir reinicios del servidor o eventos de RP globales. |
+
+<Callout type="warning" title="Advertencia para el Personal">
+Evita el "Admin Sitting", donde los miembros del personal se quedan en modo dios o invisibles solo para observar a los jugadores. Esto a menudo desalienta el roleplay natural. En su lugar, el personal debe actuar como civiles u oficiales normales hasta que se presente un reporte.
+</Callout>
+
+</Section>
+
+<Section icon={Layout} title="Diseños Personalizados y Branding">
+
+Para destacar entre otros **servidores de roleplay de Emergency Response Liberty County**, debes utilizar el sistema de Diseños Personalizados (Custom Livery). Esto te permite reemplazar el branding estándar de "River City" con los logotipos de tu propia comunidad, a menudo basados en agencias del mundo real como el LAPD o el NYPD.
+
+**Lista de Verificación para el Envío de Diseños:**
+<Checklist
+  id="livery-rules"
+  title="Requisitos de Envío:"
+  items={[
+    "Usa las plantillas oficiales de ERLC para el modelo de vehículo específico.",
+    "Asegúrate de que todo el texto tenga alto contraste y sea legible a distancia.",
+    "Identifica el nombre del servidor en los vehículos de 'Personal' o 'Admin'.",
+    "Evita logotipos con derechos de autor sin permiso.",
+    "Incluye números de emergencia como 911 o 999 para mayor realismo."
+  ]}
+/>
+
+| Elemento del Diseño | Requisito | Consejo Profesional |
+| :--- | :--- | :--- |
+| **Resolución** | Máx 512x512 recomendado | Una resolución mayor puede causar lag en dispositivos móviles. |
+| **Formato de Archivo** | .png o .jpg | Usa PNGs transparentes para calcomanías sobre colores base. |
+| **Relación de Aspecto** | 16:9 para vallas publicitarias | Ajusta la plantilla exactamente para evitar estiramientos. |
+
+<Callout type="info" title="Nota de Actualización 2026">
+A partir de la actualización de marzo de 2026, todos los diseños personalizados deben pasar un filtro automatizado más estricto para enlaces externos y códigos QR para cumplir con los estándares de seguridad de Roblox.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Progresión y Actualizaciones 2026">
+
+El panorama de los **servidores de roleplay de Emergency Response Liberty County** cambió significativamente a principios de 2026. El cambio más notable fue la "Reforma del DOT", que trasladó todas las tareas de construcción e infraestructura a un departamento profesional. Esto ha creado un nuevo nicho para los jugadores de rol que prefieren el trabajo técnico sobre las persecuciones a alta velocidad.
+
+**Aspectos Destacados de la Actualización 2026:**
+- **Integración del DOT**: Se eliminó el "Trabajo de Construcción" separado, y los jugadores ahora ganan XP del DOT por reparar semáforos y remolcar vehículos.
+- **API v2**: Los propietarios de servidores ahora pueden obtener coordenadas de jugadores en vivo y datos de color de vehículos, permitiendo mapas avanzados integrados en Discord.
+- **Persecuciones Mejoradas**: Una nueva lógica de detección facilita que los jugadores de Policía/Sheriff rastreen a los sospechosos que abandonan las carreteras principales.
+
+| Departamento | Objetivo Principal 2026 | Requisito de Desbloqueo |
+| :--- | :--- | :--- |
+| **Policía** | Tráfico y crimen en el centro de la ciudad | Por defecto / XP del Departamento |
+| **Sheriff** | Patrulla de carreteras y zonas rurales | Por defecto / XP del Departamento |
+| **Bomberos/Rescate** | Seguridad vital y extinción de incendios | Rango de Voluntario |
+| **DOT** | Infraestructura y recuperación | Rango de Aprendiz |
+
+<Callout type="success" title="Consejo de Dinero">
+En los servidores privados, los jugadores aún ganan dinero y XP. Anima a tus jugadores a completar llamadas del DOT durante los "tiempos muertos" para mantener sana la economía del servidor sin necesidad de actividad criminal constante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Gestionando tu Comunidad de Roleplay">
+
+<FAQ items={[
+  {
+    question: "¿Cómo hago que mi servidor de roleplay de Emergency Response Liberty County sea privado?",
+    answer: "Debes comprar un Servidor Privado en la página del juego en Roblox. Una vez dentro, puedes establecer un código de unión o una lista blanca para amigos/miembros de grupo específicos a través del menú de Ajustes del Servidor."
+  },
+  {
+    question: "¿Puedo usar logotipos de policía del mundo real en mis diseños personalizados?",
+    answer: "Sí, ER:LC permite diseños basados en agencias del mundo real siempre que no violen los derechos de autor ni incluyan enlaces externos o códigos QR prohibidos."
+  },
+  {
+    question: "¿Cuál es la mejor manera de ganar dinero en un servidor de RP privado?",
+    answer: "La forma más constante es a través del Departamento de Transporte (DOT) o llamadas de Bomberos/Rescate, ya que proporcionan XP y dinero constantes sin los riesgos asociados con el roleplay criminal."
+  },
+  {
+    question: "¿Cómo accedo a la API del servidor para la integración con Discord?",
+    answer: "Debes comprar el Pack de API para tu servidor. Una vez comprado, aparecerá una clave API única en tus Ajustes del Servidor, que puedes usar con bots de Discord compatibles o aplicaciones personalizadas."
+  }
+]} />
+
+</Section>
+
+Para obtener más información sobre las actualizaciones oficiales, visita el [sitio oficial de ERLC](https://erlc.gg/) o consulta el [Discord de la Comunidad de Police Roleplay](https://discord.com/invite/prc). Todos los datos están actualizados según la revisión de la wiki de julio de 2026.

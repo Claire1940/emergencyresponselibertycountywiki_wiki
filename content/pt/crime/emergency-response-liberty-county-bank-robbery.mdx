@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roubo ao Banco no Emergency Response Liberty County: Guia de Assalto",
+  description: "Domine o roubo ao banco no Emergency Response Liberty County com nosso guia de 2026. Aprenda a entrada furtiva, códigos do cofre e táticas de sobrevivência de 10 minutos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Bank+Robbery+Guide",
+  date: "2026-07-13",
+  author: "Equipe de Wiki do Emergency Response Liberty County"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **roubo ao banco no emergency response liberty county** exige que os jogadores sejam membros de uma **Máfia** para iniciar o assalto.
+- **Métodos de Entrada**: Escolha entre uma **Abordagem Direta** (barulhenta, alarme instantâneo) ou uma **Abordagem Furtiva** (atraso de 60 segundos).
+- **Mecânicas do Cofre**: Você deve localizar uma senha de quatro dígitos na área dos funcionários antes de usar explosivos na porta do cofre.
+- **Regra de Sobrevivência**: Você deve permanecer vivo e evitar a prisão por **10 minutos** após o roubo para garantir o seu pagamento.
+- **Tempo de Recarga**: Um **tempo de recarga de 6 minutos** global do servidor se aplica após cada tentativa de roubo ao banco.
+</Callout>
+
+<Section icon={Map} title="Requisitos e Preparação para o Assalto">
+
+O **roubo ao banco no emergency response liberty county** é uma das atividades criminosas mais complexas e de alto risco disponíveis no Bank of River City. Ao contrário de pequenos assaltos a lojas, o banco exige uma preparação significativa e um status organizacional específico. Antes mesmo de pensar em pisar no cofre, você deve garantir que seu personagem atenda aos requisitos técnicos definidos pelas mecânicas de jogo de 2026.
+
+Para iniciar o assalto, você deve fazer parte de uma Máfia. Criminosos individuais não podem acionar a sequência de roubo do banco. Além disso, seus equipamentos determinam sua taxa de sucesso e o nível de atenção policial que você enfrentará. Embora uma arma de fogo básica seja suficiente para forçar a entrada, equipes profissionais costumam trazer ferramentas especializadas para maximizar sua vantagem contra as forças da lei.
+
+| Requisito | Detalhes | Importância |
+| :--- | :--- | :--- |
+| **Membro de Máfia** | Deve estar em um grupo de Máfia ativo | Obrigatório |
+| **Ganzua (Lockpick)** | Usada para entrada furtiva pelas portas traseiras/escritório | Recomendado |
+| **Arma de Fogo** | Necessária para entrada direta ou defesa contra policiais | Obrigatório |
+| **Veículo** | Carro de fuga de alta velocidade estacionado em local estratégico | Crítico |
+| **Tamanho da Equipe** | Recomenda-se de 2 a 4 jogadores para cobertura | Alto |
+
+<Callout type="warning" title="Aviso Crítico">
+Tentar o roubo sem um motorista de fuga dedicado é o motivo mais comum de falha. Certifique-se de que seu veículo não esteja bloqueado pelo tráfego de civis antes de iniciar a invasão.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias de Entrada: Furtiva vs. Direta">
+
+Existem duas maneiras principais de iniciar o **roubo ao banco no emergency response liberty county**. Sua escolha ditará quanto tempo você terá antes que os departamentos de Polícia e do Xerife recebam uma notificação. No meta atual de 2026, a abordagem furtiva é amplamente superior para grupos menores, enquanto grandes Máfias podem preferir a abordagem direta para atrair as forças da lei para um confronto.
+
+<CardGrid cols={2}>
+  <Card title="Abordagem Furtiva (Ganzua)">
+    - **Método**: Use uma ganzua na porta traseira ou na porta do escritório.
+    - **Benefício**: Oferece um **atraso de 60 segundos** antes que o alarme toque.
+    - **Risco**: Requer a conclusão bem-sucedida do mini-game de arrombamento.
+  </Card>
+  <Card title="Abordagem Direta (Arma)">
+    - **Método**: Atire na janela do drive-thru, na janela da sala de reuniões ou na porta traseira.
+    - **Benefício**: Entrada imediata sem exigência de habilidades técnicas.
+    - **Risco**: Notificação de **alarme instantâneo** enviada a todos os policiais.
+  </Card>
+</CardGrid>
+
+Escolher o seu ponto de entrada é tão importante quanto o método. O Bank of River City possui múltiplos pontos de acesso, cada um oferecendo diferentes níveis de cobertura e proximidade com a área do cofre.
+
+| Ponto de Entrada | Método | Visibilidade |
+| :--- | :--- | :--- |
+| **Porta Traseira** | Ganzua ou Arma | Baixa - Melhor para furtividade |
+| **Porta do Escritório** | Ganzua | Média - No interior da área de funcionários |
+| **Janela do Drive-Thru** | Arma | Alta - Muito exposta |
+| **Janela da Sala de Reuniões** | Arma | Média - Acesso rápido ao saguão |
+
+<Callout type="tip" title="Dica de Profissional">
+Se estiver usando a abordagem furtiva, peça para seus companheiros de equipe esperarem do lado de fora até que a fechadura seja arrombada, evitando chamar atenção desnecessária de viaturas de patrulha que passam pelo local.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="A Fase de Progressão do Cofre">
+
+Uma vez violado o perímetro, o cronômetro começa a correr. O **roubo ao banco no emergency response liberty county** não é uma interação simples de "apontar e atirar"; envolve um processo de várias etapas que requer a navegação pelas áreas restritas de funcionários do banco e pelo nível subterrâneo do cofre.
+
+<Steps>
+  <Step num="1" title="Localize a Senha">
+    Vasculhe a área de funcionários e os escritórios em busca de uma **senha de quatro dígitos** oculta. Esse código é gerado aleatoriamente a cada assalto e é necessário para abrir o portão de entrada que leva ao subsolo.
+  </Step>
+  <Step num="2" title="Abra o Portão">
+    Insira o código descoberto no teclado numérico do portão de entrada. Assim que o portão abrir, mova-se rapidamente para o nível subterrâneo.
+  </Step>
+  <Step num="3" title="Instale os Explosivos">
+    Aproxime-se da enorme porta do cofre e segure o botão de interação para plantar as cargas. **Afaste-se imediatamente**; a explosão causa dano letal a qualquer pessoa que estiver muito perto.
+  </Step>
+  <Step num="4" title="Saqueie o Cofre">
+    Entre no cofre para coletar pilhas de dinheiro e barras de ouro. Você deve ser rápido, pois os sistemas de defesa interna do cofre serão ativados logo após a invasão.
+  </Step>
+</Steps>
+
+Durante a fase de saque, os jogadores devem equilibrar a ganância com a segurança. O cofre contém tanto dinheiro (mais rápido de coletar) quanto ouro (valor mais alto, porém mais pesado). Conforme o roubo avança, os sistemas automatizados do banco tentarão neutralizar os invasores.
+
+| Perigo | Tempo de Ativação | Efeito |
+| :--- | :--- | :--- |
+| **Lasers de Segurança** | Imediatamente após a explosão | Dano alto ao contato |
+| **Gás Lacrimogêneo** | Quando o tempo do cofre expira | Perda contínua de vida |
+| **Resposta Policial** | 0-60 segundos pós-alarme | Prisão e falha no assalto |
+
+<Callout type="success" title="Dica de Otimização">
+Designe um jogador para vigiar as escadas contra a chegada de policiais enquanto os outros se concentram em esvaziar o cofre. A comunicação é fundamental para sobreviver à liberação do gás lacrimogêneo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rotas de Fuga e a Regra dos 10 Minutos">
+
+A parte mais difícil do **roubo ao banco no emergency response liberty county** não é conseguir o dinheiro — é conseguir mantê-lo. O Bank of River City possui um túnel de fuga exclusivo que permite aos criminosos contornar o saguão principal, que geralmente está repleto de policiais quando o cofre é esvaziado.
+
+Para usar o túnel, você deve localizar um código secundário encontrado sob uma das barras de ouro dentro do cofre. Uma vez inserido, você pode atirar em uma grade no sistema de túneis que leva diretamente ao túnel da estrada principal fora do banco. Essa saída é significativamente mais segura do que sair pela porta da frente no meio de um tiroteio.
+
+No entanto, o assalto não é considerado "concluído" até que você sobreviva ao período de espera obrigatório. As mecânicas de 2026 impõem regras rígidas sobre como você deve se comportar após sair do banco.
+
+| Ação | Resultado |
+| :--- | :--- |
+| **Morrer** | Perda total do dinheiro roubado |
+| **Sair do Jogo** | Perda total do dinheiro roubado |
+| **Trocar de Equipe** | Perda total do dinheiro roubado |
+| **Ser Preso** | Perda total do dinheiro roubado + Tempo de prisão |
+| **Sobreviver por 10 Minutos** | O dinheiro é lavado/mantido com sucesso |
+
+<Callout type="warning" title="Aviso">
+Não tente se esconder em sua casa ou em um interior estático durante os 10 minutos completos. Policiais ativos costumam verificar esconderijos conhecidos. Movimentar-se constantemente em um veículo rápido costuma ser a estratégia mais segura.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maximizando Seu Pagamento">
+
+Embora o roubo ao banco tenha uma relação de "custo-benefício" menor em comparação com alguns roubos menores devido à complexidade e ao risco envolvidos, continua sendo uma atividade de prestígio para qualquer Máfia. Para garantir que você aproveite ao máximo seu esforço, siga esta lista de verificação em cada tentativa.
+
+<Checklist
+  id="bank-heist-checklist"
+  title="Lista de Verificação para um Roubo Bem-Sucedido:"
+  items={[
+    "Verifique se todos os membros da Máfia estão com colete e munição cheios antes de entrar",
+    "Garanta a senha de 4 dígitos nos primeiros 30 segundos da invasão",
+    "Limpe o cofre de todas as barras de ouro antes de focar nas pilhas de dinheiro",
+    "Use a fuga pelo túnel de ventilação para evitar a emboscada no saguão",
+    "Mantenha uma distância de perseguição de 5 estrelas durante toda a janela de sobrevivência de 10 minutos"
+  ]}
+/>
+
+O tempo de recarga global de **6 minutos** do servidor significa que, se você falhar, terá que esperar ou trocar de servidor para tentar novamente. Use esse tempo para consertar seus veículos e reabastecer as ganzuas na Loja de Ferramentas.
+
+<Callout type="info" title="Nota Econômica">
+O Roubo ao Banco e o Carro-Forte são as duas únicas atividades que exigem estritamente a afiliação a uma Máfia. Se você for um jogador solo, considere juntar-se a uma Máfia pública ou concentrar-se em roubos à Joalheria.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Preciso de uma gamepass específica para o roubo ao banco?",
+    answer: "Não, o roubo ao banco está disponível para todos os jogadores que estão em uma Máfia. No entanto, a Gamepass de Armas Grandes é altamente recomendada para se defender contra a forte resposta policial."
+  },
+  {
+    question: "Qual é a melhor maneira de lidar com os lasers no cofre?",
+    answer: "Os lasers se movem em um padrão previsível. Espere que os feixes horizontais atinjam seu ponto mais alto ou mais baixo antes de pular ou agachar para passar. Não se apresse, pois o dano é significativo."
+  },
+  {
+    question: "Posso roubar o banco novamente logo após o término do cronômetro de sobrevivência de 10 minutos?",
+    answer: "Apenas se o tempo de recarga global do servidor de 6 minutos também tiver expirado. O cronômetro de sobrevivência é pessoal, enquanto o tempo de recarga do roubo é global para todo o servidor."
+  },
+  {
+    question: "Como encontro a senha do roubo ao banco no emergency response liberty county?",
+    answer: "A senha aparece como uma pequena interação de texto em mesas, balcões ou paredes dentro das áreas exclusivas para funcionários do banco. Ela muda toda vez que um novo roubo começa."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, Bell } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ALPR de Emergency Response Liberty County: Guía de Fuerzas del Orden",
+  description: "Domina el Lector Automático de Matrículas (ALPR) en Emergency Response: Liberty County. Aprende sobre la integración con la MDT, tácticas de rastreo y eficiencia de patrullaje para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=ALPR+System+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Emergency Response Liberty County"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El ALPR de Emergency Response Liberty County** es una herramienta fundamental para que las Fuerzas del Orden identifiquen automáticamente a criminales buscados y vehículos robados.
+- **La Integración con la MDT** permite a los oficiales recibir notificaciones en tiempo real cuando una matrícula marcada pasa cerca de su vehículo de patrulla.
+- **La Eficiencia de Patrullaje** aumenta significativamente al utilizar el ALPR junto con la Pistola de Radar para monitorear infracciones de tráfico.
+- **Los Requisitos de Rango** varían, pero la mayoría de las funciones básicas del ALPR están disponibles para los equipos de la Policía y del Sheriff al alcanzar el rango de Oficial/Oficial de Segunda (Officer/Deputy).
+- **La Ubicación Estratégica** de tu vehículo en zonas de alto tráfico como River City es esencial para maximizar las detecciones del ALPR.
+</Callout>
+
+<Section icon={Shield} title="Fundamentos del Sistema ALPR">
+
+En el entorno de alta tensión de **Emergency Response: Liberty County**, los Oficiales de la Ley (LEO) deben utilizar todas las herramientas disponibles para mantener el orden. El Lector Automático de Matrículas (ALPR) es una tecnología sofisticada integrada en la Terminal de Datos Móviles (MDT) de los vehículos de la policía y del sheriff. A diferencia de las búsquedas manuales, el ALPR escanea los vehículos circundantes en tiempo real, cotejando las matrículas con la base de datos criminal del condado.
+
+El sistema está diseñado para detectar activadores específicos que indican que un ciudadano no está en regla o que un vehículo está involucrado en una actividad delictiva. Cuando el ALPR identifica una matrícula marcada, emite una alerta sonora y muestra la información relevante en el HUD y en la MDT del oficial.
+
+| Tipo de Alerta | Descripción | Nivel de Prioridad |
+| :--- | :--- | :--- |
+| **Sospechoso Buscado** | El propietario tiene un nivel de búsqueda activo (1-5 estrellas) | **Alto** |
+| **Vehículo Robado** | El vehículo fue reportado como robado a través de una llamada ciudadana | **Alto** |
+| **Sin Registrar** | El vehículo no está registrado correctamente en la base de datos | **Medio** |
+| **Propietario Sin Licencia** | El propietario registrado tiene la licencia suspendida o no tiene licencia | **Medio** |
+| **Matrícula Inválida** | La matrícula no coincide con la descripción del vehículo | **Bajo** |
+
+<Callout type="tip" title="Consejo de Profesional">
+Mantén siempre tu MDT abierta o minimizada de manera que puedas ver las notificaciones del ALPR. En el meta de 2026, los criminales son más rápidos y escurridizos, por lo que estas alertas de fracciones de segundo son vitales para lograr detenciones exitosas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Configurar y Usar el ALPR">
+
+Activar el sistema **ALPR de Emergency Response Liberty County** requiere una comprensión básica de la interfaz del vehículo de las Fuerzas del Orden. Aunque el sistema es en gran parte automatizado, los oficiales pueden personalizar qué alertas reciben para evitar la "fatiga de notificaciones" durante los turnos ocupados. Esto es particularmente útil cuando se patrullan áreas de alta densidad como Springfield o el distrito comercial de River City.
+
+<Steps>
+  <Step num="1" title="Equipar la MDT">
+    Súbete a tu vehículo asignado de las Fuerzas del Orden (Policía o Sheriff) y presiona la tecla asignada (normalmente la 'M' o a través del menú de interacción) para abrir la Terminal de Datos Móviles.
+  </Step>
+  <Step num="2" title="Acceder a los Ajustes del ALPR">
+    Navega hasta la pestaña 'Ajustes' (Settings) o 'Herramientas' (Tools) dentro de la interfaz de la MDT. Busca el interruptor del ALPR y asegúrate de que esté en 'ENCENDIDO' (ON).
+  </Step>
+  <Step num="3" title="Filtrar Notificaciones">
+    Selecciona las categorías específicas que deseas rastrear. La mayoría de los oficiales experimentados priorizan las alertas de 'Robado' (Stolen) y 'Buscado' (Wanted) mientras filtran problemas menores de registro durante persecuciones activas.
+  </Step>
+  <Step num="4" title="Posicionar tu Vehículo">
+    Estaciónate o patrulla cerca de las intersecciones principales o en la entrada de la Tienda de Armas y el Banco. El ALPR tiene un alcance y un ángulo específicos, por lo que orientarse hacia el tráfico que viene de frente es lo más efectivo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia Operativa">
+El sistema ALPR solo funciona mientras estás dentro de un vehículo de las Fuerzas del Orden. Si sales de tu vehículo para realizar un patrullaje a pie o procesar una escena, el lector dejará de escanear el tráfico cercano.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Comparación entre ALPR y Búsquedas Manuales en la MDT">
+
+Aunque el ALPR es potente, no reemplaza por completo la necesidad de una investigación manual. Comprender cuándo confiar en la automatización frente a la entrada manual es lo que separa a un Cadete de un Comandante. Las búsquedas manuales siguen siendo necesarias para identificar a individuos a pie o verificar historiales criminales detallados que el resumen del ALPR podría omitir.
+
+<CardGrid cols={2}>
+  <Card title="Ventajas del ALPR">
+    - **Escaneo Pasivo**: Monitorea el tráfico mientras te concentras en conducir u observar.
+    - **Alertas Instantáneas**: Proporciona información inmediata sobre objetivos de alta prioridad.
+    - **Multiobjetivo**: Puede escanear múltiples vehículos en una sola intersección.
+  </Card>
+  <Card title="Ventajas de la Búsqueda Manual">
+    - **Historial Profundo**: Te permite ver delitos pasados e historial de multas.
+    - **Precisión**: Verifica la identidad incluso si el sospechoso no está en su propio vehículo.
+    - **Discreción**: Revisa matrículas sin que el sospechoso sepa que está siendo escaneado.
+  </Card>
+</CardGrid>
+
+| Característica | Sistema ALPR | Entrada Manual en MDT |
+| :--- | :--- | :--- |
+| **Velocidad** | Instantánea | 5-10 Segundos |
+| **Precisión** | Alta (Enlace con Base de Datos) | Depende de la Entrada del Oficial |
+| **Alcance** | Limitado a la Proximidad del Vehículo | Ilimitado (Búsqueda Global) |
+| **Enfoque** | Centrado en el Vehículo | Centrado en la Persona y el Vehículo |
+| **Requisito** | Vehículo de Patrulla Activo | MDT de Mano o del Vehículo |
+
+<Callout type="info" title="Actualización de la MDT">
+A partir de las últimas actualizaciones de 2026, la MDT ahora permite un \"Enlace Rápido\" desde una alerta de ALPR directamente al perfil completo del sospechoso, agilizando el proceso de emisión de órdenes de arresto o la identificación de reincidentes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Zonas de Patrullaje Estratégicas para Maximizar Detecciones">
+
+Para maximizar la efectividad del **ALPR de Emergency Response Liberty County**, debes posicionarte donde ocurra el mayor volumen de actividad \"marcada\". Las diferentes regiones de Liberty County ofrecen distintos tipos de actividad criminal. Por ejemplo, en el campo a menudo se ven más vehículos robados siendo trasladados para evitar ser detectados, mientras que la ciudad es un punto caliente para individuos buscados.
+
+1.  **Intersección Principal de River City**: El volumen de tráfico más alto del juego. Ideal para captar una gran variedad de alertas, aunque puede resultar abrumador.
+2.  **Perímetro de la Tienda de Armas**: Los criminales suelen visitar la Tienda de Armas para reabastecerse. Establecer una red de vigilancia ALPR aquí es una táctica comprobada para atrapar a delincuentes buscados.
+3.  **Rutas de la Joyería y el Banco**: Posiciona tu vehículo en las probables rutas de escape de estos lugares de robos de alto valor.
+4.  **Autopista del Condado 1**: La arteria principal que conecta Springfield y River City. Excelente para interceptar vehículos robados que son transportados a través del mapa.
+
+| Zona | Tipo de Alerta Principal | Rango Recomendado |
+| :--- | :--- | :--- |
+| **River City** | Sospechosos Buscados / Infracciones de Tráfico | Oficial / Oficial de Segunda (Officer / Deputy) |
+| **Springfield** | Vehículos sin Registrar | Cadete / Recluta (Cadet / Recruit) |
+| **Campo** | Vehículos Robados / Exceso de Velocidad | Sargento o superior (Sergeant+) |
+| **Zona Industrial** | Infracciones del DOT / Mercancías Robadas | Operador Senior (DOT) |
+
+<Callout type="success" title="Éxito Táctico">
+Coordinar con otra unidad para establecer \"Puntos de Control ALPR\" en ambos extremos de un puente o túnel es una forma extremadamente efectiva de asegurar que ningún vehículo marcado entre o salga de un distrito sin ser detectado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y Equipamiento de las Fuerzas del Orden">
+
+El acceso a herramientas avanzadas de las Fuerzas del Orden como el ALPR y vehículos de patrulla de alto rendimiento está ligado a tus Puntos de Experiencia (XP) y Rango. A medida que utilices con éxito el ALPR para realizar arrestos y recuperar propiedades robadas, ganarás XP que desbloqueará más personalizaciones y mejor equipamiento.
+
+<Checklist
+  id="le-progression"
+  title="Hitos de las Fuerzas del Orden:"
+  items={[
+    "Alcanza el rango de Oficial/Oficial de Segunda para desbloquear el acceso completo a la MDT",
+    "Recupera con éxito 10 vehículos robados utilizando las alertas del ALPR",
+    "Mejora a un vehículo de persecución para una respuesta más rápida del ALPR",
+    "Domina el uso de la Pistola de Radar en conjunto con el ALPR",
+    "Completa 50 arrestos exitosos iniciados por detecciones del ALPR"
+  ]}
+/>
+
+<Callout type="info" title="Bonificación de XP">
+Utilizar el ALPR para identificar y recuperar un vehículo robado proporciona un aumento significativo de XP en comparación con las paradas de tráfico estándar, convirtiéndolo en una de las formas más rápidas de subir de rango en 2026.
+</Callout>
+
+| Nivel de Rango | Equipamiento Desbloqueado | Capacidad del ALPR |
+| :--- | :--- | :--- |
+| **Cadet / Recruit** | Patrulla Básico, Esposas | Solo Alertas Básicas |
+| **Officer / Deputy** | Vehículo de Persecución, Pistola de Radar | Filtrado Completo de ALPR |
+| **Sergeant** | SUV Táctico, Bandas de Clavos | Sincronización ALPR Multiunidad |
+| **Lieutenant+** | Vehículos de Incógnito, Equipo Especializado | Herramientas de Rastreo Avanzadas |
+
+</Section>
+
+<Section icon={Bell} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué mi ALPR no me da ninguna alerta?",
+    answer: "Asegúrate de que el ALPR esté en 'ENCENDIDO' (ON) en los ajustes de tu MDT. Además, verifica si has filtrado demasiadas categorías de alerta. Por último, recuerda que el ALPR solo escanea vehículos dentro de un cierto radio y línea de visión de tu patrulla."
+  },
+  {
+    question: "¿Pueden los civiles ver si estoy usando un ALPR con ellos?",
+    answer: "No, el ALPR es un sistema pasivo. Los civiles no son notificados cuando se escanea su matrícula a menos que inicies una parada de tráfico o actives tus sirenas basándote en la información proporcionada por el lector."
+  },
+  {
+    question: "¿Funciona el ALPR en autos estacionados?",
+    answer: "Sí, el ALPR escaneará cualquier vehículo con una matrícula visible dentro de su alcance, ya sea que el vehículo esté en movimiento o estacionado. Esto es útil para encontrar autos robados abandonados en estacionamientos."
+  },
+  {
+    question: "¿Está disponible el ALPR para el Departamento de Bomberos o el DOT?",
+    answer: "El ALPR es principalmente una herramienta de las Fuerzas del Orden para los equipos de la Policía y del Sheriff. Sin embargo, el Departamento de Transportes (DOT) tiene acceso a herramientas de MDT similares para verificar el registro de vehículos y el cumplimiento del peso."
+  }
+]} />
+
+<Callout type="tip" title="Nota Final">
+Dominar el **ALPR de Emergency Response Liberty County** es un camino de práctica y conciencia situacional. Mantente alerta, mantén tu MDT actualizada y utiliza los datos para mantener seguras las calles de Liberty County en 2026.
+</Callout>
+
+</Section>

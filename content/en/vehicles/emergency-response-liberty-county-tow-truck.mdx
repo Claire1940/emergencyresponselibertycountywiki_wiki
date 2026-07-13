@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Tow Truck: Setup & Job Guide",
+  description: "Master the Falcon Advance 450 Tow Truck in Emergency Response Liberty County. Learn DOT job requirements, towing controls, and payout strategies.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tow+Truck+Guide",
+  date: "2026-07-13",
+  author: "Emergency Response Liberty County Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Vehicle**: The Falcon Advance 450 Tow Truck is a manual-operation utility vehicle.
+- **Job Role**: Operated under the Department of Transportation (DOT) team.
+- **Rank Requirement**: Accessible only after reaching the Senior Technician rank.
+- **Key Mechanic**: Requires manual alignment of the tow boom to vehicle wheels.
+- **Real-Life Counterpart**: Based on the real-world Ford F450 XLT design.
+</Callout>
+
+<Section icon={Shield} title="Emergency Response Liberty County Tow Truck Requirements">
+
+Operating the **emergency response liberty county tow truck** is one of the most engaging activities for Department of Transportation (DOT) players. Unlike standard civilian vehicles, this specialized industrial truck requires a specific rank within the DOT team before you can spawn and drive it. 
+
+To clear up any confusion regarding how to obtain this vehicle, the following table details the necessary unlock parameters and purchase costs.
+
+| Vehicle | Price | Rank Requirement | Seating Capacity |
+| --- | --- | --- | --- |
+| **Falcon Advance 450** | Free | Senior Technician | 2 Players |
+| **Flatbed Tow Truck** | Free | Senior Technician | 2 Players |
+| **Falcon Advance+ Utility** | Free | Tech I | 2 Players |
+
+<Callout type="warning" title="Rank Progression">
+You must actively complete DOT service calls, repair traffic lights, and clear debris to earn enough experience points to reach the Senior Technician rank.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Falcon Advance 450 Performance Specifications">
+
+The Falcon Advance 450 Tow Truck (modeled after the real-life Ford F450 XLT) received a significant model update in February 2026. This update refreshed its visual appearance and optimized its handling characteristics. 
+
+While it is classified as an industrial truck, its acceleration and braking capabilities make it surprisingly nimble when navigating the streets of Liberty County.
+
+| Performance Metric | Specification Value |
+| --- | --- |
+| **Top Speed** | 117 MPH |
+| **Reverse Top Speed** | 22 MPH |
+| **Acceleration (0-60 MPH)** | 7.76 Seconds |
+| **Braking (60-0 MPH)** | 4.06 Seconds |
+| **Transmission** | 6-Speed Automatic/Sequential |
+| **Fuel Capacity** | 25 Gallons (94.6 Liters) |
+
+<Callout type="info" title="Fuel Management">
+With a 25-gallon fuel capacity, the Falcon Advance 450 can run for extended shifts. Keep an eye on your fuel gauge during long-distance highway towing jobs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Manual Towing Process">
+
+The Falcon Advance 450 Tow Truck differs significantly from the Flatbed Tow Truck. While the flatbed features semi-automated mechanics, the Falcon Advance 450 requires manual boom alignment. 
+
+Follow these precise steps to successfully hook, lift, and transport target vehicles back to the impound lot.
+
+<Steps>
+  <Step num="1" title="Position the Tow Truck">
+    Back up your tow truck slowly toward the target vehicle. Stop when your rear bumper is roughly 2 to 3 feet away from the front bumper or rear bumper of the target car.
+  </Step>
+  <Step num="2" title="Lower the Tow Boom">
+    Access the driver's seat control panel. Use the manual interface controls to lower the tow boom arm down to ground level.
+  </Step>
+  <Step num="3" title="Align with Wheels">
+    Carefully reverse until the tow boom is positioned directly underneath the target vehicle's front or rear wheels. The 'Tow' icon will only appear when alignment is correct.
+  </Step>
+  <Step num="4" title="Secure and Lift">
+    Click the 'Tow' action button to hook the vehicle. Once secured, raise the tow boom arm to lift the target vehicle's wheels off the ground for transport.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Towing Verification">
+If the 'Tow' icon does not appear, pull forward slightly and re-align. The physical collision box of the boom must touch the wheels of the target vehicle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="DOT Vehicle Comparisons & Roles">
+
+Choosing the right tool for the job is essential for maximum efficiency. The Department of Transportation offers different utility vehicles designed for distinct service situations. 
+
+Review the comparison below to understand when to deploy the Falcon Advance 450 versus other DOT fleet options.
+
+<CardGrid cols={3}>
+  <Card title="Falcon Advance 450">
+    - **Manual wheel-lift style**
+    - High maneuverability
+    - Best for tight city streets
+    - Free at Senior Technician
+  </Card>
+  <Card title="Flatbed Tow Truck">
+    - **Full flatbed transport**
+    - Automated loading ramp
+    - Best for heavy highway wrecks
+    - Free at Senior Technician
+  </Card>
+  <Card title="Falcon Advance+ Utility">
+    - **No towing capabilities**
+    - Roadside repair equipment
+    - Best for traffic light maintenance
+    - Free at Tech I rank
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Fleet Choice">
+For quick impounds in tight alleyways or crowded parking lots, the Falcon Advance 450 is superior to the bulky Flatbed Tow Truck due to its shorter wheelbase.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="DOT Towing Checklist & Best Practices">
+
+To maximize your earnings per hour as a DOT worker, you should establish a routine. Clearing abandoned, illegally parked, or wrecked vehicles keeps the traffic flowing and secures high payouts.
+
+<Checklist
+  id="tow-truck-routine"
+  title="Active Duty Checklist:"
+  items={[
+    "Equip the DOT uniform at the main DOT station",
+    "Spawn the Falcon Advance 450 Tow Truck from the garage",
+    "Patrol high-traffic zones like the commercial district",
+    "Manually secure illegally parked civilian vehicles",
+    "Deliver towed vehicles to the designated impound lot for payouts"
+  ]}
+/>
+
+<Callout type="info" title="Impound Payouts">
+Ensure you fully complete the delivery process inside the impound drop-off zone. Leaving a vehicle unhooked outside the zone will not award credits.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock the emergency response liberty county tow truck?",
+    answer: "You must join the Department of Transportation (DOT) team and earn enough experience points to reach the Senior Technician rank. Once reached, the vehicle can be spawned for free."
+  },
+  {
+    question: "Can I operate the towing controls from outside the vehicle?",
+    answer: "No. The controls for operating the Falcon Advance 450 manual boom can only be accessed and operated from the driver's seat."
+  },
+  {
+    question: "What is the real-life counterpart of the Falcon Advance 450?",
+    answer: "The vehicle is heavily based on the real-world Ford F450 XLT industrial truck model."
+  },
+  {
+    question: "Why is my tow truck not hooking onto a target car?",
+    answer: "The tow boom must be manually positioned directly at the target vehicle's front or rear wheels. The 'Tow' action icon will not appear on your screen until this alignment is correct."
+  }
+]} />
+
+</Section>

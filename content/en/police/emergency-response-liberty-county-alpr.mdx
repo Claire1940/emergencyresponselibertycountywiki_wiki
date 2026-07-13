@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, Bell } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Emergency Response Liberty County ALPR: Law Enforcement Guide",
+  description: "Master the Automated License Plate Reader (ALPR) in Emergency Response: Liberty County. Learn MDT integration, tracking tactics, and patrol efficiency for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=ALPR+System+Guide",
+  date: "2026-07-13",
+  author: "Emergency Response Liberty County Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Emergency Response Liberty County ALPR** is a critical tool for Law Enforcement to identify wanted criminals and stolen vehicles automatically.
+- **MDT Integration** allows officers to receive real-time notifications when a flagged license plate passes their patrol vehicle.
+- **Patrol Efficiency** is significantly increased by using ALPR alongside the Radar Gun to monitor traffic violations.
+- **Rank Requirements** vary, but most basic ALPR functions are available to the Police and Sheriff teams upon reaching the Officer/Deputy rank.
+- **Strategic Placement** of your vehicle in high-traffic areas like River City is essential for maximizing ALPR hits.
+</Callout>
+
+<Section icon={Shield} title="Fundamentals of the ALPR System">
+
+In the high-stakes environment of **Emergency Response: Liberty County**, Law Enforcement Officers (LEO) must utilize every tool available to maintain order. The Automated License Plate Reader (ALPR) is a sophisticated technology integrated into the Mobile Data Terminal (MDT) of police and sheriff vehicles. Unlike manual searches, the ALPR scans surrounding vehicles in real-time, cross-referencing license plates with the county's criminal database.
+
+The system is designed to detect specific triggers that indicate a civilian is non-compliant or that a vehicle is involved in criminal activity. When the ALPR identifies a flagged plate, it provides an audible alert and displays the relevant information on the officer's HUD and MDT.
+
+| Alert Type | Description | Priority Level |
+| :--- | :--- | :--- |
+| **Wanted Suspect** | Owner has an active wanted level (1-5 stars) | **High** |
+| **Stolen Vehicle** | Vehicle was reported stolen via a civilian call | **High** |
+| **Unregistered** | Vehicle is not properly registered in the database | **Medium** |
+| **Owner No License** | Registered owner has a suspended or no license | **Medium** |
+| **Invalid Plate** | Plate does not match the vehicle description | **Low** |
+
+<Callout type="tip" title="Pro Tip">
+Always keep your MDT open or minimized in a way that you can see the ALPR notifications. In the 2026 meta, criminals are faster and more elusive, making these split-second alerts vital for successful apprehensions.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Configure and Use ALPR">
+
+Activating the **Emergency Response Liberty County ALPR** system requires a basic understanding of the Law Enforcement vehicle interface. While the system is largely automated, officers can customize which alerts they receive to avoid "notification fatigue" during busy shifts. This is particularly useful when patrolling high-density areas like Springfield or the River City commercial district.
+
+<Steps>
+  <Step num="1" title="Equip the MDT">
+    Enter your designated Law Enforcement vehicle (Police or Sheriff) and press the assigned key (typically 'M' or through the interaction menu) to open the Mobile Data Terminal.
+  </Step>
+  <Step num="2" title="Access ALPR Settings">
+    Navigate to the 'Settings' or 'Tools' tab within the MDT interface. Look for the ALPR toggle switch and ensure it is set to 'ON'.
+  </Step>
+  <Step num="3" title="Filter Notifications">
+    Select the specific categories you wish to track. Most experienced officers prioritize 'Stolen' and 'Wanted' alerts while filtering out minor registration issues during active pursuits.
+  </Step>
+  <Step num="4" title="Position Your Vehicle">
+    Park or patrol near major intersections or the entrance to the Gun Store and Bank. The ALPR has a specific range and angle, so facing oncoming traffic is most effective.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Operational Warning">
+The ALPR system only works while you are inside a Law Enforcement vehicle. If you exit your vehicle to perform a foot patrol or process a scene, the reader will stop scanning nearby traffic.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Comparing ALPR and Manual MDT Searches">
+
+While the ALPR is powerful, it does not completely replace the need for manual investigation. Understanding when to rely on automation versus manual entry is what separates a Cadet from a Commander. Manual searches are still required for identifying individuals on foot or checking detailed criminal histories that the ALPR summary might omit.
+
+<CardGrid cols={2}>
+  <Card title="ALPR Advantages">
+    - **Passive Scanning**: Monitors traffic while you focus on driving or observing.
+    - **Instant Alerts**: Provides immediate feedback on high-priority targets.
+    - **Multi-Targeting**: Can scan multiple vehicles in a single intersection.
+  </Card>
+  <Card title="Manual Search Advantages">
+    - **Deep History**: Allows you to see past offenses and citation history.
+    - **Precision**: Verify identity even if the suspect is not in their own vehicle.
+    - **Discretion**: Check plates without the suspect knowing they are being scanned.
+  </Card>
+</CardGrid>
+
+| Feature | ALPR System | Manual MDT Entry |
+| :--- | :--- | :--- |
+| **Speed** | Instantaneous | 5-10 Seconds |
+| **Accuracy** | High (Database Link) | Dependent on Officer Input |
+| **Range** | Limited to Vehicle Proximity | Unlimited (Global Search) |
+| **Focus** | Vehicle-Centric | Person & Vehicle Focused |
+| **Requirement** | Active Patrol Vehicle | Handheld or Vehicle MDT |
+
+<Callout type="info" title="MDT Update">
+As of the latest 2026 updates, the MDT now allows for "Quick-Link" from an ALPR alert directly to the suspect's full profile, streamlining the process of issuing warrants or identifying recidivists.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Strategic Patrol Zones for Maximum Hits">
+
+To maximize the effectiveness of the **Emergency Response Liberty County ALPR**, you must position yourself where the highest volume of "flagged" activity occurs. Different regions of Liberty County offer varying types of criminal activity. For instance, the countryside often sees more stolen vehicles being moved to avoid detection, while the city is a hotspot for wanted individuals.
+
+1.  **River City Main Intersection**: The highest traffic volume in the game. Ideal for catching a wide variety of alerts but can be overwhelming.
+2.  **The Gun Store Perimeter**: Criminals often visit the Gun Store to restock. Setting up an ALPR dragnet here is a proven tactic for catching wanted felons.
+3.  **Jewelry Store & Bank Routes**: Position your vehicle on the likely escape routes from these high-value robbery locations.
+4.  **County Highway 1**: The primary artery connecting Springfield and River City. Excellent for catching stolen vehicles being transported across the map.
+
+| Zone | Primary Alert Type | Recommended Rank |
+| :--- | :--- | :--- |
+| **River City** | Wanted Suspects / Traffic Violations | Officer / Deputy |
+| **Springfield** | Unregistered Vehicles | Cadet / Recruit |
+| **Countryside** | Stolen Vehicles / Speeding | Sergeant+ |
+| **Industrial Area** | DOT Violations / Stolen Goods | Senior Operator (DOT) |
+
+<Callout type="success" title="Tactical Success">
+Coordinating with another unit to set up "ALPR Checkpoints" at both ends of a bridge or tunnel is an extremely effective way to ensure no flagged vehicle enters or leaves a district unnoticed.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Law Enforcement Progression and Equipment">
+
+Access to advanced Law Enforcement tools like the ALPR and high-performance patrol vehicles is tied to your Experience Points (XP) and Rank. As you successfully use the ALPR to make arrests and recover stolen property, you will earn XP that unlocks further customizations and better equipment.
+
+<Checklist
+  id="le-progression"
+  title="Law Enforcement Milestones:"
+  items={[
+    "Reach the rank of Officer/Deputy to unlock full MDT access",
+    "Successfully recover 10 stolen vehicles using ALPR alerts",
+    "Upgrade to a Pursuit-rated vehicle for faster ALPR response",
+    "Master the use of the Radar Gun in conjunction with ALPR",
+    "Complete 50 successful arrests initiated by ALPR hits"
+  ]}
+/>
+
+<Callout type="info" title="XP Bonus">
+Using the ALPR to identify and recover a stolen vehicle provides a significant XP boost compared to standard traffic stops, making it one of the fastest ways to climb the ranks in 2026.
+</Callout>
+
+| Rank Level | Unlocked Equipment | ALPR Capability |
+| :--- | :--- | :--- |
+| **Cadet / Recruit** | Basic Patrol Car, Handcuffs | Basic Alerts Only |
+| **Officer / Deputy** | Pursuit Vehicle, Radar Gun | Full ALPR Filtering |
+| **Sergeant** | Tactical SUV, Spike Strips | Multi-Unit ALPR Sync |
+| **Lieutenant+** | Unmarked Vehicles, Specialized Gear | Advanced Tracking Tools |
+
+</Section>
+
+<Section icon={Bell} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Why isn't my ALPR giving me any alerts?",
+    answer: "Ensure that the ALPR is toggled 'ON' in your MDT settings. Additionally, check if you have filtered out too many alert categories. Finally, remember that the ALPR only scans vehicles within a certain radius and line-of-sight of your patrol car."
+  },
+  {
+    question: "Can civilians see if I am using an ALPR on them?",
+    answer: "No, the ALPR is a passive system. Civilians are not notified when their plate is scanned unless you initiate a traffic stop or activate your sirens based on the information provided by the reader."
+  },
+  {
+    question: "Does the ALPR work on parked cars?",
+    answer: "Yes, the ALPR will scan any vehicle with a visible license plate within its range, whether the vehicle is moving or parked. This is useful for finding stolen cars abandoned in parking lots."
+  },
+  {
+    question: "Is the ALPR available for the Fire Department or DOT?",
+    answer: "The ALPR is primarily a Law Enforcement tool for the Police and Sheriff teams. However, the Department of Transportation (DOT) has access to similar MDT tools for checking vehicle registration and weight compliance."
+  }
+]} />
+
+<Callout type="tip" title="Final Note">
+Mastering the **Emergency Response Liberty County ALPR** is a journey of practice and situational awareness. Stay vigilant, keep your MDT updated, and use the data to keep the streets of Liberty County safe in 2026.
+</Callout>
+
+</Section>

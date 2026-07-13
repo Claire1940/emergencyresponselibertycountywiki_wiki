@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Server, Settings, FileText, Layout, Activity, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Roleplay Servers: 2026 Setup Guide",
+  description: "Master Emergency Response Liberty County roleplay servers with our 2026 guide on server commands, custom liveries, staff management, and API setup.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Roleplay+Server+Setup",
+  date: "2026-07-12",
+  author: "Emergency Response Liberty County Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Roleplay Servers**: Private instances of **Emergency Response Liberty County roleplay servers** allow for customized rules, specialized departments, and organized community events.
+- **Server Commands**: Owners and staff use specific commands to manage weather, time, player status, and vehicle spawns.
+- **Customization**: The Custom Livery Pack and API Pack are essential for communities wanting unique vehicle designs and external integrations.
+- **2026 Updates**: Recent patches have integrated the Department of Transportation (DOT) and expanded API data for better server monitoring.
+- **Staff Management**: Success depends on a clear hierarchy of Moderators and Admins to maintain roleplay quality.
+</Callout>
+
+<Section icon={Server} title="Understanding Emergency Response Liberty County Roleplay Servers">
+
+The ecosystem of **Emergency Response Liberty County roleplay servers** represents the pinnacle of the Roblox roleplaying community. While public servers offer a chaotic, open-world experience, private roleplay servers provide a structured environment where players can immerse themselves in realistic emergency service simulations. These servers are hosted by community leaders who define specific "Rules of Engagement" and "Standard Operating Procedures" for every department, from the River City Police Department to the Liberty County Sheriff's Office.
+
+In 2026, the complexity of these servers has increased with the introduction of advanced API features and the reorganization of civilian infrastructure. Managing a successful server requires more than just a subscription; it requires an understanding of how to balance player freedom with strict roleplay discipline.
+
+| Server Type | Best For | Key Features |
+| :--- | :--- | :--- |
+| **Public Server** | Casual play, quick sessions | No entry requirements, automated calls, varied player skill. |
+| **Private Roleplay** | Serious immersion, organized events | Custom rules, staff moderation, whitelist options, custom liveries. |
+| **Training Server** | Department drills, new recruits | Controlled environment for practicing traffic stops or fire tactics. |
+
+<Callout type="tip" title="Pro Tip">
+When starting a new community, focus on a "Lite RP" approach first to build a player base before transitioning into "Serious RP" which requires much stricter moderation and whitelisting.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Step-by-Step Server Configuration">
+
+Setting up your first instance among the many **Emergency Response Liberty County roleplay servers** involves several technical steps. You must first purchase a private server through the Roblox game page and then configure the internal settings via the ERLC menu.
+
+<Steps>
+  <Step num="1" title="Initial Purchase and Naming">
+    Navigate to the ERLC game page on Roblox and purchase a Private Server. Once active, enter the game and open the Server Settings menu. Give your server a unique name that reflects your community (e.g., "Liberty County Realistic RP").
+  </Step>
+  <Step num="2" title="Department Configuration">
+    Decide which departments will be active. You can toggle access for Police, Sheriff, Fire/Rescue, and DOT. In 2026, it is highly recommended to keep DOT active as they now handle all infrastructure repairs and towing, which adds significant realism to traffic accident scenes.
+  </Step>
+  <Step num="3" title="Permission and Staff Setup">
+    Assign roles to your trusted community members. Use the "Staff Permissions" tab to grant specific access levels. Be cautious with the "Server Owner" level permissions; only grant these to individuals you trust with the server's longevity.
+  </Step>
+  <Step num="4" title="Applying Custom Packs">
+    If your community has the budget, equip the Custom Livery Pack and the API Pack. These allow you to upload unique department decals and connect your server to Discord bots for real-time logs and player tracking.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success Strategy">
+Always perform a "Soft Launch" with 5-10 players to test your staff permissions and custom liveries before announcing a major community event.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Staff Hierarchy and Management">
+
+A server is only as good as its staff. For **Emergency Response Liberty County roleplay servers**, a clear hierarchy prevents administrative abuse and ensures that roleplay scenes are handled professionally. Most top-tier servers utilize a three-tier staff system to manage the 50-player server capacity effectively.
+
+<CardGrid cols={3}>
+  <Card title="Moderators">
+    - **Primary Task**: Scene management and rule enforcement.
+    - **Tools**: Basic kick commands, vehicle despawning.
+    - **Role**: First responders to "FailRP" or "RDM" complaints.
+  </Card>
+  <Card title="Administrators">
+    - **Primary Task**: Dispute resolution and staff oversight.
+    - **Tools**: Ban commands, server-wide announcements.
+    - **Role**: Managing the Moderator team and approving liveries.
+  </Card>
+  <Card title="Department Leads">
+    - **Primary Task**: Training and SOP development.
+    - **Tools**: Rank management within their specific team.
+    - **Role**: Ensuring the Police or Fire teams act realistically.
+  </Card>
+</CardGrid>
+
+| Command Category | Common Commands | Use Case |
+| :--- | :--- | :--- |
+| **Environment** | /time [hr], /weather [type] | Setting the scene for night patrols or storm rescues. |
+| **Player Management** | /kick [user], /kill [user], /tp [user] | Removing rule-breakers or fixing glitched players. |
+| **Vehicle Control** | /fix, /despawn, /spawn [id] | Managing traffic flow and clearing abandoned cars. |
+| **Announcements** | /m [message], /h [message] | Broadcasting server restarts or global RP events. |
+
+<Callout type="warning" title="Staff Warning">
+Avoid "Admin Sitting" where staff members stay in god-mode or invisible just to watch players. This often discourages natural roleplay. Instead, staff should roleplay as normal civilians or officers until a report is filed.
+</Callout>
+
+</Section>
+
+<Section icon={Layout} title="Custom Liveries and Branding">
+
+To stand out among other **Emergency Response Liberty County roleplay servers**, you must utilize the Custom Livery system. This allows you to replace the standard "River City" branding with your own community's logos, often based on real-world agencies like the LAPD or NYPD.
+
+**Livery Submission Checklist:**
+<Checklist
+  id="livery-rules"
+  title="Submission Requirements:"
+  items={[
+    "Use official ERLC templates for the specific vehicle model.",
+    "Ensure all text is high-contrast and readable from a distance.",
+    "Identify the server name on 'Staff' or 'Admin' vehicles.",
+    "Avoid copyrighted logos without permission.",
+    "Include emergency numbers like 911 or 999 for realism."
+  ]}
+/>
+
+| Livery Element | Requirement | Pro Tip |
+| :--- | :--- | :--- |
+| **Resolution** | Max 512x512 recommended | Higher res can cause lag on mobile devices. |
+| **File Format** | .png or .jpg | Use transparent PNGs for decals on top of base colors. |
+| **Aspect Ratio** | 16:9 for Billboards | Match the template exactly to avoid stretching. |
+
+<Callout type="info" title="2026 Update Note">
+As of the March 2026 update, all custom liveries must pass a stricter automated filter for external links and QR codes to comply with Roblox safety standards.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="2026 Progression and Updates">
+
+The landscape of **Emergency Response Liberty County roleplay servers** changed significantly in early 2026. The most notable change was the "DOT Overhaul," which moved all construction and infrastructure tasks into a professional department. This has created a new niche for roleplayers who prefer technical work over high-speed pursuits.
+
+**Key 2026 Update Highlights:**
+- **DOT Integration**: The separate "Construction Job" was removed, and players now earn DOT XP for repairing traffic lights and towing.
+- **API v2**: Server owners can now pull live player coordinates and vehicle color data, allowing for advanced Discord-integrated maps.
+- **Enhanced Pursuits**: New detection logic makes it easier for Police/Sheriff players to track suspects who leave the main roads.
+
+| Department | 2026 Primary Goal | Unlock Requirement |
+| :--- | :--- | :--- |
+| **Police** | City-center traffic and crime | Default / Department XP |
+| **Sheriff** | Highway and rural patrol | Default / Department XP |
+| **Fire/Rescue** | Life safety and fire suppression | Volunteer Rank |
+| **DOT** | Infrastructure and recovery | Trainee Rank |
+
+<Callout type="success" title="Money Tip">
+In private servers, players still earn cash and XP. Encourage your players to complete DOT calls during "down-time" to keep the server economy healthy without needing constant criminal activity.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Managing Your Roleplay Community">
+
+<FAQ items={[
+  {
+    question: "How do I make my Emergency Response Liberty County roleplay server private?",
+    answer: "You must purchase a Private Server from the Roblox game page. Once inside, you can set a join code or whitelist specific friends/group members via the Server Settings menu."
+  },
+  {
+    question: "Can I use real-world police logos on my custom liveries?",
+    answer: "Yes, ER:LC allows liveries based on real-world agencies as long as they do not violate copyright or include prohibited external links/QR codes."
+  },
+  {
+    question: "What is the best way to earn money in a private RP server?",
+    answer: "The most consistent way is through the Department of Transportation (DOT) or Fire/Rescue calls, as these provide steady XP and cash without the risks associated with criminal roleplay."
+  },
+  {
+    question: "How do I access the server API for Discord integration?",
+    answer: "You must purchase the API Pack for your server. Once purchased, a unique API key will appear in your Server Settings, which you can use with supported Discord bots or custom applications."
+  }
+]} />
+
+</Section>
+
+For more information on official updates, visit the [ERLC official site](https://erlc.gg/) or check the [Police Roleplay Community Discord](https://discord.com/invite/prc). All data is current as of the July 2026 wiki update.

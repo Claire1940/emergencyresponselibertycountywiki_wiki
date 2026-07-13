@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pesca no Emergency Response Liberty County: Guia de Farm de Alto Rendimento",
+  description: "Domine a pesca no Emergency Response Liberty County. Aprenda os melhores pontos de pesca, taxas de captura, preços de venda e como desbloquear a lendária placa de veículo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Liberty+County+Fishing+Guide",
+  date: "2026-07-13",
+  author: "Equipe do Wiki de Emergency Response: Liberty County"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **pesca no Emergency Response Liberty County** é uma atividade civil altamente lucrativa, rendendo em média até **$21.816 por hora**.
+- As **faixas de raridade** ditam o seu sucesso, oferecendo uma chance de **90%** para peixes Comuns, **9%** para Raros e **1%** para Lendários.
+- **Bayou Bill** no Fish Shack é o seu único comprador; lembre-se de que os peixes **não são salvos** no seu inventário quando você sai do jogo.
+- **Fishin' Legend** é um design exclusivo de placa de veículo concedido instantaneamente ao capturar seu primeiro peixe Lendário.
+</Callout>
+
+<Section icon={Map} title="Introdução à Pesca no Emergency Response Liberty County">
+
+A **pesca no Emergency Response Liberty County** serve como um método excepcional e de baixo risco para os civis aumentarem suas contas bancárias fora dos empregos tradicionais. Ao comprar uma Vara de Pesca (Fishing Rod) e participar do minijogo de pesca ativo, os jogadores podem fisgar capturas de alto valor de forma consistente. 
+
+Diferente de entregas padrão ou salários passivos, a pesca exige participação ativa, mas recompensa os jogadores com pagamentos massivos, especialmente ao capturar vida aquática rara ou lendária.
+
+<Callout type="tip" title="Sinergia de Salários">
+Para maximizar seus lucros por hora, entre em um emprego civil antes de sair para pescar. Você continuará a receber seus salários padrão do trabalho enquanto pesca, adicionando renda passiva aos seus ganhos de pesca ativa.
+</Callout>
+
+### Mecânicas Básicas de Pesca
+Para começar, equipe sua Vara de Pesca do seu inventário, fique perto de qualquer corpo d'água e clique com o botão esquerdo para lançar a linha. Você deve esperar exatamente 10 segundos antes que um peixe morda a isca. Assim que uma mordida ocorrer, a interface do minijogo aparecerá no lado direito da tela.
+
+| Mecânica | Ação Necessária | Condição de Falha |
+| :--- | :--- | :--- |
+| **Lançamento** | Clique com o botão esquerdo perto da água | Nenhuma (o cronômetro de espera de 10 segundos começa) |
+| **Recolhimento** | Clique repetidamente para manter a linha dentro da caixa verde | A caixa fica vermelha; o peixe escapa se ficar fora por muito tempo |
+| **Verificação de Raridade** | Observe a velocidade de movimento da caixa verde | Movimentos mais rápidos indicam maior raridade |
+
+</Section>
+
+<Section icon={Target} title="Tutorial de Pesca Passo a Passo">
+
+Fisgar um peixe exige uma boa coordenação motora. Siga estes passos para dominar o minijogo e garantir sua captura todas as vezes.
+
+<Steps>
+  <Step num="1" title="Lance sua Linha">
+    Equipe sua Vara de Pesca da sua barra de atalho. Caminhe até a beira da água e clique com o botão esquerdo. Seu personagem lançará a linha e uma contagem regressiva de 10 segundos começará.
+  </Step>
+  <Step num="2" title="Identifique a Mordida">
+    Após 10 segundos, um indicador visual e uma barra vertical aparecerão no lado direito da tela. Isso sinaliza que um peixe está oficialmente no seu anzol.
+  </Step>
+  <Step num="3" title="Equilibre o Indicador">
+    Clique com o botão esquerdo repetidamente para manter a linha branca dentro da caixa verde em movimento. Se a linha branca flutuar para fora da caixa verde por muito tempo, o peixe romperá a linha e escapará.
+  </Step>
+  <Step num="4" title="Reivindique e Venda">
+    Assim que a barra de progresso estiver cheia, o peixe será adicionado ao seu inventário. Dirija-se ao Bayou Bill no Fish Shack para vender seu inventário por dinheiro vivo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Inventário">
+Os peixes são vinculados à sessão. Eles **não são salvos** no seu inventário se você desconectar, o jogo fechar ou você sair do servidor. Sempre venda sua captura para o Bayou Bill antes de deslogar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Espécies de Peixes, Raridades e Preços">
+
+Existem 11 tipos distintos de peixes disponíveis no jogo, divididos em três níveis de raridade. Entender esses níveis ajuda você a estimar quanto dinheiro pode ganhar durante uma sessão de pesca.
+
+<CardGrid cols={3}>
+  <Card title="Nível Comum (Taxa de Captura de 90%)">
+    - **7 Espécies** disponíveis
+    - Vendido por **$85 a $195**
+    - A caixa verde se move de forma lenta e previsível
+  </Card>
+  <Card title="Nível Raro (Taxa de Captura de 9%)">
+    - **2 Espécies** disponíveis
+    - Vendido por **$775 a $840**
+    - A caixa verde se move com desvios erráticos moderados
+  </Card>
+  <Card title="Nível Lendário (Taxa de Captura de 1%)">
+    - **2 Espécies** disponíveis
+    - Vendido por **$2.020 a $2.400**
+    - A caixa verde se move constantemente sem parar
+  </Card>
+</CardGrid>
+
+### Lista Oficial de Preços dos Peixes
+A tabela a seguir detalha as espécies de peixes conhecidas, seus valores de venda no Fish Shack do Bayou Bill e recompensas especiais de desbloqueio.
+
+| Nome do Peixe | Raridade | Preço de Venda | Recompensas Especiais |
+| :--- | :--- | :--- | :--- |
+| Prank Fish | Comum | $85 | Nenhuma |
+| Bright Herring | Comum | $95 | Nenhuma |
+| Cryptic Fish | Raro | $775 | Nenhuma |
+| Gold Fish | Raro | $840 | Nenhuma |
+| Galaxy Fish | Lendário | $2.020 | Concede a Placa "Fishin' Legend" |
+| Radioactive Fish | Lendário | $2.400 | Concede a Placa "Fishin' Legend" |
+
+<Callout type="success" title="Desbloqueio Cosmético">
+Capturar o Galaxy Fish ou o Radioactive Fish pela primeira vez aciona um pop-up imediato do sistema concedendo a você o design exclusivo de placa personalizada **"Fishin' Legend"**, que pode ser aplicado a qualquer um de seus veículos na oficina de modificação.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Margens de Lucro e Taxas de Captura">
+
+Para os jogadores que buscam otimizar seu fluxo de caixa, a pesca oferece uma fonte de renda altamente estável e previsível. Com base em amplos dados da comunidade, a pesca contínua produz resultados altamente consistentes.
+
+### Ganhos Horários Esperados
+Ao pescar sem parar e sem interrupções, sua eficiência média permanece altamente estável devido à baixa variação estatística.
+
+| Métrica | Taxa Média | Renda Esperada |
+| :--- | :--- | :--- |
+| **Por Minuto** | 2,2 peixes capturados | $363,60 |
+| **Por Hora** | 132 peixes capturados | $21.816,00 |
+
+```
+Progressão de Renda Horária (Pesca Contínua):
+[15 Min: $5.454] --> [30 Min: $10.908] --> [45 Min: $16.362] --> [60 Min: $21.816]
+```
+
+<Callout type="info" title="Consistência Estatística">
+Modelos de regressão linear de dados de pesca mostram um valor de R² extremamente alto. Isso significa que sua variação é incrivelmente baixa; você pode esperar com confiança ganhar cerca de $21.800 para cada hora de pesca contínua e focada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Conclusão da Pesca">
+
+Use esta lista de verificação para acompanhar seu progresso e garantir que você dominou totalmente o sistema de pesca em Liberty County.
+
+<Checklist
+  id="fishing-milestones"
+  title="Marcos da Pesca:"
+  items={[
+    "Comprar uma Vara de Pesca na Loja de Ferramentas",
+    "Dominar o minijogo sem deixar um único peixe escapar",
+    "Capturar um peixe Raro (Cryptic Fish ou Gold Fish)",
+    "Capturar um peixe Lendário (Galaxy ou Radioactive Fish)",
+    "Equipar a placa 'Fishin' Legend' na oficina de modificação",
+    "Completar uma sessão completa de 1 hora para ganhar mais de $21.000"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde o Bayou Bill está localizado para eu vender meus peixes?",
+    answer: "O Bayou Bill pode ser encontrado no Fish Shack, que fica situado perto da região do pântano/baía no mapa. Ele é o único NPC que comprará sua captura."
+  },
+  {
+    question: "Meu inventário de peixes é salvo se eu sair do jogo?",
+    answer: "Não. Os peixes não são salvos no seu inventário quando você desloga. Você deve vender todos os seus peixes para o Bayou Bill antes de sair do servidor, caso contrário, irá perdê-los."
+  },
+  {
+    question: "Como obtenho a placa de licença Fishin' Legend?",
+    answer: "Você deve capturar qualquer um dos dois peixes Lendários (Galaxy Fish ou Radioactive Fish). O design é concedido imediatamente após sua primeira captura lendária bem-sucedida."
+  },
+  {
+    question: "A pesca no Emergency Response: Liberty County é melhor do que os empregos padrão?",
+    answer: "Sim, a pesca pode render cerca de $21.816 por hora, o que é altamente competitivo. Quando combinada com os salários civis passivos, é um dos melhores métodos ativos de ganhar dinheiro no jogo."
+  }
+]} />
+
+</Section>

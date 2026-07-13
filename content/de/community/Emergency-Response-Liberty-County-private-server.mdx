@@ -1,0 +1,157 @@
+import { Map, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Privater Server: Einrichtungsanleitung",
+  description: "Erfahren Sie, wie Sie Ihren Emergency Response Liberty County Privater Server konfigurieren, Mitarbeiterbefehle verwalten, benutzerdefinierte Lackierungen hochladen und die API nutzen.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Setup+Guide",
+  date: "2026-07-12",
+  author: "Emergency Response Liberty County Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Emergency Response Liberty County Privater Server**: Erstellen Sie benutzerdefinierte Rollenspielumgebungen mit vollen Admin-Rechten.
+- **Serversteuerung**: Nutzen Sie Echtzeit-Entwicklerbefehle, um Wetter, Verkehr und Spielerberechtigungen zu verwalten.
+- **Benutzerdefinierte Lackierungen**: Entwerfen und laden Sie einzigartige Fahrzeugdesigns für Rettungsdienste mithilfe offizieller Vorlagen hoch.
+- **API-Integrationen**: Verbinden Sie externe Anwendungen über das API-Paket, um Live-Serverdaten abzurufen.
+- **Regeldurchsetzung**: Halten Sie sich strikt an die Roblox-Richtlinien und die offiziellen Werberichtlinien der Entwickler.
+</Callout>
+
+<Section icon={Shield} title="Einführung in die Einrichtung eines Emergency Response Liberty County Privaten Servers">
+
+Ein **Emergency Response Liberty County Privater Server** bietet Communities eine dedizierte Sandbox-Umgebung für benutzerdefinierte Patrouillen, Ausbildung von Abteilungen und strukturierte Rollenspiel-Events. Im Gegensatz zu öffentlichen Servern haben Besitzer privater Server die volle Kontrolle über Gameplay-Konfigurationen, Mitarbeiterberechtigungen und benutzerdefinierte Assets.
+
+Um das Potenzial Ihrer benutzerdefinierten Community zu maximieren, müssen Sie verstehen, wie die Serverbesitzerschaft mit Premium-Paketen wie dem Custom Livery Pack und dem API Pack interagiert. Die korrekte Verwaltung dieser Funktionen sorgt für eine stabile, ansprechende und professionelle Umgebung für Ihre Spieler.
+
+| Funktionspaket | Hauptfunktion | Voraussetzung |
+|---|---|---|
+| **Basis Privater Server** | Private Sitzungen hosten, Grundeinstellungen verwalten, Spieler kicken/bannen | Robux-Kauf |
+| **Custom Livery Pack** | Benutzerdefinierte Fahrzeugdesigns und Dienstuniformen hochladen | Separater Gamepass |
+| **API Server Pack** | Externe Discord-Bots verbinden und Live-Serverdaten abrufen | Separater Gamepass |
+
+<Callout type="tip" title="Profi-Tipp">
+Legen Sie immer Ihre grundlegenden Serverregeln fest und konfigurieren Sie Ihre Mitarbeiterhierarchie, bevor Sie große Gruppen von Spielern zu Ihren benutzerdefinierten Patrouillen einladen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Verwaltung von Servereinstellungen und Mitarbeiterberechtigungen">
+
+Eine erfolgreiche Serververwaltung basiert auf einer strukturierten Hierarchie. Als Besitzer eines Emergency Response Liberty County Privaten Servers können Sie Verwaltungsaufgaben über die In-Game-Einstellungen an vertrauenswürdige Moderatoren und Administratoren delegieren.
+
+| Mitarbeiterrolle | Erlaubte Aktionen | Verantwortungsbereich |
+|---|---|---|
+| **Moderator** | Spieler kicken, Benutzer verwarnen, Chat stummschalten, einfache Barrieren spawnen | Moderat |
+| **Administrator** | Spieler bannen, Wetter/Zeit verwalten, Fahrzeugbeschränkungen konfigurieren | Hoch |
+| **Serverbesitzer** | Mitarbeiterrollen zuweisen, API-Schlüssel bearbeiten, Servererweiterungen kaufen | Volle Kontrolle |
+
+<Callout type="warning" title="Sicherheitshinweis">
+Erteilen Sie Administratorberechtigungen nur Spielern, denen Sie voll und ganz vertrauen. Verwaltungsbefehle können aktive Rollenspielszenen erheblich stören, wenn sie missbraucht werden.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Rollenspiel-Konfiguration">
+    Legen Sie spezifische Serverthemen fest, wie z. B. realistische Fahrregeln, eingeschränkte kriminelle Aktivitäten oder abteilungsspezifische Patrouillen.
+  </Card>
+  <Card title="Delegierung an Mitarbeiter">
+    Verteilen Sie die Moderationslast, indem Sie klare Rollen und Grenzen für Ihr Server-Mitarbeiterteam festlegen.
+  </Card>
+  <Card title="Benutzerdefinierte Regelwerke">
+    Veröffentlichen Sie klare Community-Richtlinien zu Fahrzeugverfolgungsjagden, Notfalleinsätzen und dem Verhalten von Zivilisten.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zum Hochladen benutzerdefinierter Lackierungen">
+
+Benutzerdefinierte Lackierungen ermöglichen es Ihrer Community, einzigartige Fahrzeugdesigns zu verwenden, die auf realen Behörden oder fiktiven Abteilungen basieren. Um diese Funktion nutzen zu können, muss das Custom Livery Pack auf Ihrem Server aktiv sein und alle Designs müssen den offiziellen Überprüfungsprozess durchlaufen.
+
+<Steps>
+  <Step num="1" title="Offizielle Vorlagen herunterladen">
+    Besuchen Sie die offiziellen Entwicklerressourcen, um die exakte Bildvorlage für das spezifische Fahrzeug herunterzuladen, das Sie anpassen möchten.
+  </Step>
+  <Step num="2" title="Grafiken anwenden">
+    Verwenden Sie Bildbearbeitungssoftware, um Ihre Abteilungsmarkierungen, Logos und kontrastreichen Textebenen direkt auf die Vorlage zu platzieren.
+  </Step>
+  <Step num="3" title="Auf Roblox hochladen">
+    Laden Sie Ihre fertige Vorlage über das Roblox Creator Dashboard als Decal-Asset hoch und speichern Sie die eindeutige Asset-ID.
+  </Step>
+  <Step num="4" title="Zur In-Game-Überprüfung einreichen">
+    Öffnen Sie den Lackierungs-Editor in Ihrem Emergency Response Liberty County Privaten Server, geben Sie die Asset-ID ein und reichen Sie sie zur offiziellen Überprüfung ein.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tipp zur Lackierungsfreigabe">
+Stellen Sie sicher, dass der gesamte Text auf Ihrer Lackierung gut lesbar ist und einen hohen Kontrast zur Hintergrundfarbe aufweist, um eine Ablehnung während des Überprüfungsprozesses zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Richtlinien für Lackierungen und Werbung">
+
+Alle benutzerdefinierten Inhalte, die auf Ihren Server hochgeladen werden, müssen den Nutzungsbedingungen von Roblox und den spezifischen Richtlinien des Entwicklerteams der Police Roleplay Community entsprechen.
+
+| Inhaltstyp | Erlaubte Elemente | Verbotene Elemente |
+|---|---|---|
+| **Fahrzeuglackierungen** | Fiktive Designs, Nachbildungen realer Behörden, Standard-Notrufnummern (911/999) | QR-Codes, soziale Links, persönliche Namen, Urheberrechtsverletzungen |
+| **Billboard-Anzeigen (16:9)** | Server-Logos, Community-Namen, hochwertige Spiel-Screenshots | Discord-Links, Robux-Gewinnspiele, Werbeanzeigen für Mitarbeiter |
+| **Bushaltestellen-Anzeigen (2:3)** | Server-Abkürzungen, saubere Rollenspiel-Grafiken, Veranstaltungspläne | Externe Kommunikations-Handles, minderwertige Memes |
+
+<Callout type="info" title="Optimierung der Werbung">
+Halten Sie Billboard- und Bushaltestellen-Designs sauber. Die offiziellen Richtlinien empfehlen eine maximale Auflösung von 512 Pixeln auf jeder Achse, um eine optimale Leistung zu gewährleisten.
+</Callout>
+
+<Checklist
+  id="livery-checklist"
+  title="Anforderungen für die Einreichung von Lackierungen:"
+  items={[
+    "Überprüfen Sie, ob das Bild den offiziellen Abmessungen der Fahrzeugvorlage entspricht",
+    "Bestätigen Sie, dass keine externen Website-Links oder Social-Media-Tags enthalten sind",
+    "Stellen Sie sicher, dass der gesamte Text groß, lesbar und nicht beleidigend ist",
+    "Identifizieren Sie den Namen des privaten Servers deutlich auf mitarbeiterspezifischen Lackierungen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="API-Integration und erweiterte Serverbefehle">
+
+Für fortgeschrittene Communities ermöglicht das API Server Pack die Verbindung externer Anwendungen mit Ihrem Emergency Response Liberty County Privaten Server. Dies ermöglicht automatisierte Moderation, Live-Spieler-Tracking und benutzerdefinierte Discord-Bot-Integrationen.
+
+| API-Endpunkt | Abgerufene Daten | Praktischer Anwendungsfall |
+|---|---|---|
+| **v2 Server-Info** | Aktive Spieleranzahl, Server-Uptime, aktuelle Kartensaison | Anzeige für Discord-Status-Bots |
+| **Spielerstandorte** | Echtzeit-Koordinatendaten für alle aktiven Spieler | Live-Dispatch-Karten-Tracking |
+| **Fahrzeugdaten** | Aktive Fahrzeugtypen, Farben und registrierte Besitzer | Inventurprüfungen für Patrouillenfahrzeuge |
+
+<Callout type="warning" title="Sicherheit der Anmeldedaten">
+Halten Sie den API-Schlüssel Ihres Servers streng geheim. Jeder mit Zugriff auf Ihren API-Schlüssel kann Remote-Befehle ausführen und auf sensible Spielerdaten zugreifen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie erhalte ich einen API-Schlüssel für meinen Emergency Response Liberty County Privaten Server?",
+    answer: "Sie müssen das API Server Pack erwerben. Sobald es aktiv ist, öffnen Sie das Einstellungsmenü Ihres privaten Servers im Spiel, navigieren Sie zum API-Bereich und generieren Sie Ihren eindeutigen API-Schlüssel."
+  },
+  {
+    question: "Warum wurde meine benutzerdefinierte Fahrzeuglackierung abgelehnt?",
+    answer: "Lackierungen werden normalerweise abgelehnt, wenn sie externe Links, QR-Codes, urheberrechtlich geschützte Logos ohne Genehmigung enthalten oder wenn der Text zu klein und unleserlich ist."
+  },
+  {
+    question: "Kann ich einen privaten Server auf Mobilgeräten betreiben?",
+    answer: "Ja, die Einstellungen für private Server und grundlegende Verwaltungsbefehle werden auf PC-, Mobil- und Konsolenplattformen vollständig unterstützt."
+  },
+  {
+    question: "Verdienen Spieler auf einem privaten Server normales Geld und XP?",
+    answer: "Die Verdienstraten für Geld und Abteilungs-XP werden auf privaten Servern angepasst, um Farming zu verhindern und das Fortschrittsgleichgewicht zu wahren."
+  }
+]} />
+
+</Section>

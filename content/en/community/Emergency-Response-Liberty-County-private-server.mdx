@@ -1,0 +1,157 @@
+import { Map, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Private Server: Setup Guide",
+  description: "Learn how to configure your Emergency Response Liberty County private server, manage staff commands, upload custom liveries, and use the API.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Setup+Guide",
+  date: "2026-07-12",
+  author: "Emergency Response Liberty County Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Emergency Response Liberty County private server**: Create custom roleplay environments with full admin authority.
+- **Server Control**: Utilize real-time developer commands to manage weather, traffic, and player permissions.
+- **Custom Liveries**: Design and upload unique emergency department vehicle skins using official templates.
+- **API Integrations**: Connect external applications via the API Pack to retrieve live server data.
+- **Rules Enforcement**: Maintain strict compliance with Roblox and official developer advertisement guidelines.
+</Callout>
+
+<Section icon={Shield} title="Introduction to Emergency Response Liberty County Private Server Setup">
+
+An **Emergency Response Liberty County private server** offers communities a dedicated sandbox environment to host custom patrols, department training, and structured roleplay events. Unlike public servers, private server owners hold complete authority over gameplay configurations, staff permissions, and custom assets. 
+
+To maximize the potential of your custom community, you must understand how server ownership interacts with premium packs, such as the Custom Livery Pack and the API Pack. Managing these features correctly ensures a stable, engaging, and professional environment for your players.
+
+| Feature Pack | Primary Function | Requirement |
+|---|---|---|
+| **Base Private Server** | Host private sessions, manage basic settings, kick/ban players | Robux Purchase |
+| **Custom Livery Pack** | Upload custom vehicle skins and department uniforms | Separate Gamepass |
+| **API Server Pack** | Connect external Discord bots and retrieve live server data | Separate Gamepass |
+
+<Callout type="tip" title="Pro Tip">
+Always establish your core server rules and configure your staff hierarchy before inviting large groups of players to join your custom patrols.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Managing Server Settings and Staff Permissions">
+
+Successful server administration relies on a structured hierarchy. As the owner of an Emergency Response Liberty County private server, you can delegate administrative tasks to trusted moderators and administrators using in-game settings.
+
+| Staff Role | Permitted Actions | Responsibility Level |
+|---|---|---|
+| **Moderator** | Kick players, warn users, mute chat, spawn basic scene barriers | Moderate |
+| **Administrator** | Ban players, manage weather/time, configure vehicle restrictions | High |
+| **Server Owner** | Assign staff roles, edit API keys, purchase server expansions | Full Control |
+
+<Callout type="warning" title="Security Warning">
+Only grant Administrator permissions to players you trust completely. Administrative commands can significantly disrupt active roleplay scenes if abused.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Roleplay Configuration">
+    Set specific server themes, such as realistic driving rules, restricted criminal activities, or department-only patrols.
+  </Card>
+  <Card title="Staff Delegation">
+    Distribute the moderation workload by assigning clear roles and boundaries for your server staff team.
+  </Card>
+  <Card title="Custom Rulesets">
+    Publish a clear set of community guidelines regarding vehicle pursuits, emergency responses, and civilian conduct.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Custom Livery Upload Guide">
+
+Custom liveries allow your community to use unique vehicle designs based on real-world agencies or fictional departments. To use this feature, your server must have the Custom Livery Pack active, and all designs must pass the official review process.
+
+<Steps>
+  <Step num="1" title="Download Official Templates">
+    Visit the official developer resources to download the precise image template for the specific vehicle you wish to customize.
+  </Step>
+  <Step num="2" title="Apply Custom Graphics">
+    Use image editing software to place your department markings, logos, and high-contrast text layers directly onto the template.
+  </Step>
+  <Step num="3" title="Upload to Roblox">
+    Upload your completed template as a Decal asset through the Roblox Creator Dashboard and save the unique Asset ID.
+  </Step>
+  <Step num="4" title="Submit for In-Game Review">
+    Open the livery editor inside your Emergency Response Liberty County private server, enter the Asset ID, and submit it for official review.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Livery Approval Tip">
+Ensure all text on your livery is clearly legible and highly contrasted against the background color to avoid rejection during the review process.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Livery and Advertisement Compliance Rules">
+
+All custom content uploaded to your server must comply with Roblox Terms of Service and the specific guidelines set by the Police Roleplay Community development team.
+
+| Content Type | Allowed Elements | Prohibited Elements |
+|---|---|---|
+| **Vehicle Liveries** | Fictional designs, real-world agency replicas, standard emergency numbers (911/999) | QR codes, social links, personal names, copyright violations |
+| **Billboard Ads (16:9)** | Server logos, community names, high-quality game screenshots | Discord links, Robux giveaways, staff recruitment ads |
+| **Bus Stop Ads (2:3)** | Server abbreviations, clean roleplay artwork, event schedules | External communication handles, low-effort memes |
+
+<Callout type="info" title="Advertisement Optimization">
+Keep billboard and bus stop designs clean. The official guidelines recommend a maximum resolution of 512 pixels on either axis to maintain optimal performance.
+</Callout>
+
+<Checklist
+  id="livery-checklist"
+  title="Livery Submission Requirements:"
+  items={[
+    "Verify the image matches the official vehicle template dimensions",
+    "Confirm there are no external website links or social media tags",
+    "Ensure all text is large, readable, and non-offensive",
+    "Identify the private server name clearly on staff-specific liveries"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="API Integration and Advanced Server Commands">
+
+For advanced communities, the API Server Pack allows you to connect external applications to your Emergency Response Liberty County private server. This enables automated moderation, live player tracking, and custom Discord bot integrations.
+
+| API Endpoint | Data Retrieved | Practical Use Case |
+|---|---|---|
+| **v2 Server Info** | Active player count, server uptime, current map season | Discord status bot displays |
+| **Player Locations** | Real-time coordinate data for all active players | Live dispatch map tracking |
+| **Vehicle Data** | Active vehicle types, colors, and registered owners | Patrol vehicle inventory audits |
+
+<Callout type="warning" title="Credential Safety">
+Keep your server's API key strictly private. Anyone with access to your API key can execute remote commands and access sensitive player data.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I get an API key for my Emergency Response Liberty County private server?",
+    answer: "You must purchase the API Server Pack. Once active, open your private server's Settings menu in-game, navigate to the API section, and generate your unique API key."
+  },
+  {
+    question: "Why was my custom vehicle livery rejected?",
+    answer: "Liveries are typically rejected if they contain external links, QR codes, copyrighted logos without permission, or if the text is too small and unreadable."
+  },
+  {
+    question: "Can I run a private server on mobile devices?",
+    answer: "Yes, private server settings and basic administrative commands are fully supported across PC, mobile, and console platforms."
+  },
+  {
+    question: "Do players earn normal cash and XP in a private server?",
+    answer: "Earning rates for cash and department XP are adjusted on private servers to prevent farming and maintain progression balance."
+  }
+]} />
+
+</Section>
