@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Helicóptero de Emergency Response Liberty County: Guía de Configuración de Apoyo Aéreo",
+  description: "Domina el sistema de helicópteros de Emergency Response Liberty County. Aprende a solicitar apoyo aéreo, usar los modos de Patrulla y Localización, y cazar a los criminales.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Helicopter+Air+Support+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Emergency Response Liberty County"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Helicóptero de Emergency Response Liberty County**: Una poderosa herramienta aérea utilizada por las fuerzas del orden para rastrear sospechosos buscados y patrullar el mapa.
+- **Dos Modos Operativos**: Elige entre el **Modo Patrulla** para escanear automáticamente el mapa o el **Modo Localizar Jugador** para rastrear a un objetivo específico.
+- **Requisito de Rango**: Gratis para solicitar cada dos horas para el Rango 4 (Sargento) y superiores, mientras que los rangos inferiores deben omitir el tiempo de espera con Robux.
+- **Ventaja Táctica**: Los criminales atrapados por el reflector son marcados con un círculo rojo parpadeante y se enfrentan a graves sanciones si se desconectan.
+</Callout>
+
+<Section icon={Shield} title="Descripción General del Helicóptero de Emergency Response Liberty County">
+
+La actualización del **helicóptero de emergency response liberty county** introduce una dinámica que cambia el juego para las fuerzas del orden. Operando como una unidad de apoyo aéreo controlada por IA, este vehículo asiste a los departamentos de Policía y del Sheriff proporcionando vigilancia aérea en tiempo real. Cuando está activo, el helicóptero vuela desde el borde del mapa, utilizando un reflector de alta potencia para localizar a los criminales y transmitir sus ubicaciones directamente a los equipos de seguridad.
+
+**Puntos Destacados del Video:**
+- **Apoyo Aéreo Entrante**: Aprende cómo aparece el helicóptero desde los límites del mapa y entra en el espacio aéreo.
+- **Rastreo con Reflector**: Mira cómo el reflector dinámico se fija en los vehículos sospechosos con total precisión.
+- **Procedimientos de Despacho**: Observa el proceso paso a paso para solicitar apoyo aéreo a través de la interfaz policial.
+
+<YouTubeEmbed videoId="KQhfo1rnJmo" title="¡NUEVOS HELICÓPTEROS AÑADIDOS A ERLC! (Emergency Response Liberty County)" />
+
+### Disponibilidad y Costo del Apoyo Aéreo
+
+Aunque el helicóptero es un recurso increíblemente poderoso, está equilibrado por estrictos tiempos de espera del servidor y restricciones de rango. Los oficiales de la ley deben programar estratégicamente sus solicitudes para maximizar la ventana de vuelo de tres minutos.
+
+| Característica | Detalles |
+| --- | --- |
+| **Duración del Vuelo** | Aproximadamente 3 minutos por llamada |
+| **Tiempo de Espera del Servidor** | 10 minutos después de cualquier despacho de helicóptero |
+| **Tiempo de Espera del Jugador** | 1 hora (Sargento+) o 2 horas (Menor a Sargento) |
+| **Requisito de Rango** | Rango 4 (Sargento) para llamar gratis |
+| **Método de Omisión** | Pagar Robux para omitir los tiempos de espera personales |
+
+<Callout type="warning" title="Advertencia de Tiempo de Espera del Servidor">
+Incluso si tu tiempo de espera personal está activo o estás dispuesto a pagar Robux para omitirlo, no puedes convocar al helicóptero si el tiempo de espera de 10 minutos en todo el servidor sigue activo. Revisa siempre la interfaz de despacho antes de planificar un ataque coordinado.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modos de Helicóptero y Jugabilidad Táctica">
+
+El helicóptero policial funciona bajo dos modos distintos según tus necesidades tácticas actuales. Comprender cuándo desplegar cada modo marca la diferencia entre un arresto exitoso y un sospechoso perdido.
+
+<CardGrid cols={2}>
+  <Card title="Modo Localizar Jugador">
+    - **Rastreo Focalizado**: Se centra por completo en un único sospechoso buscado.
+    - **Reflector Constante**: Mantiene el reflector fijado en el vehículo o personaje del sospechoso.
+    - **Marcador de Mapa**: Coloca un círculo rojo parpadeante sobre el objetivo para todos los oficiales.
+  </Card>
+  <Card title="Modo Patrulla">
+    - **Vigilancia de Área**: Vuela en un patrón amplio por todo el mapa.
+    - **Escaneo Multiobjetivo**: Destaca automáticamente a cualquier criminal buscado sobre el que pase.
+    - **Información General**: Ideal cuando sabes que hay sospechosos activos pero no tienes nombres específicos.
+  </Card>
+</CardGrid>
+
+### Impacto en las Fuerzas del Orden vs. Criminales
+
+La presencia de un helicóptero cambia por completo el meta del mapa. A continuación se presenta un desglose de cómo la unidad de apoyo aéreo afecta a ambos lados de la ley.
+
+| Impacto en las Fuerzas del Orden | Impacto en los Criminales |
+| --- | --- |
+| Marca a los sospechosos con un círculo rojo parpadeante | La exposición al reflector revela la ubicación en tiempo real |
+| Al pasar el cursor sobre el círculo se revela el nombre de usuario del sospechoso | Salir del servidor mientras se está bajo el reflector activa una penalización de 5 minutos de cárcel |
+| La radio transmite la ubicación en tiempo real y los puntos de referencia más cercanos | Deben buscar cobertura elevada (túneles, edificios) para romper la línea de visión |
+
+<Callout type="tip" title="Estrategia Profesional con el Reflector">
+Cuando un criminal está atrapado en el reflector del helicóptero, es muy vulnerable. Si intenta desconectarse en combate (salir del juego para evitar el arresto) mientras está iluminado, el juego lo trata automáticamente como si hubiera salido esposado, enviándolo a la cárcel por 5 minutos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Solicitar Apoyo Aéreo de Helicóptero">
+
+Desplegar la unidad de apoyo aéreo requiere acceder al menú de despacho de las fuerzas del orden. Sigue estos pasos para solicitar con éxito una búsqueda en helicóptero.
+
+<Steps>
+  <Step num="1" title="Accede al Menú de Despacho">
+    Abre tu menú de interacción de las fuerzas del orden y selecciona la opción **Solicitar Apoyo Aéreo**.
+  </Step>
+  <Step num="2" title="Selecciona tu Modo de Misión">
+    Elige entre **Patrulla** (barrido de todo el mapa) o **Localizar Jugador** (rastreo de un objetivo específico).
+  </Step>
+  <Step num="3" title="Selecciona al Sospechoso (Si estás Localizando)">
+    Si seleccionaste Localizar Jugador, busca en la lista de jugadores activos buscados y confirma tu objetivo.
+  </Step>
+  <Step num="4" title="Confirma y Despliega">
+    Confirma el despacho. La radio de despacho anunciará: *\"Apoyo aéreo solicitado en camino. Buscando al sospechoso.\"*
+  </Step>
+</Steps>
+
+<Callout type="info" title="Registros de Despacho de Radio">
+Mantente atento a la radio policial. El piloto de IA transmitirá mensajes como: *\"El sospechoso está en el Área Postal [Número], cerca de [Punto de Referencia]\"* o *\"Sospechoso esposado. Pasando a Patrulla.\"* Esto ayuda a las unidades de tierra a coordinar sus rutas de interceptación.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para Dominar el Apoyo Aéreo">
+
+Para asegurarte de que tu departamento utilice el apoyo aéreo con la máxima eficiencia, revisa esta lista de verificación operativa antes de tu próximo turno de patrulla.
+
+<Checklist
+  id="helicopter-readiness"
+  title="Lista de Verificación de Despliegue de Apoyo Aéreo:"
+  items={[
+    "Verificar que el tiempo de espera de 10 minutos del servidor haya expirado",
+    "Asegurarse de que tu objetivo tenga un nivel de búsqueda activo antes de usar el Modo Localizar",
+    "Coordinar a las unidades de tierra para bloquear las rutas de escape antes de que llegue el helicóptero",
+    "Usar el Modo Patrulla durante momentos de alta actividad en el servidor para identificar grupos de elementos criminales",
+    "Monitorear las transmisiones de radio para obtener códigos postales y actualizaciones de puntos de referencia"
+  ]}
+/>
+
+<Callout type="success" title="Consejo de Coordinación Terrestre">
+El reflector del helicóptero hace que el vehículo del sospechoso sea muy visible incluso desde el otro lado de la ciudad. Usa esta señal visual para colocar tiras de clavos y bloqueos de carretera en la ruta del sospechoso. Obtén más información sobre configuraciones tácticas en la [Wiki de Emergency Response Liberty County](https://emergency-response-liberty-county.fandom.com/wiki/Air_Support).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre el Apoyo Aéreo">
+
+<FAQ items={[
+  {
+    question: "¿Cuánto tiempo permanece en el aire el helicóptero de Emergency Response Liberty County?",
+    answer: "Una vez despachado, el helicóptero volará por el mapa y rastreará a los sospechosos durante aproximadamente 3 minutos antes de regresar a la base."
+  },
+  {
+    question: "¿Pueden los criminales derribar el helicóptero de la policía?",
+    answer: "No, el helicóptero de apoyo aéreo es una unidad de IA automatizada y no destructible. Los criminales no pueden dañarlo ni derribarlo; deben huir, esconderse bajo cobertura o esperar a que termine el temporizador de 3 minutos."
+  },
+  {
+    question: "¿Se necesita un gamepass para llamar al helicóptero?",
+    answer: "No se requiere gamepass. Sin embargo, debes ser Rango 4 (Sargento) o superior para llamarlo gratis. Los jugadores por debajo de este rango, o aquellos con tiempos de espera personales, pueden omitir la restricción pagando Robux."
+  },
+  {
+    question: "¿Qué pasa si un sospechoso entra en un túnel o edificio?",
+    answer: "Si un sospechoso rompe la línea de visión del helicóptero al entrar en un túnel, estacionamiento o edificio, el reflector lo perderá temporalmente hasta que vuelva a salir a una zona abierta."
+  }
+]} />
+
+</Section>

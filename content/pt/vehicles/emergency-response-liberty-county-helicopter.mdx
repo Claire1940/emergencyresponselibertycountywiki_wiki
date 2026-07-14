@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Helicóptero do Emergency Response Liberty County: Guia de Suporte Aéreo",
+  description: "Domine o sistema de helicópteros do Emergency Response Liberty County. Aprenda a solicitar suporte aéreo, usar os modos Patrulha e Localizar e capturar criminosos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Helicopter+Air+Support+Guide",
+  date: "2026-07-14",
+  author: "Equipe da Wiki do Emergency Response: Liberty County",
+  keywords: "Emergency Response Liberty County, helicóptero, suporte aéreo, guia, ERLC, polícia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Helicóptero do Emergency Response Liberty County**: Uma poderosa ferramenta aérea usada pelas forças de segurança para rastrear suspeitos procurados e patrulhar o mapa.
+- **Dois Modos Operacionais**: Escolha entre o **Modo Patrulha** para escanear o mapa automaticamente ou o **Modo Localizar Jogador** para rastrear um alvo específico.
+- **Requisito de Patente**: Chamada gratuita a cada duas horas para Patente 4 (Sargento) ou superior, enquanto patentes inferiores devem pagar Robux para ignorar o tempo de espera.
+- **Vantagem Tática**: Criminosos pegos pelo holofote são marcados com um círculo vermelho piscante e enfrentam penalidades severas se saírem do jogo.
+</Callout>
+
+<Section icon={Shield} title="Visão Geral do Helicóptero do Emergency Response Liberty County">
+
+A atualização do **helicóptero do Emergency Response Liberty County** introduz uma dinâmica transformadora na jogabilidade das forças de segurança. Operando como uma unidade de suporte aéreo controlada por IA, este veículo auxilia os departamentos de Polícia e Sheriff fornecendo vigilância aérea em tempo real. Quando ativo, o helicóptero voa a partir da borda do mapa, utilizando um holofote de alta potência para rastrear criminosos e transmitir suas localizações diretamente para as equipes de segurança.
+
+**Destaques do Vídeo:**
+- **Suporte Aéreo Chegando**: Saiba como o helicóptero surge nos limites do mapa e entra no espaço aéreo.
+- **Rastreamento por Holofote**: Veja o holofote dinâmico travar em veículos suspeitos com precisão cirúrgica.
+- **Procedimentos de Despacho**: Veja o processo passo a passo para solicitar suporte aéreo através da interface policial.
+
+<YouTubeEmbed videoId="KQhfo1rnJmo" title="*NOVOS* HELICÓPTEROS ADICIONADOS AO ERLC! (Emergency Response Liberty County)" />
+
+### Disponibilidade e Custo do Suporte Aéreo
+
+Embora o helicóptero seja um recurso incrivelmente poderoso, ele é equilibrado por tempos de espera (cooldowns) rigorosos do servidor e restrições de patente. Os oficiais de justiça devem cronometrar estrategicamente seus pedidos para maximizar a janela de voo de três minutos.
+
+| Recurso | Detalhes |
+| --- | --- |
+| **Duração do Voo** | Aproximadamente 3 minutos por chamada |
+| **Espera do Servidor** | 10 minutos após qualquer despacho de helicóptero |
+| **Espera do Jogador** | 1 hora (Sargento+) ou 2 horas (Abaixo de Sargento) |
+| **Requisito de Patente** | Patente 4 (Sargento) para chamar gratuitamente |
+| **Método de Desvio** | Pagar Robux para ignorar o tempo de espera pessoal |
+
+<Callout type="warning" title="Aviso de Tempo de Espera do Servidor">
+Mesmo que seu tempo de espera pessoal esteja ativo ou você esteja disposto a pagar Robux para ignorá-lo, você não poderá convocar o helicóptero se o tempo de espera de 10 minutos de todo o servidor ainda estiver ativo. Sempre verifique a interface de despacho antes de planejar um ataque coordenado.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modos de Helicóptero e Jogabilidade Tática">
+
+O helicóptero da polícia opera sob dois modos distintos, dependendo das suas necessidades táticas atuais. Entender quando implantar cada modo é a diferença entre uma prisão bem-sucedida e um suspeito perdido.
+
+<CardGrid cols={2}>
+  <Card title="Modo Localizar Jogador">
+    - **Rastreamento Direcionado**: Foca inteiramente em um único suspeito procurado.
+    - **Holofote Constante**: Mantém o holofote travado no veículo ou personagem do suspeito.
+    - **Marcador no Mapa**: Coloca um círculo vermelho piscante sobre o alvo para todos os oficiais.
+  </Card>
+  <Card title="Modo Patrulha">
+    - **Vigilância de Área**: Realiza um padrão de voo amplo por todo o mapa.
+    - **Varredura Multialvo**: Destaca automaticamente quaisquer criminosos procurados por onde passa.
+    - **Inteligência Geral**: Ideal quando você sabe que há suspeitos ativos, mas não tem nomes específicos.
+  </Card>
+</CardGrid>
+
+### Impacto: Forças de Segurança vs. Criminosos
+
+A presença de um helicóptero muda completamente a meta do mapa. Abaixo está uma análise de como a unidade de suporte aéreo impacta ambos os lados da lei.
+
+| Impacto na Aplicação da Lei | Impacto nos Criminosos |
+| --- | --- |
+| Marca suspeitos com um círculo vermelho piscante | A exposição ao holofote revela a localização em tempo real |
+| Pairar sobre o círculo revela o nome de usuário do suspeito | Sair do servidor enquanto estiver no holofote gera uma pena de 5 minutos de prisão |
+| O rádio transmite a localização em tempo real e pontos de referência próximos | Devem buscar cobertura superior (túneis, prédios) para quebrar a linha de visão |
+
+<Callout type="tip" title="Estratégia Profissional de Holofote">
+Quando um criminoso está preso no holofote do helicóptero, ele fica altamente vulnerável. Se ele tentar o "combat-log" (sair do jogo para evitar a prisão) enquanto estiver iluminado, o jogo automaticamente trata isso como se ele tivesse saído algemado, colocando-o na prisão por 5 minutos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Solicitar Suporte Aéreo de Helicóptero">
+
+Implantar a unidade de suporte aéreo requer o acesso ao menu de despacho das forças de segurança. Siga estes passos para solicitar com sucesso uma busca por helicóptero.
+
+<Steps>
+  <Step num="1" title="Acesse o Menu de Despacho">
+    Abra o seu menu de interação de aplicação da lei e selecione a opção **Solicitar Suporte Aéreo** (Request Air Support).
+  </Step>
+  <Step num="2" title="Selecione o Modo de Missão">
+    Escolha entre **Patrulha** (varredura em todo o mapa) ou **Localizar Jogador** (rastreamento de alvo específico).
+  </Step>
+  <Step num="3" title="Selecione o Suspeito (Se for Localizar)">
+    Se você selecionou Localizar Jogador, navegue pela lista de jogadores procurados ativos e confirme seu alvo.
+  </Step>
+  <Step num="4" title="Confirmar e Implantar">
+    Confirme o despacho. O rádio de despacho anunciará: *"Suporte aéreo chamado a caminho. Procurando pelo suspeito."*
+  </Step>
+</Steps>
+
+<Callout type="info" title="Registros de Despacho de Rádio">
+Fique atento ao rádio da polícia. O piloto de IA transmitirá mensagens como: *"Suspeito está na Área Postal [Número], perto de [Ponto de Referência]"* ou *"Suspeito algemado. Indo para Patrulha."* Isso ajuda as unidades terrestres a coordenar suas rotas de interceptação.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Maestria em Suporte Aéreo">
+
+Para garantir que seu departamento utilize o suporte aéreo com máxima eficiência, revise este checklist operacional antes do seu próximo turno de patrulha.
+
+<Checklist
+  id="helicopter-readiness"
+  title="Checklist de Implantação de Suporte Aéreo:"
+  items={[
+    "Verifique se o tempo de espera de 10 minutos do servidor expirou",
+    "Certifique-se de que seu alvo tenha um nível de procurado ativo antes de usar o Modo Localizar",
+    "Coordene as unidades terrestres para bloquear rotas de fuga antes do helicóptero chegar",
+    "Use o Modo Patrulha durante períodos de alta atividade no servidor para identificar grupos criminosos",
+    "Monitore as transmissões de rádio para códigos postais e atualizações de pontos de referência"
+  ]}
+/>
+
+<Callout type="success" title="Dica de Coordenação Terrestre">
+O holofote do helicóptero torna o veículo do suspeito altamente visível, mesmo do outro lado da cidade. Use essa pista visual para montar tapetes de pregos e bloqueios à frente do caminho do suspeito. Saiba mais sobre táticas no [Emergency Response Liberty County Wiki](https://emergency-response-liberty-county.fandom.com/wiki/Air_Support).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ de Suporte Aéreo">
+
+<FAQ items={[
+  {
+    question: "Quanto tempo o helicóptero do Emergency Response Liberty County permanece no ar?",
+    answer: "Uma vez despachado, o helicóptero voará pelo mapa e rastreará suspeitos por aproximadamente 3 minutos antes de retornar à base."
+  },
+  {
+    question: "Os criminosos podem derrubar o helicóptero da polícia?",
+    answer: "Não, o helicóptero de suporte aéreo é uma unidade de IA automatizada e indestrutível. Os criminosos não podem danificá-lo ou derrubá-lo; eles devem correr, se esconder sob cobertura ou esperar o cronômetro de 3 minutos acabar."
+  },
+  {
+    question: "É necessário um gamepass para chamar o helicóptero?",
+    answer: "Nenhum gamepass é necessário. No entanto, você deve ser Patente 4 (Sargento) ou superior para chamá-lo de graça. Jogadores abaixo dessa patente, ou aqueles em tempo de espera pessoal, podem ignorar a restrição pagando Robux."
+  },
+  {
+    question: "O que acontece se um suspeito entrar em um túnel ou prédio?",
+    answer: "Se um suspeito quebrar a linha de visão do helicóptero entrando em um túnel, garagem ou prédio, o holofote o perderá temporariamente até que ele emerja novamente em campo aberto."
+  }
+]} />
+
+</Section>

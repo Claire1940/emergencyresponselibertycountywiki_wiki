@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Helicopter: Air Support Setup Guide",
+  description: "Master the emergency response liberty county helicopter system. Learn how to request air support, use Patrol and Locate modes, and hunt down criminals.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Helicopter+Air+Support+Guide",
+  date: "2026-07-14",
+  author: "Emergency Response Liberty County Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Emergency Response Liberty County Helicopter**: A powerful aerial tool used by law enforcement to track wanted suspects and patrol the map.
+- **Two Operational Modes**: Choose between **Patrol Mode** to auto-scan the map or **Locate Player Mode** to track a specific target.
+- **Rank Requirement**: Free to call every two hours for Rank 4 (Sergeant) and above, while lower ranks must bypass the cooldown with Robux.
+- **Tactical Advantage**: Criminals caught in the spotlight are marked with a blinking red circle and face severe penalties if they log out.
+</Callout>
+
+<Section icon={Shield} title="Emergency Response Liberty County Helicopter Overview">
+
+The **emergency response liberty county helicopter** update introduces a game-changing dynamic to law enforcement gameplay. Operating as an AI-controlled air support unit, this vehicle assists the Police and Sheriff departments by providing real-time aerial surveillance. When active, the helicopter flies from the edge of the map, utilizing a high-powered spotlight to track down criminals and broadcast their locations directly to law enforcement teams.
+
+**Video Highlights:**
+- **Inbound Air Support**: Learn how the helicopter spawns from the map boundaries and enters the airspace.
+- **Spotlight Tracking**: Watch the dynamic spotlight lock onto suspect vehicles with pinpoint accuracy.
+- **Dispatch Procedures**: See the step-by-step process of requesting air support via the police interface.
+
+<YouTubeEmbed videoId="KQhfo1rnJmo" title="*NEW* HELICOPTERS ADDED TO ERLC! (Emergency Response Liberty County)" />
+
+### Air Support Availability & Cost
+
+While the helicopter is an incredibly powerful asset, it is balanced by strict server cooldowns and rank restrictions. Law enforcement officers must strategically time their requests to maximize the three-minute flight window.
+
+| Feature | Details |
+| --- | --- |
+| **Flight Duration** | Approximately 3 minutes per call |
+| **Server Cooldown** | 10 minutes after any helicopter dispatch |
+| **Player Cooldown** | 1 hour (Sergeant+) or 2 hours (Under Sergeant) |
+| **Rank Requirement** | Rank 4 (Sergeant) to call for free |
+| **Bypass Method** | Pay Robux to bypass personal cooldowns |
+
+<Callout type="warning" title="Server Cooldown Warning">
+Even if your personal cooldown is active or you are willing to pay Robux to bypass it, you cannot summon the helicopter if the 10-minute server-wide cooldown is still active. Always check the dispatch interface before planning a coordinate strike.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Helicopter Modes and Tactical Gameplay">
+
+The police helicopter operates under two distinct modes depending on your current tactical needs. Understanding when to deploy each mode is the difference between a successful arrest and a lost suspect.
+
+<CardGrid cols={2}>
+  <Card title="Locate Player Mode">
+    - **Targeted Tracking**: Focuses entirely on a single wanted suspect.
+    - **Constant Spotlight**: Keeps the spotlight locked on the suspect's vehicle or character.
+    - **Map Marker**: Places a blinking red circle over the target for all officers.
+  </Card>
+  <Card title="Patrol Mode">
+    - **Area Surveillance**: Flies a broad pattern across the entire map.
+    - **Multi-Target Scan**: Automatically highlights any wanted criminals it passes over.
+    - **General Intel**: Ideal when you know suspects are active but lack specific names.
+  </Card>
+</CardGrid>
+
+### Law Enforcement vs. Criminal Impact
+
+The presence of a helicopter completely changes the map meta. Below is a breakdown of how the air support unit impacts both sides of the law.
+
+| Law Enforcement Impact | Criminal Impact |
+| --- | --- |
+| Marks suspects with a blinking red circle | Spotlight exposure reveals real-time location |
+| Hovering over the circle reveals the suspect's username | Leaving the server while in spotlight triggers a 5-minute jail penalty |
+| Radio broadcasts real-time location and nearest landmarks | Must seek overhead cover (tunnels, buildings) to break line of sight |
+
+<Callout type="tip" title="Pro Spotlight Strategy">
+When a criminal is trapped in the helicopter's spotlight, they are highly vulnerable. If they attempt to combat-log (leave the game to avoid arrest) while illuminated, the game automatically treats it as leaving in handcuffs, placing them in jail for 5 minutes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Request Helicopter Air Support">
+
+Deploying the air support unit requires accessing the law enforcement dispatch menu. Follow these steps to successfully call in a helicopter search.
+
+<Steps>
+  <Step num="1" title="Access the Dispatch Menu">
+    Open your law enforcement interaction menu and select the **Request Air Support** option.
+  </Step>
+  <Step num="2" title="Select Your Mission Mode">
+    Choose between **Patrol** (map-wide sweep) or **Locate Player** (specific target tracking).
+  </Step>
+  <Step num="3" title="Select Suspect (If Locating)">
+    If you selected Locate Player, browse the list of active wanted players and confirm your target.
+  </Step>
+  <Step num="4" title="Confirm and Deploy">
+    Confirm the dispatch. The dispatch radio will announce: *"Air support called inbound. Searching for suspect."*
+  </Step>
+</Steps>
+
+<Callout type="info" title="Radio Dispatch Logs">
+Keep your ears on the police radio. The AI pilot will broadcast messages such as: *"Suspect is on Postal Area [Number], near [Landmark]"* or *"Suspect in handcuffs. Going on Patrol."* This helps ground units coordinate their intercept routes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Air Support Mastery Checklist">
+
+To ensure your department utilizes air support with maximum efficiency, review this operational checklist before your next patrol shift.
+
+<Checklist
+  id="helicopter-readiness"
+  title="Air Support Deployment Checklist:"
+  items={[
+    "Verify that the 10-minute server cooldown has expired",
+    "Ensure your target has an active wanted level before using Locate Mode",
+    "Coordinate ground units to block exit routes before the helicopter arrives",
+    "Use Patrol Mode during heavy server activity to identify grouped criminal elements",
+    "Monitor radio transmissions for postal codes and landmark updates"
+  ]}
+/>
+
+<Callout type="success" title="Ground Coordination Tip">
+The helicopter spotlight makes the suspect's vehicle highly visible even from across the city. Use this visual cue to set up spike strips and roadblocks ahead of the suspect's path. Learn more about tactical setups on the [Emergency Response Liberty County Wiki](https://emergency-response-liberty-county.fandom.com/wiki/Air_Support).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Air Support FAQ">
+
+<FAQ items={[
+  {
+    question: "How long does the Emergency Response Liberty County helicopter stay in the air?",
+    answer: "Once dispatched, the helicopter will fly around the map and track suspects for approximately 3 minutes before returning to base."
+  },
+  {
+    question: "Can criminals shoot down the police helicopter?",
+    answer: "No, the air support helicopter is an automated, non-destructible AI unit. Criminals cannot damage or shoot it down; they must run, hide under cover, or wait out the 3-minute timer."
+  },
+  {
+    question: "Do you need a gamepass to call the helicopter?",
+    answer: "No gamepass is required. However, you must be Rank 4 (Sergeant) or higher to call it for free. Players below this rank, or those on personal cooldowns, can bypass the restriction by paying Robux."
+  },
+  {
+    question: "What happens if a suspect enters a tunnel or building?",
+    answer: "If a suspect breaks the helicopter's line of sight by driving into a tunnel, parking garage, or building, the spotlight will lose them temporarily until they emerge back into the open."
+  }
+]} />
+
+</Section>

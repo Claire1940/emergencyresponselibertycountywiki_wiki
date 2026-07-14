@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Emergency Response Liberty County Hubschrauber: Luftunterstützungs-Leitfaden",
+  description: "Meistern Sie das Hubschraubersystem von Emergency Response Liberty County. Erfahren Sie, wie Sie Luftunterstützung anfordern, Patrouillen- und Suchmodi nutzen und Kriminelle jagen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Helicopter+Air+Support+Guide",
+  date: "2026-07-14",
+  author: "Emergency Response Liberty County Wiki Team",
+  keywords: "Emergency Response Liberty County, Hubschrauber, Luftunterstützung, Polizei, Leitfaden"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Emergency Response Liberty County Hubschrauber**: Ein leistungsstarkes Luftwerkzeug für die Strafverfolgung, um gesuchte Verdächtige aufzuspüren und die Karte zu patrouillieren.
+- **Zwei Betriebsmodi**: Wählen Sie zwischen dem **Patrouillenmodus** zum automatischen Scannen der Karte oder dem **Spieler-Lokalisierungsmodus**, um ein bestimmtes Ziel zu verfolgen.
+- **Rangvoraussetzung**: Kostenlos alle zwei Stunden für Rang 4 (Sergeant) und höher; niedrigere Ränge müssen die Abklingzeit mit Robux umgehen.
+- **Taktischer Vorteil**: Kriminelle, die vom Scheinwerfer erfasst werden, werden mit einem blinkenden roten Kreis markiert und müssen mit harten Strafen rechnen, wenn sie das Spiel verlassen.
+</Callout>
+
+<Section icon={Shield} title="Überblick über den Emergency Response Liberty County Hubschrauber">
+
+Das Hubschrauber-Update für **Emergency Response Liberty County** führt eine bahnbrechende Dynamik in das Gameplay der Strafverfolgung ein. Als KI-gesteuerte Luftunterstützungseinheit unterstützt dieses Fahrzeug die Polizei- und Sheriff-Abteilungen durch Luftüberwachung in Echtzeit. Wenn er aktiv ist, fliegt der Hubschrauber vom Rand der Karte ein und nutzt einen leistungsstarken Scheinwerfer, um Kriminelle aufzuspüren und deren Standorte direkt an die Strafverfolgungsteams zu übermitteln.
+
+**Video-Highlights:**
+- **Eintreffende Luftunterstützung**: Erfahren Sie, wie der Hubschrauber an den Kartengrenzen erscheint und in den Luftraum eintritt.
+- **Scheinwerfer-Tracking**: Beobachten Sie, wie der dynamische Scheinwerfer Verdächtigenfahrzeuge mit punktgenauer Präzision fixiert.
+- **Einsatzverfahren**: Sehen Sie den schrittweisen Prozess der Anforderung von Luftunterstützung über das Polizei-Interface.
+
+<YouTubeEmbed videoId="KQhfo1rnJmo" title="*NEW* HELICOPTERS ADDED TO ERLC! (Emergency Response Liberty County)" />
+
+### Verfügbarkeit & Kosten der Luftunterstützung
+
+Obwohl der Hubschrauber ein unglaublich mächtiges Werkzeug ist, wird er durch strikte Server-Abklingzeiten und Rangbeschränkungen ausbalanciert. Polizeibeamte müssen ihre Anforderungen strategisch planen, um das dreiminütige Flugfenster optimal zu nutzen.
+
+| Feature | Details |
+| --- | --- |
+| **Flugdauer** | Ungefähr 3 Minuten pro Einsatz |
+| **Server-Abklingzeit** | 10 Minuten nach jedem Hubschraubereinsatz |
+| **Spieler-Abklingzeit** | 1 Stunde (Sergeant+) oder 2 Stunden (unter Sergeant) |
+| **Rangvoraussetzung** | Rang 4 (Sergeant) für kostenlosen Einsatz |
+| **Umgehungsmethode** | Robux bezahlen, um persönliche Abklingzeiten zu umgehen |
+
+<Callout type="warning" title="Warnung zur Server-Abklingzeit">
+Selbst wenn Ihre persönliche Abklingzeit abgelaufen ist oder Sie bereit sind, Robux zu zahlen, können Sie den Hubschrauber nicht rufen, wenn die 10-minütige serverweite Abklingzeit noch aktiv ist. Überprüfen Sie immer das Einsatzmenü, bevor Sie einen koordinierten Zugriff planen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Hubschraubermodi und taktisches Gameplay">
+
+Der Polizeihubschrauber arbeitet in zwei verschiedenen Modi, abhängig von Ihren aktuellen taktischen Anforderungen. Zu wissen, wann welcher Modus eingesetzt werden sollte, entscheidet über eine erfolgreiche Verhaftung oder einen entkommenen Verdächtigen.
+
+<CardGrid cols={2}>
+  <Card title="Spieler-Lokalisierungsmodus">
+    - **Gezielte Verfolgung**: Konzentriert sich vollständig auf einen einzelnen gesuchten Verdächtigen.
+    - **Konstanter Scheinwerfer**: Hält den Scheinwerfer auf das Fahrzeug oder den Charakter des Verdächtigen fixiert.
+    - **Kartenmarkierung**: Platziert für alle Beamten einen blinkenden roten Kreis über dem Ziel.
+  </Card>
+  <Card title="Patrouillenmodus">
+    - **Gebietsüberwachung**: Fliegt ein breites Muster über die gesamte Karte.
+    - **Multi-Ziel-Scan**: Markiert automatisch alle gesuchten Kriminellen, über die er hinwegfliegt.
+    - **Allgemeine Informationen**: Ideal, wenn bekannt ist, dass Verdächtige aktiv sind, aber keine spezifischen Namen vorliegen.
+  </Card>
+</CardGrid>
+
+### Auswirkungen auf Strafverfolgung vs. Kriminelle
+
+Die Anwesenheit eines Hubschraubers verändert die Dynamik auf der Karte komplett. Hier ist eine Übersicht, wie die Luftunterstützung beide Seiten des Gesetzes beeinflusst.
+
+| Auswirkungen auf die Strafverfolgung | Auswirkungen auf Kriminelle |
+| --- | --- |
+| Markiert Verdächtige mit einem blinkenden roten Kreis | Scheinwerferlicht enthüllt den Standort in Echtzeit |
+| Das Bewegen des Cursors über den Kreis zeigt den Benutzernamen des Verdächtigen | Verlassen des Servers im Scheinwerferlicht löst eine 5-minütige Gefängnisstrafe aus |
+| Funkdurchsagen melden Standort und nahegelegene Orientierungspunkte | Müssen Deckung von oben suchen (Tunnel, Gebäude), um die Sichtlinie zu unterbrechen |
+
+<Callout type="tip" title="Profi-Scheinwerfer-Strategie">
+Wenn ein Krimineller im Scheinwerferlicht des Hubschraubers gefangen ist, ist er extrem verwundbar. Wenn er versucht, ein "Combat-Log" durchzuführen (das Spiel zu verlassen, um der Verhaftung zu entgehen), während er beleuchtet ist, wertet das Spiel dies automatisch als Verlassen in Handschellen und steckt ihn für 5 Minuten ins Gefängnis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="So fordern Sie Luftunterstützung an">
+
+Um die Luftunterstützungseinheit einzusetzen, müssen Sie auf das Einsatzmenü der Strafverfolgung zugreifen. Folgen Sie diesen Schritten, um erfolgreich eine Hubschraubersuche anzufordern.
+
+<Steps>
+  <Step num="1" title="Einsatzmenü aufrufen">
+    Öffnen Sie Ihr Interaktionsmenü für die Strafverfolgung und wählen Sie die Option **Luftunterstützung anfordern**.
+  </Step>
+  <Step num="2" title="Missionsmodus wählen">
+    Wählen Sie zwischen **Patrouille** (kartenweiter Scan) oder **Spieler lokalisieren** (Verfolgung eines spezifischen Ziels).
+  </Step>
+  <Step num="3" title="Verdächtigen auswählen (bei Lokalisierung)">
+    Wenn Sie "Spieler lokalisieren" gewählt haben, durchsuchen Sie die Liste der aktiv gesuchten Spieler und bestätigen Sie Ihr Ziel.
+  </Step>
+  <Step num="4" title="Bestätigen und entsenden">
+    Bestätigen Sie den Einsatz. Der Funk meldet: *"Luftunterstützung im Anflug. Suche nach Verdächtigem."*
+  </Step>
+</Steps>
+
+<Callout type="info" title="Funk-Einsatzprotokolle">
+Achten Sie auf den Polizeifunk. Der KI-Pilot wird Nachrichten senden wie: *"Verdächtiger befindet sich im Postal-Bereich [Nummer], nahe [Orientierungspunkt]"* oder *"Verdächtiger in Handschellen. Gehe auf Patrouille."* Dies hilft Bodeneinheiten, ihre Abfangrouten zu koordinieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für die Beherrschung der Luftunterstützung">
+
+Um sicherzustellen, dass Ihre Abteilung die Luftunterstützung mit maximaler Effizienz nutzt, gehen Sie diese Checkliste vor Ihrer nächsten Schicht durch.
+
+<Checklist
+  id="helicopter-readiness"
+  title="Checkliste für den Einsatz der Luftunterstützung:"
+  items={[
+    "Überprüfen, ob die 10-minütige Server-Abklingzeit abgelaufen ist",
+    "Sicherstellen, dass das Ziel eine aktive Fahndungsstufe hat, bevor der Lokalisierungsmodus genutzt wird",
+    "Bodeneinheiten koordinieren, um Fluchtwege zu blockieren, bevor der Hubschrauber eintrifft",
+    "Patrouillenmodus bei hoher Serveraktivität nutzen, um gruppierte kriminelle Elemente zu identifizieren",
+    "Funkübertragungen auf Postleitzahlen (Postal Codes) und Orientierungspunkte überwachen"
+  ]}
+/>
+
+<Callout type="success" title="Tipp zur Bodenkoordination">
+Der Scheinwerfer des Hubschraubers macht das Fahrzeug des Verdächtigen sogar vom anderen Ende der Stadt aus gut sichtbar. Nutzen Sie diesen visuellen Hinweis, um Nagelstreifen und Straßensperren auf dem Weg des Verdächtigen zu errichten. Erfahren Sie mehr über taktische Setups im [Emergency Response Liberty County Wiki](https://emergency-response-liberty-county.fandom.com/wiki/Air_Support).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Luftunterstützung FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie lange bleibt der Emergency Response Liberty County Hubschrauber in der Luft?",
+    answer: "Einmal entsandt, fliegt der Hubschrauber etwa 3 Minuten lang über die Karte und verfolgt Verdächtige, bevor er zur Basis zurückkehrt."
+  },
+  {
+    question: "Können Kriminelle den Polizeihubschrauber abschießen?",
+    answer: "Nein, der Luftunterstützungshubschrauber ist eine automatisierte, unzerstörbare KI-Einheit. Kriminelle können ihn nicht beschädigen oder abschießen; sie müssen weglaufen, sich unter einer Deckung verstecken oder den 3-Minuten-Timer abwarten."
+  },
+  {
+    question: "Benötigt man einen Gamepass, um den Hubschrauber zu rufen?",
+    answer: "Es ist kein Gamepass erforderlich. Sie müssen jedoch Rang 4 (Sergeant) oder höher sein, um ihn kostenlos zu rufen. Spieler unter diesem Rang oder solche mit aktiver persönlicher Abklingzeit können die Beschränkung durch Zahlung von Robux umgehen."
+  },
+  {
+    question: "Was passiert, wenn ein Verdächtiger in einen Tunnel oder ein Gebäude fährt?",
+    answer: "Wenn ein Verdächtiger die Sichtlinie des Hubschraubers unterbricht, indem er in einen Tunnel, ein Parkhaus oder ein Gebäude fährt, verliert der Scheinwerfer ihn vorübergehend, bis er wieder im Freien erscheint."
+  }
+]} />
+
+</Section>
